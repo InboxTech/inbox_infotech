@@ -36,6 +36,7 @@ class FrontController extends Controller
         $arr['award']=DB::table('awards')->where('status',1)->WhereNull('deleted_at')->orderby('id','desc')->get();
 
         //dd($arr);
+        // dd($arr);
         return view('afrontend.aboutus',$arr);
     }
     public function products()
@@ -239,11 +240,11 @@ class FrontController extends Controller
     public function contactusformsubmit(Request $request)
     {
         //echo $clientIP = request()->ip();
-       // return $result['data'] = Contactu::all();die;
+        // return $result['data'] = Contactu::all();die;
        
-    $request->validate([
-       'email'=>'required|email|unique:contactus,email', 
-    ]);
+        $request->validate([
+            'email'=>'required|email|unique:contactus,email', 
+        ]);
     
         $data = new Contactu();
         $data->created_at = Carbon::now()->toDateTimeString();
@@ -255,6 +256,19 @@ class FrontController extends Controller
         $data->status = 0;
         $data->save();
 
+        $string = strtolower($request->name.$request->message);
+ 
+        $spamwords = array('women sex','sex','best women','porn','viagra','girl','sexy girl', 'hot girl', 'girls', 'hot sexy');
+ 
+        foreach($spamwords as $url)
+        {
+            if(strpos($string, $url) !== FALSE)
+            {
+                return back();
+                return false;
+                die;
+            }
+        }
         
         $fullname =  $request->name;
         $emails = "info@inboxtechs.com";
@@ -262,12 +276,12 @@ class FrontController extends Controller
         $data = array('name'=>$fullname,'supportno'=>$supportno,'details'=>$request->message);
         $subject = "Request Call Back / Inquiry";
 
-      Mail::send('email.contactus', $data, function($message) use ($emails,$subject)
-    {    
-    $message->to($emails)->subject($subject);    
-    });
+        Mail::send('email.contactus', $data, function($message) use ($emails,$subject)
+        {    
+            $message->to($emails)->subject($subject);    
+        }); 
    
-      return redirect('/contact-us')->with('success',"Thank You, We have received your response");
+        return redirect('/contact-us')->with('success',"Thank You, We have received your response");
     }
     public function industries()
     {
@@ -293,19 +307,17 @@ class FrontController extends Controller
         //dd();
         
     }
-    
     public function blog()
     {
         $arr['blog']=DB::table('blogs')->where('status',1)->WhereNull('deleted_at')->get();
         //dd($arr);
         return view('afrontend.blogs',$arr);
     }
-    
     public function blogdetails(Request $req, $name)
     {
         //echo "Test";die;  
         $brr = DB::table('blogs')->where('slug',$name)->get();
-        // dd($brr);
+       // dd($brr);
         if($brr->isEmpty()){
             return view('errors.404');
         }
@@ -322,5 +334,17 @@ class FrontController extends Controller
 	public function sitemap(): Response
 	{
 		return response()->view('afrontend.sitemap')->header('Content-Type', 'text/xml');
-	}
+
+        $id =$brr[0]->id;
+        $arr['product']=DB::table('blogs')->where('id',$id)->where('status',1)->WhereNull('deleted_at')->get();
+        $arr['slider']=DB::table('blog_images')->where('service_id',$id)->get();
+        //dd($arr);
+        return view('afrontend.blogdetail',$arr);
+        //dd();
+        
+    }
+	/* public function sitemap()
+	{
+		return view('afrontend.sitemap');
+	} */
 }
