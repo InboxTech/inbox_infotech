@@ -1,25 +1,23 @@
 @extends('afrontend/layout')
 
 @section('container')
- <section style="height: 340px;">
-      <div class="bg-holder overlay" style="background-position:center bottom;"></div>
-      <!--/.bg-holder-->
-      <div class="container">
-        <div class="row pt-6">
-          <div class="col-md-6 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-            <div class="overflow-hidden">
-              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Services</h1>
-              <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
-                <ol class="breadcrumb fs-1 ps-0 fw-bold">
-                  <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page"><a class="text-white" href="#">Services</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">404 Page Not Found</li>
-                </ol>
-              </div>
+    <section style="height: 340px;" class="d-none">
+        <div class="bg-holder overlay" style="background-position:center bottom;"></div>
+        <div class="container">
+            <div class="row pt-6">
+                <div class="col-md-6 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="overflow-hidden">
+                        <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'></h1>
+                        <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
+                            <ol class="breadcrumb fs-1 ps-0 fw-bold">
+                                <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">404 Page Not Found</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div><!-- end of .container-->
+        </div><!-- end of .container-->
     </section>
  
  <main class="main" id="top">

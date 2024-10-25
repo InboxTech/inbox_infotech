@@ -177,10 +177,10 @@ body {
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-comment-alt"></span>Chat with team</h6>
-              <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Have a question? Chat online with an expert. <!--<a href='#!'>Start chatting <span class='fas fa-external-link-alt ms-1'></span></a>--></p>
+              <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Have a question? Chat online with an expert. <!--<a href='javascript:void(0);'>Start chatting <span class='fas fa-external-link-alt ms-1'></span></a>--></p>
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-phone-alt"></span>Mail at specialist</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-envelope"></span>Mail at specialist</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Our 24/7 support team is ready for you at <a href="mailto:info@inboxtechs.com">info@inboxtechs.com</a></p>
             </div>
           </div>

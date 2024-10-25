@@ -12,6 +12,9 @@ use PhpParser\Node\Expr\AssignOp\Concat;
 use Mail;
 use App\Models\Leadership;
 use App\Models\Jobapplication;
+use App\Models\Carrer;
+use Illuminate\Http\Response;
+
 class FrontController extends Controller
 {
     public function index()
@@ -25,12 +28,14 @@ class FrontController extends Controller
         //   dd($arr);
         return view('afrontend.index',$arr);
     }
+    
     public function aboutus()
     {
         $arr['ceomessage']=DB::table('cms')->where('id',53)->where('status',1)->WhereNull('deleted_at')->get();
         $arr['compover']=DB::table('cms')->where('id',54)->where('status',1)->WhereNull('deleted_at')->get();
         $arr['award']=DB::table('awards')->where('status',1)->WhereNull('deleted_at')->orderby('id','desc')->get();
 
+        //dd($arr);
         // dd($arr);
         return view('afrontend.aboutus',$arr);
     }
@@ -86,7 +91,7 @@ class FrontController extends Controller
     }
     public function careersdetails(Request $req, $name,$id)
     {
-        $arr['carrers']=DB::table('carrers')->where('id',$id)->where('status',1)->WhereNull('deleted_at')->get();
+        $arr['carrers']=DB::table('carrers')->where('id',$id)->where('status',1)->firstOrFail();
         //dd($arr);
         return view('afrontend.careerdetail',$arr);
     }
@@ -96,20 +101,23 @@ class FrontController extends Controller
         /* $arr = DB::table('carrers')->where('id',$id)->get();
         $arr['position'] = $arr[0]->position;
         $arr['id'] = $arr[0]->id;   */     
-        $arr['productAttrArr'][0]['aeid']='';
-        $arr['productAttrArr'][0]['job_application_id']='';
-        $arr['productAttrArr'][0]['company_name']='';
-        $arr['productAttrArr'][0]['position']='';
-        $arr['productAttrArr'][0]['details']='';
-        $arr['productAttrArr'][0]['start_date']='';
-        $arr['productAttrArr'][0]['end_date']='';
-        $arr['productAttrArr'][0]['reason_for_job_change']='';
-        $arr['productAttrArr'][0]['other']='';
-       //dd($arr);
-       $arr = DB::table('carrers')->where('id',$id)->get();
-        $arr['position'] = $arr[0]->position;
-        $arr['id'] = $arr[0]->id; 
-        return view('afrontend.jobapplcation',$arr);
+        // $arr['productAttrArr'][0]['aeid']='';
+        // $arr['productAttrArr'][0]['job_application_id']='';
+        // $arr['productAttrArr'][0]['company_name']='';
+        // $arr['productAttrArr'][0]['position']='';
+        // $arr['productAttrArr'][0]['details']='';
+        // $arr['productAttrArr'][0]['start_date']='';
+        // $arr['productAttrArr'][0]['end_date']='';
+        // $arr['productAttrArr'][0]['reason_for_job_change']='';
+        // $arr['productAttrArr'][0]['other']='';
+        // // dd($arr);
+        // $arr = DB::table('carrers')->where('id',$id)->where('status', 1)->get();
+        // $arr['position'] = $arr[0]->position;
+        // $arr['id'] = $arr[0]->id; 
+        
+        $arr = Carrer::where(['id' => $id, 'status' => 1])->firstOrFail();
+        
+        return view('afrontend.jobapplcation', $arr);
     }
     public function jobappsubmitform(Request $req){
         /* $dfg = DB::table('carrers')->where('id',2)->get();
@@ -232,10 +240,10 @@ class FrontController extends Controller
     public function contactusformsubmit(Request $request)
     {
         //echo $clientIP = request()->ip();
-       // return $result['data'] = Contactu::all();die;
+        // return $result['data'] = Contactu::all();die;
        
         $request->validate([
-        'email'=>'required|email|unique:contactus,email', 
+            'email'=>'required|email|unique:contactus,email', 
         ]);
     
         $data = new Contactu();
@@ -315,17 +323,28 @@ class FrontController extends Controller
         }
         else
         {
+            $id =$brr[0]->id;
+            $arr['product']=DB::table('blogs')->where('id',$id)->where('status',1)->WhereNull('deleted_at')->get();
+            $arr['slider']=DB::table('blog_images')->where('service_id',$id)->get();
+            //dd($arr);
+            return view('afrontend.blogdetail',$arr);
+        }
+    }
+    
+	public function sitemap(): Response
+	{
+		return response()->view('afrontend.sitemap')->header('Content-Type', 'text/xml');
+
         $id =$brr[0]->id;
         $arr['product']=DB::table('blogs')->where('id',$id)->where('status',1)->WhereNull('deleted_at')->get();
         $arr['slider']=DB::table('blog_images')->where('service_id',$id)->get();
         //dd($arr);
         return view('afrontend.blogdetail',$arr);
-        }
         //dd();
         
     }
-	public function sitemap()
+	/* public function sitemap()
 	{
 		return view('afrontend.sitemap');
-	}
+	} */
 }

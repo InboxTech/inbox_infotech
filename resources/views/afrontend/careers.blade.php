@@ -104,35 +104,40 @@
         </div><!-- end of .container-->
       </section><!-- <section> close ============================-->
       <!-- ============================================-->
-	  <center><h3 class="fs-2 fs-md-3"><u>Current openings</u></h3></center>
-		  <section class="bg-100">
-        <div class="container">
-          <div class="row g-4">
-		  @foreach($careers as $data)
-		  <?php $new = str_replace(' ', '_', $data->position); ?>
-            <div class="col-md-6 col-lg-4">
-              <div class="card"><img class="card-img-top" src="{{ asset('storage/media/')}}/{{$data->image}}" alt="Inbox Infotech" />
-                <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                  <div class="overflow-hidden">
-                      <h5 data-zanim-xs='{"delay":0}'>{{$data->position}}</h5>
-                    </div>
-                  <div class="overflow-hidden">
-                    <p class="mt-3" data-zanim-xs='{"delay":0.2}'>{{$data->skill}}</p>
-                  </div>
-				  <div class="overflow-hidden">
-                    <p class="mt-3" data-zanim-xs='{"delay":0.2}'> Last Date to Apply : {{$data->endmdate}}</p>
-                  </div>
-                  <div class="overflow-hidden">
-                    <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">More Info<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
-                  </div>
+	  {{-- <center><h3 class="fs-2 fs-md-3"><u>Current openings</u></h3></center>
+		<section class="bg-100">
+            <div class="container">
+                <div class="row g-4">
+		            @foreach($careers as $data)
+		                <?php $new = str_replace(' ', '_', $data->position); ?>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="{{ asset('storage/media/')}}/{{$data->image}}" alt="Inbox Infotech" />
+                                <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                                    <div class="overflow-hidden">
+                                        <h5 data-zanim-xs='{"delay":0}'>{{$data->position}}</h5>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <p class="mt-3" data-zanim-xs='{"delay":0.2}'>{{$data->skill}}</p>
+                                    </div>
+				                    <div class="overflow-hidden">
+                                        <p class="mt-3" data-zanim-xs='{"delay":0.2}'> Last Date to Apply : {{$data->endmdate}}</p>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'>
+                                            <a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">More Info
+                                                <div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>
+                                                    <span class="d-inline-block fw-medium">&xrarr;</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+			        @endforeach
                 </div>
-              </div>
             </div>
-			@endforeach
-            </div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-     
-</main>
-
+        </section> --}}
+    </main>
 @endsection
