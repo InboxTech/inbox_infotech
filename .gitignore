@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 /.tmb
 /.well-known
-=======
->>>>>>> 33a1095f8671ba496556bb302b29bf529dcccbd7
 /node_modules
 /public/hot
 /public/storage
@@ -18,7 +16,6 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-<<<<<<< HEAD
 /24x7universalhealthclub.com
 /785srr.yadavi.in
 /bpifasteners.com
@@ -97,5 +94,3 @@ tailwind.config.js
 web.php
 webpack.mix.js
 wordfence-waf.php
-=======
->>>>>>> 33a1095f8671ba496556bb302b29bf529dcccbd7
