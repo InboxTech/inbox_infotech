@@ -37,7 +37,7 @@
 
         <meta name="keyword"content="Best IT company in Vadodara / Baroda, App development, web development, Android/ios app developer, IT consulting firms, IoT, Artificial Intelligence, Machine Learning"/>
   
-	    <meta name="google-site-verification" content="Yb2KZ4l7WvDuJ_cerx-ChiNmLZm0apZ6ttuU8npiVwo" />
+	    <meta name="google-site-verification" content="OVH3g58FzaA1CVsuWB9NEGbovrO15CHP8U2r83cW1hQ" />
 	    <link rel="profile" href="">
 
         <!-- ===============================================-->
@@ -69,13 +69,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=sans+serif:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213185823-2"></script>
-
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QZQHT5PRT"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-213185823-2');
+            gtag('config', 'G-6QZQHT5PRT');
         </script>
 
         <script src="https://www.gptbots.ai/widget/wejx8m4ws8arow6w4xkbnle/chat.js"></script>
