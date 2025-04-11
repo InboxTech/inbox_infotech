@@ -12,11 +12,21 @@
 
 @section('container')
 <style>
-body {
-    font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 450;
-}
+  body {
+      font-size: 17px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 450;
+  }
+  .checkmark {
+    color: #2A3855;
+  }
+  .category {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .feature-name {
+    padding-left: 1rem;
+  }
 </style>
  <main class="main" id="top">
       <div class="preloader" id="preloader">
@@ -43,7 +53,7 @@ body {
                       <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}' style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">Voksen</p>
                     </div>
                     <div class="overflow-hidden">
-                      <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff" data-zanim-xs='{"delay":0.1}'>AI-Powered Voice Automation for Smarter Customer Engagement</p>
+                      <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff" data-zanim-xs='{"delay":0.1}'>AI-Powered Voice Automation for Smarter Customer Engagement</p>
                     </div>
                     <div class="overflow-hidden">
                       <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
@@ -473,7 +483,7 @@ body {
       <!-- <section> begin ============================-->
       <section class="bg-100 text-center" style="padding-top:50px;">
         <div class="container">
-          <div class="text-center mb-6">
+          {{-- <div class="text-center mb-6">
             <h6 class="fs-2 fs-md-3" style="font-size:1.333rem;letter-spacing: -0.05rem;">Global leadership</h6>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
@@ -493,7 +503,47 @@ body {
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
+
+          <div class="category">Real-time Collaboration (incl. external & selective team sharing)</div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Feature</div>
+      <div class="col feature-name">Our AI Voicebot</div>
+      <div class="col feature-name">Competitor A</div>
+      <div class="col feature-name">Competitor B</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Multilingual AI</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
+      <div class="col text-center"><i class="fas fa-times checkmark"></i> <br> No</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Call Insights</div>
+      <div class="col text-center"> <i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"> <i class="fas fa-times checkmark"></i> <br> No</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">CRM Integration</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
+      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Scalability</div>
+      <div class="col text-center"> <i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"> <i class="fas fa-times checkmark"></i>  <br> No</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Pricing</div>
+      <div class="col text-center"> <i class="fas fa-money-bill checkmark"></i> <br> Flexible </div>
+      <div class="col text-center"> <i class="fas fa-lock checkmark"></i> <br> Fixed</div>
+      <div class="col text-center"> <i class="fas fa-dollar-sign checkmark"></i> <br> High </div>
+    </div>
+
+        </div>
         </div><!-- end of .container-->
       </section><!-- <section> close ============================-->
       <!-- ============================================-->

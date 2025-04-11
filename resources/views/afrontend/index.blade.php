@@ -396,7 +396,7 @@ body {
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       <section>
-        <div class="bg-holder overlay overlay-elixir" style="background-image:url(assets/img/background-15.jpg);"></div>
+        <div class="bg-holder overlay overlay-elixir" style="background-image:url('{{ asset('assets/img/background-15.jpg') }}');"></div>
         <!--/.bg-holder-->
         <div class="container">
           <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
