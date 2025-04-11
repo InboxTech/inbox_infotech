@@ -45,6 +45,14 @@ class FrontController extends Controller
         //dd($arr);    
         return view('afrontend.products',$arr);
     }
+    public function voksen()
+    {
+        // $arr['slider']=DB::table('sliders')->WhereNull('deleted_at')->get(); //swiper
+        // $arr['product']=DB::table('products')->where('status',1)->WhereNull('deleted_at')->get();    
+        //dd($arr);    
+        // return view('afrontend.voksen',$arr);
+        return view('afrontend.voksen');
+    }
     public function product(Request $req, $name)
     {
         $brr = DB::table('products')->where('slug',$name)->get();

@@ -104,7 +104,7 @@
         </div><!-- end of .container-->
       </section><!-- <section> close ============================-->
       <!-- ============================================-->
-	  {{-- <center><h3 class="fs-2 fs-md-3"><u>Current openings</u></h3></center>
+	  <center><h3 class="fs-2 fs-md-3"><u>Current openings</u></h3></center>
 		<section class="bg-100">
             <div class="container">
                 <div class="row g-4">
@@ -138,6 +138,6 @@
 			        @endforeach
                 </div>
             </div>
-        </section> --}}
+        </section>
     </main>
 @endsection
