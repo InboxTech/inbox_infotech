@@ -429,6 +429,252 @@ body {
 
 
 
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <!-- ============================================-->
+
+      <section class="bg-100" style="padding-top:40px;padding-bottom: 10px;">
+        <div class="container">
+          <div class="text-center mb-6">
+            <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem">Our Tech Arsenal</h6>
+            <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+          </div>	
+          <div>
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-ospl-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ospl" type="button" role="tab" aria-controls="v-pills-ospl" aria-selected="true"> Operating Systems & Programming Languages </button>
+
+                <button class="nav-link" id="v-pills-servers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-servers" type="button" role="tab" aria-controls="v-pills-servers" aria-selected="false"> Servers & Load Balancing </button>
+
+                <button class="nav-link" id="v-pills-datastore-tab" data-bs-toggle="pill" data-bs-target="#v-pills-datastore" type="button" role="tab" aria-controls="v-pills-datastore" aria-selected="false" disabled> Data Storage & Querying </button>
+
+                <button class="nav-link" id="v-pills-backend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-backend" type="button" role="tab" aria-controls="v-pills-backend" aria-selected="false">Backend Frameworks </button>
+
+                <button class="nav-link" id="v-pills-frontend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frontend" type="button" role="tab" aria-controls="v-pills-frontend" aria-selected="false">Frontend Frameworks </button>
+
+                <button class="nav-link" id="v-pills-api-tab" data-bs-toggle="pill" data-bs-target="#v-pills-api" type="button" role="tab" aria-controls="v-pills-api" aria-selected="false">API Services </button>
+
+                <button class="nav-link" id="v-pills-monitoring-tab" data-bs-toggle="pill" data-bs-target="#v-pills-monitoring" type="button" role="tab" aria-controls="v-pills-monitoring" aria-selected="false"> Monitoring & Performance Tools  </button>
+
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Business Intelligence  </button>
+
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Behavioral & Product Analytics  </button>
+
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"> AI/ML </button>
+
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"> DevOps & Clouds </button>
+
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Document Management  </button>
+
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Project Management & Scrum Masters  </button>
+              </div>
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-ospl" role="tabpanel" aria-labelledby="v-pills-ospl-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/linux.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/iOS.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/android.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/swift.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/java.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/ruby.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/python.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/javascript.png')}}" class="w-100 h-inherit">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-servers" role="tabpanel" aria-labelledby="v-pills-servers-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/AWS.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/google-cloud.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/azure-1.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/apache-1.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/nginx.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/cloudflare.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/python.png')}}" class="w-100 h-inherit">
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-datastore" role="tabpanel" aria-labelledby="v-pills-datastore-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/mysql.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/mongodb.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/postgresql.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/snowflake.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/redshift.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/azure-sql-synapse.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/splunk.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/talend.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/fivetran.png')}}" class="w-100 h-inherit">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-backend" role="tabpanel" aria-labelledby="v-pills-backend-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/rubyOnRail.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/django.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/Laravel.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/net.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/node.js.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/express.js.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/flask.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/springboot.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/unity3D.png')}}" class="w-100 h-inherit">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-frontend" role="tabpanel" aria-labelledby="v-pills-frontend-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/react.js.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/bootstrap.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/jqery.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/vue.js.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/ember.js.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/bbackbone.js.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/unity3D.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/shopify.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/wordpress.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/magento.png')}}" class="w-100 h-inherit">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-api" role="tabpanel" aria-labelledby="v-pills-api-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/segement.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/google-apigee.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/mulesoft.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/tealium.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/zapier.png')}}" class="w-100 h-inherit">
+                    </div>
+                    
+                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-monitoring" role="tabpanel" aria-labelledby="v-pills-monitoring-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/new-relic.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/appdynamic-logo-1.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/dynatrace-1.png')}}" class="w-100 h-inherit">
+                    </div>
+                    <div class="col-3">
+                      <img src="{{asset('assets/inbox/datadog.png')}}" class="w-100 h-inherit">
+                    </div>
+                   
+                    
+                   
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+              </div>
+            </div>
+          </div>
+         </div><!-- end of .container-->
+      </section>
+     
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
       <!-- ============================================-->
       <!-- <section> begin ============================-->
      <!-- ============================================-->

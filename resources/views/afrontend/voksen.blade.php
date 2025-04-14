@@ -306,7 +306,7 @@
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
           <div class="row">
-            <div class="col-lg-6 pe-lg-3"><img class="rounded-3 img-fluid" src="{{asset('assets/inbox/Inbox-Infotech-banner.webp')}}" alt="about" /></div>
+            <div class="col-lg-6 pe-lg-3"><img class="rounded-3 img-fluid" src="{{asset('assets/inbox/123456.jpg')}}" alt="about" /></div>
             <div class="col-lg-6 px-lg-5 mt-6 mt-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="overflow-hidden">
                 <div class="px-4 px-sm-0" data-zanim-xs='{"delay":0}'>
