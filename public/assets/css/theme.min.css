@@ -5240,7 +5240,7 @@ fieldset:disabled .btn {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: var(--elixir-primary);
+    color: White;
     background-color: #2a3855
 }
 
