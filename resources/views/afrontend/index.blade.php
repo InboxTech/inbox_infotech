@@ -172,7 +172,7 @@ body {
           </div>
 		  @endif
 		  @endforeach
-          <div class="row mt-7">
+          {{-- <div class="row mt-7">
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 far fa-credit-card"></span>Awards winner team</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>We are proud to be the holders of eminent industry awards that reflect our past contribution and excellence throughout the field.</p>
@@ -185,7 +185,7 @@ body {
               <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-envelope"></span>Mail at specialist</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Our 24/7 support team is ready for you at <a href="mailto:info@inboxtechs.com">info@inboxtechs.com</a></p>
             </div>
-          </div>
+          </div> --}}
         </div><!-- end of .container-->
       </section><!-- <section> services close ============================-->
       <!-- ============================================-->
@@ -205,213 +205,37 @@ body {
               <div class="col-lg-4 my-2">
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                  <a class="nav-link active" id="v-pills-ospl-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ospl" role="tab" aria-controls="v-pills-ospl" aria-selected="true"> Operating Systems & Programming Languages </a>
+                  <a class="nav-link active border-bottom" id="v-pills-backend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-backend" role="tab" aria-controls="v-pills-backend" aria-selected="false">Backend Development </a>
   
-                  <a class="nav-link" id="v-pills-servers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-servers" role="tab" aria-controls="v-pills-servers" aria-selected="false"> Servers & Load Balancing </a>
+                  <a class="nav-link border-bottom" id="v-pills-frontend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frontend" role="tab" aria-controls="v-pills-frontend" aria-selected="false">Frontend Development </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-aiml-tab" data-bs-toggle="pill" data-bs-target="#v-pills-aiml" role="tab" aria-controls="v-pills-aiml" aria-selected="false"> AI/ML Development </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-datastore-tab" data-bs-toggle="pill" data-bs-target="#v-pills-datastore" role="tab" aria-controls="v-pills-datastore" aria-selected="false"> Database & Storage  </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-ospl-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ospl" role="tab" aria-controls="v-pills-ospl" aria-selected="true"> Operating Systems </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-devop-tab" data-bs-toggle="pill" data-bs-target="#v-pills-devop" role="tab" aria-controls="v-pills-devop" aria-selected="false"> DevOps Services </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-monitoring-tab" data-bs-toggle="pill" data-bs-target="#v-pills-monitoring" role="tab" aria-controls="v-pills-monitoring" aria-selected="false"> Monitoring Tools  </a>
+
+
+                  <a class="nav-link border-bottom" id="v-pills-api-tab" data-bs-toggle="pill" data-bs-target="#v-pills-api" role="tab" aria-controls="v-pills-api" aria-selected="false">API Services </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-bi-tab" data-bs-toggle="pill" data-bs-target="#v-pills-bi" role="tab" aria-controls="v-pills-bi" aria-selected="false"> Business Intelligence  </a>
   
-                  <a class="nav-link" id="v-pills-datastore-tab" data-bs-toggle="pill" data-bs-target="#v-pills-datastore" role="tab" aria-controls="v-pills-datastore" aria-selected="false"> Datastorage & Querying  </a>
+                  <a class="nav-link border-bottom" id="v-pills-behaproana-tab" data-bs-toggle="pill" data-bs-target="#v-pills-behaproana" role="tab" aria-controls="v-pills-behaproana" aria-selected="false"> Behavioral Analytics  </a>
+
+                  <a class="nav-link border-bottom" id="v-pills-cloud-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cloud" role="tab" aria-controls="v-pills-cloud" aria-selected="false"> Cloud services </a>
   
-                  <a class="nav-link" id="v-pills-backend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-backend" role="tab" aria-controls="v-pills-backend" aria-selected="false">Backend Frameworks </a>
+                  <a class="nav-link border-bottom" id="v-pills-docmanage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-docmanage" role="tab" aria-controls="v-pills-docmanage" aria-selected="false"> Document Management  </a>
   
-                  <a class="nav-link" id="v-pills-frontend-tab" data-bs-toggle="pill" data-bs-target="#v-pills-frontend" role="tab" aria-controls="v-pills-frontend" aria-selected="false">Frontend Frameworks </a>
-  
-                  <a class="nav-link" id="v-pills-api-tab" data-bs-toggle="pill" data-bs-target="#v-pills-api" role="tab" aria-controls="v-pills-api" aria-selected="false">API Services </a>
-  
-                  <a class="nav-link" id="v-pills-monitoring-tab" data-bs-toggle="pill" data-bs-target="#v-pills-monitoring" role="tab" aria-controls="v-pills-monitoring" aria-selected="false"> Monitoring & Performance Tools  </a>
-  
-                  <a class="nav-link" id="v-pills-bi-tab" data-bs-toggle="pill" data-bs-target="#v-pills-bi" role="tab" aria-controls="v-pills-bi" aria-selected="false"> Business Intelligence  </a>
-  
-                  <a class="nav-link" id="v-pills-behaproana-tab" data-bs-toggle="pill" data-bs-target="#v-pills-behaproana" role="tab" aria-controls="v-pills-behaproana" aria-selected="false"> Behavioral & Product Analytics  </a>
-  
-                  <a class="nav-link" id="v-pills-aiml-tab" data-bs-toggle="pill" data-bs-target="#v-pills-aiml" role="tab" aria-controls="v-pills-aiml" aria-selected="false"> AI/ML </a>
-  
-                  <a class="nav-link" id="v-pills-devopcloud-tab" data-bs-toggle="pill" data-bs-target="#v-pills-devopcloud" role="tab" aria-controls="v-pills-devopcloud" aria-selected="false"> DevOps & Clouds </a>
-  
-                  <a class="nav-link" id="v-pills-docmanage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-docmanage" role="tab" aria-controls="v-pills-docmanage" aria-selected="false"> Document Management  </a>
-  
-                  <a class="nav-link" id="v-pills-projectmanage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-projectmanage" role="tab" aria-controls="v-pills-projectmanage" aria-selected="false"> Project Management & Scrum Masters  </a>
+                  <a class="nav-link border-bottom" id="v-pills-projectmanage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-projectmanage" role="tab" aria-controls="v-pills-projectmanage" aria-selected="false"> Project Management   </a>
                 </div>
               </div>
-
               <div class="col-lg-8 my-2">
                 <div class="tab-content" id="v-pills-tabContent">
-                  <div class="tab-pane fade show active" id="v-pills-ospl" role="tabpanel" aria-labelledby="v-pills-ospl-tab" tabindex="0">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                          <img src="{{asset('assets/inbox/linux.png')}}" class="img-fluid">
-                          <p class="fw-bold"> Linux </p>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                          <img src="{{asset('assets/inbox/iOS.png')}}" class="img-fluid">
-                          <p class="fw-bold"> IOS </p>
-                        </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/android.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Android </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/swift.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Swift </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/java.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Java </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/ruby.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Ruby </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/python.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Python </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/javascript.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Javascript </p>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-servers" role="tabpanel" aria-labelledby="v-pills-servers-tab" tabindex="0">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/AWS.png')}}" class="img-fluid">
-                        <p class="fw-bold"> AWS </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/google-cloud.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Google Cloud </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/azure-1.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Azure </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/apache-1.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Apache </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/nginx.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Nginx </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/cloudflare.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Cloudflare </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/fastly.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Fastly </p>
-                      </div>
-                      </div>
-                    
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-datastore" role="tabpanel" aria-labelledby="v-pills-datastore-tab" tabindex="0">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/mysql.png')}}" class="img-fluid">
-                        <p class="fw-bold"> MySQL </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/mongodb.png')}}" class="img-fluid">
-                        <p class="fw-bold"> MongoDB </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/postgresql.png')}}" class="img-fluid">
-                        <p class="fw-bold"> PostgreySQL </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/snowflake.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Snowflake </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/redshift.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Redshift </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/azure-sql-synapse.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Azure SQL Synapse </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/splunk.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Splunk </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/talend.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Talend </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/fivetran.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Fivetran </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Oracle </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/mariaDB.png')}}" class="img-fluid">
-                        <p class="fw-bold"> MariaDB </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/sql_server.png')}}" class="img-fluid">
-                        <p class="fw-bold"> SQL Server </p>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div class="tab-pane fade" id="v-pills-backend" role="tabpanel" aria-labelledby="v-pills-backend-tab" tabindex="0">
+                  <div class="tab-pane fade show active" id="v-pills-backend" role="tabpanel" aria-labelledby="v-pills-backend-tab" tabindex="0">
                     <div class="row">
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
@@ -575,6 +399,286 @@ body {
                       </div>
                     </div>
                   </div>
+                  <div class="tab-pane fade" id="v-pills-aiml" role="tabpanel" aria-labelledby="v-pills-aiml-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/GIT-HUB.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Github Copilot  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/TABNINE-1.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Tabnine   </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/CHATGPT.png')}}" class="img-fluid">
+                        <p class="fw-bold"> ChatGPT  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/tensorflow-1.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Tansorflow  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/openaicodex.png')}}" class="img-fluid">
+                        <p class="fw-bold"> OpenAI Codex  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/otter.ai_.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Otter.ai  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/codewhisperer.png')}}" class="img-fluid">
+                        <p class="fw-bold"> CodeWhisperer</p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/hugging-face.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Hugging Face  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/blackbox ai.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Blackbox AI </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/cursor ai.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Cursor AI  </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-datastore" role="tabpanel" aria-labelledby="v-pills-datastore-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/mysql.png')}}" class="img-fluid">
+                        <p class="fw-bold"> MySQL </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/mongodb.png')}}" class="img-fluid">
+                        <p class="fw-bold"> MongoDB </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/postgresql.png')}}" class="img-fluid">
+                        <p class="fw-bold"> PostgreySQL </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/snowflake.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Snowflake </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/redshift.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Redshift </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/azure-sql-synapse.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Azure SQL Synapse </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/splunk.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Splunk </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/talend.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Talend </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/fivetran.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Fivetran </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Oracle </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/mariaDB.png')}}" class="img-fluid">
+                        <p class="fw-bold"> MariaDB </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/sql_server.png')}}" class="img-fluid">
+                        <p class="fw-bold"> SQL Server </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade " id="v-pills-ospl" role="tabpanel" aria-labelledby="v-pills-ospl-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <img src="{{asset('assets/inbox/linux.png')}}" class="img-fluid">
+                          <p class="fw-bold"> Linux </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <img src="{{asset('assets/inbox/iOS.png')}}" class="img-fluid">
+                          <p class="fw-bold"> IOS </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/android.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Android </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/ubantoo.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Ubantoo </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/windows.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Windows </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="v-pills-devop" role="tabpanel" aria-labelledby="v-pills-devop-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Kubernetes.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Kubernetes  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/ECS.png')}}" class="img-fluid">
+                        <p class="fw-bold"> ECS    </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/EC2.png')}}" class="img-fluid">
+                        <p class="fw-bold"> EC2  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Lambda.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Lambda  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/CloudFormation.png')}}" class="img-fluid">
+                        <p class="fw-bold"> CloudFormation  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Terraform.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Terraform </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Jenkins.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Jenkins </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Bitbucket.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Bitbucket </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/github.png')}}" class="img-fluid">
+                        <p class="fw-bold"> GitHub  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Go.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Go  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/SaltStack.png')}}" class="img-fluid">
+                        <p class="fw-bold"> SaltStack  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/Docker.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Docker  </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-monitoring" role="tabpanel" aria-labelledby="v-pills-monitoring-tab" tabindex="0">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/new-relic.png')}}" class="img-fluid">
+                        <p class="fw-bold"> New Relic </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/appdynamic-logo-1.png')}}" class="img-fluid">
+                        <p class="fw-bold"> AppDynamics </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/dynatrace-1.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Dynatrace </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/datadog.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Datadog </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="tab-pane fade" id="v-pills-api" role="tabpanel" aria-labelledby="v-pills-api-tab" tabindex="0">
                     <div class="row">
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
@@ -607,32 +711,34 @@ body {
                         <p class="fw-bold"> Zapier </p>
                       </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-monitoring" role="tabpanel" aria-labelledby="v-pills-monitoring-tab" tabindex="0">
-                    <div class="row">
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/new-relic.png')}}" class="img-fluid">
-                        <p class="fw-bold"> New Relic </p>
+                        <img src="{{asset('assets/inbox/sonarqube.png')}}" class="img-fluid">
+                        <p class="fw-bold"> SonarQube </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/appdynamic-logo-1.png')}}" class="img-fluid">
-                        <p class="fw-bold"> AppDynamics </p>
+                        <img src="{{asset('assets/inbox/twilio.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Twilio </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/dynatrace-1.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Dynatrace </p>
+                        <img src="{{asset('assets/inbox/sendgrid.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Sendgrid </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/datadog.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Datadog </p>
+                        <img src="{{asset('assets/inbox/stripe.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Stripe </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/paypal.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Paypal </p>
                       </div>
                       </div>
                     </div>
@@ -705,140 +811,67 @@ body {
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="v-pills-aiml" role="tabpanel" aria-labelledby="v-pills-aiml-tab" tabindex="0">
+
+                  <div class="tab-pane fade" id="v-pills-cloud" role="tabpanel" aria-labelledby="v-pills-cloud-tab" tabindex="0">
                     <div class="row">
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/GIT-HUB.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Github Copilot  </p>
+                        <img src="{{asset('assets/inbox/AWS.png')}}" class="img-fluid">
+                        <p class="fw-bold"> AWS </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/TABNINE-1.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Tabnine   </p>
+                        <img src="{{asset('assets/inbox/google-cloud.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Google Cloud </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/CHATGPT.png')}}" class="img-fluid">
-                        <p class="fw-bold"> ChatGPT  </p>
+                        <img src="{{asset('assets/inbox/azure-1.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Azure </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/tensorflow-1.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Tansorflow  </p>
+                        <img src="{{asset('assets/inbox/apache-1.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Apache </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/openaicodex.png')}}" class="img-fluid">
-                        <p class="fw-bold"> OpenAI Codex  </p>
+                        <img src="{{asset('assets/inbox/nginx.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Nginx </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/otter.ai_.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Otter.ai  </p>
+                        <img src="{{asset('assets/inbox/cloudflare.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Cloudflare </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/codewhisperer.png')}}" class="img-fluid">
-                        <p class="fw-bold"> CodeWhisperer</p>
+                        <img src="{{asset('assets/inbox/fastly.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Fastly </p>
                       </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/hugging-face.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Hugging Face  </p>
+                        <img src="{{asset('assets/inbox/digital ocean.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Digital Ocean  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/euris.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Euris </p>
                       </div>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="v-pills-devopcloud" role="tabpanel" aria-labelledby="v-pills-devopcloud-tab" tabindex="0">
-                    <div class="row">
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Kubernetes.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Kubernetes  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/ECS.png')}}" class="img-fluid">
-                        <p class="fw-bold"> ECS    </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/EC2.png')}}" class="img-fluid">
-                        <p class="fw-bold"> EC2  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Lambda.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Lambda  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/CloudFormation.png')}}" class="img-fluid">
-                        <p class="fw-bold"> CloudFormation  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Terraform.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Terraform </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Jenkins.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Jenkins </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Bitbucket.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Bitbucket </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/python.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Python  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/node.js.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Node.js  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Go.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Go  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/SaltStack.png')}}" class="img-fluid">
-                        <p class="fw-bold"> SaltStack  </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
-                        <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/Docker.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Docker  </p>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
+
+                  
                   <div class="tab-pane fade" id="v-pills-docmanage" role="tabpanel" aria-labelledby="v-pills-docmanage-tab" tabindex="0">
                     <div class="row">
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
@@ -891,8 +924,8 @@ body {
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-6 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
-                        <img src="{{asset('assets/inbox/python.png')}}" class="img-fluid">
-                        <p class="fw-bold"> Python  </p>
+                        <img src="{{asset('assets/inbox/confluence.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Confluence   </p>
                       </div>
                       </div>
                     </div>
@@ -935,6 +968,24 @@ body {
                         <p class="fw-bold"> Waterfall </p>
                       </div>
                       </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/agile.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Agile  </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/monday.com.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Monday.com </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-6 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                        <img src="{{asset('assets/inbox/kanban.png')}}" class="img-fluid">
+                        <p class="fw-bold"> Kanban </p>
+                      </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -953,78 +1004,78 @@ body {
       <!-- <section> Our hiring model  begin ============================-->
       <!-- ============================================-->
 
-    <section>
-        <div class="container">
-          <div class="text-center">
-            <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Our Hiring Model </h6>
-            <p> At Inbox Infotech, we understand the importance of
-              collaboration in bringing your projects to life. That's why
-              we offer a range of engagement options tailored to your
-              needs. Choose from our proven models or propose your
-              own—we're here to make your vision a reality, together. </p>
-            <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
-          </div>	
+          <section>
+              <div class="container">
+                <div class="text-center">
+                  <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Our Hiring Model </h6>
+                  <p> At Inbox Infotech, we understand the importance of
+                    collaboration in bringing your projects to life. That's why
+                    we offer a range of engagement options tailored to your
+                    needs. Choose from our proven models or propose your
+                    own—we're here to make your vision a reality, together. </p>
+                  <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+                </div>	
 
-          <div class="my-5">
-            <div class="row">
-              <div class="col-lg-6 my-3 col-md-12">
-                <div class="border p-3" style="height: 100%;">
-                  <div style="width: 25%;margin: 4% auto;">
-                    <img src="{{asset('assets/inbox/team.png')}}" class="img-fluid">
+                <div class="my-5">
+                  <div class="row">
+                    <div class="col-lg-6 my-3 col-md-12">
+                      <div class="border p-3" style="height: 100%;">
+                        <div style="width: 25%;">
+                          <img src="{{asset('assets/img/icons/team.png')}}" class="img-fluid">
+                        </div>
+                        <h5> Build Your Team </h5>
+                        <p> Experience the power of our cross-functional
+                          teams in transforming your business ideas
+                          into reality. With our agile approach, we deliver
+                          excellence at every step, ensuring your vision
+                          comes to life seamlessly. </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 my-3 col-md-12">
+                      <div class="border p-3" style="height: 100%;">
+                        <div style="width: 25%;">
+                          <img src="{{asset('assets/img/icons/dedicated_talent.png')}}" class="img-fluid">
+                        </div>
+                        <h5> Dedicated Talent </h5>
+                        <p> Empower your projects with our exclusive
+                          expertise, precisely tailored to your needs.
+                          Take charge of your software solutions,
+                          guided by our dedicated team to ensure they
+                          align seamlessly with your vision & objectives.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 my-3 col-md-12">
+                      <div class="border p-3" style="height: 100%;">
+                        <div style="width: 25%;">
+                          <img src="{{asset('assets/img/icons/on_demand_talent.png')}}" class="img-fluid">
+                        </div>
+                        <h5> On-Demand Talent </h5>
+                        <p> Discover our On-Demand engagement model,
+                          ideal for companies seeking expert assistance
+                          on an hourly basis. Whether it's short-term
+                          support or ongoing guidance, our flexible
+                          approach ensures you have access to the
+                          expertise you need, precisely when you need it. </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 my-3 col-md-12">
+                      <div class="border p-3" style="height: 100%;">
+                        <div style="width: 25%;">
+                          <img src="{{asset('assets/img/icons/cost_project.png')}}" class="img-fluid">
+                        </div>
+                        <h5> Fixed Cost Projects</h5>
+                        <p> Take full control of your budget with our fixed
+                          cost model, designed to support the
+                          development of proofs-of-concept & the
+                          execution of your unique ideas. With
+                          transparent project costs unleash your innovation
+                          without financial worries. </p>
+                      </div>
+                    </div>
                   </div>
-                  <h5> Build Your Team </h5>
-                  <p> Experience the power of our cross-functional
-                    teams in transforming your business ideas
-                    into reality. With our agile approach, we deliver
-                    excellence at every step, ensuring your vision
-                    comes to life seamlessly. </p>
                 </div>
               </div>
-              <div class="col-lg-6 my-3 col-md-12">
-                <div class="border p-3" style="height: 100%;">
-                  <div style="width: 25%;margin: 4% auto;">
-                    <img src="{{asset('assets/inbox/dedicated_talent.png')}}" class="img-fluid">
-                  </div>
-                  <h5> Dedicated Talent </h5>
-                  <p> Empower your projects with our exclusive
-                    expertise, precisely tailored to your needs.
-                    Take charge of your software solutions,
-                    guided by our dedicated team to ensure they
-                    align seamlessly with your vision & objectives.</p>
-                </div>
-              </div>
-              <div class="col-lg-6 my-3 col-md-12">
-                <div class="border p-3" style="height: 100%;">
-                  <div style="width: 25%;margin: 4% auto;">
-                    <img src="{{asset('assets/inbox/on_demand_talent.png')}}" class="img-fluid">
-                  </div>
-                  <h5> On-Demand Talent </h5>
-                  <p> Discover our On-Demand engagement model,
-                    ideal for companies seeking expert assistance
-                    on an hourly basis. Whether it's short-term
-                    support or ongoing guidance, our flexible
-                    approach ensures you have access to the
-                    expertise you need, precisely when you need it. </p>
-                </div>
-              </div>
-              <div class="col-lg-6 my-3 col-md-12">
-                <div class="border p-3" style="height: 100%;">
-                  <div style="width: 25%;margin: 4% auto;">
-                    <img src="{{asset('assets/inbox/cost_project.png')}}" class="img-fluid">
-                  </div>
-                  <h5> Fixed Cost Projects</h5>
-                  <p> Take full control of your budget with our fixed
-                    cost model, designed to support the
-                    development of proofs-of-concept & the
-                    execution of your unique ideas. With
-                    transparent project costs unleash your innovation
-                    without financial worries. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
+          </section>
 
       <!-- <section> Our hiring model close ============================-->
       <!-- ============================================-->
@@ -1048,55 +1099,73 @@ body {
               <div class="row">
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Oracle Consultancy </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/SAP Consultancy.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> SAP Consultancy </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/Hadoop.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Hadoop </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/Datacenter Solutions.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Datacenter Solutions </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/Cyber Security Services.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Cyber Security Services </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/AI_ML Development.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> AI/ML Development </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/Frontend Development.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Frontend Development </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/Backend Development.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Backend Development </p>
                   </div>
                 </div>
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
+                    <div style="width: 50%;margin: 5% auto;">
                     <img src="{{asset('assets/inbox/Database Administration.png')}}" class="img-fluid">
+                    </div>
                     <p class="fw-bold"> Database Administrator </p>
                   </div>
                 </div>
@@ -1108,6 +1177,21 @@ body {
  <!-- <section> Our Remote team close ============================-->
       <!-- ============================================-->
 
+       <!-- ============================================-->
+      <!-- <section> Industries  begin ============================-->
+      <!-- ============================================-->
+              
+              <div class="container">
+                <div class="text-center">
+                  <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Industries Recognition </h6>
+                 
+                  <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+                </div>
+
+              </div>
+
+ <!-- <section> Industries  close ============================-->
+      <!-- ============================================-->
 
       <!-- ============================================-->
       <!-- <section> why choose begin ============================-->

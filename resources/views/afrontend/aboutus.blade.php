@@ -28,29 +28,15 @@
       <!-- <section> begin ============================-->
       <section class="bg-100">
         <div class="container">
-		@foreach($ceomessage as $msgt)
-          <div class="row g-0">
-            <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
-              <div class="bg-holder rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
-              <!--/.bg-holder-->
-            </div>
-			
-            <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
-              <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                <h5 data-zanim-xs='{"delay":0}'>{{$msgt->title}}</h5>
-                <p class="my-4" data-zanim-xs='{"delay":0.1}'>{!!$msgt->long_details!!}</p>
-                <h5 class="text-uppercase mt-3 fw-medium mb-1" data-zanim-xs='{"delay":0.3}'>{{$msgt->short_details}}</h5>
-                <h6 class="text-500 fw-semi-bold" data-zanim-xs='{"delay":0.4}'>{{$msgt->nav_title}}</h6>
-              </div>
-            </div>
-			@endforeach
-          </div>
+	
+          <!------------------------------------ company overview start --------------------------->
           <div class="row mt-6">
             <div class="col">
               <h3 class="text-center fs-2 fs-md-3">Company Overview</h3>
 			  <h5 class="text-center">Discover Inbox</h5>
               <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
             </div>
+
 			@foreach($compover as $compovers)
 			<div class="row">
               <div class="col-6">
@@ -62,15 +48,210 @@
 				 <div class="col-6"><img src="{{ asset('storage/cmsimages')}}/{{$compovers->main_image}}" style="min-height:200px; background-position: top"/>
 			  </div>
             </div>
-            <div class="col-12">
+            {{-- <div class="col-12">
               <div class="bg-white px-3 mt-6 px-0 py-5 px-lg-5 rounded-3">
 			  <h5 class="fw-medium ms-3 mb-0">{{$compovers->nav_title}}</h5><br>
                 <p class="column-lg-2 dropcap">{{$compovers->nav_description}}</p><br>
 				<p style="padding-left:18px">{!!$compovers->long_details!!}</p>
               </div>
-            </div>
+            </div> --}}
 			@endforeach
           </div>
+<!------------------------------------------ company overview end ----------------------->
+
+<!------------------------------------------mission vision values start ----------------------->
+
+            <section>
+              <div>
+                <div class="text-center mb-6">
+                  <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Mission Vision Values </h6>
+                  <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+                </div>	
+                <div>
+                 <div class="row">
+                   <div class="col-lg-4">
+                     <div style="height: 100%;" class="border p-3">
+                        <div style="width: 40%;">
+                          <img src="{{asset('assets/img/icons/mission.png')}}" class="img-fluid">
+                        </div>
+                        <h4 class="my-3"> Our Mission </h4> 
+                         <p> At Inbox Infotech, we envision a
+                          world where technology goes beyond
+                          existence to enrich lives and foster
+                          community connections. We are
+                          passionate about creating solutions that
+                          simplify everyday tasks, spark creativity,
+                          and empower businesses to thrive. Each
+                          innovation is driven by our deep
+                          commitment to building a brighter, more
+                          inclusive future.
+                             </p>
+                     </div>
+                   </div>
+                   <div class="col-lg-4">
+                    <div style="height: 100%;" class="border p-3">
+                      <div style="width: 40%;">
+                        <img src="{{asset('assets/img/icons/vision.png')}}" class="img-fluid">
+                      </div>
+                      <h4 class="my-3"> Our Vision </h4> 
+                       <p> At the core of our vision is a future where technology makes life better and brings
+                        people closer together. We are dedicated to developing solutions that simplify daily
+                        tasks, ignite creativity, and enable businesses to flourish. Each innovation we create
+                        is fueled by our commitment to building a brighter, more inclusive future for everyone.
+                           </p>
+                   </div>
+                   </div>
+                   <div class="col-lg-4">
+                    <div style="height: 100%;" class="border p-3">
+                      <div style="width: 40%;">
+                        <img src="{{asset('assets/img/icons/value.png')}}" class="img-fluid">
+                      </div>
+                      <h4 class="my-3"> Our Values </h4> 
+                       <p> We are a cohesive team that values dedication and excellence in every project
+                        we take on. Our commitment to delivering exceptional software development
+                        solutions is guided by our core values, which define our positive impact in the
+                        offshore software development landscape.
+                           </p>
+                   </div>
+                   </div>
+                 </div>
+                </div>
+              </div>
+            </section>
+
+<!------------------------------------------mission vision values  end ----------------------->
+
+<!------------------------------------------ core services start ----------------------->
+
+           <section>
+             <div>
+              <div class="text-center mb-6">
+                <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Core Services </h6>
+                <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+              </div>
+               <div>
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <p class="lh-lg"> Empowering businesses with advanced websites and
+                      apps that redefine digital experiences and craft your
+                      digital future, we offer a full suite of services for digital
+                      transformation. From mobile app and web development
+                      to CRM & ERP solutions and cloud services, we keep
+                      your business ahead. Our UI/UX/CX design ensures
+                      seamless user experiences, while rigorous QA and
+                      testing guarantee top-quality performance. Additionally,
+                      our digital marketing strategies drive growth and
+                      expertise in API & integrations ensures seamless
+                      connectivity.
+                      </p>
+                  </div>
+                  <div class="col-6">
+                     <div class="row align-items-center">
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/mobile_app_development.png')}}"class="img-fluid">
+                        </div>
+                        <p class="my-2"> Mobile App Development  </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/emerging_technology.png')}}"  class="img-fluid">
+                          </div>
+                          <p class="my-2"> Emerging Technology </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/web_development.png')}}"   class="img-fluid">
+                          </div>
+                          <p class="my-2"> Web Development </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/ai_ml_development.png')}}"  class="img-fluid">
+                          </div>
+                          <p class="my-2"> AI/ML Development </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/cloud_service.png')}}" class="img-fluid">
+                          </div>
+                          <p class="my-2"> Cloud Services </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/ui_ux_cx.png')}}"  class="img-fluid">
+                          </div>
+                          <p class="my-2"> UI/UX/CX </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                      <div class="border p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 5% auto;" >
+                          <img src="{{asset('assets/img/icons/hire_remote_team.png')}}" class="img-fluid">
+                        </div>
+                        <p class="my-2"> Hire Remote Team </p>
+                      </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/crm-erp.png')}}" class="img-fluid">
+                          </div>
+                          <p class="my-2"> CRM & ERP </p>
+                        </div>
+                      </div>
+                      <div class="col-4 my-2">
+                        <div class="border p-2 text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 5% auto;" >
+                            <img src="{{asset('assets/img/icons/cyber_security.png')}}" class="img-fluid">
+                          </div>
+                          <p class="my-2"> Cyber Security </p>
+                        </div>
+                      </div>
+
+                     </div>
+                  </div>
+                </div>
+               </div>
+             </div>
+           </section>
+
+<!------------------------------------------ core services   end ----------------------->
+
+<!------------------------------------------ msg from ceo start   end ----------------------->
+
+@foreach($ceomessage as $msgt)
+<div class="row g-0">
+  <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
+    <div class="bg-holder rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
+    <!--/.bg-holder-->
+  </div>
+
+  <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
+    <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
+      <h5 data-zanim-xs='{"delay":0}'>{{$msgt->title}}</h5>
+      <p class="my-4" data-zanim-xs='{"delay":0.1}'>{!!$msgt->long_details!!}</p>
+      <h5 class="text-uppercase mt-3 fw-medium mb-1" data-zanim-xs='{"delay":0.3}'>{{$msgt->short_details}}</h5>
+      <h6 class="text-500 fw-semi-bold" data-zanim-xs='{"delay":0.4}'>{{$msgt->nav_title}}</h6>
+    </div>
+  </div>
+@endforeach
+</div>
+<!------------------------------------------ msg from ceo end ----------------------->
+
+
+<!---------------------------------------------  Awards start ---------------------------->
   <div class="row mt-6">
             <div class="col">
               <h3 class="text-center fs-2 fs-md-3">Awards & Achievements</h3>
@@ -88,9 +269,10 @@
 			@endforeach
             </div>
           </div>
-        
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
       <!-- ============================================-->
 	<section class="bg-primary">
         <div class="container">
