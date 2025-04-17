@@ -71,11 +71,11 @@
           <div class="bg-white px-3 mt-6 px-0 py-5 px-lg-5 rounded-3">
 		  
 		  <div class="row">
-              <div class="col-6">
+              <div class="col-lg-6">
 			  <p style="text-align:left">{!! $servicedetails->short_desc !!}</p>
 			  
 			  </div>
-				 <div class="col-6"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" style="width:100%;max-height:300px" alt="{{$servicedetails->image_alt}}"/>
+				 <div class="col-lg-6"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" style="width:100%;max-height:300px" alt="{{$servicedetails->image_alt}}"/>
 			  </div>
             </div>
 			</div>
@@ -97,7 +97,8 @@
 		 </div>
 		 <br>
 	 <br>
-        </div><!-- end of .container-->
+        </div>
+        <!-- end of .container-->
 		
 </section><!-- <section> close ============================-->
     

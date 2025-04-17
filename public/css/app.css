@@ -43,6 +43,7 @@ html {
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
+  
 }
 
 /*
@@ -299,7 +300,10 @@ menu {
   margin: 0;
   padding: 0;
 }
-
+p{
+  font-size: 1.2rem;
+  font-weight: bold!important;
+}
 /*
 Prevent resizing textareas horizontally by default.
 */
@@ -2390,4 +2394,76 @@ select {
     padding-right: 2rem;
   }
 }
+ 
+/************************* industries recognition *******************/
+.industry-rec .swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.industry-rec .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.industry-rec .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.countup-plus::after {
+  content: " +";
+  width: 20px;
+  height: 20px;
+}
+
+
+.industry-serve .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.industry-serve .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.industry-serve .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.client .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
