@@ -201,7 +201,7 @@
                         <div style="width: 40%;margin: 5% auto;" >
                           <img src="{{asset('assets/img/icons/hire_remote_team.png')}}" class="img-fluid">
                         </div>
-                        <p class="my-2"> Hire Remote Team </p>
+                        <p class="my-2"> Recruitment & Staffing  </p>
                       </div>
                       </div>
                       <div class="col-4 my-2">
@@ -306,6 +306,130 @@
 <!------------------------------------------ Agile approach end ----------------------->
 
 
+<!--------------------------------------------------  Industries we serve start ---------------------------->
+
+<section class="my-5 industry-serve">
+  <div>
+    <div class="text-center mb-6">
+      <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Industries We Serve  </h6>
+      <p class="lh-lg" style="font-size: 1.2rem;"> As a Software Development Company, we understand every industry has its own set of challenges. We don't offer a one-size-fits-all solution.
+        Instead, we focus on the unique risks, opportunities, and best practices of your domain. This allows us to craft agile and
+        resilient IT solutions that are specifically tailored to your business needs. Let's build something strong together.
+         </p>
+      <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+    </div>
+    <div>
+      <div class="">
+        <div class="row">
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+             <img src="{{asset('assets/inbox/industry_serve/Retail.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+             <p class="text-center"> Retail </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+              <div style="height: 100%; width: 100%;">
+                <img src="{{asset('assets/inbox/industry_serve/Telecom.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+                <p class="text-center"> Telecom  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Manufacturing.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Manufacturing </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Professional_Service.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Professional Service </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Healthcare.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Healthcare </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Lending.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Lending </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Logistics_Transpotation.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Logistics & Transportation </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+              <div style="height: 100%; width: 100%;">
+                <img src="{{asset('assets/inbox/industry_serve/Engineering_Construction.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+                <p class="text-center"> Enginnering & Construction </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Bank.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Bank  </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+            <div style="height: 100%; width: 100%;">
+              <img src="{{asset('assets/inbox/industry_serve/Oil_Gas.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
+              <p class="text-center"> Oil & Gas  </p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+              <div style="height: 100%; width: 100%;">
+                <img src="{{asset('assets/inbox/industry_serve/Investment.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
+                <p class="text-center"> Investment </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 my-3">
+            <div style="height: 100%;">
+              <div style="height: 100%; width: 100%;">
+                <img src="{{asset('assets/inbox/industry_serve/Insurance.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
+                <p class="text-center"> Insurance </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> --}}
+        {{-- <div class="swiper-pagination"></div> --}}
+      </div>
+    </div>
+
+ 
+  </div>
+</section>
+
+<!--------------------------------------------------  Industries we serve end ---------------------------->
+
 <!------------------------------------------ msg from ceo start   end ----------------------->
 
 @foreach($ceomessage as $msgt)
@@ -327,97 +451,6 @@
 </div>
 <!------------------------------------------ msg from ceo end ----------------------->
 
-<!--------------------------------------------------  Industries we serve start ---------------------------->
-
-    <section class="my-5 industry-serve">
-      <div>
-        <div class="text-center mb-6">
-          <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Industries We Serve  </h6>
-          <p class="lh-lg" style="font-size: 1.2rem;"> As a Software Development Company, we understand every industry has its own set of challenges. We don't offer a one-size-fits-all solution.
-            Instead, we focus on the unique risks, opportunities, and best practices of your domain. This allows us to craft agile and
-            resilient IT solutions that are specifically tailored to your business needs. Let's build something strong together.
-             </p>
-          <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
-        </div>
-        <div>
-          <div class="swiper myIndServeSwiper p-5">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                 <img src="{{asset('assets/img/icons/ecommerce.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Ecommerce </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 90%;">
-                  <img src="{{asset('assets/img/icons/telecom_it.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Telecom & IT </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/manufacturing.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Manufacturing </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/business_automation.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Business Automation </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/healthcare.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Healthcare </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/property_management.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Property Management </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/startups.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> StartUps </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 70%;">
-                  <img src="{{asset('assets/img/icons/market_places.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Market Places </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/mortgage.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Mortgage </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/sports_fitness.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Sports & Fitness </p>
-              </div>
-              <div class="swiper-slide">
-                <div style="height: 100%; width: 100%;">
-                  <img src="{{asset('assets/img/icons/fintech.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-                <p class="text-center"> Fintech </p>
-              </div>
-            </div>
-            {{-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div> --}}
-            {{-- <div class="swiper-pagination"></div> --}}
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!--------------------------------------------------  Industries we serve end ---------------------------->
 
 <!---------------------------------------------  Awards start ---------------------------->
   <div class="row mt-6">

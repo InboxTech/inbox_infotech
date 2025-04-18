@@ -70,7 +70,9 @@ body {
           <div class="swiper-wrapper">
             @foreach($clientlogos as $clogolist)
             <div class="swiper-slide">
+              {{-- <div style="width: 100%;"> --}}
                 <img class="img-fluid" src="{{asset('storage/media/'.$clogolist->image)}}" alt="partnerco" data-zanim-xs="{}" />
+              {{-- </div> --}}
             </div>
             @endforeach
           </div>
@@ -100,7 +102,7 @@ body {
               <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
             </div>
           </div>
-          <div class="row mt-4 mt-md-5">
+          {{-- <div class="row mt-4 mt-md-5">
             <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="far fa-chart-bar"></span></div>
               <h3 class="mt-4" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Custom IT Solutions</h3>
@@ -121,8 +123,9 @@ body {
               <h5 class="mt-4" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Quality Services</h5>
               <p class="mb-0 mt-3 px-3" data-zanim-xs='{"delay":0.2}'>Experience unparalleled service, from beginning <br /> to final development.</p>
             </div>
-          </div>
-        </div><!-- end of .container-->
+          </div> --}}
+        </div>
+        <!-- end of .container-->
       </section><!-- <section> close ============================-->
       <!-- ============================================-->
 
@@ -136,14 +139,36 @@ body {
 
       <!-- ============================================-->
       <!-- <section> services begin ============================-->
-      <section class="bg-100 my-5 py-2" >
+      <section class=" services" >
         <div class="container">
           <div class="text-center mb-6">
             <h2>Our Services</h2>
 			<p class="px-lg-4 mt-3">Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
-		  @foreach($service_data as $serv_data)
+
+          <div>
+            {{-- @if($serv_data->id % 2 == 0) --}}
+            <div class="row">
+              @foreach($service_data as $serv_data)
+              <div class="col-lg-4 my-3">
+                <div style="height: 100%;">
+                  <div class="card border">
+                    <img src="{{ asset('storage/media/')}}/{{$serv_data->imaage}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> {{$serv_data->title}} </h5>
+                      <p class="card-text">{!! $serv_data->short_desc!!}</p>
+                      <a href="{{url('/services')}}/{{$serv_data->slug}}" class="btn btn-primary"> Learn More </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              @endforeach
+            </div>
+            {{-- @endif --}}
+          </div>
+
+		  {{-- @foreach($service_data as $serv_data)
 		  @if($serv_data->id % 2 == 0)
           <div class="row g-0 position-relative mb-4 mb-lg-0">
             <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative" style="min-height:400px;">
@@ -192,7 +217,7 @@ body {
             </div>
           </div>
 		  @endif
-		  @endforeach
+		  @endforeach --}}
           {{-- <div class="row mt-7">
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 far fa-credit-card"></span>Awards winner team</h6>
@@ -207,15 +232,190 @@ body {
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Our 24/7 support team is ready for you at <a href="mailto:info@inboxtechs.com">info@inboxtechs.com</a></p>
             </div>
           </div> --}}
-        </div><!-- end of .container-->
+        </div>
+        <!-- end of .container-->
       </section><!-- <section> services close ============================-->
       <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> take the right step begin ============================-->
+        <section>
+          <div class="bg-holder overlay overlay-elixir" style="background-image:url('{{ asset('assets/img/background-15.jpg') }}');"></div>
+          <!--/.bg-holder-->
+          <div class="container">
+            <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
+              <div class="flex-1">
+                <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2>
+                <div class="row mt-4 pe-lg-10">
+                  <div class="overflow-hidden col-md-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 <span class="plus"> +</span></div>
+                    <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
+                  </div>
+                  <div class="overflow-hidden col col-lg-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 <span class="plus"> +</span></div>
+                    <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Happy
+                      Customers
+                      Worldwide
+                      </h6>
+                  </div>
+                  <div class="w-100 d-flex d-lg-none"></div>
+                  <div class="overflow-hidden col-md-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 <span class="plus"> +</span></div>
+                    <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Years of
+                      Experience</h6>
+                  </div>
+                  <div class="overflow-hidden col col-lg-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 +</div>
+                    <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Projects Delivered
+                      Successfully
+                      </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+        </section><!-- <section> take the right step close ============================-->
+        <!-- ============================================-->
+  
+
+<!-----------------------------------  product section start --------------------------->
+
+   <section class="product">
+    <div class="container">
+      <div class="text-center mb-6">
+        <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Our Products </h6>
+        <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+      </div>	
+
+      <div>
+        <div class="row">
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/fintech.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> FinTech </h5>
+              </div>
+              <div class="card-body">
+                <p> Transforming financial services with secure, AI-driven solutions. </p>
+                <a href=""> Upgrade Financial Tech </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/healthtech.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: black;"> Healthtech </h5>
+              </div>
+              <div class="card-body">
+                <p> Building compliant, data-secure, and patient-focused solutions. </p>
+                <a href=""> Advance Healthcare Tech </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/hrTech.jpg')}}" class="card-img-top" >
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> HRTech </h5>
+              </div>
+              <div class="card-body">
+                <p> Empowering workforce management with AI-driven HR platforms. </p>
+                <a href=""> Reimagine HR Solution  </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/cleantech.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> CleanTech </h5>
+              </div>
+              <div class="card-body">
+                <p> Driving sustainability with intelligent, tech-enabled clean energy and resource solutions. </p>
+                <a href=""> Drive Clean Innovation  </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/edtech.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> EdTech </h5>
+              </div>
+              <div class="card-body">
+                <p> Scalable digital learning solutions for modern education. </p>
+                <a href=""> Power Digital Learning </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/retail_ecom.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> Retail & Ecommerce  </h5>
+              </div>
+              <div class="card-body">
+                <p> Omnichannel experiences, automation, and AI-powered commerce. </p>
+                <a href=""> Enhance Retail & Ecom  </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/travel_hospitality.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> Travel & Hospitality </h5>
+              </div>
+              <div class="card-body">
+                <p> Personalized customer experiences with AI and digital automation. </p>
+                <a href=""> Transform Travel Tech  </a>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 my-3">
+            <a href="javascript: void(0);" class="text-decoration-none">
+            <div class="card  border" style="width: 100%;">
+              <div class="card-header" style="width: 100%;position: relative;">
+                <img src="{{asset('assets/inbox/insurtech.jpg')}}" class="card-img-top">
+                <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> InsureTech</h5>
+              </div>
+              <div class="card-body">
+                <p> Automating underwriting, claims,& risk management. </p>
+                <a href=""> Innovate Insurance Tech </a>
+              </div>
+            </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+   </section>
+
+<!-----------------------------------  product section end --------------------------->
 
     <!-- ============================================-->
       <!-- <section> Our Tech  begin ============================-->
       <!-- ============================================-->
 
-      <section class="my-5">
+      <section class="my-5 tech-arsenal">
         <div class="container">
           <div class="text-center mb-6">
             <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem">Our Tech Arsenal</h6>
@@ -1556,54 +1756,54 @@ body {
                   <div class="swiper myIndRecSwiper p-5">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <div style="width: 80%;margin: 0 auto;">
                          <img src="{{asset('assets/inbox/good-firms.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 90%;">
+                        <div style="width: 75%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/itreate.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <div style="width: 85%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/clutch-software.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <div style=" width: 80%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/btech_behemonth.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <divb style="width: 65%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/crm_consulting.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
+                        </divb>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <divb style="width: 55%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/oracle_excellence.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
+                        </divb>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <divb style="width: 50%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/sap.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
+                        </divb>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 70%;">
+                        <div class="mx-auto" style="width: 65%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/software_developer.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <divb style="width: 80%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/top-software-development.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
+                        </divb>
                       </div>
                       <div class="swiper-slide">
-                        <div style="height: 100%; width: 100%;">
+                        <divb style="width: 60%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/appfutura.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-                        </div>
+                        </divb>
                       </div>
                     </div>
                     {{-- <div class="swiper-button-next"></div>
@@ -1823,46 +2023,6 @@ body {
       <!-- ============================================-->
 
 
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="bg-holder overlay overlay-elixir" style="background-image:url('{{ asset('assets/img/background-15.jpg') }}');"></div>
-        <!--/.bg-holder-->
-        <div class="container">
-          <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
-            <div class="flex-1">
-              <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2>
-              <div class="row mt-4 pe-lg-10">
-                <div class="overflow-hidden col-md-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                  <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 <span class="plus"> +</span></div>
-                  <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
-                </div>
-                <div class="overflow-hidden col col-lg-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                  <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 <span class="plus"> +</span></div>
-                  <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Happy
-                    Customers
-                    Worldwide
-                    </h6>
-                </div>
-                <div class="w-100 d-flex d-lg-none"></div>
-                <div class="overflow-hidden col-md-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                  <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 <span class="plus"> +</span></div>
-                  <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Years of
-                    Experience</h6>
-                </div>
-                <div class="overflow-hidden col col-lg-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                  <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 +</div>
-                  <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Projects Delivered
-                    Successfully
-                    </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
 
     
 

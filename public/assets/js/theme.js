@@ -2314,10 +2314,10 @@ docReady(preloaderInit);
 var swiper = new Swiper(".myIndRecSwiper", {
   slidesPerView: 4,
   spaceBetween: 30,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2000,
+  //   disableOnInteraction: false,
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -2346,7 +2346,7 @@ var swiper = new Swiper(".myIndServeSwiper", {
   slidesPerView: 4,
   spaceBetween: 30,
   autoplay: {
-    delay: 1000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -2367,35 +2367,39 @@ var swiper = new Swiper(".myIndServeSwiper", {
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: 7,
+      slidesPerView: 4,
       spaceBetween: 50,
     },
   },
 });
 
 var swiper = new Swiper(".myClientSwiper", {
-  slidesPerView: 1,
-  spaceBetween: 5,
+  slidesPerView: 8,
+  spaceBetween: 2,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
   autoplay: {
-    delay: 1000,
+    delay: 2000,
     // disableOnInteraction: false,
   },
   breakpoints: {
-    640: {
+    320: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 10,
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 10,
     },
     768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
+      slidesPerView: 6,
+      spaceBetween: 10,
     },
     1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
+      slidesPerView: 8,
+      spaceBetween: 10,
     },
   },
 });
