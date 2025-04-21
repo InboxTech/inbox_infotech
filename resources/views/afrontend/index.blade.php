@@ -11,14 +11,14 @@
 
 
 @section('container')
-<style>
+{{-- <style>
 body {
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 450;
     color: black;
 }
-</style>
+</style> --}}
  <main class="main" id="top">
       <div class="preloader" id="preloader">
         <div class="loader">
@@ -88,7 +88,7 @@ body {
       <!-- ============================================-->
       <!-- <section> begin ============================-->
 
-      <section class="bg-white text-center" style="padding-top:50px;">
+      <section class="text-center">
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-10 col-md-10">
@@ -158,7 +158,9 @@ body {
                     <div class="card-body">
                       <h5 class="card-title"> {{$serv_data->title}} </h5>
                       <p class="card-text">{!! $serv_data->short_desc!!}</p>
-                      <a href="{{url('/services')}}/{{$serv_data->slug}}" class="btn btn-primary"> Learn More </a>
+                    </div>
+                    <div class="card-footer">
+                      <a href="{{url('/services')}}/{{$serv_data->slug}}"> Learn More  <i class="fas fa-arrow-right"></i> </a>
                     </div>
                   </div>
                 </div>
@@ -234,7 +236,8 @@ body {
           </div> --}}
         </div>
         <!-- end of .container-->
-      </section><!-- <section> services close ============================-->
+      </section>
+      <!-- <section> services close ============================-->
       <!-- ============================================-->
 
 
@@ -249,11 +252,11 @@ body {
               <div class="flex-1">
                 <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2>
                 <div class="row mt-4 pe-lg-10">
-                  <div class="overflow-hidden col-md-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 <span class="plus"> +</span></div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
                   </div>
-                  <div class="overflow-hidden col col-lg-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 <span class="plus"> +</span></div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Happy
                       Customers
@@ -261,12 +264,12 @@ body {
                       </h6>
                   </div>
                   <div class="w-100 d-flex d-lg-none"></div>
-                  <div class="overflow-hidden col-md-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 <span class="plus"> +</span></div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Years of
                       Experience</h6>
                   </div>
-                  <div class="overflow-hidden col col-lg-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 +</div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Projects Delivered
                       Successfully
@@ -285,13 +288,13 @@ body {
    <section class="product">
     <div class="container">
       <div class="text-center mb-6">
-        <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Our Products </h6>
+        <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem"> Our Industry Led Solutions </h6>
         <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
       </div>	
 
       <div>
         <div class="row">
-          <div class="col-lg-3 my-3">
+          <div class="col-lg-3 col-md-6 my-3">
             <a href="javascript: void(0);" class="text-decoration-none">
             <div class="card  border" style="width: 100%;">
               <div class="card-header" style="width: 100%;position: relative;">
@@ -300,6 +303,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Transforming financial services with secure, AI-driven solutions. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Upgrade Financial Tech </a>
               </div>
             </div>
@@ -314,6 +319,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Building compliant, data-secure, and patient-focused solutions. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Advance Healthcare Tech </a>
               </div>
             </div>
@@ -328,6 +335,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Empowering workforce management with AI-driven HR platforms. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Reimagine HR Solution  </a>
               </div>
             </div>
@@ -342,6 +351,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Driving sustainability with intelligent, tech-enabled clean energy and resource solutions. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Drive Clean Innovation  </a>
               </div>
             </div>
@@ -356,6 +367,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Scalable digital learning solutions for modern education. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Power Digital Learning </a>
               </div>
             </div>
@@ -370,6 +383,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Omnichannel experiences, automation, and AI-powered commerce. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Enhance Retail & Ecom  </a>
               </div>
             </div>
@@ -384,6 +399,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Personalized customer experiences with AI and digital automation. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Transform Travel Tech  </a>
               </div>
             </div>
@@ -398,6 +415,8 @@ body {
               </div>
               <div class="card-body">
                 <p> Automating underwriting, claims,& risk management. </p>
+              </div>
+              <div class="card-footer">
                 <a href=""> Innovate Insurance Tech </a>
               </div>
             </div>
@@ -474,17 +493,9 @@ body {
                       <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                         <div class="border text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{asset('assets/inbox/rubyOnRail.png')}}" class="img-fluid">
-                          </div>
-                          <p class="fw-bold"> Ruby On Rails </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                        <div class="border text-center" style="height: 100%;">
-                          <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{asset('assets/inbox/django.png')}}" class="img-fluid">
-                          </div>
-                          <p class="fw-bold"> Django </p>
+                          <img src="{{asset('assets/inbox/net.png')}}" class="img-fluid">
+                           </div>
+                          <p class="fw-bold"> .Net </p>
                       </div>
                       </div>
                       <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -501,14 +512,6 @@ body {
                           <img src="{{asset('assets/inbox/Laravel.png')}}" class="img-fluid">
                            </div>
                           <p class="fw-bold"> Laravel </p>
-                      </div>
-                      </div>
-                      <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                        <div class="border text-center" style="height: 100%;">
-                          <div style="width: 40%;margin: 3% auto;">
-                          <img src="{{asset('assets/inbox/net.png')}}" class="img-fluid">
-                           </div>
-                          <p class="fw-bold"> .Net </p>
                       </div>
                       </div>
                       <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -533,6 +536,22 @@ body {
                           <img src="{{asset('assets/inbox/java.png')}}" class="img-fluid">
                            </div>
                           <p class="fw-bold"> Java </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                        <div class="border text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{asset('assets/inbox/rubyOnRail.png')}}" class="img-fluid">
+                          </div>
+                          <p class="fw-bold"> Ruby On Rails </p>
+                      </div>
+                      </div>
+                      <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                        <div class="border text-center" style="height: 100%;">
+                          <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{asset('assets/inbox/django.png')}}" class="img-fluid">
+                          </div>
+                          <p class="fw-bold"> Django </p>
                       </div>
                       </div>
                       <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -864,22 +883,6 @@ body {
                              </div>
                           <p class="fw-bold"> Linux </p>
                         </div>
-                      </div>
-                      <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                        <div class="border text-center" style="height: 100%;">
-                            <div style="width: 40%;margin: 3% auto;">
-                          <img src="{{asset('assets/inbox/iOS.png')}}" class="img-fluid">
-                             </div>
-                          <p class="fw-bold"> IOS </p>
-                        </div>
-                      </div>
-                      <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                        <div class="border text-center" style="height: 100%;">
-                          <div style="width: 40%;margin: 3% auto;">
-                          <img src="{{asset('assets/inbox/android.png')}}" class="img-fluid">
-                           </div>
-                          <p class="fw-bold"> Android </p>
-                      </div>
                       </div>
                       <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                         <div class="border text-center" style="height: 100%;">
@@ -1583,8 +1586,8 @@ body {
                   <div class="row">
                     <div class="col-lg-3 col-md-6 my-3">
                       <div class="border p-3" style="height: 100%;">
-                        <div style="width: 20%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/team.png')}}" class="img-fluid">
+                        <div style="width: 30%; margin: 4% 0;">
+                          <img src="{{asset('assets/img/icons/svg_icons/Build_Your_Team.svg')}}" class="img-fluid">
                         </div>
                         <h5> Build Your Team </h5>
                         <p class="lh-lg"> Experience the power of our cross-functional
@@ -1596,8 +1599,8 @@ body {
                     </div>
                     <div class="col-lg-3 col-md-6 my-3">
                       <div class="border p-3" style="height: 100%;">
-                        <div style="width: 20%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/dedicated_talent.png')}}" class="img-fluid">
+                        <div style="width: 30%; margin: 4% 0;">
+                          <img src="{{asset('assets/img/icons/svg_icons/Dedicated_Talent.svg')}}" class="img-fluid">
                         </div>
                         <h5> Dedicated Talent </h5>
                         <p class="lh-lg"> Empower your projects with our exclusive
@@ -1609,8 +1612,8 @@ body {
                     </div>
                     <div class="col-lg-3 col-md-6 my-3">
                       <div class="border p-3" style="height: 100%;">
-                        <div style="width: 20%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/on_demand_talent.png')}}" class="img-fluid">
+                        <div style="width: 30%; margin: 4% 0;">
+                          <img src="{{asset('assets/img/icons/svg_icons/On_Demand_Talent.svg')}}" class="img-fluid">
                         </div>
                         <h5> On-Demand Talent </h5>
                         <p class="lh-lg"> Discover our On-Demand engagement model,
@@ -1623,8 +1626,8 @@ body {
                     </div>
                     <div class="col-lg-3 col-md-6 my-3">
                       <div class="border p-3" style="height: 100%;">
-                        <div style="width: 20%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/cost_project.png')}}" class="img-fluid">
+                        <div style="width: 30%; margin: 4% 0;">
+                          <img src="{{asset('assets/img/icons/svg_icons/Fixed Cost Projects.svg')}}" class="img-fluid">
                         </div>
                         <h5> Fixed Cost Projects</h5>
                         <p class="lh-lg"> Take full control of your budget with our fixed
@@ -1643,6 +1646,41 @@ body {
 
       <!-- <section> Our hiring model close ============================-->
       <!-- ============================================-->
+
+ 
+        <!-- ============================================-->
+      <!-- <section> rquest a callback begin ============================-->
+        <section class="bg-primary">
+          <div class="container">
+            <div class="row align-items-center text-white">
+              <div class="col-lg-4">
+                <div class="border border-2 border-warning p-4 py-lg-5 text-center rounded-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                  <div class="overflow-hidden">
+                    <h6 class="text-white" data-zanim-xs='{"delay":0}' style="font-size:1.776889rem;letter-spacing: -0.05rem;">Request a call back</h6>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to one of our advisers over the phone? Just submit your details and we’ll be in touch shortly. You can also email us if you would prefer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0">
+                <h6 class="text-white" style="font-size:1.333rem;letter-spacing: -0.05rem;">I would like to discuss:</h6>
+                <form action="{{url('contactus/form/submit')}}" method="post">
+                {{ csrf_field() }}
+                  <div class="row">
+                    <div class="col-6"><input class="form-control" type="text" name="name" placeholder="Your Name" aria-label="Your Name" required /></div>
+                    <div class="col-6"><input class="form-control" type="text" name="email" placeholder="Email Id" aria-label="Email Id" required /></div>
+                    <div class="col-6 mt-4"><input class="form-control" type="text"  name="message" placeholder="Subject" aria-label="Subject" required /></div>
+                    <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
+            <div class="col-6 mt-4"><button class="btn btn-warning w-100" type="submit">Submit</button></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+        </section><!-- <section> rquest a callback close ============================-->
+        <!-- ============================================-->
+
 
        <!-- ============================================-->
       <!-- <section> Our Remote team  begin ============================-->
@@ -1672,7 +1710,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/SAP Consultancy.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> SAP Consultancy </p>
                   </div>
@@ -1688,7 +1726,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/Datacenter Solutions.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/Datacenter_Solutions.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> Datacenter Solutions </p>
                   </div>
@@ -1696,7 +1734,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/Cyber Security Services.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/Cyber_Security_Services.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> Cyber Security Services </p>
                   </div>
@@ -1704,7 +1742,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/AI_ML Development.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/AI_ML_Development.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> AI/ML Development </p>
                   </div>
@@ -1712,7 +1750,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/Frontend Development.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/Frontend_Development.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> Frontend Development </p>
                   </div>
@@ -1720,7 +1758,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/Backend Development.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/Backend_Development.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> Backend Development </p>
                   </div>
@@ -1728,7 +1766,7 @@ body {
                 <div class="col-lg-2 my-3">
                   <div class="border p-2 text-center" style="height: 100%;">
                     <div style="width: 50%;margin: 5% auto;">
-                    <img src="{{asset('assets/inbox/Database Administration.png')}}" class="img-fluid">
+                    <img src="{{asset('assets/inbox/Database_Administration.png')}}" class="img-fluid">
                     </div>
                     <p class="fw-bold"> Database Administrator </p>
                   </div>
@@ -1756,7 +1794,7 @@ body {
                   <div class="swiper myIndRecSwiper p-5">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <div style="width: 80%;margin: 0 auto;">
+                        <div style="width: 90%;margin: 0 auto;">
                          <img src="{{asset('assets/inbox/good-firms.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
@@ -1766,44 +1804,44 @@ body {
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style="width: 85%;margin: 0 auto;">
+                        <div style="width: 90%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/clutch-software.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <div style=" width: 80%;margin: 0 auto;">
+                        <div style=" width: 90%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/btech_behemonth.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <divb style="width: 65%;margin: 0 auto;">
+                        <divb style="width: 90%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/crm_consulting.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </divb>
                       </div>
                       <div class="swiper-slide">
-                        <divb style="width: 55%;margin: 0 auto;">
+                        <divb style="width: 80%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/oracle_excellence.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </divb>
                       </div>
                       <div class="swiper-slide">
-                        <divb style="width: 50%;margin: 0 auto;">
+                        <div style="width: 80%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/sap.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                        </divb>
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <div class="mx-auto" style="width: 65%;margin: 0 auto;">
+                        <div style="width: 68%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/software_developer.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                       </div>
                       <div class="swiper-slide">
-                        <divb style="width: 80%;margin: 0 auto;">
+                        <div style="width: 90%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/top-software-development.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                        </divb>
+                        </div>
                       </div>
                       <div class="swiper-slide">
-                        <divb style="width: 60%;margin: 0 auto;">
+                        <div style="width: 80%;margin: 0 auto;">
                           <img src="{{asset('assets/inbox/appfutura.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-                        </divb>
+                        </div>
                       </div>
                     </div>
                     {{-- <div class="swiper-button-next"></div>
@@ -1955,38 +1993,7 @@ body {
 
 
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-primary">
-        <div class="container">
-          <div class="row align-items-center text-white">
-            <div class="col-lg-4">
-              <div class="border border-2 border-warning p-4 py-lg-5 text-center rounded-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                <div class="overflow-hidden">
-                  <h6 class="text-white" data-zanim-xs='{"delay":0}' style="font-size:1.776889rem;letter-spacing: -0.05rem;">Request a call back</h6>
-                </div>
-                <div class="overflow-hidden">
-                  <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to one of our advisers over the phone? Just submit your details and we’ll be in touch shortly. You can also email us if you would prefer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0">
-              <h6 class="text-white" style="font-size:1.333rem;letter-spacing: -0.05rem;">I would like to discuss:</h6>
-              <form action="{{url('contactus/form/submit')}}" method="post">
-              {{ csrf_field() }}
-                <div class="row">
-                  <div class="col-6"><input class="form-control" type="text" name="name" placeholder="Your Name" aria-label="Your Name" required /></div>
-                  <div class="col-6"><input class="form-control" type="text" name="email" placeholder="Email Id" aria-label="Email Id" required /></div>
-                  <div class="col-6 mt-4"><input class="form-control" type="text"  name="message" placeholder="Subject" aria-label="Subject" required /></div>
-                  <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
-				  <div class="col-6 mt-4"><button class="btn btn-warning w-100" type="submit">Submit</button></div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
+    
 
 
 
@@ -2028,7 +2035,7 @@ body {
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-100" style="padding-top:40px;padding-bottom: 10px;">
+      <section style="padding-top:40px;padding-bottom: 10px;">
         <div class="container">
           <div class="text-center mb-6">
 		  <h6>WHAT CLIENT SAYS ABOUT US</h6>

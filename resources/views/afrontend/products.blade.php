@@ -112,15 +112,15 @@ body {
 			@foreach($product as $prod)
               <div class="col-sm-6 col-lg-4">
 			  <?php $new = str_replace(' ', '_', $prod->title); ?>
-			  <a href="{{url('products')}}/{{$prod->slug}}">
-                <div class="card h-100"><img class="card-img-top" src="{{ asset('storage/media/')}}/{{$prod->imaage}}" alt="{{$prod->image_alt}}"  height="200px" width="200px" />
-                  <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden">
-                      <h5 data-zanim-xs='{"delay":0}'>{{$prod->title}}</h5>
+          <a href="{{url('products')}}/{{$prod->slug}}">
+                  <div class="card h-100"><img class="card-img-top" src="{{ asset('storage/media/')}}/{{$prod->imaage}}" alt="{{$prod->image_alt}}"  height="200px" width="200px" />
+                    <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                      <div class="overflow-hidden">
+                        <h5 data-zanim-xs='{"delay":0}'>{{$prod->title}}</h5>
+                      </div>
                     </div>
                   </div>
-                </div>
-				</a>
+          </a>
               </div>
 			  @endforeach
              </div>

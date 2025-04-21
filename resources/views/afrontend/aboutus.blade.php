@@ -26,7 +26,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-100 my-5">
+      <section class="my-5">
         <div class="container">
 	
           <!------------------------------------ company overview start --------------------------->
@@ -42,7 +42,7 @@
               <div class="col-lg-6 my-2">
 			  
 			  <h5 class="fw-medium ms-3 mb-0">{{$compovers->title}}</h5>
-			  <p style="padding-left:18px; font-size: 1.3rem;"><br><br>{{$compovers->short_details}}</p>
+			  <p style="padding-left:18px; font-size: 1.2rem;"><br><br>{{$compovers->short_details}}</p>
 			  
 			  </div>
 				 <div class="col-lg-6 my-2">
@@ -73,10 +73,10 @@
                    <div class="col-lg-4 my-2">
                      <div style="height: 100%;" class="border p-3">
                         <div style="width: 25%;">
-                          <img src="{{asset('assets/img/icons/mission.png')}}" class="img-fluid">
+                          <img src="{{asset('assets/img/icons/svg_icons/Mission.svg')}}" class="img-fluid">
                         </div>
                         <h4 class="my-3"> Our Mission </h4> 
-                         <p style="font-size: 1.2rem;"> At Inbox Infotech, we envision a
+                         <p style="font-size: 1rem;"> At Inbox Infotech, we envision a
                           world where technology goes beyond
                           existence to enrich lives and foster
                           community connections. We are
@@ -92,10 +92,10 @@
                    <div class="col-lg-4 my-2">
                     <div style="height: 100%;" class="border p-3">
                       <div style="width: 25%;">
-                        <img src="{{asset('assets/img/icons/vision.png')}}" class="img-fluid">
+                        <img src="{{asset('assets/img/icons/svg_icons/vision.svg')}}" class="img-fluid">
                       </div>
                       <h4 class="my-3"> Our Vision </h4> 
-                       <p style="font-size: 1.2rem;"> At the core of our vision is a future where technology makes life better and brings
+                       <p style="font-size: 1rem;"> At the core of our vision is a future where technology makes life better and brings
                         people closer together. We are dedicated to developing solutions that simplify daily
                         tasks, ignite creativity, and enable businesses to flourish. Each innovation we create
                         is fueled by our commitment to building a brighter, more inclusive future for everyone.
@@ -105,10 +105,10 @@
                    <div class="col-lg-4 my-2">
                     <div style="height: 100%;" class="border p-3">
                       <div style="width: 25%;">
-                        <img src="{{asset('assets/img/icons/value.png')}}" class="img-fluid">
+                        <img src="{{asset('assets/img/icons/svg_icons/Values.svg')}}" class="img-fluid">
                       </div>
                       <h4 class="my-3"> Our Values </h4> 
-                       <p style="font-size: 1.2rem;"> We are a cohesive team that values dedication and excellence in every project
+                       <p style="font-size: 1rem;"> We are a cohesive team that values dedication and excellence in every project
                         we take on. Our commitment to delivering exceptional software development
                         solutions is guided by our core values, which define our positive impact in the
                         offshore software development landscape.
@@ -133,7 +133,7 @@
                <div>
                 <div class="row align-items-center">
                   <div class="col-lg-6 my-2">
-                    <p class="lh-lg" style="font-size: 1.3rem;"> Empowering businesses with advanced websites and
+                    <p class="lh-lg" style="font-size: 1.1rem;"> Empowering businesses with advanced websites and
                       apps that redefine digital experiences and craft your
                       digital future, we offer a full suite of services for digital
                       transformation. From mobile app and web development
@@ -148,74 +148,74 @@
                   </div>
                   <div class="col-lg-6 my-2">
                      <div class="row align-items-center">
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/mobile_app_development.png')}}"class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/Mobile_App.svg')}}"class="img-fluid">
                         </div>
                         <p class="my-2"> Mobile App Development  </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/emerging_technology.png')}}"  class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/Emerging_Technologies.svg')}}"  class="img-fluid">
                           </div>
                           <p class="my-2"> Emerging Technology </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/web_development.png')}}"   class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/Web_Development.svg')}}"   class="img-fluid">
                           </div>
                           <p class="my-2"> Web Development </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/ai_ml_development.png')}}"  class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/AI_ML_Development.svg')}}"  class="img-fluid">
                           </div>
                           <p class="my-2"> AI/ML Development </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/cloud_service.png')}}" class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/Cloud_Services.svg')}}" class="img-fluid">
                           </div>
                           <p class="my-2"> Cloud Services </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/ui_ux_cx.png')}}"  class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/UI_UX_CX.svg')}}"  class="img-fluid">
                           </div>
                           <p class="my-2"> UI/UX/CX </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                       <div class="border p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 5% auto;" >
-                          <img src="{{asset('assets/img/icons/hire_remote_team.png')}}" class="img-fluid">
+                          <img src="{{asset('assets/img/icons/svg_icons/Hire_Remote.svg')}}" class="img-fluid">
                         </div>
-                        <p class="my-2"> Recruitment & Staffing  </p>
+                        <p class="my-2"> Recruitment & Staffing </p>
                       </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/crm-erp.png')}}" class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/CRM_ERP.svg')}}" class="img-fluid">
                           </div>
                           <p class="my-2"> CRM & ERP </p>
                         </div>
                       </div>
-                      <div class="col-4 my-2">
+                      <div class="col-lg-4 col-md-4 col-sm-12 my-2">
                         <div class="border p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
-                            <img src="{{asset('assets/img/icons/cyber_security.png')}}" class="img-fluid">
+                            <img src="{{asset('assets/img/icons/svg_icons/Cyber_Security.svg')}}" class="img-fluid">
                           </div>
                           <p class="my-2"> Cyber Security </p>
                         </div>
@@ -245,10 +245,10 @@
                     <div class="col-lg-3 col-md-6 my-3">
                       <div style="height: 100%;" class="border p-3">
                         <div style="width: 25%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/agile.png')}}" class="img-fluid">
+                          <img src="{{asset('assets/img/icons/svg_icons/Agile.svg')}}" class="img-fluid">
                         </div>
                         <h4> Agile </h4>
-                        <p style="font-size: 1.2rem;"> We utilize the adaptive Agile methodology
+                        <p> We utilize the adaptive Agile methodology
                           at its fullest. It focuses on continuously
                           improving processes. We emphasize on
                           the delivery of software at the end of
@@ -259,10 +259,10 @@
                     <div class="col-lg-3 col-md-6 my-3">
                     <div style="height: 100%;" class="border p-3">
                       <div style="width: 25%; margin: 4% 0;">
-                        <img src="{{asset('assets/img/icons/devops.png')}}" class="img-fluid">
+                        <img src="{{asset('assets/img/icons/svg_icons/DevOps.svg')}}" class="img-fluid">
                       </div>
                       <h4> DevOps </h4>
-                      <p style="font-size: 1.2rem;"> A design process wherein we break the
+                      <p> A design process wherein we break the
                         project into phases such as:
                         Requirements, Design, Implementation,
                         Verification and Maintenance. We use it
@@ -274,10 +274,10 @@
                     <div class="col-lg-3 col-md-6 my-3">
                       <div style="height: 100%;" class="border p-3">
                         <div style="width: 25%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/scrum.png')}}" class="img-fluid">
+                          <img src="{{asset('assets/img/icons/svg_icons/Scrum.svg')}}" class="img-fluid">
                         </div>
                         <h4> Scrum </h4>
-                        <p style="font-size: 1.2rem;"> A subset of agile that fits best for projects
+                        <p> A subset of agile that fits best for projects
                           with rapidly changing requirements. We
                           use it for its flexibility, and adaptability.
                           We undertake fixed-length sprints while
@@ -288,10 +288,10 @@
                     <div class="col-lg-3 col-md-6 my-3">
                       <div style="height: 100%;" class="border p-3">
                         <div style="width: 25%; margin: 4% 0;">
-                          <img src="{{asset('assets/img/icons/lean.png')}}" class="img-fluid">
+                          <img src="{{asset('assets/img/icons/svg_icons/Lean.svg')}}" class="img-fluid">
                         </div>
                         <h4> Lean </h4>
-                        <p style="font-size: 1.2rem;"> We use it for creating more value with
+                        <p> We use it for creating more value with
                           fewer resources. It emphasizes efficiency
                           optimization by eliminating waste,
                           advocating for a strong focus while we
@@ -321,100 +321,100 @@
     <div>
       <div class="">
         <div class="row">
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto; ">
              <img src="{{asset('assets/inbox/industry_serve/Retail.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-             <p class="text-center"> Retail </p>
             </div>
+            <p class="text-center"> Retail </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-              <div style="height: 100%; width: 100%;">
+              <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Telecom.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                <p class="text-center"> Telecom  </p>
               </div>
+              <p class="text-center"> Telecom  </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Manufacturing.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Manufacturing </p>
             </div>
+            <p class="text-center"> Manufacturing </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Professional_Service.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Professional Service </p>
             </div>
+            <p class="text-center"> Professional Service </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Healthcare.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Healthcare </p>
             </div>
+            <p class="text-center"> Healthcare </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Lending.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Lending </p>
             </div>
+            <p class="text-center"> Lending </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style=" width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Logistics_Transpotation.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Logistics & Transportation </p>
             </div>
+            <p class="text-center"> Logistics & Transportation </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-              <div style="height: 100%; width: 100%;">
+              <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Engineering_Construction.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-                <p class="text-center"> Enginnering & Construction </p>
               </div>
+              <p class="text-center"> Enginnering & Construction </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Bank.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Bank  </p>
             </div>
+            <p class="text-center"> Bank  </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-            <div style="height: 100%; width: 100%;">
+            <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Oil_Gas.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-              <p class="text-center"> Oil & Gas  </p>
             </div>
+            <p class="text-center"> Oil & Gas  </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-              <div style="height: 100%; width: 100%;">
+              <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Investment.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-                <p class="text-center"> Investment </p>
               </div>
+              <p class="text-center"> Investment </p>
             </div>
           </div>
-          <div class="col-lg-2 my-3">
+          <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;">
-              <div style="height: 100%; width: 100%;">
+              <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Insurance.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
-                <p class="text-center"> Insurance </p>
               </div>
+              <p class="text-center"> Insurance </p>
             </div>
           </div>
         </div>
@@ -431,28 +431,31 @@
 <!--------------------------------------------------  Industries we serve end ---------------------------->
 
 <!------------------------------------------ msg from ceo start   end ----------------------->
-
-@foreach($ceomessage as $msgt)
-<div class="row g-0 my-5">
-  <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
-    <div class="bg-holder rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
-    <!--/.bg-holder-->
-  </div>
-
-  <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
-    <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
-      <h5 data-zanim-xs='{"delay":0}'>{{$msgt->title}}</h5>
-      <p class="my-4 lh-lg" style="font-size: 1.3rem;" data-zanim-xs='{"delay":0.1}'>{!!$msgt->long_details!!}</p>
-      <h5 class="text-uppercase mt-3 fw-medium mb-1" data-zanim-xs='{"delay":0.3}'>{{$msgt->short_details}}</h5>
-      <h6 class="text-500 fw-semi-bold" data-zanim-xs='{"delay":0.4}'>{{$msgt->nav_title}}</h6>
+<section class="my-5">
+  @foreach($ceomessage as $msgt)
+  <div class="row g-0 my-5">
+    <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
+      <div class="bg-holder rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
+      <!--/.bg-holder-->
     </div>
+  
+    <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
+      <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
+        <h5 data-zanim-xs='{"delay":0}'>{{$msgt->title}}</h5>
+        <p class="my-4 lh-lg" style="font-size: 1.3rem;" data-zanim-xs='{"delay":0.1}'>{!!$msgt->long_details!!}</p>
+        <h5 class="text-uppercase mt-3 fw-medium mb-1" data-zanim-xs='{"delay":0.3}'>{{$msgt->short_details}}</h5>
+        <h6 class="text-500 fw-semi-bold" data-zanim-xs='{"delay":0.4}'>{{$msgt->nav_title}}</h6>
+      </div>
+    </div>
+  @endforeach
   </div>
-@endforeach
-</div>
+
+</section>
 <!------------------------------------------ msg from ceo end ----------------------->
 
 
 <!---------------------------------------------  Awards start ---------------------------->
+
   <div class="row mt-6">
             <div class="col">
               <h3 class="text-center fs-2 fs-md-3">Awards & Achievements</h3>
@@ -462,8 +465,10 @@
 			
 			<div class="row">
 			@foreach($award as $compovers)
-			  <div class="col-lg-6">
-			<center><img src="{{ asset('storage/media')}}/{{$compovers->image}}" style="min-height:200px; background-position: top"/></center><br>
+			  <div class="col-lg-4">
+			<div class="award-img">
+        <img src="{{ asset('storage/media')}}/{{$compovers->image}}" style="min-height:200px; background-position: top"/>
+      </div>
 			  <h5>{{$compovers->title}}</h5>
 			  <p style="padding-left:15px;">{!!$compovers->description!!}</p>
 			  </div>
@@ -471,6 +476,7 @@
             </div>
           </div>
         </div>
+
         <!-- end of .container-->
       </section>
       <!-- <section> close ============================-->
@@ -508,6 +514,8 @@
           </div>
         </div><!-- end of .container-->
       </section>
+
+      <!------------------------------  things you know start ------------------------->
 	  <section class="text-center my-5">
         <div class="container">
           <div class="text-center">
@@ -583,14 +591,16 @@
             </div>
           </div>
         </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
+      </section>
+      <!-- <section> things you know close ============================-->
       
 
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       
-    </main><!-- ===============================================-->
+    </main>
+    <!-- ===============================================-->
     
 
 @endsection

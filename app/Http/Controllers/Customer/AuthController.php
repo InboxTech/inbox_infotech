@@ -6,15 +6,16 @@ use App\Http\Controllers\Controller;
 use Carbon\Carbon;
 use FontLib\Table\Type\post;
 use Illuminate\Http\Request;
-use DB;
+use Illuminate\Support\Facades\DB;
 use PhpParser\Node\Stmt\Use_;
-use Storage;
+use Illuminate\Support\Facades\torage;
 use App\Models\Customer;
 use Illuminate\Support\Facades\Auth;
-use Session;
-use Hash;
-use Mail;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use Symfony\Component\Console\Helper\Table;
+use Illuminate\Support\Facades\Storage;
 
 
 class AuthController extends Controller

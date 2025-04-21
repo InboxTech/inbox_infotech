@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\ExportJobapplication;
-use DB;
-use PDF;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\PDF;
 class JobapplicationController extends Controller
 {
     

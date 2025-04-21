@@ -2314,37 +2314,6 @@ docReady(preloaderInit);
 var swiper = new Swiper(".myIndRecSwiper", {
   slidesPerView: 4,
   spaceBetween: 30,
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false,
-  // },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
-    },
-  },
-});
-
-var swiper = new Swiper(".myIndServeSwiper", {
-  slidesPerView: 4,
-  spaceBetween: 30,
   autoplay: {
     delay: 2000,
     disableOnInteraction: false,
@@ -2364,14 +2333,45 @@ var swiper = new Swiper(".myIndServeSwiper", {
     },
     768: {
       slidesPerView: 4,
-      spaceBetween: 40,
+      spaceBetween: 20,
     },
     1024: {
-      slidesPerView: 4,
-      spaceBetween: 50,
+      slidesPerView: 8,
+      spaceBetween: 20,
     },
   },
 });
+
+// var swiper = new Swiper(".myIndServeSwiper", {
+//   slidesPerView: 4,
+//   spaceBetween: 30,
+//   autoplay: {
+//     delay: 2000,
+//     disableOnInteraction: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   breakpoints: {
+//     640: {
+//       slidesPerView: 2,
+//       spaceBetween: 20,
+//     },
+//     768: {
+//       slidesPerView: 4,
+//       spaceBetween: 40,
+//     },
+//     1024: {
+//       slidesPerView: 4,
+//       spaceBetween: 50,
+//     },
+//   },
+// });
 
 var swiper = new Swiper(".myClientSwiper", {
   slidesPerView: 8,

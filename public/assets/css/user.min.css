@@ -1,4 +1,11 @@
 
+body {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 450;
+  color: black;
+}
+
 /************************* industries recognition *******************/
 .industry-rec .swiper {
     width: 100%;
@@ -104,5 +111,13 @@ section{
 .tech-arsenal .nav-tabs .active{
     color: #2a3855;
     border-bottom: 2px solid #2a3855!important;
-
+}
+.award .award-img{
+  width: 40%;
+  margin: 5% auto;
+}
+.award .award-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
