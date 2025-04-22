@@ -1,11 +1,16 @@
 
 body {
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 450;
+  font-weight: 400;
   color: black;
+  background-color: #fff;
 }
-
+.text-color{
+  background: linear-gradient(92.62deg, #006ab6, #00406d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 /************************* industries recognition *******************/
 .industry-rec .swiper {
     width: 100%;
@@ -106,11 +111,11 @@ section{
     margin-bottom: 0px;
 }
 .tech-arsenal .nav-tabs .nav-link:hover{
-    border-bottom: 2px solid #2a3855;
+    border-bottom: 2px solid #00406d;
 }
 .tech-arsenal .nav-tabs .active{
-    color: #2a3855;
-    border-bottom: 2px solid #2a3855!important;
+    color: #00406d;
+    border-bottom: 2px solid #00406d!important;
 }
 .award .award-img{
   width: 40%;
@@ -120,4 +125,30 @@ section{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+/* .services .card-header{
+  padding: 0;
+  height: 100%;
+}
+.services .card-header img{
+  width: 100%;
+  height: 100%;
+} */
+  
+.testimonial .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonial .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.testimonial .swiper-slide img {
+  display: block;
+  width: 100%;
 }

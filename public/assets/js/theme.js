@@ -2322,10 +2322,7 @@ var swiper = new Swiper(".myIndRecSwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+
   breakpoints: {
     640: {
       slidesPerView: 2,
@@ -2376,10 +2373,6 @@ var swiper = new Swiper(".myIndRecSwiper", {
 var swiper = new Swiper(".myClientSwiper", {
   slidesPerView: 8,
   spaceBetween: 2,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
   autoplay: {
     delay: 2000,
     // disableOnInteraction: false,
@@ -2403,3 +2396,26 @@ var swiper = new Swiper(".myClientSwiper", {
     },
   },
 });
+
+var swiper = new Swiper(".testimonial-swiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  // centeredSlides: true,
+  slidesPerView: "2",
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+
+AOS.init();
