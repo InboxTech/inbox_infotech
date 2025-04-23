@@ -9939,7 +9939,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: var(--elixir-primary) !important
+    background: linear-gradient(92.62deg, #006ab6, #00406d) !important;
 }
 
 .bg-secondary {

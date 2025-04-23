@@ -92,14 +92,11 @@ body {
   .product .card-header img{
     transition: all 1s linear;
   }
-  .product .card, .services .card{
+  .product .card, .services .card,.core-service .card{
     height: 100%;
   }
 .product .card:hover .card-header img{
     transform: scale(1.2);
-}
-section{
-    margin: 3% 0!important;
 }
 .tech-arsenal .nav{
     display: flex;
@@ -151,4 +148,7 @@ section{
 .testimonial .swiper-slide img {
   display: block;
   width: 100%;
+}
+footer a{
+  font-weight: 500;
 }

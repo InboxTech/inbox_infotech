@@ -2402,8 +2402,9 @@ var swiper = new Swiper(".testimonial-swiper", {
   grabCursor: true,
   // centeredSlides: true,
   slidesPerView: "2",
+  autoHeight: true,
   coverflowEffect: {
-    rotate: 50,
+    rotate: 30,
     stretch: 0,
     depth: 100,
     modifier: 1,

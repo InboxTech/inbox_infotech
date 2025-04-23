@@ -11,16 +11,15 @@
     <div class="sticky-top navbar-elixir">
       <div class="container">
         <nav class="navbar navbar-expand-lg" style="padding-top: 0px; padding-bottom: 0px;"> 
-		<div class="collapse navbar-collapse" id="primaryNavbarCollapse">
-		<a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('inbox-logo.png')}}" alt="logo" height="50px"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
-		</div>
+          <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('inbox-logo.png')}}" alt="logo" height="50px"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
+
           <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
             <ul class="navbar-nav py-3 py-lg-0 mt-1 mb-2 my-lg-0 ms-lg-n1">
               <li class="nav-item dropdown"><a class="nav-link" href="{{url('/')}}" role="button">Home</a></li>
 			  <li class="nav-item dropdown"><a class="nav-link" href="{{url('/about-us')}}" role="button">About Us</a></li>
 			  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                 <ul class="dropdown-menu">
-				  <li><a class="dropdown-item" href="{{url('/services')}}" role="button">All Services</a></li>
+				  <!-- <li><a class="dropdown-item" href="{{url('/services')}}" role="button">All Services</a></li> -->
 				  @foreach($myservices as $ms)
                   <li><a class="dropdown-item" href="{{url('/services')}}/{{$ms->slug}}">{{$ms->title}}</a></li>
 				  @endforeach
@@ -28,7 +27,7 @@
               </li>
 			  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                 <ul class="dropdown-menu">
-				  <li><a class="dropdown-item" href="{{url('/products')}}" role="button">All Products</a></li>
+				  <!-- <li><a class="dropdown-item" href="{{url('/products')}}" role="button">All Products</a></li> -->
 				  <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">Voksen (AI Bot)</a></li>
 				  @foreach($myproducts as $mp)
                   <li><a class="dropdown-item" href="{{url('/products')}}/{{$mp->slug}}">{{$mp->title}}</a></li>
