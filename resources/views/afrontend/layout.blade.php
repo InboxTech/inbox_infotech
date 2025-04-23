@@ -109,6 +109,8 @@
         <link href="{{asset('vendors/hamburgers/hamburgers.min.css')}}" rel="stylesheet">
         <link href="{{asset('vendors/loaders.css/loaders.min.css')}}" rel="stylesheet">
         <link href="{{asset('assets/css/theme.min.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/css/aos.css')}}" rel="stylesheet" />
+
         <link href="{{asset('assets/css/user.min.css')}}" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
@@ -174,6 +176,7 @@
         <script src="{{asset('vendors/bigpicture/BigPicture.js')}}"> </script>
         <script src="{{asset('vendors/countup/countUp.umd.js')}}"> </script>
         <script src="{{asset('vendors/swiper/swiper-bundle.min.js')}}"></script>
+        <script src="{{asset('vendors/aos/aos.js')}}"></script>
         <script src="{{asset('vendors/fontawesome/all.min.js')}}"></script>
         <script src="{{asset('vendors/lodash/lodash.min.js')}}"></script>
         <script src="{{asset('vendors/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>

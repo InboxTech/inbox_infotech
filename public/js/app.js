@@ -22693,3 +22693,22 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	
 /******/ })()
 ;
+
+
+// // industries recognition js
+// var swiper = new Swiper(".mySwiper", {
+//   spaceBetween: 30,
+//   centeredSlides: true,
+//   autoplay: {
+//     delay: 200,
+//     // disableOnInteraction: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });

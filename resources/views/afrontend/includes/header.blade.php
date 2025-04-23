@@ -21,6 +21,8 @@
 			  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                 <ul class="dropdown-menu">
 				  <li><a class="dropdown-item" href="{{url('/services')}}" role="button">All Services</a></li>
+				  <li><a class="dropdown-item" href="{{url('/services/recruitment_staffing')}}" role="button">Recruitment & Staffing</a></li>
+
 				  @foreach($myservices as $ms)
                   <li><a class="dropdown-item" href="{{url('/services')}}/{{$ms->slug}}">{{$ms->title}}</a></li>
 				  @endforeach

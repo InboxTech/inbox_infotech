@@ -12,11 +12,21 @@
 
 @section('container')
 <style>
-body {
-    font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 450;
-}
+  body {
+      font-size: 17px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 450;
+  }
+  .checkmark {
+    color: #2A3855;
+  }
+  .category {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .feature-name {
+    padding-left: 1rem;
+  }
 </style>
  <main class="main" id="top">
       <div class="preloader" id="preloader">
@@ -43,7 +53,7 @@ body {
                       <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}' style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">Voksen</p>
                     </div>
                     <div class="overflow-hidden">
-                      <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff" data-zanim-xs='{"delay":0.1}'>AI-Powered Voice Automation for Smarter Customer Engagement</p>
+                      <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff" data-zanim-xs='{"delay":0.1}'>AI-Powered Voice Automation for Smarter Customer Engagement</p>
                     </div>
                     <div class="overflow-hidden">
                       <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
@@ -256,27 +266,27 @@ body {
         @endforeach --}}
           <div class="row justify-content-center mt-7">
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 far fa-credit-card"></span>24/7 Instant Assistance</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 far fa-clock"></span>24/7 Instant Assistance</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Unlike human agents, the AI voice bot never sleeps. It provides around-the-clock customer support—instantly responding to booking inquiries, itinerary changes, cancellations, or general travel questions.</p>
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-comment-alt"></span>Natural, Human-Like Conversations</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-comment"></span>Natural, Human-Like Conversations</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Built with advanced natural language processing (NLP), the AI voice bot understands and responds in a way that feels personal and intuitive—minimizing frustration and boosting customer satisfaction.</p>
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-envelope"></span>Multilingual Capabilities</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-globe"></span>Multilingual Capabilities</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Seamlessly serve travelers from around the world. Our AI voice bot can communicate fluently in multiple languages, breaking down barriers and delivering a localized experience.</a></p>
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-envelope"></span>Cost Efficiency</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-dollar-sign"></span>Cost Efficiency</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Reduce reliance on large support teams. The AI voice bot handles high volumes of requests simultaneously—lowering operational costs while improving response times.</p>
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-envelope"></span>Continuous Learning</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-brain"></span>Continuous Learning</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>With every interaction, the AI bot becomes smarter. It learns from user queries to improve accuracy, anticipate needs, and provide even faster solutions over time.</p>
             </div>
             <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-envelope"></span>Consistency</h6>
+              <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="text-primary fs-0 me-3 fas fa-sync-alt"></span>Consistency</h6>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Provides the same quality and tone of service every single time and minimizes the human errors and emotional variability.</p>
             </div>
           </div>
@@ -296,35 +306,35 @@ body {
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
           <div class="row">
-            <div class="col-lg-6 pe-lg-3"><img class="rounded-3 img-fluid" src="{{asset('assets/inbox/Inbox-Infotech-banner.webp')}}" alt="about" /></div>
+            <div class="col-lg-6 pe-lg-3"><img class="rounded-3 img-fluid" src="{{asset('assets/inbox/123456.jpg')}}" alt="about" /></div>
             <div class="col-lg-6 px-lg-5 mt-6 mt-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="overflow-hidden">
                 <div class="px-4 px-sm-0" data-zanim-xs='{"delay":0}'>
-                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-comment-dots fs-1 me-2" data-fa-transform="flip-h"></span>Easy Integration</h6>
+                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-puzzle-piece fs-1 me-2" data-fa-transform="flip-h"></span>Easy Integration</h6>
                   <p class="mt-2">Plug & play with CRMs & APIs.</p>
                 </div>
               </div>
               <div class="overflow-hidden">
                 <div class="px-4 px-sm-0 mt-3" data-zanim-xs='{"delay":0}'>
-                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-palette fs-1 me-2" data-fa-transform="shrink-1"></span>Customizable AI</h6>
+                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-robot fs-1 me-2" data-fa-transform="shrink-1"></span>Customizable AI</h6>
                   <p class="mt-2">Industry-specific training & workflows</p>
                 </div>
               </div>
               <div class="overflow-hidden">
                 <div class="px-4 px-sm-0 mt-3" data-zanim-xs='{"delay":0}'>
-                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-stopwatch fs-1 me-2" data-fa-transform="grow-1"></span>On-Prem Deployment</h6>
+                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-server fs-1 me-2" data-fa-transform="grow-1"></span>On-Prem Deployment</h6>
                   <p class="mt-2">Full data control & compliance.</p>
                 </div>
               </div>
               <div class="overflow-hidden">
                 <div class="px-4 px-sm-0 mt-3" data-zanim-xs='{"delay":0}'>
-                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-stopwatch fs-1 me-2" data-fa-transform="grow-1"></span>Multi-Language Support</h6>
+                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-language fs-1 me-2" data-fa-transform="flip-h"></span>Multi-Language Support</h6>
                   <p class="mt-2">25+ languages, adaptive accents.</p>
                 </div>
               </div>
               <div class="overflow-hidden">
                 <div class="px-4 px-sm-0 mt-3" data-zanim-xs='{"delay":0}'>
-                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-stopwatch fs-1 me-2" data-fa-transform="grow-1"></span>Custom Analytics Dashboard</h6>
+                  <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span class="fas fa-chart-bar fs-1 me-2" data-fa-transform="shrink-1"></span>Custom Analytics Dashboard</h6>
                   <p class="mt-2">Real-time insights & reports.</p>
                 </div>
               </div>
@@ -364,7 +374,10 @@ body {
           <div class="row">
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/sharing.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-phone-volume"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/sharing.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Automated Outbound Calls</h6>
                 </div>
@@ -375,7 +388,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/mail.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-language"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/mail.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Multilingual AI</h6>
                 </div>
@@ -386,7 +402,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/target.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-chart-line"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/target.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Analytics Dashboard</h6>
                 </div>
@@ -397,7 +416,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/world-globe.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-chart-bar"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/world-globe.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Sentiment Analysis</h6>
                 </div>
@@ -408,7 +430,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/money.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-plug"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/money.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">CRM Integration</h6>
                 </div>
@@ -419,7 +444,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-file-audio"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Call Transcriptions</h6>
                 </div>
@@ -430,7 +458,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-sync"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Automated Follow-ups</h6>
                 </div>
@@ -441,7 +472,10 @@ body {
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-shield-alt"></span></div>
+                  {{-- <img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /> --}}
+                </div>
                 <div class="overflow-hidden">
                   <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Compliance Management</h6>
                 </div>
@@ -473,7 +507,7 @@ body {
       <!-- <section> begin ============================-->
       <section class="bg-100 text-center" style="padding-top:50px;">
         <div class="container">
-          <div class="text-center mb-6">
+          {{-- <div class="text-center mb-6">
             <h6 class="fs-2 fs-md-3" style="font-size:1.333rem;letter-spacing: -0.05rem;">Global leadership</h6>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
@@ -493,7 +527,50 @@ body {
                 </div>
               </div>
             </div>
+          </div> --}}
+
+          <div class="text-center mb-6">
+            <h6 class="fs-2 fs-md-3" style="font-size:1.333rem;letter-spacing: -0.05rem;">Competitor Comparison</h6>
+            <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Feature</div>
+      <div class="col feature-name">Our AI Voicebot</div>
+      <div class="col feature-name">Competitor A</div>
+      <div class="col feature-name">Competitor B</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Multilingual AI</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
+      <div class="col text-center"><i class="fas fa-times checkmark"></i> <br> No</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Call Insights</div>
+      <div class="col text-center"> <i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"> <i class="fas fa-times checkmark"></i> <br> No</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">CRM Integration</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
+      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Scalability</div>
+      <div class="col text-center"> <i class="fas fa-check checkmark"></i> <br> Yes</div>
+      <div class="col text-center"> <i class="fas fa-times checkmark"></i>  <br> No</div>
+      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
+    </div>
+    <div class="row border-bottom py-2">
+      <div class="col-4 feature-name">Pricing</div>
+      <div class="col text-center"> <i class="fas fa-money-bill checkmark"></i> <br> Flexible </div>
+      <div class="col text-center"> <i class="fas fa-lock checkmark"></i> <br> Fixed</div>
+      <div class="col text-center"> <i class="fas fa-dollar-sign checkmark"></i> <br> High </div>
+    </div>
+
+        </div>
         </div><!-- end of .container-->
       </section><!-- <section> close ============================-->
       <!-- ============================================-->

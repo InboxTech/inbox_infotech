@@ -43,6 +43,7 @@ html {
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
+  
 }
 
 /*
@@ -299,7 +300,10 @@ menu {
   margin: 0;
   padding: 0;
 }
-
+p{
+  font-size: 1.2rem;
+  font-weight: bold!important;
+}
 /*
 Prevent resizing textareas horizontally by default.
 */
@@ -2390,4 +2394,4 @@ select {
     padding-right: 2rem;
   }
 }
-
+ 

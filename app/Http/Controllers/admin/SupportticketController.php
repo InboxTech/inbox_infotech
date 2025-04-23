@@ -7,12 +7,12 @@ use App\Models\Ticketassignment;
 use App\Models\Ticketreply;
 use App\Models\Sub_Category_Ticket;
 use App\Models\Category_Ticket;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
-use DB;
-use Storage;
-use Mail;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 
 class SupportticketController extends Controller
 {
