@@ -57,7 +57,7 @@
                 <div class="card h-100"><img class="card-img-top" src="{{ asset('storage/media/')}}/{{$prod->imaage}}" alt="{{$prod->image_alt}}"  height="200px" width="200px" />
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                     <div class="overflow-hidden">
-                      <h5 data-zanim-xs='{"delay":0}'>{{$prod->title}}</h5>
+                      <h5 data-zanim-xs='{"delay":0}' class="text-color">{{$prod->title}}</h5>
                     </div>
                   </div>
                 </div>
