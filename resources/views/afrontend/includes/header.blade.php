@@ -36,7 +36,7 @@
               </li>
 			  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
                 <ul class="dropdown-menu">
-				  <li><a class="dropdown-item" href="{{url('/industries')}}" role="button">All Industries </a></li>
+				  <!-- <li><a class="dropdown-item" href="{{url('/industries')}}" role="button">All Industries </a></li> -->
 				  @foreach($industries as $mp)
                   <li><a class="dropdown-item" href="{{url('/industries')}}/{{$mp->slug}}">{{$mp->title}}</a></li>
 				  @endforeach

@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Products | Web Development Company in India | Website Development Services in Vadodara')
+@section('page_title','Products | Inbox Infotech Pvt. Ltd.')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'The best Web Development Company in Vadodara, India for web development services, custom software development, web application development, android app development, web design, graphic design &#038; more.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>

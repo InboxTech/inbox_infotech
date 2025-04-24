@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Web Development Company in India | Website Development Services in Vadodara')
+@section('page_title','About Us | Inbox Infotech Pvt. Ltd.')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'The best Web Development Company in Vadodara, India for web development services, custom software development, web application development, android app development, web design, graphic design &#038; more.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -450,20 +450,22 @@
 <!------------------------------------------ msg from ceo start   end ----------------------->
 <section class="my-5">
   @foreach($ceomessage as $msgt)
-  <div class="row g-0 my-5" data-aos="fade-up"  data-aos-duration="3000">
-    <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
-      <div class="bg-holder rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
-      <!--/.bg-holder-->
-    </div>
-  
-    <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
-      <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <h5 class="text-color" data-zanim-xs='{"delay":0}'>{{$msgt->title}}</h5>
-        <p class="my-4 lh-lg" style="font-size: 1.3rem;" data-zanim-xs='{"delay":0.1}'>{!!$msgt->long_details!!}</p>
-        <h5 class="text-uppercase text-color mt-3 fw-medium mb-1" data-zanim-xs='{"delay":0.3}'>{{$msgt->short_details}}</h5>
-        <h6 class="text-500 fw-semi-bold" data-zanim-xs='{"delay":0.4}'>{{$msgt->nav_title}}</h6>
+  <div class="card ">
+    <div class="row shadow" data-aos="fade-up"  data-aos-duration="3000">
+      <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
+        <div class="bg-holder  rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
+        <!--/.bg-holder-->
       </div>
-    </div>
+    
+      <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
+        <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
+          <h5 class="text-color" data-zanim-xs='{"delay":0}'>{{$msgt->title}}</h5>
+          <p class="my-4 lh-lg" style="font-size: 1.3rem;" data-zanim-xs='{"delay":0.1}'>{!!$msgt->long_details!!}</p>
+          <h5 class="text-uppercase text-color mt-3 fw-medium mb-1" data-zanim-xs='{"delay":0.3}'>{{$msgt->short_details}}</h5>
+          <h6 class="text-500 fw-semi-bold" data-zanim-xs='{"delay":0.4}'>{{$msgt->nav_title}}</h6>
+        </div>
+      </div>
+  </div>
   @endforeach
   </div>
 
@@ -485,7 +487,7 @@
         @foreach($award as $compovers)
           <div class="col-lg-4 my-3">
             <div class="card shadow" style="height: 100%;">
-              <div class="award-img card-header">
+              <div class="award-img mx-auto card-header">
                 <img src="{{ asset('storage/media')}}/{{$compovers->image}}" style="min-height:200px; background-position: top"/>
               </div>
               <div class="card-body">

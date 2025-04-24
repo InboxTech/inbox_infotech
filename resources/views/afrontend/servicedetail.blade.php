@@ -62,20 +62,22 @@
 	  <br>
 	 
 
- <section class="bg-100">
+ <section class="">
         <div class="container" style="background-color:#fff;border-radius: 10px;">
-          <div class="text-center mb-6">
-            <h3 class="fs-2 fs-md-3 text-color">{{$servicedetails->title}}</h3>
-			<p class="px-lg-4 mt-3">Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p>
+          <div class=" mb-6">
+			<!-- <p class="px-lg-4 mt-3">Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p> -->
+      <h3 class="fs-2 fs-md-3 text-color text-center">{{$servicedetails->title}}</h3>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
-          <div class="bg-white px-3 mt-6 px-0 py-5 px-lg-5 rounded-3">
+          
+            <div class="bg-white px-3 mt-6 px-0 py-5  rounded-3">
 		  
 		  <div class="row">
-              <div class="col-6">
+              <div class="col-lg-8">
+
 			  <p style="text-align:left">{!! $servicedetails->short_desc !!}</p>
 			  
 			  </div>
-				 <div class="col-6"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" style="width:100%;max-height:300px" alt="{{$servicedetails->image_alt}}"/>
+				 <div class="col-lg-4"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" class="img-fluid" alt="{{$servicedetails->image_alt}}"/>
 			  </div>
             </div>
 			</div>
@@ -83,7 +85,7 @@
 		  <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p> 
 		  <div style="display:none">
 		  @if($servicedetails->tax2 != '')
-		  <p class="lead">{{$servicedetails->tax2}}</p> 
+		  <p class="lead text-color">{{$servicedetails->tax2}}</p> 
 		  @endif
 		   @if($servicedetails->slug != '')
 		  <p class="dropcap lead">{{$servicedetails->slug}}</p> 

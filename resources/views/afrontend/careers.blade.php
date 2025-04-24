@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Products | Web Development Company in India | Website Development Services in Vadodara')
+@section('page_title','Career Opportunities at Inbox Infotech Pvt Ltd')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'The best Web Development Company in Vadodara, India for web development services, custom software development, web application development, android app development, web design, graphic design &#038; more.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -9,7 +9,7 @@
 @section('seo_keyword',"$s3")
 @section('seo_canonical',"$s4")
 @section('container')
-<section>
+<section class="hero-banner">
       <div class="bg-holder overlay" style="background-image:url({{url('/assets/img/background-2.jpg')}});background-position:center bottom;"></div>
       <!--/.bg-holder-->
       <div class="container">

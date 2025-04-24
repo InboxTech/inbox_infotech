@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Industries | Web Development Company in India | Website Development Services in Vadodara')
+@section('page_title','Industries | Inbox Infotech Pvt. Ltd.')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'The best Web Development Company in Vadodara, India for web development services, custom software development, web application development, android app development, web design, graphic design &#038; more.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -9,7 +9,7 @@
 @section('seo_keyword',"$s3")
 @section('seo_canonical',"$s4")
 @section('container')
- <section>
+ <section class="hero-banner">
       <div class="bg-holder overlay" style="background-image:url({{url('assets/img/background-2.jpg')}});background-position:center bottom;"></div>
       <!--/.bg-holder-->
       <div class="container">
@@ -44,7 +44,7 @@
  <section class="bg-100">
         <div class="container">
 		<div class="text-center mb-6">
-            <h3 class="fs-2 fs-md-3">Industries</h3>
+            <h3 class="fs-2 fs-md-3 text-color">Industries</h3>
 			<p>As industries converge and new industries emerge, we are re-imagining our strategy, solutions, and platforms as well. Our innovators and thought leaders are in continuing conversations with those who influence and shape the future of industries.</p>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>

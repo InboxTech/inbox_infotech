@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'What is Managed Cloud Services - Inbox Infotech')
+@section('page_title', 'Home | Inbox Infotech Pvt. Ltd.')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -202,8 +202,7 @@
         </div>
         <div class="card-footer">
           <h5 class="card-title text-white">{{$serv_data->title}}</h5>
-          <a href="{{url('/services')}}/{{$serv_data->slug}}" class="text-white">Learn More <i
-          class="fas fa-arrow-right"></i></a>
+          
         </div>
         </div>
         </div>
@@ -220,6 +219,8 @@
         <div class="p-3">
         <h4 class="text-color">{{$serv_data->title}}</h4>
         <p>{!! $serv_data->short_desc !!}</p>
+        <a href="{{url('/services')}}/{{$serv_data->slug}}">Learn More <i
+        class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     @endforeach
@@ -382,16 +383,16 @@
         <a href="{{url('products')}}/{{$product->slug}}" class="text-decoration-none">
 
           <div class="card shadow" style="width: 100%;">
-          <div class="card-header" style="width: 100%;height: 60%;">
+          <div class="card-header" style="width: 100%;">
             <img src="{{ asset('storage/media/')}}/{{$product->imaage}}"
             style="width: 100%; height: 100%; object-fit: cover;" alt="{{$product->image_alt}}">
           </div>
-          <div class="card-body">
+          <div class="card-body p-3">
             <h5 class="text-color"> {{$product->title}} </h5>
-            <p> Transforming financial services with secure, AI-driven solutions. </p>
+            <!-- <p> Transforming financial services with secure, AI-driven solutions. </p> -->
           </div>
-          <div class="card-footer">
-            <a href="{{url('products')}}/{{$product->slug}}">Read More </a>
+          <div class="card-footer p-3">
+            <a href="{{url('products')}}/{{$product->slug}}">Read More  </a>
           </div>
           </div>
         </a>
@@ -511,7 +512,7 @@
         </a>
         </div> --}}
 
-        
+
 
       </div>
       {{-- <div class="row">
