@@ -5942,7 +5942,8 @@ fieldset:disabled .btn {
     background-color: var(--elixir-card-bg);
     background-clip: border-box;
     border: 0 solid var(--elixir-card-border-color);
-    border-radius: .625rem
+    border-radius: .625rem;
+    cursor: pointer;
 }
 
 .card>hr {
