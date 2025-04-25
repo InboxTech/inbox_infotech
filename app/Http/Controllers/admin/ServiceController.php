@@ -160,14 +160,21 @@ class ServiceController extends Controller
                 $request->file("attr_image.$key")->storeAs('/public/media',$image_name);
                 $productAttrArr['attr_image']=$image_name;
             }
-			
             if($paidArr[$key]!=''){
                 DB::table('service_images')->where(['id'=>$paidArr[$key]])->update($productAttrArr);
             }else{
                 DB::table('service_images')->insert($productAttrArr);
             }
             
-        }  
+        }
+//         $path = $image->storeAs('public/media', $image_name); // Returns: "public/media/168234234.webp"
+
+// // Confirm it exists
+// if (Storage::exists($path)) {
+//     dd("✅ Image stored at: " . storage_path('app/' . $path));
+// } else {
+//     dd("❌ Image was NOT stored.");
+// } 
         return redirect('/admin/service/list')->with('success',$message);
 		
     }

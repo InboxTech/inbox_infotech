@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Products | Voksen')
+@section('page_title','Recruitment & Staffing')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -44,16 +44,16 @@
         <div class="swiper theme-slider min-vh-100" data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
           <div class="swiper-wrapper">
             <div class="swiper-slide" data-zanim-timeline="{}">
-              <div class="bg-holder" style="background-image:url({{asset('storage/media/876868410.webp')}});"></div>
+              <div class="bg-holder" style="background-image:url({{asset('storage/media/1214549853.jpg')}});"></div>
               <!--/.bg-holder-->
               <div class="container">
-                <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
-                  <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
+                <div class="row min-vh-100 py-8 align-items-center justify-content-center" data-inertia='{"weight":1.5}'>
+                  <div class="col-sm-8 col-lg-8 px-5 px-sm-3" style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                     <div class="overflow-hidden">
-                      <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}' style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">Recruitment and Staffing</p>
+                      <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}' style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">Recruitment and Staffing</p>
                     </div>
                     <div class="overflow-hidden">
-                      <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff" data-zanim-xs='{"delay":0.1}'>Connecting top talent with the right opportunities – tailored recruitment and staffing solutions for your business success.</p>
+                      <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color"  data-zanim-xs='{"delay":0.1}'>Connecting top talent with the right opportunities – tailored recruitment and staffing solutions for your business success.</p>
                     </div>
                     <div class="overflow-hidden">
                       <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
@@ -79,13 +79,13 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8 col-md-12">
-              <h1 style="margin-bottom: 1.333rem; font-size:3.1573345183rem; font-weight: 700;">Recruitment and Staffing</h1>
+              <h1 class="my-5" style="font-size:3.1573345183rem; font-weight: 700;">Recruitment and Staffing</h1>
               <p >With 10+ years of proven expertise in the IT and services sector, our highly skilled and passionate developers bring deep knowledge across various technologies including mobile apps, web platforms, Blockchain, AI, and beyond. We are equipped to handle all your software development needs with precision and quality.</p>
               <p>At Inbox Infotech, you have the freedom to hire top-tier developers from India on a schedule that fits your project—hourly, part-time, or full-time. Our dedicated professionals are here to support startups, entrepreneurs, and enterprises in building robust web and mobile applications from the ground up.</p>
               <p>Choosing to hire developers from India allows you to quickly expand your development team, reduce overhead costs, and maintain full control over your project’s lifecycle with ease and efficiency.</p>
             </div>
             <div class="col-lg-4 text-center">
-              <img src="{{asset('assets/inbox/developer.svg')}}" style="height: 100%; object-fit: cover;">
+              <img class="img-fluid" src="{{asset('assets/inbox/developer.png')}}" style="height: 100%;">
             </div>
           </div>
           {{-- introduction --}}
