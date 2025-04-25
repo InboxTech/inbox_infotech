@@ -23,7 +23,7 @@
                   <div class="col-sm-12 col-lg-12 px-6 px-sm-6">
 				  <div style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                     <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'>{{$list->name}}</h1>
+                      <h1 class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'>{{$list->name}}</h1>
                     </div>
                     <div class="overflow-hidden">
                       <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'>{{$servicedetails->tax2}}
