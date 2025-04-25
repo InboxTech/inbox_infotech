@@ -149,8 +149,8 @@
         aria-orientation="vertical">
 
         @foreach($service_data as $index => $serv_data)
-      <div class="col-lg-4 col-12  my-3">
-        <button class="nav-link card-button w-100 p-0 border-0 bg-transparent" id="tab-{{$index}}"
+      <div class="col-lg-4 col-md-6 col-sm-12  my-3">
+        <button class="nav-link card-button w-100 px-2 border-0 bg-transparent" id="tab-{{$index}}"
         data-bs-toggle="pill" data-bs-target="#content-{{$index}}" type="button" role="tab"
         aria-controls="content-{{$index}}" {{-- aria-selected="{{ $index == 0 ? 'true' : 'false' }}" --}}>
 
@@ -397,7 +397,7 @@
 
       <div class="my-5">
       <div class="row" data-aos="fade-up" data-aos-duration="3000">
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
@@ -405,7 +405,7 @@
           <p class="fw-bold"> Oracle <br> Consultant </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
@@ -413,7 +413,7 @@
           <p class="fw-bold"> SAP <br> Consultant </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Hadoop.png')}}" class="img-fluid">
@@ -421,7 +421,7 @@
           <p class="fw-bold"> Hadoop <br> Consultant </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Salesforce-Developers.png')}}" class="img-fluid">
@@ -429,7 +429,7 @@
           <p class="fw-bold"> Salesforce <br> Developer </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/ServiceNow-Developers.png')}}" class="img-fluid">
@@ -438,7 +438,7 @@
         </div>
         </div>
 
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/AI_ML_Development.png')}}" class="img-fluid">
@@ -446,7 +446,7 @@
           <p class="fw-bold"> AI/ML <br> Developer </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Frontend_Development.png')}}" class="img-fluid">
@@ -454,7 +454,7 @@
           <p class="fw-bold"> Frontend <br> Developer </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Backend_Development.png')}}" class="img-fluid">
@@ -462,7 +462,7 @@
           <p class="fw-bold"> Backend <br> Developer </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/mobile_app_developer.png')}}" class="img-fluid">
@@ -470,7 +470,7 @@
           <p class="fw-bold"> MobileApp <br> Developer </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Database_Administration.png')}}" class="img-fluid">
@@ -478,7 +478,7 @@
           <p class="fw-bold"> Database Administrator </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Datacenter_Solutions.png')}}" class="img-fluid">
@@ -486,7 +486,7 @@
           <p class="fw-bold"> Datacenter <br> Solutions </p>
         </div>
         </div>
-        <div class="col-lg-2 my-3">
+        <div class="col-lg-2 col-md-4 col-6 my-3">
         <div class="card shadow text-center" style="height: 100%;">
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Cyber_Security_Services.png')}}" class="img-fluid">
@@ -1535,10 +1535,10 @@
               <div class="swiper-slide d-flex" style="height: auto">
                 <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
                   <div class="row align-items-center mb-3">
-                    <div class="col-lg-3">
+                    <div class="col-3">
                       <img class="rounded-3 mx-auto img-fluid" src="{{asset('storage/media/' . $testimonialslist->photo)}}" alt="Member" />
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-9">
                       <h6 class="fs-0 mb-1 mt-4 text-color">{{$testimonialslist->name}}</h6>
                       <p class="mb-0 text-500">{{$testimonialslist->title}}</p>
                     </div>
