@@ -43,8 +43,8 @@
       <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
         <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
         <div class="overflow-hidden">
-        <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'
-        style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#2A3855">
+        <p class="text-color fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'
+        style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
         {{$list->btn_txt}}
         </p>
         </div>

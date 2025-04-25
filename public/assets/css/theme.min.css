@@ -3871,16 +3871,16 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #2a3855;
-    border-color: #2a3855;
+    background: linear-gradient(92.62deg , #006ab6, #00406d);
+    /* border-color: #2a3855; */
     -webkit-box-shadow: 0 0 0 transparent;
     box-shadow: 0 0 0 transparent
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #243048;
-    border-color: #222d44
+    background: linear-gradient(92.62deg , #004a80, #012d4d);
+    /* border-color: #222d44 */
 }
 
 .btn-check:focus+.btn-primary,
