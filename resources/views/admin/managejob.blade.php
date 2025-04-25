@@ -61,7 +61,7 @@
 					<small class="help-block form-text">Please enter salary details for the above mentioned position</small>
 				</div>
 			</div>
-			<div class="row form-group">
+			{{-- <div class="row form-group">
 				<div class="col col-md-3">
 					<label for="file-input" class=" form-control-label">Image</label>
 				</div>
@@ -73,7 +73,7 @@
                 <a href="{{asset('storage/media/'.$image)}}" target="_blank"><img width="100px" src="{{asset('storage/media/'.$image)}}"/></a>
                 @endif
 				</div>
-			</div>
+			</div> --}}
 			<div class="row form-group">
 				<div class="col col-md-3">
 					<label for="email-input" class=" form-control-label">Experience Required</label>

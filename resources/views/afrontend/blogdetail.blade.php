@@ -59,10 +59,10 @@
       </div>   
 	  <br>
 	 
- <section class="bg-100">
+ <section>
         <div class="container" style="background-color:#fff;border-radius: 10px;">
           <div class="text-center mb-6">
-            <h3 class="fs-2 fs-md-3">{{$servicedetails->title}}</h3>
+            <h3 class="fs-2 fs-md-3 text-color">{{$servicedetails->title}}</h3>
 		  </div>
 		  <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p> 
 		  <div style="display:none">
