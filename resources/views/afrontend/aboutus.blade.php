@@ -38,7 +38,7 @@
             </div>
 
 			@foreach($compover as $compovers)
-			<div class="row align-items-center">
+			<div class="row align-items-center" data-aos="fade-up"  data-aos-duration="3000">
               <div class="col-lg-6 my-2">
 			  
 			  <h5 class="fw-medium ms-3 mb-0 text-color">{{$compovers->title}}</h5>
