@@ -139,7 +139,6 @@
         </script>
         <!-- End Google Tag Manager -->
 
-        <script src="https://www.gptbots.ai/widget/wejx8m4ws8arow6w4xkbnle/chat.js"></script>
     </head>
 
     <body>
@@ -183,6 +182,7 @@
         <script src="{{asset('vendors/gsap/gsap.js')}}"></script>
         <script src="{{asset('vendors/gsap/customEase.js')}}"></script>
         <script src="{{asset('assets/js/theme.js')}}"></script>
+        <script src="https://www.gptbots.ai/widget/wejx8m4ws8arow6w4xkbnle/chat.js"></script>  {{-- chatbot --}}
         <script type='application/ld+json'>
             {
                 "@context": "http://www.schema.org",

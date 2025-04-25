@@ -2400,20 +2400,16 @@ var swiper = new Swiper(".myClientSwiper", {
 var swiper = new Swiper(".testimonial-swiper", {
   effect: "coverflow",
   grabCursor: true,
-  // centeredSlides: true,
-  slidesPerView: "2",
-  autoHeight: true,
+  centeredSlides: true,
+  slidesPerView: "3",
+  loop: true,
   coverflowEffect: {
-    rotate: 30,
+    rotate: 50,
     stretch: 0,
     depth: 100,
     modifier: 1,
-    slideShadows: true,
+    slideShadows: false,
   },
-  // navigation: {
-  //   nextEl: ".swiper-button-next",
-  //   prevEl: ".swiper-button-prev",
-  // },
   pagination: {
     el: ".swiper-pagination",
   },

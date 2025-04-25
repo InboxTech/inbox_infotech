@@ -170,10 +170,9 @@
       <div class="card mb-4">
 
       <div class="mapouter">
-        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
-          marginheight="0" marginwidth="0"
-          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=inbox infotech&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-          href="https://mcpenation.com/">Minecraft Website</a></div>
+        <div class="gmap_canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m12!1m3!1d41764.230499585334!2d73.12733069692024!3d22.298007754236604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!3e6!4m0!4m1!2sInbox%20Infotech%20Pvt%20Ltd%2C615-%20Supremus%20Vihav%20Building%2C%20Vadodara%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Gujarat%2C%20India%20390021!5e0!3m2!1sen!2sin!4v1745554362893!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="https://mcpenation.com/">Minecraft Website</a></div>
         <style>
         .mapouter {
           position: relative;

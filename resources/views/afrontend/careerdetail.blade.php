@@ -17,11 +17,11 @@
         <div class="row pt-6">
           <div class="col-md-6 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="overflow-hidden">
-              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Carrer</h1>
+              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Career</h1>
               <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
                 <ol class="breadcrumb fs-1 ps-0 fw-bold">
                   <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page"><a class="text-white" href="{{url('/careers')}}">Carrer</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><a class="text-white" href="{{url('/careers')}}">Career</a></li>
                   <li class="breadcrumb-item active" aria-current="page">{{$servicedetails->position}}</li>
                 </ol>
               </div>
