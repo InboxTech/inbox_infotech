@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Products | Voksen')
+@section('page_title','Voksen')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -79,7 +79,7 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-10 col-md-10">
-              <h1 style="margin-bottom: 1.333rem;font-size:3.1573345183rem;font-weight: 700;color:#2A3855">Voksen</h1>
+              <h1 class="text-color" style="margin-bottom: 1.333rem;font-size:3.1573345183rem;font-weight: 700;">Voksen</h1>
               <p style="margin-bottom: 1.333rem;font-size: 1.77689rem;font-weight: 700;color:#2A3855">AI-Powered Voice Automation for Smarter Customer Engagement  <br></p>
 			  {{-- <h1 class="px-lg-4 mt-4" style="font-weight: 700;color:#2A3855;font-size: 1.77689rem;letter-spacing: 0.1rem;line-height:1; " >The Best Cyber Security Company in India</h1>
 			  

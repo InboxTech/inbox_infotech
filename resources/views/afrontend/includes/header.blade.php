@@ -22,7 +22,7 @@
             <ul class="dropdown-menu">
 				      {{-- <li><a class="dropdown-item" href="{{url('/services')}}" role="button">All Services</a></li> --}}
                 @foreach($myservices as $ms)
-                  @if($ms->slug == 'recruitment-staffing')
+                  @if($ms->slug == 'recruitment staffing')
                     <li><a class="dropdown-item" href="{{url('/services/recruitment_staffing')}}" role="button">{{$ms->title}}</a></li>
                   @else
                     <li><a class="dropdown-item" href="{{url('/services')}}/{{$ms->slug}}">{{$ms->title}}</a></li>
@@ -32,14 +32,14 @@
           </li>
 			    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
-              {{-- <li><a class="dropdown-item" href="{{url('/products')}}" role="button">All Products</a></li> --}}
-
+              <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">Voksen (AI Bot)</a></li>
 				        @foreach($myproducts as $mp)
-                  @if($ms->slug == 'voksen')
+                  {{-- @if($ms->slug == 'voksen')
                     <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">{{$ms->title}}</a></li>
                   @else
                     <li><a class="dropdown-item" href="{{url('/products')}}/{{$mp->slug}}">{{$mp->title}}</a></li>
-                  @endif
+                  @endif --}}
+                  <li><a class="dropdown-item" href="{{url('/products')}}/{{$mp->slug}}">{{$mp->title}}</a></li>
 				        @endforeach
             </ul>
           </li>
