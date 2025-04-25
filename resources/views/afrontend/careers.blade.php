@@ -105,8 +105,8 @@
     </section> --}}
     <!-- <section> close ============================-->
     <!-- ============================================-->
-	  <center><h3 class="fs-2 fs-md-3"><u>Current openings</u></h3></center>
 		<section class="">
+      <h3 class="text-color fs-2 fs-md-3 my-5 text-center">Current openings</h3>
       <div class="container">
         <div class="row g-4">
           @foreach($careers as $data)
@@ -116,7 +116,7 @@
                 {{-- <img class="card-img-top" src="{{ asset('storage/media/')}}/{{$data->image}}" alt="Inbox Infotech" /> --}}
                 <div class="card-body pb-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>{{$data->position}}</h5>
+                    <h5 class="text-color mb-4" data-zanim-xs='{"delay":0}'>{{$data->position}}</h5>
                   </div>
                   <div class="overflow-hidden">
                     <p class="mt-" data-zanim-xs='{"delay":0.2}'>{{$data->skill}}</p>
@@ -128,7 +128,7 @@
                     <p class="mt-2" data-zanim-xs='{"delay":0.2}'> Experience : {{$data->experience}}</p>
                 </div>
                 </div>
-                <div class="overflow-hidden card-footer" style="padding: 1.8rem ">
+                <div class="overflow-hidden card-footer pt-2" style="padding: 1.8rem ">
                   <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'>
                       <a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">More Info
                           <div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>

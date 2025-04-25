@@ -304,7 +304,7 @@ h1,
     font-family: "Montserrat", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 700;
     line-height: 1.2;
-    color: var(--elixir-headings-color)
+    color: #00406d;
 }
 
 h1,
@@ -19345,7 +19345,7 @@ pre[class*=language-] {
 }
 
 hr {
-    background-color: #2a3855;
+    background-color: #00406d;
     border-radius: .094rem;
     margin-left: auto;
     margin-right: auto
@@ -20202,7 +20202,7 @@ a[href].bg-200:focus {
     border-radius: 50%;
     border: 1px solid var(--elixir-border-color);
     font-size: 2.368593037rem;
-    color: #2a3855
+    color: #00406d;
 }
 
 .brand-icon {
