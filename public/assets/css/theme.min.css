@@ -6058,8 +6058,6 @@ fieldset:disabled .btn {
 .card-img-top {
     border-top-left-radius: .625rem;
     border-top-right-radius: .625rem;
-	#border-bottom-left-radius: .625rem;
-    #border-bottom-right-radius: .625rem;
 }
 
 .card-img,
