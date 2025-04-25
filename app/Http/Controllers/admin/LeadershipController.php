@@ -6,8 +6,8 @@ use App\Http\Controllers\Controller;
 //use App\Models\Leadership;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Storage;
-use DB;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 use App\Models\Leadership;
 
 class LeadershipController extends Controller

@@ -17,11 +17,11 @@
         <div class="row pt-6">
           <div class="col-md-6 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="overflow-hidden">
-              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Carrer</h1>
+              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Career</h1>
               <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
                 <ol class="breadcrumb fs-1 ps-0 fw-bold">
                   <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page"><a class="text-white" href="{{url('/careers')}}">Carrer</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><a class="text-white" href="{{url('/careers')}}">Career</a></li>
                   <li class="breadcrumb-item active" aria-current="page">{{$servicedetails->position}}</li>
                 </ol>
               </div>
@@ -53,19 +53,34 @@
 	</div>
 		<div class="card-body card-block">
 		<div class="row form-group">
-				<div class="col col-md-4">
-					<label for="text-input" class=" form-control-label">Experience Required : {{$servicedetails->experience}}</label>
+				<div class="col col-md-3">
+					<p class=" ">
+						<strong>Number of Openings : </strong>
+						{{$servicedetails->no_openings}}
+					</p>
 				</div>
-				<div class="col col-md-4">
-					<label for="text-input" class=" form-control-label">Join In : {{$servicedetails->joinin}}</label>
+				<div class="col col-md-3">
+					<p class=" ">
+						<strong>Experience Required : </strong>
+						{{$servicedetails->experience}}
+					</p>
 				</div>
-				<div class="col col-md-4">
-					<label for="text-input" class=" form-control-label">Salary : {{$servicedetails->salary}}</label>
+				<div class="col col-md-3">
+					<p class=" ">
+						<strong>Join In : </strong>
+						{{$servicedetails->joinin}}
+					</p>
+				</div>
+				<div class="col col-md-3">
+					<p class=" ">
+						<strong>Salary : </strong>
+						{{$servicedetails->salary}}
+					</p>
 				</div>
 			</div>
 			<br>
 			<div class="row form-group">
-				<small class="form-text text-muted"><b>Required Skill</b></small>
+				<p class="text-muted"><b>Required Skill</b></p>
 				<div class="col-12">
 				<br>
 					<p>
@@ -74,7 +89,7 @@
 				</div>
 			</div>
 			<div class="row form-group">
-				<small class="form-text text-muted"><b>Job Details</b></small>
+				<p class="text-muted"><b>Job Details</b></p>
 				<div class="col-12">
 				<br>
 					<p>
@@ -84,7 +99,8 @@
 			</div>
 			<?php $new = str_replace(' ', '_', $servicedetails->position); ?>
 			<div class="card-footer">
-			<a class="btn btn-warning mt-3" href="{{url('/careers/apply')}}/{{$new}}/{{$servicedetails->id}}">Apply</a>   <a class="btn btn-warning mt-3" href="{{url('/careers')}}">Back</a>
+				<a class="btn btn-warning mt-3 me-3" href="{{url('/careers/apply')}}/{{$new}}/{{$servicedetails->id}}">Apply</a>
+				<a class="btn btn-warning mt-3" href="{{url('/careers')}}">Back</a>
 			</div>
 		</div>
 		</div>

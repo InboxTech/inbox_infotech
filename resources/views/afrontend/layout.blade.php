@@ -109,6 +109,8 @@
         <link href="{{asset('vendors/hamburgers/hamburgers.min.css')}}" rel="stylesheet">
         <link href="{{asset('vendors/loaders.css/loaders.min.css')}}" rel="stylesheet">
         <link href="{{asset('assets/css/theme.min.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/css/aos.css')}}" rel="stylesheet" />
+
         <link href="{{asset('assets/css/user.min.css')}}" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
@@ -137,7 +139,6 @@
         </script>
         <!-- End Google Tag Manager -->
 
-        <script src="https://www.gptbots.ai/widget/wejx8m4ws8arow6w4xkbnle/chat.js"></script>
     </head>
 
     <body>
@@ -174,12 +175,14 @@
         <script src="{{asset('vendors/bigpicture/BigPicture.js')}}"> </script>
         <script src="{{asset('vendors/countup/countUp.umd.js')}}"> </script>
         <script src="{{asset('vendors/swiper/swiper-bundle.min.js')}}"></script>
+        <script src="{{asset('vendors/aos/aos.js')}}"></script>
         <script src="{{asset('vendors/fontawesome/all.min.js')}}"></script>
         <script src="{{asset('vendors/lodash/lodash.min.js')}}"></script>
         <script src="{{asset('vendors/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
         <script src="{{asset('vendors/gsap/gsap.js')}}"></script>
         <script src="{{asset('vendors/gsap/customEase.js')}}"></script>
         <script src="{{asset('assets/js/theme.js')}}"></script>
+        <script src="https://www.gptbots.ai/widget/wejx8m4ws8arow6w4xkbnle/chat.js"></script>  {{-- chatbot --}}
         <script type='application/ld+json'>
             {
                 "@context": "http://www.schema.org",

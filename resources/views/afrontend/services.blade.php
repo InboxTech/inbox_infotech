@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Products | Web Development Company in India | Website Development Services in Vadodara')
+@section('page_title','Services | Inbox Infotech Pvt. Ltd.')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'The best Web Development Company in Vadodara, India for web development services, custom software development, web application development, android app development, web design, graphic design &#038; more.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -40,10 +40,10 @@
           </div>
         </div>
       </div>   
- <section class="bg-100">
+ <section>
         <div class="container">
           <div class="text-center mb-6">
-            <h3 class="fs-2 fs-md-3">Our Services</h3>
+            <h3 class="fs-2 fs-md-3 text-color">Our Services</h3>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
 		  
@@ -60,16 +60,16 @@
 		  </div>
 		  
 		  <div class="row mt-7">
-            <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h5 data-zanim-xs='{"delay":0}'><span class="text-primary fs-0 me-3 far fa-credit-card"></span>Awards winner team</h5>
+            <div class="col-lg-4  px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <h5 data-zanim-xs='{"delay":0}'><span class="text-color fs-0 me-3 far fa-credit-card"></span>Awards winner team</h5>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>We are proud to be the holders of eminent industry awards that reflect our past contribution and excellence throughout the field.</p>
             </div>
-            <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h5 data-zanim-xs='{"delay":0}'><span class="text-primary fs-0 me-3 fas fa-comment-alt"></span>Chat with team</h5>
+            <div class="col-lg-4  px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <h5 data-zanim-xs='{"delay":0}'><span class="text-color fs-0 me-3 fas fa-comment-alt"></span>Chat with team</h5>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Have a question? Chat online with an expert. <!--<a href='#!'>Start chatting <span class='fas fa-external-link-alt ms-1'></span></a> --></p>
             </div>
-            <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <h5 data-zanim-xs='{"delay":0}'><span class="text-primary fs-0 me-3 fas fa-phone-alt"></span>Call a specialist</h5>
+            <div class="col-lg-4  px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <h5 data-zanim-xs='{"delay":0}'><span class="text-color fs-0 me-3 fas fa-phone-alt"></span>Call a specialist</h5>
               <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Our 24/7 support team is ready for you at +91-9662398895.</p>
             </div>
           </div>

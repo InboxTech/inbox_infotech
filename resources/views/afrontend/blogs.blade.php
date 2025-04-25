@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Blogs | Web Development Company in India | Website Development Services in Vadodara')
+@section('page_title','Beat Tech Insights &amp; IT Blogs | Inbox Infotech Pvt. Ltd.')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'The best Web Development Company in Vadodara, India for web development services, custom software development, web application development, android app development, web design, graphic design &#038; more.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -72,9 +72,9 @@
   }
 </style>
 
-<section>
+<section class="hero-banner">
   <div class="bg-holder overlay"
-    style="background-image:url({{url('assets/img/blog.jpg')}});background-position:center bottom;"></div>
+    style="background-image:url({{url('assets/img/blog.jpg')}});background-position:center center;background-repeat: no-repeat;background-size: cover"></div>
   <!--/.bg-holder-->
   <div class="container">
     <div class="row pt-6" data-inertia='{"weight":1.5}'>
@@ -104,23 +104,25 @@
       </div>
     </div>
   </div>
-  <section class="bg-100">
+  <section class="">
       <div class="text-center mb-6">
-        <h3 class="fs-2 fs-md-3">Our Blogs</h3>
+        <h3 class="fs-2 fs-md-3 text-color">Our Blogs</h3>
         <hr class="short"
           data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
           data-zanim-trigger="scroll" />
       </div>
-      <div class="container-fluid mt-5 mb-5">
+      <div class="container mt-5 mb-5">
     <div class="row">
     @foreach($blog as $prod)
-      <div class="col-md-4" style="padding:bottom:10px;">	  
-        <div class="card" style="width: 100%;">
+      <div class="col-md-4 my-3" style="padding:bottom:10px;">	  
+        <div class="card shadow" style="height: 100%;">
           <img class="card-img-top" src="{{ asset('storage/media/')}}/{{$prod->imaage}}" alt="Card image cap" style="height:300px;">
           <div class="card-body">
-            <h5 class="card-title">{{$prod->title}}</h5>
+            <h5 class="card-title text-color">{{$prod->title}}</h5>
             <p class="card-text"> <?php echo $msgTrimmed = mb_substr($prod->short_desc,0,130);?></p>
-            <a href="{{url('blog')}}/{{$prod->slug}}" class="btn btn-primary">Read More</a>
+          </div>
+          <div class="card-footer">
+            <a href="{{url('blog')}}/{{$prod->slug}}" class="btn bg-primary text-white">Read More</a>
           </div>
         </div>
       </div>

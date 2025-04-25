@@ -67,6 +67,9 @@
                                     <a href="{{url('/admin/product/list')}}">Products</a>
                                 </li>
                                 <li>
+                                    <a href="{{url('/admin/voksen')}}">Products slider</a>
+                                </li>
+                                <li>
                                     <a href="{{url('/admin/service/list')}}">Services</a>
                                 </li>
 								<li>

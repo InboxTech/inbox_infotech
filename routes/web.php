@@ -9,6 +9,7 @@ use App\Http\Controllers\admin\ServiceController;
 use App\Http\Controllers\admin\ProductController;
 use App\Http\Controllers\Front\FrontController;
 use App\Http\Controllers\admin\SliderController;
+// use App\Http\Controllers\admin\ProductSliderController;
 use App\Http\Controllers\admin\ContactusConntroller;
 use App\Http\Controllers\admin\LeadershipController;
 use App\Http\Controllers\admin\ClientlogoController;
@@ -129,6 +130,13 @@ Route::middleware([
     Route::post('/admin/testimonial/managetestimonial/submit',[TestimonialController::class,'store']);//Form submit
     Route::get('/admin/testimonial/delete/{id}',[TestimonialController::class,'destroy']);//Form Record Delete
     Route::post('/admin/testimonial/list/search/',[TestimonialController::class,'search']);//Show list of product
+    //voksen product slider
+    // Route::get('admin/product_banner',[ProductSliderController::class,'index']);
+    // Route::get('admin/product_banner/manage_product_banner',[ProductSliderController::class,'manage_product_banner']);
+    // Route::get('admin/product_banner/manage_product_banner/{id}',[ProductSliderController::class,'manage_product_banner']);
+    // Route::post('admin/product_banner/manage_product_banner_process',[ProductSliderController::class,'manage_product_banner_process'])->name('product_banner.manage_product_banner_process');
+    // Route::get('admin/product_banner/delete/{id}',[ProductSliderController::class,'delete']);
+    // Route::get('admin/product_banner/status/{status}/{id}',[ProductSliderController::class,'status']);
      //Leadership Management
     Route::get('/admin/award/list',[AwardController::class,'index']);//Show list
     Route::get('/admin/award/add',[AwardController::class,'create']);//Create Data
@@ -202,10 +210,12 @@ Route::get('/redirect',[UserController::class,'index']);
 Route::get('/',[FrontController::class,'index']);
 Route::get('/about-us',[FrontController::class,'aboutus']);
 Route::get('/products',[FrontController::class,'products']);
+Route::get('products/voksen',[FrontController::class,'voksen']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);
 Route::get('/services',[FrontController::class,'services']);
+Route::get('/services/recruitment_staffing',[FrontController::class,'servicesdetail']);
 Route::get('/services/{name}',[FrontController::class,'servicesdetails']);
 Route::get('/careers',[FrontController::class,'careers']);
 Route::get('/careers/{name}/{id}',[FrontController::class,'careersdetails']);

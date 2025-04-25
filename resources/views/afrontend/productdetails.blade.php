@@ -23,7 +23,7 @@
                   <div class="col-sm-12 col-lg-12 px-6 px-sm-6">
 				  <div style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                     <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'>{{$list->name}}</h1>
+                      <h1 class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'>{{$list->name}}</h1>
                     </div>
                     <div class="overflow-hidden">
                       <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'>{{$servicedetails->tax2}}
@@ -62,20 +62,22 @@
 	  <br>
 	 
 
- <section class="bg-100">
+ <section>
         <div class="container" style="background-color:#fff;border-radius: 10px;">
-          <div class="text-center mb-6">
-            <h3 class="fs-2 fs-md-3">{{$servicedetails->title}}</h3>
-			<p class="px-lg-4 mt-3">Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p>
-            <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
-          <div class="bg-white px-3 mt-6 px-0 py-5 px-lg-5 rounded-3">
+          <div class="mb-6">
+           
+			<!-- <p class="">Our service offerings are aligned to the changing world of our customers. Our portfolio of services range from designing strategy to delivering impact.</p> -->
+      <h3 class="fs-2 fs-md-3 text-color text-center">{{$servicedetails->title}}</h3>     
+      <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+          <div class="bg-white mt-6 px-0 py-5 rounded-3">
 		  
 		  <div class="row">
-              <div class="col-6">
+              <div class="col-lg-8">
+             
 			  <p style="text-align:left">{!! $servicedetails->short_desc !!}</p>
 			  
 			  </div>
-				 <div class="col-6"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" style="width:100%;max-height:300px" alt="{{$servicedetails->image_alt}}"/>
+				 <div class="col-lg-4"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" class="img-fluid" alt="{{$servicedetails->image_alt}}"/>
 			  </div>
             </div>
 			</div>
@@ -97,7 +99,8 @@
 		 </div>
 		 <br>
 	 <br>
-        </div><!-- end of .container-->
+        </div>
+        <!-- end of .container-->
 		
 </section><!-- <section> close ============================-->
     

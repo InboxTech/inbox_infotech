@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Carbon;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\ExportUser;
-use Session;
+use Illuminate\Support\Facades\Session;
 class UserController extends Controller
 {
     public function index()

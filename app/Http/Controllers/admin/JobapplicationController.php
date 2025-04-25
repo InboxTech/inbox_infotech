@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\ExportJobapplication;
-use DB;
-use PDF;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\PDF;
 class JobapplicationController extends Controller
 {
     
@@ -93,17 +93,17 @@ class JobapplicationController extends Controller
     $arr['position'] = $arr[0]->position;
     $arr['first_name'] = $arr[0]->first_name;
     $arr['last_name'] = $arr[0]->last_name;
-    $arr['citizenship'] = $arr[0]->citizenship;
-    $arr['date_of_birth'] = $arr[0]->date_of_birth;
+    // $arr['citizenship'] = $arr[0]->citizenship;
+    // $arr['date_of_birth'] = $arr[0]->date_of_birth;
     $arr['address'] = $arr[0]->address;
-    $arr['zip_code'] = $arr[0]->zip_code;
+    // $arr['zip_code'] = $arr[0]->zip_code;
     $arr['city'] = $arr[0]->city;
     $arr['state'] = $arr[0]->state;
     $arr['phone_no'] = $arr[0]->phone_no;
     $arr['email_id'] = $arr[0]->email_id;
     $arr['ready_to_reallocates'] = $arr[0]->ready_to_reallocates;
     $arr['resume'] = $arr[0]->resume;
-    $arr['photo'] = $arr[0]->photo;
+    // $arr['photo'] = $arr[0]->photo;
     $arr['status'] = $arr[0]->status;
     $arr['created_at'] = $arr[0]->created_at;
     $arr['updated_at'] = $arr[0]->updated_at;
@@ -170,17 +170,17 @@ class JobapplicationController extends Controller
            'position' => $arr[0]->position,
            'first_name' => $arr[0]->first_name,
            'last_name' => $arr[0]->last_name,
-           'citizenship' => $arr[0]->citizenship,
-           'date_of_birth' => $arr[0]->date_of_birth,
+        //    'citizenship' => $arr[0]->citizenship,
+        //    'date_of_birth' => $arr[0]->date_of_birth,
            'address' => $arr[0]->address,
-           'zip_code' => $arr[0]->zip_code,
+        //    'zip_code' => $arr[0]->zip_code,
            'city' => $arr[0]->city,
            'state' => $arr[0]->state,
            'phone_no' => $arr[0]->phone_no,
            'email_id' => $arr[0]->email_id,
            'ready_to_reallocates' => $arr[0]->ready_to_reallocates,
            'resume' => $arr[0]->resume,
-           'photo' => $arr[0]->photo,
+        //    'photo' => $arr[0]->photo,
            'status' => $arr[0]->status,
            'created_at' => $arr[0]->created_at,
            'updated_at' => $arr[0]->updated_at,
