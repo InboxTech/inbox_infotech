@@ -21047,7 +21047,7 @@ iframe.yt-video.loaded {
     right: 0;
     bottom: 0;
     z-index: 10001;
-    background-color: var(--elixir-primary);
+    background: linear-gradient(92.62deg , #006ab6, #00406d);
     opacity: 1;
     -webkit-transition: opacity .9s cubic-bezier(0.77, 0, 0.18, 1);
     -o-transition: opacity .9s cubic-bezier(0.77, 0, 0.18, 1);

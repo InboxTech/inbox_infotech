@@ -120,54 +120,13 @@
           giants!</p>
         </div>
       </div>
-
-
-
       </div>
     </div>
-    {{-- <div class="row mt-4 mt-md-5">
-      <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-      <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="far fa-chart-bar"></span></div>
-      <h3 class="mt-4" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Custom IT
-        Solutions</h3>
-      <p class="mb-0 mt-3 px-3" data-zanim-xs='{"delay":0.2}'>Solution for every IT related problems, readily <br />
-        and skillfully.</p>
-      </div>
-      <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-      <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="far fa-bell"></span></div>
-      <h3 class="mt-4" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Development
-        Services</h3>
-      <p class="mb-0 mt-3 px-3" data-zanim-xs='{"delay":0.2}'>We are providing development Services like software
-        <br /> and Mobile Application.
-      </p>
-      </div>
-      <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-      <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="far fa-lightbulb"></span></div>
-      <h3 class="mt-4" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">IT
-        Infrastructure</h3>
-      <p class="mb-0 mt-3 px-3" data-zanim-xs='{"delay":0.2}'>Know the market before taking any step, reduce <br />
-        risks before you go.</p>
-      </div>
-      <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-      <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-headset"></span></div>
-      <h5 class="mt-4" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">Quality
-        Services</h5>
-      <p class="mb-0 mt-3 px-3" data-zanim-xs='{"delay":0.2}'>Experience unparalleled service, from beginning <br />
-        to final development.</p>
-      </div>
-    </div> --}}
+   
     </div>
     <!-- end of .container-->
     </section><!-- <section> close ============================-->
     <!-- ============================================-->
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <!-- ============================================-->
-
-
 
     <!-- ============================================-->
     <!-- <section> services begin ============================-->
@@ -230,90 +189,7 @@
       {{-- @endif --}}
       </div>
 
-      {{-- @foreach($service_data as $serv_data)
-      @if($serv_data->id % 2 == 0)
-      <div class="row g-0 position-relative mb-4 mb-lg-0">
-      <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative" style="min-height:400px;">
-        <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0  "
-        style="background-image:url({{ asset('storage/media/')}}/{{$serv_data->imaage}});"></div>
-        <!--/.bg-holder-->
-      </div>
-      <div
-        class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white rounded-bs-lg rounded-lg-bs-0 rounded-be-lg rounded-lg-be-0 rounded-lg-te-lg ">
-        <div class="elixir-caret d-none d-lg-block"></div>
-        <div class="d-flex align-items-center h-100" style="padding-top:5px;">
-        <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
-          <div class="overflow-hidden">
-          <h3 data-zanim-xs='{"delay":0}' style="font-size: 1.77689rem;letter-spacing: -0.05rem;">
-            {{$serv_data->title}}</h3>
-          </div>
-          <div class="overflow-hidden">
-          <p class="mt-3" data-zanim-xs='{"delay":0.1}'>{!! $serv_data->short_desc!!}</p>
-          </div>
-          <div class="overflow-hidden">
-          <div data-zanim-xs='{"delay":0.2}'><a class="d-flex align-items-center"
-            href="{{url('/services')}}/{{$serv_data->slug}}">Learn More<div class="overflow-hidden ms-2"><span
-              class="d-inline-block"
-              data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span>
-            </div></a></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      @elseif($serv_data->id % 2 == 1)
-      <div class="row g-0 position-relative ">
-      <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative order-lg-2" style="min-height:400px;">
-        <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0  rounded-lg-ts-0"
-        style="background-image:url({{ asset('storage/media/')}}/{{$serv_data->imaage}});"></div>
-        <!--/.bg-holder-->
-      </div>
-      <div
-        class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white rounded-bs-lg rounded-lg-bs-0 rounded-be-lg  rounded-lg-be-0">
-        <div class="elixir-caret d-none d-lg-block"></div>
-        <div class="d-flex align-items-center h-100">
-        <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
-          <div class="overflow-hidden">
-          <h4 data-zanim-xs='{"delay":0}'>{{$serv_data->title}}</h4>
-          </div>
-          <div class="overflow-hidden">
-          <p class="mt-3" data-zanim-xs='{"delay":0.1}'>{!! $serv_data->short_desc!!}
-          </p>
-          </div>
-          <div class="overflow-hidden">
-          <div data-zanim-xs='{"delay":0.2}'><a class="d-flex align-items-center"
-            href="{{url('/services')}}/{{$serv_data->slug}}">Learn More<div class="overflow-hidden ms-2"><span
-              class="d-inline-block"
-              data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>&xrarr;</span>
-            </div></a></div>
-          </div>
-        </div>
-        </div>
-      </div>
-      </div>
-      @endif
-      @endforeach --}}
-      {{-- <div class="row mt-7">
-      <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span
-          class="text-primary fs-0 me-3 far fa-credit-card"></span>Awards winner team</h6>
-        <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>We are proud to be the holders of eminent
-        industry awards that reflect our past contribution and excellence throughout the field.</p>
-      </div>
-      <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span
-          class="text-primary fs-0 me-3 fas fa-comment-alt"></span>Chat with team</h6>
-        <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Have a question? Chat online with an expert.
-        <!--<a href='javascript:void(0);'>Start chatting <span class='fas fa-external-link-alt ms-1'></span></a>-->
-        </p>
-      </div>
-      <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span
-          class="text-primary fs-0 me-3 fas fa-envelope"></span>Mail at specialist</h6>
-        <p class="mt-3 pe-3 pe-lg-5 mb-0" data-zanim-xs='{"delay":0.1}'>Our 24/7 support team is ready for you at <a
-          href="mailto:info@inboxtechs.com">info@inboxtechs.com</a></p>
-      </div>
-      </div> --}}
+     
     </div>
     <!-- end of .container-->
     </section>
@@ -381,7 +257,6 @@
         <div class="col-lg-3 col-md-6 my-3">
         <?php $new = str_replace(' ', '_', $product->title); ?>
         <a href="{{url('products')}}/{{$product->slug}}" class="text-decoration-none">
-
           <div class="card shadow" style="width: 100%;">
           <div class="card-header" style="width: 100%;">
             <img src="{{ asset('storage/media/')}}/{{$product->imaage}}"
@@ -398,140 +273,7 @@
         </a>
         </div>
         @endforeach
-
-        {{-- <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/healthtech.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: black;"> Healthtech </h5>
-          </div>
-          <div class="card-body">
-            <p> Building compliant, data-secure, and patient-focused solutions. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Advance Healthcare Tech </a>
-          </div>
-          </div>
-        </a>
-        </div>
-        <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/hrTech.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> HRTech </h5>
-          </div>
-          <div class="card-body">
-            <p> Empowering workforce management with AI-driven HR platforms. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Reimagine HR Solution </a>
-          </div>
-          </div>
-        </a>
-        </div>
-        <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/cleantech.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> CleanTech </h5>
-          </div>
-          <div class="card-body">
-            <p> Driving sustainability with intelligent, tech-enabled clean energy and resource solutions. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Drive Clean Innovation </a>
-          </div>
-          </div>
-        </a>
-        </div>
-        <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/edtech.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> EdTech </h5>
-          </div>
-          <div class="card-body">
-            <p> Scalable digital learning solutions for modern education. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Power Digital Learning </a>
-          </div>
-          </div>
-        </a>
-        </div>
-        <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/retail_ecom.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> Retail & Ecommerce </h5>
-          </div>
-          <div class="card-body">
-            <p> Omnichannel experiences, automation, and AI-powered commerce. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Enhance Retail & Ecom </a>
-          </div>
-          </div>
-        </a>
-        </div>
-        <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/travel_hospitality.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> Travel & Hospitality </h5>
-          </div>
-          <div class="card-body">
-            <p> Personalized customer experiences with AI and digital automation. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Transform Travel Tech </a>
-          </div>
-          </div>
-        </a>
-        </div>
-        <div class="col-lg-3 my-3">
-        <a href="javascript: void(0);" class="text-decoration-none">
-          <div class="card  border" style="width: 100%;">
-          <div class="card-header" style="width: 100%;position: relative;">
-            <img src="{{asset('assets/inbox/insurtech.jpg')}}" class="card-img-top">
-            <h5 style="position: absolute; top: 50%;left: 10%;color: white;"> InsureTech</h5>
-          </div>
-          <div class="card-body">
-            <p> Automating underwriting, claims,& risk management. </p>
-          </div>
-          <div class="card-footer">
-            <a href=""> Innovate Insurance Tech </a>
-          </div>
-          </div>
-        </a>
-        </div> --}}
-
-
-
       </div>
-      {{-- <div class="row">
-        @foreach($myproducts as $product)
-        <div class="col-lg-3">
-        <?php $new = str_replace(' ', '_', $product->title); ?>
-        <a href="{{url('products')}}/{{$product->slug}}">
-          <div class="card border"><img class="card-img-top" src="{{ asset('storage/media/')}}/{{$product->imaage}}"
-            alt="{{$product->image_alt}}" height="200px" width="200px" />
-          <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-            <div class="overflow-hidden">
-            <h5 data-zanim-xs='{"delay":0}'>{{$product->title}}</h5>
-            </div>
-          </div>
-          </div>
-        </a>
-        </div>
-        @endforeach
-      </div> --}}
       </div>
     </div>
     </section>
@@ -622,7 +364,6 @@
           </div>
         </div>
         </div>
-
       </div>
       </div>
     </div>
@@ -630,7 +371,6 @@
 
     <!-- <section> Our hiring model close ============================-->
     <!-- ============================================-->
-
 
 
     <!-- ============================================-->
@@ -662,9 +402,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Oracle <br> Consultant </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -672,9 +410,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> SAP <br> Consultant </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -682,9 +418,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Hadoop.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Hadoop <br> Consultant </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -692,9 +426,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Salesforce-Developers.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Salesforce <br> Developer </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -702,9 +434,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/ServiceNow-Developers.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> ServiceNow <br> Developer </p>
-
         </div>
         </div>
 
@@ -713,9 +443,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/AI_ML_Development.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> AI/ML <br> Developer </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -723,9 +451,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Frontend_Development.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Frontend <br> Developer </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -733,9 +459,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Backend_Development.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Backend <br> Developer </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -743,9 +467,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/mobile_app_developer.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> MobileApp <br> Developer </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -753,9 +475,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Database_Administration.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Database Administrator </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -763,9 +483,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Datacenter_Solutions.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Datacenter <br> Solutions </p>
-
         </div>
         </div>
         <div class="col-lg-2 my-3">
@@ -773,12 +491,9 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Cyber_Security_Services.png')}}" class="img-fluid">
           </div>
-
           <p class="fw-bold"> Cyber Security <br> Exports </p>
-
         </div>
         </div>
-
       </div>
       </div>
     </div>
@@ -881,22 +596,7 @@
           <a class="nav-link" id="analytics-tab" data-bs-toggle="tab" data-bs-target="#analytics" role="tab"
             aria-controls="analytics" aria-selected="false"> Analytics </a>
           </li>
-          {{-- <li class="nav-item" role="presentation">
-          <a class="nav-link" id="behaproana-tab" data-bs-toggle="tab" data-bs-target="#behaproana" role="tab"
-            aria-controls="behaproana" aria-selected="false"> Behavioral Analytics </a>
-          </li> --}}
-          {{-- <li class="nav-item" role="presentation">
-          <a class="nav-link" id="cloud-tab" data-bs-toggle="tab" data-bs-target="#cloud" role="tab"
-            aria-controls="cloud" aria-selected="false"> Cloud </a>
-          </li> --}}
-          {{-- <li class="nav-item" role="presentation">
-          <a class="nav-link" id="docmanage-tab" data-bs-toggle="tab" data-bs-target="#docmanage" role="tab"
-            aria-controls="docmanage" aria-selected="false"> Document Management </a>
-          </li>
-          <li class="nav-item" role="presentation">
-          <a class="nav-link" id="projectmanage-tab" data-bs-toggle="tab" data-bs-target="#projectmanage"
-            role="tab" aria-controls="projectmanage" aria-selected="false"> Project Management </a>
-          </li> --}}
+          
         </ul>
         {{--
         </div> --}}
@@ -1694,284 +1394,7 @@
             </div>
           </div>
           </div>
-          {{-- <div class="tab-pane fade" id="behaproana" role="tabpanel" aria-labelledby="behaproana-tab"
-          tabindex="0">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/heap-1.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Heap </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/google-analytics.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Google Analytics </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/amplitude-1.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Amplitude </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/mixpanel-1.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Mixpanel </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/countly.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Countly </p>
-            </div>
-            </div>
-          </div>
-          </div> --}}
-
-          {{-- <div class="tab-pane fade" id="cloud" role="tabpanel" aria-labelledby="cloud-tab" tabindex="0">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/AWS.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> AWS </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/google-cloud.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Google Cloud </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/azure-1.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Azure </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/apache-1.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Apache </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/nginx.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Nginx </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/cloudflare.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Cloudflare </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/fastly.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Fastly </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/digital ocean.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Digital Ocean </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/euris.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Euris </p>
-            </div>
-            </div>
-          </div>
-          </div> --}}
-
-
-          {{-- <div class="tab-pane fade" id="docmanage" role="tabpanel" aria-labelledby="docmanage-tab"
-          tabindex="0">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/SharePoint.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> SharePoint </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Google-Suite.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Google Suit </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/RedHat.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> RedHat </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Docker.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Docker </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/google-cloud.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Google Cloud </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/CI_CD.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> CI/CD </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Atlassian.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Atlassian </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Bash.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Bash </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/confluence.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Confluence </p>
-            </div>
-            </div>
-          </div>
-          </div>
-          <div class="tab-pane fade" id="projectmanage" role="tabpanel" aria-labelledby="projectmanage-tab"
-          tabindex="0">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Clarity.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Clarity </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/snowflake.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Snow </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Smartsheet.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Smartsheet </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Jira.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Jira </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Scrum.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Scrum </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/Waterfall.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Waterfall </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/agile.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Agile </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/monday.com.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Monday.com </p>
-            </div>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-            <div class="border text-center" style="height: 100%;">
-              <div style="width: 40%;margin: 3% auto;">
-              <img src="{{asset('assets/inbox/kanban.png')}}" class="img-fluid">
-              </div>
-              <p class="fw-bold"> Kanban </p>
-            </div>
-            </div>
-          </div>
-          </div> --}}
+        
         </div>
         {{--
         </div> --}}
@@ -2073,54 +1496,6 @@
     <!-- ============================================-->
 
     <!-- ============================================-->
-    <!-- <section> why choose begin ============================-->
-    {{-- <section style="padding-top:50px;">
-    <div class="container">
-      <div class="text-center mb-7">
-      <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem;letter-spacing: -0.05rem;">Why Choose Inbox</h6>
-      <hr class="short"
-        data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-        data-zanim-trigger="scroll" />
-      </div>
-      <div class="row">
-      <div class="col-lg-6 pe-lg-3"><img class="rounded-3 img-fluid"
-        src="{{asset('assets/inbox/Inbox-Infotech-banner.webp')}}" alt="about" /></div>
-      <div class="col-lg-6 px-lg-5 mt-6 mt-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="overflow-hidden">
-        <div class="px-4 px-sm-0" data-zanim-xs='{"delay":0}'>
-          <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span
-            class="fas fa-comment-dots fs-1 me-2" data-fa-transform="flip-h"></span>We Are Professional</h6>
-          <p class="mt-3">Inbox Infotech, the pioneer of offering IT solutions combines business intelligence along
-          with experience to incorporate new innovative changes and deliver constructive results.</p>
-        </div>
-        </div>
-        <div class="overflow-hidden">
-        <div class="px-4 px-sm-0 mt-5" data-zanim-xs='{"delay":0}'>
-          <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span
-            class="fas fa-palette fs-1 me-2" data-fa-transform="shrink-1"></span>We Are Creative</h6>
-          <p class="mt-3">With so many factors to consider when deciding how to characterize your company , wouldn’t
-          it be great to have a group of forward-thinking, well-informed individuals on board who know what
-          they’re doing?</p>
-        </div>
-        </div>
-        <div class="overflow-hidden">
-        <div class="px-4 px-sm-0 mt-5" data-zanim-xs='{"delay":0}'>
-          <h6 class="fs-0 fs-lg-1" style="font-size: 1.333rem;letter-spacing: -0.05rem;"><span
-            class="fas fa-stopwatch fs-1 me-2" data-fa-transform="grow-1"></span>24/7 Great Support</h6>
-          <p class="mt-3">Design clever and compelling marketing strategies, improve product positioning, and drive
-          conversion rates, Inbox is all time available to guide you.</p>
-        </div>
-        </div>
-      </div>
-      </div>
-    </div><!-- end of .container-->
-    </section> --}}
-    <!-- <section> why choose close ============================-->
-    <!-- ============================================-->
-
-
-
-    <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section class="bg-primary py-6 text-center text-md-start">
     <div class="container">
@@ -2139,153 +1514,6 @@
 
 
     <!-- ============================================-->
-    <!-- <section> things you get begin ============================-->
-    {{-- <section class="text-center" style="padding-top:50px;">
-    <div class="container">
-      <div class="text-center">
-      <h6 class="fs-2 fs-md-3" style="font-size: 1.333rem;letter-spacing: -0.05rem;">Things You Get</h6>
-      <hr class="short"
-        data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-        data-zanim-trigger="scroll" />
-      </div>
-      <div class="row">
-      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="px-3 py-4 px-lg-4">
-        <div class="overflow-hidden"><img src="{{asset('assets/img/icons/sharing.png')}}" alt="icon" height="37"
-          data-zanim-xs='{"delay":0}' /></div>
-        <div class="overflow-hidden">
-          <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">
-          Creative Support</h6>
-        </div>
-        <div class="overflow-hidden">
-          <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and
-          product stories in a most creative way.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="px-3 py-4 px-lg-4">
-        <div class="overflow-hidden"><img src="{{asset('assets/img/icons/mail.png')}}" alt="icon" height="37"
-          data-zanim-xs='{"delay":0}' /></div>
-        <div class="overflow-hidden">
-          <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">
-          Creating Experiences</h6>
-        </div>
-        <div class="overflow-hidden">
-          <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital
-          projects with one purpose: to create experiences.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="px-3 py-4 px-lg-4">
-        <div class="overflow-hidden"><img src="{{asset('assets/img/icons/target.png')}}" alt="icon" height="37"
-          data-zanim-xs='{"delay":0}' /></div>
-        <div class="overflow-hidden">
-          <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">
-          Product Consulting</h6>
-        </div>
-        <div class="overflow-hidden">
-          <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new
-          products with higher potential and lower risk.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="px-3 py-4 px-lg-4">
-        <div class="overflow-hidden"><img src="{{asset('assets/img/icons/world-globe.png')}}" alt="icon" height="37"
-          data-zanim-xs='{"delay":0}' /></div>
-        <div class="overflow-hidden">
-          <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">
-          Business Boosting</h6>
-        </div>
-        <div class="overflow-hidden">
-          <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative
-          solutions to our clients to boost their business.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="px-3 py-4 px-lg-4">
-        <div class="overflow-hidden"><img src="{{asset('assets/img/icons/money.png')}}" alt="icon" height="37"
-          data-zanim-xs='{"delay":0}' /></div>
-        <div class="overflow-hidden">
-          <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">
-          Strategic Approach</h6>
-        </div>
-        <div class="overflow-hidden">
-          <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant
-          research, we create prototypes, not presentations.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-        <div class="px-3 py-4 px-lg-4">
-        <div class="overflow-hidden"><img src="{{asset('assets/img/icons/data-analytics.png')}}" alt="icon"
-          height="37" data-zanim-xs='{"delay":0}' /></div>
-        <div class="overflow-hidden">
-          <h6 class="mt-3" data-zanim-xs='{"delay":0.1}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">
-          Logistic Consulting</h6>
-        </div>
-        <div class="overflow-hidden">
-          <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard
-          hitting answers and focus hard on best opportunities.</p>
-        </div>
-        </div>
-      </div>
-      </div>
-    </div><!-- end of .container-->
-    </section> --}}
-    <!-- <section> things you get close ============================-->
-    <!-- ============================================-->
-
-
-
-
-
-
-
-    <!-- ============================================-->
-    <!-- <section> global leadership begin ============================-->
-    {{-- <section class="bg-100 text-center" style="padding-top:50px;">
-    <div class="container">
-      <div class="text-center mb-6">
-      <h6 class="fs-2 fs-md-3" style="font-size:1.333rem;letter-spacing: -0.05rem;">Global leadership</h6>
-      <hr class="short"
-        data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-        data-zanim-trigger="scroll" />
-      </div>
-      <div class="row">
-      @foreach($leadership as $leader)
-      <div class="col-sm-6 col-lg-4    ">
-        <div class="card h-100"><img class="card-img-top" src="{{asset('storage/media/'.$leader->photo)}}"
-          alt="Reenal Scott" />
-        <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-          <div class="overflow-hidden">
-          <h6 data-zanim-xs='{"delay":0}' style="font-size: 1.333rem;letter-spacing: -0.05rem;">{{$leader->name}}
-          </h6>
-          </div>
-          <div class="overflow-hidden">
-          <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>{{$leader->title}}</h6>
-          </div>
-          <div class="overflow-hidden">
-          <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>{!!$leader->details!!}</p>
-          </div>
-        </div>
-        </div>
-      </div>
-      @endforeach
-      </div>
-    </div><!-- end of .container-->
-    </section>
-    <!-- <section> global leadership close ============================--> --}}
-    <!-- ============================================-->
-
-
-
-
-
-    <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section style="padding-top:40px;padding-bottom: 10px;">
     <div class="container">
@@ -2300,37 +1528,34 @@
     </section><!-- <section> close ============================-->
 
     <section class="testimonial">
-    <div class="container">
-      <div class="swiper testimonial-swiper">
-      <div class="swiper-wrapper">
-        @foreach($testimonials as $testimonialslist)
-      <div class="swiper-slide p-3">
-      <div class="row align-items-center" style="height: 100%;">
-        {{-- <div style="height: 100%;"> --}}
-        <div class="col-lg-4">
-        <img class="rounded-3 mx-auto img-fluid" src="{{asset('storage/media/' . $testimonialslist->photo)}}"
-        alt="Member" />
+      <div class="container">
+        <div class="swiper testimonial-swiper">
+          <div class="swiper-wrapper">
+            @foreach($testimonials as $testimonialslist)
+              <div class="swiper-slide d-flex" style="height: auto">
+                <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
+                  <div class="row align-items-center mb-3">
+                    <div class="col-lg-3">
+                      <img class="rounded-3 mx-auto img-fluid" src="{{asset('storage/media/' . $testimonialslist->photo)}}" alt="Member" />
+                    </div>
+                    <div class="col-lg-9">
+                      <h6 class="fs-0 mb-1 mt-4 text-color">{{$testimonialslist->name}}</h6>
+                      <p class="mb-0 text-500">{{$testimonialslist->title}}</p>
+                    </div>
+                  </div>
+                  <div class="flex-grow-1">
+                    <p class="lead">{!! $testimonialslist->details !!}</p>
+                  </div>
+                </div>
+              </div>
+            @endforeach
+          </div>
+          <div class="swiper-nav">
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
-        <div class="col-lg-8">
-        <p class="lead">{!!$testimonialslist->details!!}</p>
-        <h6 class="fs-0 mb-1 mt-4 text-color">{{$testimonialslist->name}}</h6>
-        <p class="mb-0 text-500">{{$testimonialslist->title}}</p>
-        </div>
-        {{--
-        </div> --}}
-      </div>
-      </div>
-    @endforeach
-      </div>
-      <div class="swiper-nav">
-        {{-- <div class="swiper-button-prev icon-item icon-item-lg"><span class="fas fa-chevron-left fs--2"></span>
-        </div>
-        <div class="swiper-button-next icon-item icon-item-lg"><span class="fas fa-chevron-right fs--2"></span></div>
-        --}}
-        <div class="swiper-pagination"></div>
-      </div>
-      </div>
-    </div><!-- end of .container-->
+        
+      </div><!-- end of .container-->
     </section><!-- <section> close ============================-->
 
     <!-- ============================================-->
