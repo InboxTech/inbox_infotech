@@ -47,6 +47,7 @@ class CarrerController extends Controller
            $arr['id'] =$arr->id;
            $arr['position'] =$arr->position;
            $arr['salary'] = $arr->salary;
+           $arr['no_openings'] = $arr->no_openings;
            $arr['experience'] =$arr->experience;
            $arr['joinin'] = $arr->joinin;
            $arr['jobdescription'] =$arr->jobdescription;
@@ -62,6 +63,7 @@ class CarrerController extends Controller
            $arr['id'] ='';
            $arr['position'] ='';
            $arr['salary'] = '';
+           $arr['no_openings'] = '';
            $arr['experience'] ='';
            $arr['joinin'] = '';
            $arr['jobdescription'] ='';
@@ -120,6 +122,7 @@ class CarrerController extends Controller
         // }       
        $arr['position'] = $req->position;
        $arr['salary'] = $req->salary;
+       $arr['no_openings'] = $req->no_openings;
        $arr['experience'] = $req->experience;
        $arr['joinin'] = $req->joinin;
        $arr['jobdescription'] = $req->jobdescription;

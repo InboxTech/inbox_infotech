@@ -75,7 +75,7 @@
                         <div style="width: 25%;">
                           <img src="{{asset('assets/img/icons/svg_icons/Mission.svg')}}" class="img-fluid">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body p-3">
                           <h4 class=" text-color"> Our Mission </h4> 
                            <p style="font-size: 1rem;"> At Inbox Infotech, we envision a
                             world where technology goes beyond
@@ -97,7 +97,7 @@
                       <div style="width: 25%;">
                         <img src="{{asset('assets/img/icons/svg_icons/vision.svg')}}" class="img-fluid">
                       </div>
-                      <div class="card-body">
+                      <div class="card-body p-3">
                         <h4 class=" text-color"> Our Vision </h4> 
                          <p style="font-size: 1rem;"> At the core of our vision is a future where technology makes life better and brings
                           people closer together. We are dedicated to developing solutions that simplify daily
@@ -113,7 +113,7 @@
                       <div style="width: 25%;">
                         <img src="{{asset('assets/img/icons/svg_icons/Values.svg')}}" class="img-fluid">
                       </div>
-                      <div class="card-body">
+                      <div class="card-body p-3">
                         <h4 class=" text-color"> Our Values </h4> 
                          <p style="font-size: 1rem;"> We are a cohesive team that values dedication and excellence in every project
                           we take on. Our commitment to delivering exceptional software development
@@ -252,11 +252,11 @@
                 <div>
                   <div class="row" data-aos="fade-up"  data-aos-duration="3000">
                     <div class="col-lg-3 col-md-6 my-3">
-                      <div style="height: 100%;" class="card shadow">
-                        <div style="width: 25%; margin: 4% 0;">
+                      <div style="height: 100%;" class="card shadow p-3">
+                        <div style="width: 25%; margin: 3% 0;">
                           <img src="{{asset('assets/img/icons/svg_icons/Agile.svg')}}" class="img-fluid">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body p-3">
                           <h4 class="text-color">  Agile </h4>
                           <p> We utilize the adaptive Agile methodology
                             at its fullest. It focuses on continuously
@@ -268,11 +268,11 @@
                       </div>
                     </div>
                     <div class="col-lg-3 col-md-6 my-3">
-                    <div style="height: 100%;" class="card shadow">
-                      <div style="width: 25%; margin: 4% 0;">
+                    <div style="height: 100%;" class="card shadow p-3">
+                      <div style="width: 25%; margin: 3% 0;">
                         <img src="{{asset('assets/img/icons/svg_icons/DevOps.svg')}}" class="img-fluid">
                       </div>
-                      <div class="card-body">
+                      <div class="card-body p-3">
                         <h4 class="text-color"> DevOps </h4>
                         <p> A design process wherein we break the
                           project into phases such as:
@@ -285,11 +285,11 @@
                     </div>
                   </div>
                     <div class="col-lg-3 col-md-6 my-3">
-                      <div style="height: 100%;" class="card shadow">
-                        <div style="width: 25%; margin: 4% 0;">
+                      <div style="height: 100%;" class="card shadow p-3">
+                        <div style="width: 25%; margin: 3% 0;">
                           <img src="{{asset('assets/img/icons/svg_icons/Scrum.svg')}}" class="img-fluid">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body p-3">
                           <h4 class="text-color"> Scrum </h4>
                           <p> A subset of agile that fits best for projects
                             with rapidly changing requirements. We
@@ -301,11 +301,11 @@
                       </div>
                     </div>
                     <div class="col-lg-3 col-md-6 my-3">
-                      <div style="height: 100%;" class="card shadow">
-                        <div style="width: 25%; margin: 4% 0;">
+                      <div style="height: 100%;" class="card shadow p-3">
+                        <div style="width: 25%; margin: 3% 0;">
                           <img src="{{asset('assets/img/icons/svg_icons/Lean.svg')}}" class="img-fluid">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body p-3">
                           <h4 class="text-color"> Lean </h4>
                           <p> We use it for creating more value with
                             fewer resources. It emphasizes efficiency
@@ -534,7 +534,7 @@
                   <div class="col-6"><input class="form-control" type="text" name="email" placeholder="Phone Number" aria-label="Phone Number" /></div>
                   <div class="col-6 mt-4"><input class="form-control" type="text"  name="message" placeholder="Subject" aria-label="Subject" /></div>
                   <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
-				  <div class="col-6 mt-4"><button class="btn btn-warning w-100" type="submit">Submit</button></div>
+				  <div class="col-6 mt-4"><button class="btn btn-primary w-100" type="submit">Submit</button></div>
                 </div>
               </form>
             </div>

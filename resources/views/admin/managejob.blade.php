@@ -36,7 +36,7 @@
 			{{ csrf_field() }}
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="text-input" class=" form-control-label">Position Name</label>
+					<label for="text-input" class=" form-control-label">Position Name</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
 					<input type="text" id="position" name="position" placeholder="Position Name" class="form-control" value="{{$position}}" required>
@@ -45,7 +45,7 @@
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="text-input" class=" form-control-label">Join in</label>
+					<label for="text-input" class=" form-control-label">Join in</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
 					<input type="text" id="joinin" name="joinin" placeholder="Like immedate Joiner" class="form-control" value="{{$joinin}}" required>
@@ -54,11 +54,20 @@
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="email-input" class=" form-control-label">Salary for this position</label>
+					<label for="email-input" class=" form-control-label">Salary for this position</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-					<input type="text" id="salary" name="salary" placeholder="Enter Salary" class="form-control" value="{{$salary}}">
+					<input type="text" id="salary" name="salary" placeholder="Enter Salary" class="form-control" value="{{$salary}}" required>
 					<small class="help-block form-text">Please enter salary details for the above mentioned position</small>
+				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col col-md-3">
+					<label for="email-input" class=" form-control-label">Number of Openings</label><span class="text-danger">*</span>
+				</div>
+				<div class="col-12 col-md-9">
+					<input type="number" id="no_openings" name="no_openings" placeholder="Enter Number of Openings" class="form-control" value="{{$salary}}" required>
+					<small class="help-block form-text">Please enter Number of Openings in Number</small>
 				</div>
 			</div>
 			{{-- <div class="row form-group">
@@ -76,44 +85,44 @@
 			</div> --}}
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="email-input" class=" form-control-label">Experience Required</label>
+					<label for="email-input" class=" form-control-label">Experience Required</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-					<input type="text" id="salary" name="experience" placeholder="Experience" class="form-control" value="{{$experience}}">
+					<input type="text" id="salary" name="experience" placeholder="Experience" class="form-control" value="{{$experience}}" required>
 					<small class="help-block form-text">Please enter Experience Required details</small>
 				</div>
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="password-input" class=" form-control-label">Job Description</label>
+					<label for="password-input" class=" form-control-label">Job Description</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-			<textarea class="form-control" id="editor" placeholder="Job Description" name="jobdescription" >{!! $jobdescription !!}</textarea>
-		<small class="help-block form-text">Please enter Job Description details</small>
+			<textarea class="form-control" id="editor" placeholder="Job Description" name="jobdescription" required>{!! $jobdescription !!}</textarea>
+			<small class="help-block form-text">Please enter Job Description details</small>
 				</div>
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="textarea-input" id="skill" name="skill" class=" form-control-label">Required Skills</label>
+					<label for="textarea-input" id="skill" name="skill" class=" form-control-label">Required Skills</label><span class="text-danger">*</span>
 				</div>
 				<div class="col col-md-9">
-				<textarea class="form-control"  name="skill">{{$skill}}</textarea>
+				<textarea class="form-control"  name="skill" required>{{$skill}}</textarea>
 			</div>
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="email-input" class=" form-control-label">Start  Date</label>
+					<label for="email-input" class=" form-control-label">Start  Date</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-				<input type="date" id="startdate" name="startdate"  class="form-control" value="{{$startdate}}">
+				<input type="date" id="startdate" name="startdate"  class="form-control" value="{{$startdate}}" required>
 			</div>
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
-					<label for="email-input" class=" form-control-label">End Date</label>
+					<label for="email-input" class=" form-control-label">End Date</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-				<input type="date" id="endmdate" name="endmdate"  class="form-control" value="{{$endmdate}}">
+				<input type="date" id="endmdate" name="endmdate"  class="form-control" value="{{$endmdate}}" required>
 			</div>
 			</div>
 			

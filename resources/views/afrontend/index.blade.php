@@ -304,12 +304,12 @@
       <div class="row" data-aos="fade-up" data-aos-duration="3000">
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <div style="width: 30%; margin: 3% 0;">
           <img src="{{asset('assets/img/icons/svg_icons/Build_Your_Team.svg')}}" class="img-fluid">
           </div>
-          <div class="card-body">
+          <div class="card-body p-2">
           <h5 class="text-color"> Build Your Team </h5>
-          <p class="lh-lg"> Experience the power of our cross-functional
+          <p class="lh-md"> Experience the power of our cross-functional
             teams in transforming your business ideas
             into reality. With our agile approach, we deliver
             excellence at every step, ensuring your vision
@@ -319,12 +319,12 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <div style="width: 30%; margin: 3% 0;">
           <img src="{{asset('assets/img/icons/svg_icons/Dedicated_Talent.svg')}}" class="img-fluid">
           </div>
-          <div class="card-body">
+          <div class="card-body p-2">
           <h5 class="text-color"> Dedicated Talent </h5>
-          <p class="lh-lg"> Empower your projects with our exclusive
+          <p class="lh-md"> Empower your projects with our exclusive
             expertise, precisely tailored to your needs.
             Take charge of your software solutions,
             guided by our dedicated team to ensure they
@@ -334,12 +334,12 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <div style="width: 30%; margin: 3% 0;">
           <img src="{{asset('assets/img/icons/svg_icons/On_Demand_Talent.svg')}}" class="img-fluid">
           </div>
-          <div class="card-body">
+          <div class="card-body p-2">
           <h5 class="text-color"> On-Demand Talent </h5>
-          <p class="lh-lg"> Discover our On-Demand engagement model,
+          <p class="lh-md"> Discover our On-Demand engagement model,
             ideal for companies seeking expert assistance
             on an hourly basis. Whether it's short-term
             support or ongoing guidance, our flexible
@@ -350,12 +350,12 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <div style="width: 30%; margin: 3% 0;">
           <img src="{{asset('assets/img/icons/svg_icons/Fixed Cost Projects.svg')}}" class="img-fluid">
           </div>
-          <div class="card-body">
+          <div class="card-body p-2">
           <h5 class="text-color"> Fixed Cost Projects</h5>
-          <p class="lh-lg"> Take full control of your budget with our fixed
+          <p class="lh-md"> Take full control of your budget with our fixed
             cost model, designed to support the
             development of proofs-of-concept & the
             execution of your unique ideas. With
@@ -509,7 +509,7 @@
     <div class="container">
       <div class="row align-items-center text-white">
       <div class="col-lg-4">
-        <div class="border border-2 border-warning p-4 py-lg-5 text-center rounded-3" data-zanim-timeline="{}"
+        <div class="border border-2 border-white p-4 py-lg-5 text-center rounded-3" data-zanim-timeline="{}"
         data-zanim-trigger="scroll">
         <div class="overflow-hidden">
           <h6 class="text-white" data-zanim-xs='{"delay":0}'
@@ -534,7 +534,7 @@
           <div class="col-6 mt-4"><input class="form-control" type="text" name="message" placeholder="Subject"
             aria-label="Subject" required /></div>
           <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
-          <div class="col-6 mt-4"><button class="btn btn-warning w-100" type="submit">Submit</button></div>
+          <div class="col-6 mt-4"><button class="btn btn-primary w-100" type="submit">Submit</button></div>
         </div>
         </form>
       </div>
