@@ -67,7 +67,6 @@
 			<div class="row form-group">
 				<small class="form-text text-muted"><b>Required Skill</b></small>
 				<div class="col-12">
-				<br>
 					<p>
 					{{ $servicedetails->skill}}
 					</p>
