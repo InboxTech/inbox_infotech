@@ -31,14 +31,14 @@
 	
           <!------------------------------------ company overview start --------------------------->
           <div class="row mt-6">
-            <div class="col"  data-aos="fade-up"  data-aos-duration="3000">
+            <div class="col"  data-aos="fade-up"  data-aos-duration="1000">
               <h3 class="text-center text-color fs-2 fs-md-3">Company Overview</h3>
 			  <p class="text-center">Discover Inbox</p>
               <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
             </div>
 
 			@foreach($compover as $compovers)
-			<div class="row align-items-center" data-aos="fade-up"  data-aos-duration="3000">
+			<div class="row align-items-center" data-aos="fade-up"  data-aos-duration="1000">
               <div class="col-lg-6 my-2">
 			  
 			  <h5 class="fw-medium ms-3 mb-0 text-color">{{$compovers->title}}</h5>
@@ -64,12 +64,12 @@
 
             <section class="my-5">
               <div>
-                <div class="text-center mb-6"  data-aos="fade-up"  data-aos-duration="3000">
+                <div class="text-center mb-6"  data-aos="fade-up"  data-aos-duration="1000">
                   <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Mission Vision Values </h6>
                   <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
                 </div>	
                 <div>
-                 <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+                 <div class="row" data-aos="fade-up"  data-aos-duration="1000">
                    <div class="col-lg-4 my-2">
                      <div style="height: 100%;" class="card shadow p-3">
                         <div style="width: 25%;">
@@ -135,12 +135,12 @@
 
            <section class="my-5 core-service">
              <div>
-              <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="3000">
+              <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="1000">
                 <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Core Services </h6>
                 <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
               </div>
                <div>
-                <div class="row align-items-center"  data-aos="fade-up"  data-aos-duration="3000">
+                <div class="row align-items-center"  data-aos="fade-up"  data-aos-duration="1000">
                   <div class="col-lg-6 my-2">
                     <p class="lh-lg" style="font-size: 1.1rem;"> Empowering businesses with advanced websites and
                       apps that redefine digital experiences and craft your
@@ -156,9 +156,9 @@
                       </p>
                   </div>
                   <div class="col-lg-6 my-2">
-                     <div class="row " data-aos="fade-up"  data-aos-duration="3000">
+                     <div class="row " data-aos="fade-up"  data-aos-duration="1000">
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/Mobile_App.svg')}}"class="img-fluid">
                         </div>
@@ -166,7 +166,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/Emerging_Technologies.svg')}}"  class="img-fluid">
                           </div>
@@ -174,7 +174,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/Web_Development.svg')}}"   class="img-fluid">
                           </div>
@@ -182,7 +182,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/AI_ML_Development.svg')}}"  class="img-fluid">
                           </div>
@@ -190,7 +190,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/Cloud_Services.svg')}}" class="img-fluid">
                           </div>
@@ -198,7 +198,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/UI_UX_CX.svg')}}"  class="img-fluid">
                           </div>
@@ -206,7 +206,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                      <div class="card shadow p-2 text-center" style="height: 100%;">
+                      <div class="core-service-name p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 5% auto;" >
                           <img src="{{asset('assets/img/icons/svg_icons/Hire_Remote.svg')}}" class="img-fluid">
                         </div>
@@ -214,7 +214,7 @@
                       </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/CRM_ERP.svg')}}" class="img-fluid">
                           </div>
@@ -222,7 +222,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-sm-12 my-2">
-                        <div class="card shadow p-2 text-center" style="height: 100%;">
+                        <div class="core-service-name p-2 text-center" style="height: 100%;">
                           <div style="width: 40%;margin: 5% auto;" >
                             <img src="{{asset('assets/img/icons/svg_icons/Cyber_Security.svg')}}" class="img-fluid">
                           </div>
@@ -244,13 +244,13 @@
 
            <section class="my-5">
               <div>
-                <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="3000">
+                <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="1000">
                   <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Agile Approach </h6>
                   <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
                 </div>
 
                 <div>
-                  <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+                  <div class="row" data-aos="fade-up"  data-aos-duration="1000">
                     <div class="col-lg-3 col-md-6 my-3">
                       <div style="height: 100%;" class="card shadow p-3">
                         <div style="width: 25%; margin: 3% 0;">
@@ -327,7 +327,7 @@
 
 <section class="my-5 industry-serve">
   <div>
-    <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="3000">
+    <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="1000">
       <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries We Serve  </h6>
       <p class="lh-lg" style="font-size: 1.2rem;"> As a Software Development Company, we understand every industry has its own set of challenges. We don't offer a one-size-fits-all solution.
         Instead, we focus on the unique risks, opportunities, and best practices of your domain. This allows us to craft agile and
@@ -337,7 +337,7 @@
     </div>
     <div>
       <div class="">
-        <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+        <div class="row" data-aos="fade-up"  data-aos-duration="1000">
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
             <div style="height: 100%;" class="card shadow pt-2">
             <div style="width: 50%; margin: 5% auto; ">
@@ -451,7 +451,7 @@
 <section class="my-5">
   @foreach($ceomessage as $msgt)
   <div class="card ">
-    <div class="row shadow" data-aos="fade-up"  data-aos-duration="3000">
+    <div class="row shadow" data-aos="fade-up"  data-aos-duration="1000">
       <div class="col-lg-4 py-3 py-lg-0 position-relative" style="min-height:400px; background-position: top">
         <div class="bg-holder  rounded-ts-lg rounded-lg-bs-lg rounded-te-lg rounded-lg-te-0" style="background-image:url('{{ asset('storage/cmsimages')}}/{{$msgt->main_image}}');"></div>
         <!--/.bg-holder-->
@@ -476,14 +476,14 @@
 <!---------------------------------------------  Awards start ---------------------------->
 
   <div class="row mt-6">
-            <div class="col" data-aos="fade-up"  data-aos-duration="3000"> 
+            <div class="col" data-aos="fade-up"  data-aos-duration="1000"> 
               <h3 class="text-center text-color fs-2 fs-md-3">Awards & Achievements</h3>
 			  <p class="text-center">We are proud to be the holders of eminent industry awards that reflect our past contribution and excellence throughout the field.</p>
               <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
             </div>
 
 			<div class=" my-5">
-        <div class="row" data-aos="fade-up"  data-aos-duration="3000">
+        <div class="row" data-aos="fade-up"  data-aos-duration="1000">
         @foreach($award as $compovers)
           <div class="col-lg-4 my-3">
             <div class="card shadow" style="height: 100%;">

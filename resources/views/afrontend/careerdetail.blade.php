@@ -10,18 +10,18 @@
 @section('seo_keyword',"$s3")
 @section('seo_canonical',"$s4")
 @section('container')
- <section style="height: 340px;">
+ <section style="height: 340px;" class="job-details">
        <div class="bg-holder overlay" style="background-image:url({{url('/assets/img/background-2.jpg')}});background-position:center bottom;"></div>
       <!--/.bg-holder-->
       <div class="container">
         <div class="row pt-6">
-          <div class="col-md-6 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+          <div class="col-md-6 text-color" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="overflow-hidden">
-              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Career</h1>
+              <h1 class="text-color fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Job Details</h1>
               <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
                 <ol class="breadcrumb fs-1 ps-0 fw-bold">
-                  <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page"><a class="text-white" href="{{url('/careers')}}">Career</a></li>
+                  <li class="breadcrumb-item"><a class="text-color" href="{{url('/')}}">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><a class="text-color" href="{{url('/careers')}}">Career</a></li>
                   <li class="breadcrumb-item active" aria-current="page">{{$servicedetails->position}}</li>
                 </ol>
               </div>
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>   
-	  <section class="bg-100">
+	  <section class="bg-100 job-details">
         <div class="container">
 		<div class="col-lg-12">
 	<div class="card">
@@ -80,18 +80,17 @@
 			</div>
 			<br>
 			<div class="row form-group">
-				<p class="text-muted"><b>Required Skill</b></p>
+				<p class=""><strong>Required Skill</strong></p>
 				<div class="col-12">
-				<br>
 					<p>
 					{{ $servicedetails->skill}}
 					</p>
 				</div>
 			</div>
+			<br>
 			<div class="row form-group">
-				<p class="text-muted"><b>Job Details</b></p>
 				<div class="col-12">
-				<br>
+
 					<p>
 					{!! $servicedetails->jobdescription !!}
 					</p>

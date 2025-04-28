@@ -155,3 +155,76 @@ footer a{
   color: #00406d;
   text-decoration: none;
 }
+.services .card-button .card-title{
+   color: white !important;
+   opacity: 0.5;
+}
+/* .services .card-button{
+  transition: all 0.5s ease;
+} */
+/* .services .card-button:hover .card-title{
+  transform: translateY(20px) !important;
+} */
+.services .card-button.active{
+  box-shadow:  0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+
+}
+.services .card-button.active .card-title {
+  color: white !important;
+  font-size: 1.6rem;
+  opacity: 1;
+}
+.services .card-button .card {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.services .card-button:hover .card {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+/* .services .zoom-bg {
+  
+  background-size: cover;
+  transition: background-size 0.5s ease;
+}
+
+.services .zoom-bg:hover {
+  background-size: 110%;
+} */
+
+.job-details strong{
+  background: linear-gradient(92.62deg, #006ab6, #00406d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.svg-icons{
+  width: 30%;
+  /* height: 40%; */
+  border: 1px solid #00406d;
+  border-radius: 100%;
+  padding: 18px;
+  transition: all 0.5s linear;
+  
+}
+.svg-icons img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tech-logo{
+  transition: all 0.5s linear;
+}
+.tech-logo:hover{
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.core-service-name{
+  border: 1px solid #00406d;
+  transition: all 1.5s linear;
+  overflow: hidden;
+}
+.core-service-name:hover img{
+  transform: translateY(-120%);
+}
+.core-service-name:hover p{
+  transform: translateY(-60%);
+}
