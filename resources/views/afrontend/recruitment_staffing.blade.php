@@ -510,7 +510,8 @@
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
           <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
+          <!-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid"> -->
+          <i class="far fa-clock"></i>
           </div>
           <h5 class="text-color"> Average Time-toHire </h5>
           <p class=""> Our average time to hire 5–10
@@ -523,9 +524,9 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <!-- <div style="width: 30%; margin: 4% 0;">
           <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
-          </div>
+          </div> -->
           <h5 class="text-color">Interview-to-Offer
           Ratio </h5>
           <p class=""> On average, 1 out of every 3
@@ -537,9 +538,9 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <!-- <div style="width: 30%; margin: 4% 0;">
           <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
-          </div>
+          </div> -->
           <h5 class="text-color"> Client Retention
           Rate</h5>
           <p class=""> Our high client retention rate is
@@ -552,9 +553,9 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
+          <!-- <div style="width: 30%; margin: 4% 0;">
           <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
-          </div>
+          </div> -->
           <h5 class="text-color"> NPS Score / Client
           Satisfaction</h5>
           <p class=""> Inbox Infotech proudly
