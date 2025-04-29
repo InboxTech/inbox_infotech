@@ -3872,15 +3872,15 @@ fieldset:disabled .btn {
 .btn-primary {
     color: #fff;
     background: linear-gradient(92.62deg , #006ab6, #00406d);
-    /* border-color: #2a3855; */
+    border: 1px solid white;
     -webkit-box-shadow: 0 0 0 transparent;
-    box-shadow: 0 0 0 transparent
+    box-shadow: 0 0 0 transparent;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background: linear-gradient(92.62deg , #004a80, #012d4d);
-    /* border-color: #222d44 */
+    color: #00406d;
+    background: white;
+    border: 1px solid #00406d;
 }
 
 .btn-check:focus+.btn-primary,
@@ -4067,16 +4067,16 @@ fieldset:disabled .btn {
 
 .btn-warning {
     color: #000;
-    background-color: #fdd428;
-    border-color: #fdd428;
+    background-color: white;
+    border: 1px solid #00406d;
     -webkit-box-shadow: 0 0 0 transparent;
     box-shadow: 0 0 0 transparent
 }
 
 .btn-warning:hover {
-    color: #000;
-    background-color: #fdda48;
-    border-color: #fdd83e
+    color: white;
+    background:  linear-gradient(92.62deg , #006ab6, #00406d);;
+    border: 1px solid white;
 }
 
 .btn-check:focus+.btn-warning,
@@ -5942,7 +5942,8 @@ fieldset:disabled .btn {
     background-color: var(--elixir-card-bg);
     background-clip: border-box;
     border: 0 solid var(--elixir-card-border-color);
-    border-radius: .625rem
+    border-radius: .625rem;
+    cursor: pointer;
 }
 
 .card>hr {

@@ -96,8 +96,5 @@ web.php
 webpack.mix.js
 wordfence-waf.php
 numinapharma.com
-<<<<<<< HEAD
-.htaccess.phpupgrader.7da45003
-=======
-app.zip
->>>>>>> cf83cbd9d3cb456703dd04f42766b50555e330ad
+.htaccess.lock-63539e8b833b-6669ac7f-cae56
+.htaccess.lock-6bdc5c06080-6669ac7f-cae56

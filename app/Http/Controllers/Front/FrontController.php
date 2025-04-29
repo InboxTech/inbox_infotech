@@ -45,6 +45,8 @@ class FrontController extends Controller
         //dd($arr);    
         return view('afrontend.products', $arr);
     }
+
+    // voksen AI bot
     public function voksen()
     {
         // $arr['slider']=DB::table('sliders')->WhereNull('deleted_at')->get(); //swiper
@@ -71,9 +73,12 @@ class FrontController extends Controller
         //dd($arr);
         return view('afrontend.services', $arr);
     }
+
+    // recruitment and staffing
     public function servicesdetail()
     {
-        return view('afrontend.recruitment_staffing');
+        $arr['testimonials'] = DB::table('testimonials')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.recruitment_staffing', $arr);
     }
     public function servicesdetails(Request $req, $name)
     {

@@ -17,6 +17,7 @@ class CreateCarrersTable extends Migration
             $table->id();
             $table->string('position');
             $table->string('salary');
+            $table->integer('no_openings');
             $table->string('experience');
             $table->string('joinin');
             $table->string('jobdescription');

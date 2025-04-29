@@ -106,7 +106,7 @@
     <!-- <section> close ============================-->
     <!-- ============================================-->
 		<section class="">
-      <h3 class="text-color fs-2 fs-md-3 my-5 text-center">Current openings</h3>
+      <h2 class="text-color fs-2 fs-md-3 my-5 text-center">Current Openings</h2>
       <div class="container">
         <div class="row g-4">
           @foreach($careers as $data)
@@ -130,7 +130,7 @@
                 </div>
                 <div class="overflow-hidden card-footer pt-2" style="padding: 1.8rem ">
                   <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'>
-                      <a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">More Info
+                      <a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">Apply Now
                           <div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>
                               <span class="d-inline-block fw-medium">&xrarr;</span>
                           </div>
