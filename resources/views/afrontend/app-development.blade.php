@@ -8,7 +8,25 @@
 @section('seo_description', "$s2")
 @section('seo_keyword', "$s3")
 @section('seo_canonical', "$s4")
-
+<style>
+  /* .bg-holder{
+    position: relative;
+    overflow: visible;
+  }
+  .bg-holder::before {
+    content: '';
+    position: absolute;
+    right: 0%;
+    bottom: -20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 980px;
+    height: 700px;
+    z-index: 99;
+    background-image: url({{asset('storage/media/112673532.webp')}});
+  } */
+</style>
 
 @section('container')
   <main class="main" id="top">
@@ -32,154 +50,132 @@
           <div class="bg-holder" style="background-image:url({{asset('storage/media/1214549853.jpg')}});"></div>
           <!--/.bg-holder-->
           <div class="container">
-          <div class="row min-vh-100 py-8 align-items-center justify-content-center" data-inertia='{"weight":1.5}'>
-            <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
-            style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
-            <div class="overflow-hidden">
-              <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-              style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">Recruitment
-              and Staffing</p>
-            </div>
-            <div class="overflow-hidden">
-              <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>Connecting top
-              talent with the right opportunities – tailored recruitment and staffing solutions for your business
-              success.</p>
-            </div>
-            <div class="overflow-hidden">
-              <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a
-                class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span
-                class="fas fa-chevron-right ms-2"></span></a></div>
-            </div>
+            <div class="row min-vh-100 py-8 align-items-center " >
+              <div class="col-sm-8 col-lg-8 px-5 px-sm-3" >
+                <div class="overflow-hidden">
+                  <p class="fs-4 fs-md-5 lh-1 text-white">Custom
+                    <span  style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;"> Mobile App Development </span>
+                    Company
+                  </p>
+                </div>
+                <div class="overflow-hidden">
+                  <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-white">
+                    Connecting top talent with the right opportunities – tailored recruitment and staffing solutions for your business success.
+                  </p>
+                </div>
+                <div class="overflow-hidden">
+                  <div><a class="btn btn-primary me-3 mt-3"
+                    href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a
+                    class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span
+                    class="fas fa-chevron-right ms-2"></span></a></div>
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-        </div>
-        {{-- @foreach($slider as $list)
-        @endforeach --}}
-        </div>
-        <div class="swiper-nav">
-        <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
-        <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
+          <div></div>
         </div>
       </div>
-    </section>
+      <div class="swiper-nav">
+        <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
+        <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
+      </div>
+    </div>
+  </section>
 
     <div class="container">
     <!-- ============================================-->
 
+    <!-----------------------------------  client start------------------------------------------------->
+      <section>
+        <div class="">
+          <div class="row justify-content-center">
+            <h3 class="col-9 text-center">Some of The Contributors Who Made Us What We Are Today.</h3>
+          </div>
+          <div class="row">
+
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1665116922.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1665117520.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1665117298.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1673940283.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1745238697.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1745235052.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1745238602.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1673943640.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1673943414.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/1665117275.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/7.png')}}" class="img-fluid">
+
+            </div>
+            <div class="col-lg-2">
+              <img src="{{asset('storage/media/8.png')}}" class="img-fluid">
+
+            </div>
+            {{-- <div class="swiper-pagination"></div> --}}
+          </div>
+        </div>
+      </section>
+
+    <!-----------------------------------  client end------------------------------------------------->
 
     <!-- <section> begin ============================-->
-
     <section class="bg-white" style="padding-top:50px;">
       <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-12">
-        <h1 class="my-5" style="font-size:3.1573345183rem; font-weight: 700;">Recruitment and Staffing</h1>
+        <div class="col-lg-6 col-md-12">
+          <h1 class="" style="font-size:3.1573345183rem; font-weight: 700;">Top App Development Company Delivering Robust Applications</h1>
 
+        </div>
+        <div class="col-lg-6 ">
+          <p>We have been recognized as a top mobile application development company as we have made sure to deliver the most innovative, scalable, and feature-rich app solutions for global business. Our mobile app developers simplify the offering of mobile applications by choosing the most suitable app development tech stacks and integrating third-party APIs that can guarantee flawless user experience for your target audience.</p>
+          
+        </div>
       </div>
-      <div class="col-lg-6 ">
-        <p>With 10+ years of proven expertise in the IT and services sector, our highly skilled and passionate
-        developers bring deep knowledge across various technologies including mobile apps, web platforms,
-        Blockchain, AI, and beyond. We are equipped to handle all your software development needs with precision and
-        quality.</p>
-        <p>At Inbox Infotech, you have the freedom to hire top-tier developers from India on a schedule that fits your
-        project—hourly, part-time, or full-time. Our dedicated professionals are here to support startups,
-        entrepreneurs, and enterprises in building robust web and mobile applications from the ground up.</p>
-        <p>Choosing to hire developers from India allows you to quickly expand your development team, reduce overhead
-        costs, and maintain full control over your project’s lifecycle with ease and efficiency.</p>
-      </div>
-      </div>
-      {{-- introduction --}}
-
-
-
-
+    </section>
+    <!-- <section> close ============================-->
+      <!-- ============================================-->
+    
+    </div>
       <!-- end of .container-->
-    </section><!-- <section> close ============================-->
-    <!-- ============================================-->
-
     <!------------------------- our hiring service start --------------------------------->
 
-    <section>
-      <div>
-      <h3 class="text-color text-center"> Our Hiring Services </h3>
-      <div class="my-5">
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Permanent_Recruitment.svg')}}" class="img-fluid">
+    <section class="bg-primary">
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-12 col-md-12 col-xl-8 my-4">
+            <p class="fs-3 text-white">The Development Expertise of Our team of Mobile App Developers</p>
           </div>
-          <div class="card-body p-2">
-            <h5 class="text-color"> Permanent Recruitment </h5>
-            <p class="lh-md">End-to-end recruitment
-            support for long-term technical
-            roles, ensuring candidates are
-            both technically competent
-            and culturally aligned.
-            </p>
-          </div>
-          </div>
+          <div class="col-12 col-md-12 col-xl-8"></div>
         </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Contract_Staffing.svg')}}">
-          </div>
-          <div class="card-body p-2">
-            <h5 class="text-color"> Contract Staffing </h5>
-            <p class="lh-md"> Flexible IT staffing solutions
-            that allow companies to
-            quickly scale up or down
-            based on project needs and
-            market dynamics. </p>
-          </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Executive_Search.svg')}}">
-          </div>
-          <div class="card-body p-2">
-            <h5 class="text-color"> Executive Search </h5>
-            <p class="lh-md"> Specialized hiring for mid-level
-            to senior IT roles requiring
-            domain expertise and
-            leadership experience.
-            </p>
-          </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Remote_Offshore_Staffing.svg')}}">
-          </div>
-          <div class="card-body p-2">
-            <h5 class="text-color"> Remote/Offshore Staffing </h5>
-            <p class="lh-md"> Access to highly talented
-            offshore IT professionals. </p>
-          </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Volume_Hiring.svg')}}">
-          </div>
-          <div class="card-body p-2">
-            <h5 class="text-color"> Volume Hiring </h5>
-            <p class="lh-md"> High-speed recruitment
-            solutions for rapidly growing
-            tech teams, BPOs, and ITES
-            companies.
-            </p>
-          </div>
-          </div>
-        </div>
-        </div>
-      </div>
       </div>
     </section>
 
@@ -187,6 +183,7 @@
 
 
 
+    <div class="container">
 
     <section>
       <!-- <div class="container"> -->
