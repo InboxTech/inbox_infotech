@@ -19,7 +19,7 @@
         <div class="row pt-6">
           <div class="col-md-6 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="overflow-hidden">
-              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Career</h1>
+              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Job Application</h1>
               <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
                 <ol class="breadcrumb fs-1 ps-0 fw-bold">
                   <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
@@ -49,9 +49,9 @@
         <div class="container">
 		<div class="col-lg-12">
 	<div class="card">
-	<div class="card-header">
+	<!-- <div class="card-header">
 		<strong>Basic Form</strong> Job Application
-	</div>
+	</div> -->
 @if ($message = Session::get('success'))
 <div class="alert alert-success alert-block" style="color:#7fff00;">
 <strong>{{ $message }}</strong>
