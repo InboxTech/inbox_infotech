@@ -219,12 +219,20 @@ footer a{
 }
 .core-service-name{
   border: 1px solid #00406d;
-  transition: all 1.5s linear;
   overflow: hidden;
+  transition: all 0.7s linear;
+}
+.core-service-name img, .core-service-name p{
+  transition: all 0.7s linear;
 }
 .core-service-name:hover img{
   transform: translateY(-120%);
 }
 .core-service-name:hover p{
-  transform: translateY(-60%);
+  transform: translateY(-70%);
+}
+.core-service-name:hover{
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  border: 0;
+  transform: scale(1);
 }

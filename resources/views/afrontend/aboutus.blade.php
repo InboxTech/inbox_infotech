@@ -72,8 +72,8 @@
                  <div class="row" data-aos="fade-up"  data-aos-duration="1000">
                    <div class="col-lg-4 my-2">
                      <div style="height: 100%;" class="card shadow p-3">
-                        <div style="width: 25%;">
-                          <img src="{{asset('assets/img/icons/svg_icons/Mission.svg')}}" class="img-fluid">
+                        <div class="svg-icons">
+                          <img src="{{asset('assets/img/icons/svg_icons/Mission.svg')}}">
                         </div>
                         <div class="card-body p-3">
                           <h4 class=" text-color"> Our Mission </h4> 
@@ -94,8 +94,8 @@
                    </div>
                    <div class="col-lg-4 my-2">
                     <div style="height: 100%;" class="card shadow p-3">
-                      <div style="width: 25%;">
-                        <img src="{{asset('assets/img/icons/svg_icons/vision.svg')}}" class="img-fluid">
+                      <div class="svg-icons">
+                        <img src="{{asset('assets/img/icons/svg_icons/vision.svg')}}" >
                       </div>
                       <div class="card-body p-3">
                         <h4 class=" text-color"> Our Vision </h4> 
@@ -110,8 +110,8 @@
                    </div>
                    <div class="col-lg-4 my-2">
                     <div style="height: 100%;" class="card shadow p-3">
-                      <div style="width: 25%;">
-                        <img src="{{asset('assets/img/icons/svg_icons/Values.svg')}}" class="img-fluid">
+                      <div class="svg-icons">
+                        <img src="{{asset('assets/img/icons/svg_icons/Values.svg')}}" >
                       </div>
                       <div class="card-body p-3">
                         <h4 class=" text-color"> Our Values </h4> 
