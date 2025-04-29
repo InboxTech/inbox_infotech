@@ -226,7 +226,7 @@
               </div>
             </div>
             <div class="col-lg-6 d-lg-block d-none text-center">
-            <img src="{{asset('assets/inbox/Teams.png')}}" class="img-fluid">
+            <img src="{{asset('assets/inbox/Groupteam.png')}}" class="img-fluid">
             </div>
             <div class="col-lg-3 col-md-6">
               <div class="my-5 ">
