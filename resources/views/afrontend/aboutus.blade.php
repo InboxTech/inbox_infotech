@@ -62,18 +62,18 @@
 
 <!------------------------------------------mission vision values start ----------------------->
 
-            <section class="my-5">
+            <section class="my-5 MisVisVal">
               <div>
                 <div class="text-center mb-6"  data-aos="fade-up"  data-aos-duration="1000">
-                  <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Mission Vision Values </h6>
+                  <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Mission Vision & Values </h6>
                   <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
                 </div>	
                 <div>
                  <div class="row" data-aos="fade-up"  data-aos-duration="1000">
                    <div class="col-lg-4 my-2">
                      <div style="height: 100%;" class="card shadow p-3">
-                        <div class="svg-icons">
-                          <img src="{{asset('assets/img/icons/svg_icons/Mission.svg')}}">
+                        <div class="" style="width: 30%;">
+                          <img src="{{asset('assets/img/icons/svg_icons/Mission.svg')}}" class="img-fluid">
                         </div>
                         <div class="card-body p-3">
                           <h4 class=" text-color"> Our Mission </h4> 
@@ -94,8 +94,8 @@
                    </div>
                    <div class="col-lg-4 my-2">
                     <div style="height: 100%;" class="card shadow p-3">
-                      <div class="svg-icons">
-                        <img src="{{asset('assets/img/icons/svg_icons/vision.svg')}}" >
+                      <div class="" style="width: 30%;">
+                        <img src="{{asset('assets/img/icons/svg_icons/vision.svg')}}" class="img-fluid">
                       </div>
                       <div class="card-body p-3">
                         <h4 class=" text-color"> Our Vision </h4> 
@@ -110,8 +110,8 @@
                    </div>
                    <div class="col-lg-4 my-2">
                     <div style="height: 100%;" class="card shadow p-3">
-                      <div class="svg-icons">
-                        <img src="{{asset('assets/img/icons/svg_icons/Values.svg')}}" >
+                      <div class="" style="width: 30%;">
+                        <img src="{{asset('assets/img/icons/svg_icons/Values.svg')}}"  class="img-fluid" >
                       </div>
                       <div class="card-body p-3">
                         <h4 class=" text-color"> Our Values </h4> 
@@ -242,7 +242,7 @@
 
 <!------------------------------------------ Agile approach start ----------------------->
 
-           <section class="my-5">
+           <section class="my-5 agile-approach">
               <div>
                 <div class="text-center mb-6" data-aos="fade-up"  data-aos-duration="1000">
                   <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Agile Approach </h6>
@@ -339,7 +339,7 @@
       <div class="">
         <div class="row" data-aos="fade-up"  data-aos-duration="1000">
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto; ">
              <img src="{{asset('assets/inbox/industry_serve/Retail.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -347,7 +347,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
               <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Telecom.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
               </div>
@@ -355,7 +355,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Manufacturing.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -363,7 +363,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Professional_Service.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -371,7 +371,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Healthcare.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -379,7 +379,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Lending.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -387,7 +387,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style=" width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Logistics_Transpotation.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -395,7 +395,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
               <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Engineering_Construction.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
               </div>
@@ -403,7 +403,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Bank.png')}}" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -411,7 +411,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
             <div style="width: 50%; margin: 5% auto;">
               <img src="{{asset('assets/inbox/industry_serve/Oil_Gas.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
             </div>
@@ -419,7 +419,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
               <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Investment.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
               </div>
@@ -427,7 +427,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-            <div style="height: 100%;" class="card shadow pt-2">
+            <div style="height: 100%;" class="indserve pt-2">
               <div style="width: 50%; margin: 5% auto;">
                 <img src="{{asset('assets/inbox/industry_serve/Insurance.png')}}"  style="width: 100%; height: 100%; object-fit: cover;">
               </div>

@@ -155,10 +155,14 @@
 
     <!-- <section> begin ============================-->
 
-    <section class="bg-white" style="padding-top:50px;">
-      <div class="row justify-content-center">
+    <section class="bg-white">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
       <div class="col-lg-6 col-md-12">
-        <h1 class="my-5" style="font-size:3.1573345183rem; font-weight: 700;">Recruitment and Staffing</h1>
+        <h3 class="" style=" font-weight: 500;">Whether it's for permanent positions, contractual
+        roles, or project-based hiring, Inbox ensures the right
+        fit by aligning candidate skills with organizational
+        goals and culture.
+        </h3>
 
       </div>
       <div class="col-lg-6 ">
@@ -186,7 +190,7 @@
 
     <section>
       <div>
-      <h3 class="text-color text-center"> Our Hiring Services </h3>
+      <h3 class="text-color text-center" data-aos="fade-up" data-aos-duration="1000"> Our Hiring Services </h3>
       <div class="my-5">
         <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-lg-4 col-md-6 my-3">
@@ -274,10 +278,10 @@
 
     <section>
       <!-- <div class="container"> -->
-      <div>
-      <h2 class="my-3 text-center">Why inbox is Your Workforce</h2>
+      <div data-aos="fade-up" data-aos-duration="1000">
+      <h3 class="my-3 text-center" >Why inbox is Your Workforce</h3>
       </div>
-      <div class="card bg-primary  p-5">
+      <div class="card bg-primary  p-5" data-aos="fade-up" data-aos-duration="1000">
       <div class="text-center p-3 bg-primary">
         <h3 class="mb-3 text-white">Our Certified Team</h3>
         <p class="text-white">Transparency is the hallmark of our process for hiring skilled Indian developers. With
@@ -325,61 +329,61 @@
         </div>
 
         <!-- <div class="col-lg-3 row">
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-lightbulb fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Creative Support </p>
+      <div class="col-lg-4 mb-3">
+      <div class="shadow  text-center" style="height: 100%;">
+        <div style="width: 50%;margin: 5% auto;">
+        <i class="fas fa-lightbulb fs-6 p-3 text-color"></i>
         </div>
+        <p class="fw-bold"> Creative Support </p>
+      </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+      <div class="shadow  text-center" style="height: 100%;">
+        <div style="width: 50%;margin: 5% auto;">
+        <i class="fas fa-magic fs-6 p-3 text-color"></i>
         </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-magic fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Creating Experiences </p>
+        <p class="fw-bold"> Creating Experiences </p>
+      </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+      <div class="shadow  text-center" style="height: 100%;">
+        <div style="width: 50%;margin: 5% auto;">
+        <i class="fas fa-cubes fs-6 p-3 text-color"></i>
         </div>
+        <p class="fw-bold"> Product Consulting </p>
+      </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+      <div class="shadow  text-center" style="height: 100%;">
+        <div style="width: 50%;margin: 5% auto;">
+        <i class="fas fa-chart-line fs-6 p-3 text-color"></i>
         </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-cubes fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Product Consulting </p>
+        <p class="fw-bold"> Business Boosting </p>
+      </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+      <div class="shadow  text-center" style="height: 100%;">
+        <div style="width: 50%;margin: 5% auto;">
+        <i class="fas fa-chess fs-6 p-3 text-color"></i>
         </div>
+        <p class="fw-bold"> Strategic Approach </p>
+      </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+      <div class="shadow  text-center" style="height: 100%;">
+        <div style="width: 50%;margin: 5% auto;">
+        <i class="fas fa-truck fs-6 p-3 text-color"></i>
         </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-chart-line fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Business Boosting </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-chess fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Strategic Approach </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-truck fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Logistic Consulting </p>
-        </div>
-        </div>
-        </div> -->
+        <p class="fw-bold"> Logistic Consulting </p>
+      </div>
+      </div>
+      </div> -->
       </div>
       </div>
     </section>
 
     <section>
-      <div class="row mt-4 mt-md-5 ">
+      <div class="row mt-4 mt-md-5 " data-aos="fade-up" data-aos-duration="1000">
       <h3 class="my-5 mt-md-5 text-center"> Hire Your Own Expert Remote Team Today </h3>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
@@ -496,13 +500,13 @@
     <!---------------------------------- Performance Highlights start  -------------------------------------->
 
     <section>
-      <div class="text-center">
+      <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
       <h3 class="text-center">Our Performance Highlights </h3>
       <p> Database of 100,000+ Pre-vetted IT Professionals</p>
       </div>
 
       <div>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
           <div style="width: 30%; margin: 4% 0;">
@@ -577,42 +581,105 @@
         data-zanim-trigger="scroll" />
       </div>
       </div><!-- end of .container-->
-    </section><!-- <section> close ============================-->
+    <!-- <section> close ============================-->
 
-    <section class="testimonial">
-      <div class="container">
+    <div class="testimonial">
+      <!-- <div class="container"> -->
       <div class="swiper testimonial-swiper">
         <div class="swiper-wrapper">
-        @foreach($testimonials as $testimonialslist)
-      <div class="swiper-slide d-flex" style="height: auto">
-        <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
-        <div class="row align-items-center mb-3">
-        <div class="col-3">
-        <img class="rounded-3 mx-auto img-fluid"
-          src="{{asset('storage/media/' . $testimonialslist->photo)}}" alt="Member" />
+
+        <div class="swiper-slide d-flex" style="height: auto">
+          <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
+          <div class="row align-items-center mb-3">
+           
+            <div class="col-12">
+            <h6 class="fs-0 mb-1 mt-4 text-color">Sameer Salunkhe</h6>
+            <p class="mb-0 text-500">Director PwC</p>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <p class="lead">Inbox Infotech's support during our
+            expansion phase was crucial. They delivered
+            pre-vetted tech talent in record time, which
+            helped us maintain project momentum
+            without delays..
+            </p>
+          </div>
+          </div>
         </div>
-        <div class="col-9">
-        <h6 class="fs-0 mb-1 mt-4 text-color">{{$testimonialslist->name}}</h6>
-        <p class="mb-0 text-500">{{$testimonialslist->title}}</p>
+        <div class="swiper-slide d-flex" style="height: auto">
+          <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
+          <div class="row align-items-center mb-3">
+            
+            <div class="col-12">
+            <h6 class="fs-0 mb-1 mt-4 text-color">Rohan Arora</h6>
+            <p class="mb-0 text-500"> HR Director, HCL Tech</p>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <p class="lead">Inbox Infotech brought in exceptional
+            candidates that were not only technically
+            skilled but also culturally aligned with our
+            company. Their team was responsive,
+            professional, and incredibly easy to work with.
+            </p>
+          </div>
+          </div>
         </div>
+        <div class="swiper-slide d-flex" style="height: auto">
+          <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
+          <div class="row align-items-center mb-3">
+          
+            <div class="col-12">
+            <h6 class="fs-0 mb-1 mt-4 text-color">Varsha Sharma </h6>
+            <p class="mb-0 text-500"> Recruitment Head Alembic
+            </p>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <p class="lead">"We partnered with Inbox for a high-volume
+            recruitment drive, and they delivered beyond
+            expectations. Not only did they meet the
+            deadline, but the quality of candidates was
+            outstanding. Most of them are still with us
+            today.
+            </p>
+          </div>
+          </div>
         </div>
-        <div class="flex-grow-1">
-        <p class="lead">{!! $testimonialslist->details !!}</p>
+        <div class="swiper-slide d-flex" style="height: auto">
+          <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
+          <div class="row align-items-center mb-3">
+           
+            <div class="col-12">
+            <h6 class="fs-0 mb-1 mt-4 text-color">Sanjay Patel
+            </h6>
+            <p class="mb-0 text-500"> Associate Director Recruitment, Shell
+            </p>
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <p class="lead">The Inbox team has consistently provided
+            high-quality talent, often ahead of schedule.
+            Their professionalism, follow-ups, and
+            candidate engagement are everything you'd
+            want in a recruitment partner.
+            </p>
+          </div>
+          </div>
         </div>
-        </div>
-      </div>
-    @endforeach
         </div>
         <div class="swiper-nav">
         <div class="swiper-pagination"></div>
         </div>
       </div>
 
-      </div><!-- end of .container-->
-    </section><!-- <section> testimonial close ============================-->
+      <!-- </div> -->
+      <!-- end of .container-->
+    </div><!-- <section> testimonial close ============================-->
 
     <!-- ============================================-->
-
+</section>
     </div>
   </main>
 @endsection

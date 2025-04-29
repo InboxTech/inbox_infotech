@@ -210,32 +210,32 @@
       <!-- ============================================-->
       <!-- <section> take the right step begin ============================-->
         <section>
-          <div class="bg-holder overlay overlay-elixir" style="background-image:url('{{ asset('assets/img/background-15.jpg') }}');"></div>
+          <div class="bg-primary p-5" >
           <!--/.bg-holder-->
-          <div class="container">
-            <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
+          <div class="container mx-auto">
+            <!-- <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
               <div class="flex-1">
-                <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2>
+                <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2> -->
                 <div class="row mt-4 pe-lg-10">
-                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 <span class="plus"> +</span></div>
+                  <div class="overflow-hidden col-lg-3 border-end text-center col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 <span class="plus"> +</span></div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
                   </div>
-                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 <span class="plus"> +</span></div>
+                  <div class="overflow-hidden col-lg-3 border-end text-center col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 <span class="plus"> +</span></div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Happy
                       Customers
                       Worldwide
                       </h6>
                   </div>
-                  <div class="w-100 d-flex d-lg-none"></div>
-                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 <span class="plus"> +</span></div>
+                  <!-- <div class="w-100 d-flex d-lg-none"></div> -->
+                  <div class="overflow-hidden col-lg-3 border-end text-center col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 <span class="plus"> +</span></div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Years of
                       Experience</h6>
                   </div>
                   <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 +</div>
+                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 +</div>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Projects Delivered
                       Successfully
                       </h6>
@@ -243,7 +243,10 @@
                 </div>
               </div>
             </div>
-          </div><!-- end of .container-->
+          </div>
+          
+          <!-- end of .container-->
+          </div>
         </section><!-- <section> take the right step close ============================-->
         <!-- ============================================-->
   
@@ -295,7 +298,7 @@
     <!-- <section> Our hiring model  begin ============================-->
     <!-- ============================================-->
 
-    <section class="my-5">
+    <section class="my-5 hiring-model">
     <div class="container">
       <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
       <h2 class=" fs-md-3 text-color"> Our Hiring Model </h2>
@@ -313,8 +316,8 @@
       <div class="row" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/Build_Your_Team.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/Build_Your_Team.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> Build Your Team </h5>
@@ -328,8 +331,8 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/Dedicated_Talent.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/Dedicated_Talent.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> Dedicated Talent </h5>
@@ -343,8 +346,8 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/On_Demand_Talent.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/On_Demand_Talent.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> On-Demand Talent </h5>
@@ -359,8 +362,8 @@
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/Fixed Cost Projects.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/Fixed Cost Projects.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> Fixed Cost Projects</h5>
