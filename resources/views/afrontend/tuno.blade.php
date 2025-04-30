@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title','Voksen')
+@section('page_title','Tuno')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -50,13 +50,14 @@
                 <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
                   <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
                     <div class="overflow-hidden">
-                      <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}' style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">Voksen</p>
+                      <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}' style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">Tuno</p>
                     </div>
                     <div class="overflow-hidden">
                       <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff" data-zanim-xs='{"delay":0.1}'>AI-Powered Voice Automation for Smarter Customer Engagement</p>
                     </div>
                     <div class="overflow-hidden">
-                      <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
+                      <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a>
+                      <a class="btn btn-warning mt-3" href="{{url('#tuno-contnect')}}">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
                     </div>
                   </div>
                 </div>
@@ -79,7 +80,7 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-10 col-md-10">
-              <h1 class="text-color" style="margin-bottom: 1.333rem;font-size:3.1573345183rem;font-weight: 700;">Voksen</h1>
+              <h1 class="text-color" style="margin-bottom: 1.333rem;font-size:3.1573345183rem;font-weight: 700;">Tuno</h1>
               <p style="margin-bottom: 1.333rem;font-size: 1.77689rem;font-weight: 700;">AI-Powered Voice Automation for Smarter Customer Engagement  <br></p>
 			  {{-- <h1 class="px-lg-4 mt-4" style="font-weight: 700;color:#2A3855;font-size: 1.77689rem;letter-spacing: 0.1rem;line-height:1; " >The Best Cyber Security Company in India</h1>
 			  
@@ -294,7 +295,7 @@
       <section style="padding-top:50px;">
         <div class="container">
           <div class="text-center mb-7">
-            <h6 class="text-color fs-2 fs-md-3" style="font-size: 2.368593037rem;letter-spacing: -0.05rem;">Why Choose Voksen AI Voicebot?</h6>
+            <h6 class="text-color fs-2 fs-md-3" style="font-size: 2.368593037rem;letter-spacing: -0.05rem;">Why Choose Tuno AI Voicebot?</h6>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
           <div class="row">
@@ -342,12 +343,36 @@
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       <section class="bg-primary py-6 text-center text-md-start">
-        <div class="container">
+        <div class="container" id="tuno-contnect">
           <div class="row align-items-center">
-            <div class="col-md">
-              <h6 class="text-white mb-0" style="letter-spacing: -0.05rem;font-size: 1.77689rem;">Do you want to explore our new innovation, <br class="d-md-none" />Book for Free trail</h6>
+          <div class="card shadow">
+        <div class="card-body h-100 ">
+          <h5 class="mb-3 text-color">Write to us</h5>
+          <form action="{{url('contactus/form/submit')}}" method="post">
+          {{ csrf_field() }}
+          <div class="row">
+            <div class="col-4">
+            <div class="mb-4"><input class="form-control bg-white" type="text" name="name"
+              placeholder="Your Name" required="required" /></div>
             </div>
-            <div class="col-md-auto mt-md-0 mt-4"><a class="btn btn-light rounded-pill" href="{{url('/contact-us')}}">Contact Us</a></div>
+            <div class="col-4">
+            <div class="mb-4"><input class="form-control bg-white" type="email" name="email" placeholder="Email"
+              required="required" /></div>
+            </div>
+            <div class="col-4">
+            <div class="mb-4"><input class="form-control bg-white" type="tel" name="phone" placeholder="Phone" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="mb-4"><textarea class="form-control bg-white" rows="9" name="message"
+              placeholder="Enter your descriptions here..." required="required"></textarea></div>
+            <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
+            <button class="btn btn-md-lg bg-primary" type="Submit"> <span class="color-white fw-600">Send
+              Now</span></button>
+          </div>
+          </form>
+        </div>
+        </div>
           </div>
         </div><!-- end of .container-->
       </section><!-- <section> close ============================-->
