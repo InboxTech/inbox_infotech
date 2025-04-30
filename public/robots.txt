@@ -1,0 +1,13 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-Mobile
+Disallow:
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /login/
+Disallow: /forgot_password/
+Crawl-delay: 5
+
+Sitemap: https://inboxtechs.com/sitemap.xml
