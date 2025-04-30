@@ -22,7 +22,7 @@
                 <ol class="breadcrumb fs-1 ps-0 fw-bold">
                   <li class="breadcrumb-item"><a class="text-color" href="{{url('/')}}">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page"><a class="text-color" href="{{url('/careers')}}">Career</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">{{$servicedetails->position}}</li>
+                  <li class="breadcrumb-item active text-color" aria-current="page">{{$servicedetails->position}}</li>
                 </ol>
               </div>
             </div>
@@ -96,7 +96,7 @@
 					</p>
 				</div>
 			</div>
-			<?php $new = str_replace(' ', '_', $servicedetails->position); ?>
+			<?php $new = str_replace([' ', '/'], '_', $servicedetails->position); ?>
 			<div class="card-footer">
 				<a class="btn btn-warning mt-3 me-3" href="{{url('/careers/apply')}}/{{$new}}/{{$servicedetails->id}}">Apply</a>
 				<a class="btn btn-warning mt-3" href="{{url('/careers')}}">Back</a>
