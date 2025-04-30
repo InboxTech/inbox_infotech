@@ -32,7 +32,7 @@
           </li>
 			    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">Voksen (AI Bot)</a></li>
+              <li><a class="dropdown-item" href="{{url('/products/tuno')}}" role="button">Tuno (AI Bot)</a></li>
 				        @foreach($myproducts as $mp)
                   {{-- @if($ms->slug == 'voksen')
                     <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">{{$ms->title}}</a></li>
