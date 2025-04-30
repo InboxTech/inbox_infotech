@@ -4,6 +4,8 @@
 /node_modules
 /public/hot
 /public/storage
+/public/storage1
+/public/storage2
 /storage/*
 .key
 /vendor

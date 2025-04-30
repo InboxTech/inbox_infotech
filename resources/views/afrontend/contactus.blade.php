@@ -118,7 +118,7 @@
           <div class="col-auto"><span class="fas fa-phone-alt" data-fa-transform="shrink-3"></span><a
             class="contact-link" href="tel:+1-408-641-3739"> +1-408-641-3739</a></div>
           <div class="col-auto"><span class="far fa-envelope" data-fa-transform="shrink-3"></span><a
-            class="contact-link" href="email:info@Inbox-infotech.com"> info@Inbox-infotech.com
+            class="contact-link" href="email:info@Inbox-infotech.com"> social@Inbox-infotech.com
             </a></div>
           <div class="col-auto"><span class="far fa-envelope" data-fa-transform="shrink-3"></span><a
             class="contact-link" href="email:hr@Inbox-infotech.com"> hr@Inbox-infotech.com</a></div>
