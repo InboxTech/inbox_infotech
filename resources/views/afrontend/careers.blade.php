@@ -14,13 +14,13 @@
     <!--/.bg-holder-->
     <div class="container">
       <div class="row pt-6" data-inertia='{"weight":1.5}'>
-        <div class="col-md-8 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+        <div class="col-md-8 text-color" data-zanim-timeline="{}" data-zanim-trigger="scroll">
           <div class="overflow-hidden">
-            <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Careers</h1>
+            <h1 class="text-color fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Careers</h1>
             <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
               <ol class="breadcrumb fs-1 ps-0 fw-bold">
-                <li class="breadcrumb-item"><a class="text-white" href="{{url('/')}}">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Careers</li>
+                <li class="breadcrumb-item"><a class="text-color" href="{{url('/')}}">Home</a></li>
+                <li class="breadcrumb-item text-color active" aria-current="page">Careers</li>
               </ol>
             </div>
           </div>
@@ -110,7 +110,8 @@
       <div class="container">
         <div class="row g-4">
           @foreach($careers as $data)
-            <?php $new = str_replace(' ', '_', $data->position); ?>
+          <?php $new = str_replace([' ', '/'], '_', $data->position);?>
+          
             <div class="col-md-6 col-lg-4">
               <div class="card shadow" style="height: 100%">
                 {{-- <img class="card-img-top" src="{{ asset('storage/media/')}}/{{$data->image}}" alt="Inbox Infotech" /> --}}
@@ -130,7 +131,7 @@
                 </div>
                 <div class="overflow-hidden card-footer pt-2" style="padding: 1.8rem ">
                   <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'>
-                      <a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">Apply Now
+                    <a class="d-flex align-items-center" href="{{url('careers')}}/{{$new}}/{{$data->id}}">Apply Now
                           <div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'>
                               <span class="d-inline-block fw-medium">&xrarr;</span>
                           </div>

@@ -4,8 +4,10 @@
 /node_modules
 /public/hot
 /public/storage
+<<<<<<< HEAD
 /public/storage1
 /public/storage2
+public/storage-30-04
 /storage/*
 .key
 /vendor

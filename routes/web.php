@@ -210,7 +210,7 @@ Route::get('/redirect',[UserController::class,'index']);
 Route::get('/',[FrontController::class,'index']);
 Route::get('/about-us',[FrontController::class,'aboutus']);
 Route::get('/products',[FrontController::class,'products']);
-Route::get('products/voksen',[FrontController::class,'voksen']);
+Route::get('products/tuno',[FrontController::class,'tuno']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);
