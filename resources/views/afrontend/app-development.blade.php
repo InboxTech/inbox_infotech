@@ -8,6 +8,9 @@
 @section('seo_description', "$s2")
 @section('seo_keyword', "$s3")
 @section('seo_canonical', "$s4")
+
+
+@section('container')
 <style>
   /* .bg-holder{
     position: relative;
@@ -27,154 +30,245 @@
     background-image: url({{asset('storage/media/112673532.webp')}});
   } */
 </style>
-
-@section('container')
   <main class="main" id="top">
     <div class="preloader" id="preloader">
       <div class="loader">
         <div class="line-scale">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
         </div>
       </div>
     </div>
     
     <section class="py-0">
-      <div class="swiper theme-slider min-vh-100"
-        data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
-        <div class="swiper-wrapper">
-        <div class="swiper-slide" data-zanim-timeline="{}">
-          <div class="bg-holder" style="background-image:url({{asset('storage/media/1214549853.jpg')}});"></div>
-          <!--/.bg-holder-->
-          <div class="container">
-            <div class="row min-vh-100 py-8 align-items-center " >
-              <div class="col-sm-8 col-lg-8 px-5 px-sm-3" >
-                <div class="overflow-hidden">
-                  <p class="fs-4 fs-md-5 lh-1 text-white">Custom
-                    <span  style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;"> Mobile App Development </span>
-                    Company
-                  </p>
-                </div>
-                <div class="overflow-hidden">
-                  <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-white">
-                    Connecting top talent with the right opportunities – tailored recruitment and staffing solutions for your business success.
-                  </p>
-                </div>
-                <div class="overflow-hidden">
-                  <div><a class="btn btn-primary me-3 mt-3"
-                    href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a
-                    class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span
-                    class="fas fa-chevron-right ms-2"></span></a></div>
-                </div>
-              </div>
-            </div>
+    <div class="swiper theme-slider min-vh-100"
+      data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
+      <div class="swiper-wrapper">
+      <div class="swiper-slide" data-zanim-timeline="{}">
+        <div class="bg-holder" style="background-image:url({{asset('storage/media/1214549853.jpg')}});"></div>
+        <!--/.bg-holder-->
+        <div class="container">
+        <div class="row min-vh-100 py-8 align-items-center justify-content-center" data-inertia='{"weight":1.5}'>
+          <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
+          style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
+          <div class="overflow-hidden">
+            <p class="fs-4 fs-md-5 lh-1 text-white">Custom
+              <span  style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;"> Mobile App Development </span>
+              Company
+            </p>
           </div>
-          <div></div>
+          <div class="overflow-hidden">
+            <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-white">
+              Connecting top talent with the right opportunities – tailored recruitment and staffing solutions for your business success.
+            </p>
+          </div>
+          <div class="overflow-hidden">
+            <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
+              href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a
+              class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span
+              class="fas fa-chevron-right ms-2"></span></a></div>
+          </div>
+          </div>
+        </div>
         </div>
       </div>
+
+      </div>
       <div class="swiper-nav">
-        <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
-        <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
+      <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
+      <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
       </div>
     </div>
-  </section>
+    </section>
 
     <div class="container">
     <!-- ============================================-->
 
-    <!-----------------------------------  client start------------------------------------------------->
-      <section>
-        <div class="">
-          <div class="row justify-content-center">
-            <h3 class="col-9 text-center">Some of The Contributors Who Made Us What We Are Today.</h3>
-          </div>
-          <div class="row">
+    <!-----------------------------------  client swiper start------------------------------------------------->
+    <section>
+      <div class="client">
 
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1665116922.png')}}" class="img-fluid">
+      <div class="swiper myClientSwiper">
+        <div class="swiper-wrapper">
 
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1665117520.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1665117298.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1673940283.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1745238697.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1745235052.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1745238602.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1673943640.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1673943414.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/1665117275.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/7.png')}}" class="img-fluid">
-
-            </div>
-            <div class="col-lg-2">
-              <img src="{{asset('storage/media/8.png')}}" class="img-fluid">
-
-            </div>
-            {{-- <div class="swiper-pagination"></div> --}}
-          </div>
-        </div>
-      </section>
-
-    <!-----------------------------------  client end------------------------------------------------->
-
-    <!-- <section> begin ============================-->
-    <section class="bg-white" style="padding-top:50px;">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-12">
-          <h1 class="" style="font-size:3.1573345183rem; font-weight: 700;">Top App Development Company Delivering Robust Applications</h1>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1665116922.png')}}" class="img-fluid">
 
         </div>
-        <div class="col-lg-6 ">
-          <p>We have been recognized as a top mobile application development company as we have made sure to deliver the most innovative, scalable, and feature-rich app solutions for global business. Our mobile app developers simplify the offering of mobile applications by choosing the most suitable app development tech stacks and integrating third-party APIs that can guarantee flawless user experience for your target audience.</p>
-          
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1665117520.png')}}" class="img-fluid">
+
         </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1665117298.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1673940283.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1745238697.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1745235052.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1745238602.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1673943640.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1673943414.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/1665117275.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/7.png')}}" class="img-fluid">
+
+        </div>
+        <div class="swiper-slide">
+          <img src="{{asset('storage/media/8.png')}}" class="img-fluid">
+
+        </div>
+        </div>
+        {{-- <div class="swiper-pagination"></div> --}}
+      </div>
+
       </div>
     </section>
-    <!-- <section> close ============================-->
-      <!-- ============================================-->
-    
-    </div>
+
+    <!-----------------------------------  client swiper end------------------------------------------------->
+
+
+
+    <!-- <section> begin ============================-->
+
+    <section class="bg-white" style="padding-top:50px;">
+      <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-12">
+        <h1 class="my-5" style="font-size:3.1573345183rem; font-weight: 700;">Recruitment and Staffing</h1>
+
+      </div>
+      <div class="col-lg-6 ">
+        <p>With 10+ years of proven expertise in the IT and services sector, our highly skilled and passionate
+        developers bring deep knowledge across various technologies including mobile apps, web platforms,
+        Blockchain, AI, and beyond. We are equipped to handle all your software development needs with precision and
+        quality.</p>
+        <p>At Inbox Infotech, you have the freedom to hire top-tier developers from India on a schedule that fits your
+        project—hourly, part-time, or full-time. Our dedicated professionals are here to support startups,
+        entrepreneurs, and enterprises in building robust web and mobile applications from the ground up.</p>
+        <p>Choosing to hire developers from India allows you to quickly expand your development team, reduce overhead
+        costs, and maintain full control over your project’s lifecycle with ease and efficiency.</p>
+      </div>
+      </div>
+      {{-- introduction --}}
+
+
+
+
       <!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
     <!------------------------- our hiring service start --------------------------------->
 
-    <section class="bg-primary">
-      <div class="container my-4">
-        <div class="row">
-          <div class="col-12 col-md-12 col-xl-8 my-4">
-            <p class="fs-3 text-white">The Development Expertise of Our team of Mobile App Developers</p>
+    <section>
+      <div class="row">
+        <div class="col-12 col-md-12 col-xl-5">
+          <div class="sticky-top">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam necessitatibus similique! Sed dolorem perferendis vero fugit, optio veniam eos, aliquam necessitatibus itaque incidunt fuga dignissimos in! Vel, totam ut?</h3>
           </div>
-          <div class="col-12 col-md-12 col-xl-8"></div>
+        </div>
+        <div class="col-12 col-md-12 col-xl-7">
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
+          <div class="card">
+            <div class="d-flex mb-3">
+              <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid">
+              <h5 class="text-color">Step One: App Development Consultation </h5>
+            </div>
+            <p class="text-black mb-0">Our app development consultation service is designed to help you navigate the complex landscape of mobile app development. We provide expert guidance on everything from initial concept and design to technology selection and project management.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -183,7 +277,6 @@
 
 
 
-    <div class="container">
 
     <section>
       <!-- <div class="container"> -->
@@ -491,6 +584,38 @@
       </div>
       </div><!-- end of .container-->
     </section><!-- <section> close ============================-->
+
+    <section class="testimonial">
+      <div class="container">
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+        {{-- @foreach($testimonials as $testimonialslist)
+      <div class="swiper-slide d-flex" style="height: auto">
+        <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
+        <div class="row align-items-center mb-3">
+        <div class="col-3">
+        <img class="rounded-3 mx-auto img-fluid"
+          src="{{asset('storage/media/' . $testimonialslist->photo)}}" alt="Member" />
+        </div>
+        <div class="col-9">
+        <h6 class="fs-0 mb-1 mt-4 text-color">{{$testimonialslist->name}}</h6>
+        <p class="mb-0 text-500">{{$testimonialslist->title}}</p>
+        </div>
+        </div>
+        <div class="flex-grow-1">
+        <p class="lead">{!! $testimonialslist->details !!}</p>
+        </div>
+        </div>
+      </div>
+    @endforeach --}}
+        </div>
+        <div class="swiper-nav">
+        <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      </div><!-- end of .container-->
+    </section><!-- <section> testimonial close ============================-->
 
     <!-- ============================================-->
 
