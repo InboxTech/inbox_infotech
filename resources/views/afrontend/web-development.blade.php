@@ -1116,92 +1116,76 @@
         </div>
   
         <div class="my-5 p-5">
-          <!-- <div class="swiper myWebProcessSwiper text-center ">
-            <div class="swiper-wrapper"> -->
-              <!-- <div class="swiper-slide  h-100"> -->
-                <div class="shadow p-4 h-100">
-                  <div>
-                    <h4> Discovery & Requirement Gathering </h4>
-                  </div>
-                  <div>
-                    <p> TWe gather information about the website's content, target audience, and content needs to define the website's structure, features, and overall direction. <p>
-                  </div>
-                </div>
-              <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-                <div class=" shadow p-4 h-100">
-                  <div>
-                    <h4> Planning & Proposal </h4>
-                  </div>
-                  <div>
-                    <p> We outline the website structure, features, and technology stack, then provide a detailed proposal with project scope, timeline, and cost for approval. </p>
-                  </div>
-                </div>
-              <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-                <div class=" shadow p-4 h-100">
-                  <div>
-                    <h4> Design (UI/UX) </h4>
-                  </div>
-                  <div>
-                    <p> We create user-friendly, responsive designs that reflect the company’s brand, including layout mockups and visual elements to ensure an engaging user experience. </p>
-                  </div>
-                </div>
-              <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-                <div class=" shadow p-4 h-100">
-                  <div>
-                    <h4> Development </h4>
-                  </div>
-                  <div>
-                    <p> We build the website by transforming designs into functional code, incorporating features like content management systems (CMS), forms, and databases, ensuring optimal performance and security.</p>
-                  </div>
-                </div>
-              <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-                <div class=" shadow p-4 h-100">
-                  <div>
-                    <h4> Testing & Quality Assurance</h4>
-                  </div>
-                  <div>
-                    <p> We thoroughly test the website across different devices and browsers to ensure all features work correctly, perform efficiently, and meet security standards before launch. </p>
-                  </div>
-                </div>
-              <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-                <div class=" shadow p-4 h-100">
-                  <div>
-                    <h4> Deployment </h4>
-                  </div>
-                  <div>
-                    <p> We prepare the website for launch by setting up hosting, configuring the domain, and transferring files to the live server, ensuring everything is optimized and functioning as expected. </p>
-                  </div>
-                </div>
-              <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-                <div class=" shadow p-4 h-100">
-                  <div>
-                    <h4>Training & Handover </h4>
-                  </div>
-                  <div>
-                    <p> We provide training on how to manage and update the website, along with documentation, ensuring the client is equipped to handle day-to-day operations.
-                    </p>
-                  </div>
-                </div>
-            <!-- </div> -->
-              <!-- <div class="swiper-slide h-100"> -->
-              <div class=" shadow p-4 h-100">
-                <div>
-                  <h4>  Maintenance & Support </h4>
-                </div>
-                <div>
-                  <p> We offer ongoing support to ensure the website runs smoothly, providing updates, security patches, performance monitoring, and troubleshooting as needed. </p>
-                </div>
-              <!-- </div>   -->
-             <!-- </div> -->
+          
+        <div class="position-relative process-after">
+          <div class="shadow position-relative w-50 my-4 p-4" style="left: -5%;">
+            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 1 </div>
+            <div>
+              <h4> Discovery & Requirement Gathering </h4>
+              <p> TWe gather information about the website's content, target audience, and content needs to define the website's structure, features, and overall direction. <p>
             </div>
-            <!-- <div class="swiper-pagination"></div> -->
-          <!-- </div> -->
+          </div>
+       
+          <div class=" shadow position-relative w-50 my-4 p-4" style="left: 55%;">
+            <div class="web-process-no" style="position: absolute; left: -7%;top: 40%;"> 2 </div>
+            <div>
+              <h4> Planning & Proposal </h4>
+              <p> We outline the website structure, features, and technology stack, then provide a detailed proposal with project scope, timeline, and cost for approval. </p>
+            </div>
+          </div>
+       
+          <div class=" shadow position-relative w-50 my-4 p-4" style="left: -5%;">
+            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 3 </div>
+            <div>
+              <h4> Design (UI/UX) </h4>
+              <p> We create user-friendly, responsive designs that reflect the company’s brand, including layout mockups and visual elements to ensure an engaging user experience. </p>
+            </div>
+          </div>
+       
+          <div class="shadow position-relative w-50 my-4 p-4" style="left: 55%;">
+            <div class="web-process-no" style="position: absolute; left: -7%;top: 40%;"> 4 </div>
+            <div>
+              <h4> Development </h4>
+              <p> We build the website by transforming designs into functional code, incorporating features like content management systems (CMS), forms, and databases, ensuring optimal performance and security.</p>
+            </div>
+          </div>
+       
+          <div class=" shadow position-relative w-50 my-4 p-4" style="left: -5%;">
+            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 5 </div>
+            <div>
+              <h4> Testing & Quality Assurance</h4>
+              <p> We thoroughly test the website across different devices and browsers to ensure all features work correctly, perform efficiently, and meet security standards before launch. </p>
+            </div>
+          </div>
+       
+          <div class=" shadow position-relative w-50 my-4 p-4" style="left: 55%;">
+            <div class="web-process-no"style="position: absolute; left: -7%;top: 40%;"> 6 </div>
+            <div>
+              <h4> Deployment </h4>
+              <p> We prepare the website for launch by setting up hosting, configuring the domain, and transferring files to the live server, ensuring everything is optimized and functioning as expected. </p>
+            </div>
+          </div>
+       
+          <div class=" shadow position-relative w-50 my-4 p-4" style="left: -5%;">
+            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 7 </div>
+            <div>
+              <h4>Training & Handover </h4>
+              <p> We provide training on how to manage and update the website, along with documentation, ensuring the client is equipped to handle day-to-day operations.
+              </p>
+            </div>
+          </div>
+     
+        <div class=" shadow position-relative w-50 my-4 p-4" style="left: 55%;">
+          <div class="web-process-no" style="position: absolute; left: -7%;top: 40%;"> 8 </div>
+          <div>
+            <h4>  Maintenance & Support </h4>
+            <p> We offer ongoing support to ensure the website runs smoothly, providing updates, security patches, performance monitoring, and troubleshooting as needed. </p>
+          </div>
+       
+      </div>
+     
+
+        </div>
         </div>
 
       </div>
