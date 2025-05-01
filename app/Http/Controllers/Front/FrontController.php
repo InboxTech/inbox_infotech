@@ -75,10 +75,10 @@ class FrontController extends Controller
     }
 
     // recruitment and staffing
-    public function webDevelopment()
+    public function softwareDevelopment()
     {
         // $arr['testimonials'] = DB::table('testimonials')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.web-development');
+        return view('afrontend.software-development');
     }
     public function appDevelopment()
     {

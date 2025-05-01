@@ -215,28 +215,28 @@
           <div class="container mx-auto">
 
           <div class="row justify-content-center align-items-center ">
-            <div class="col-lg-3 col-md-6">
-              <div class="my-5">
-                <h4 class="fs-3 fs-lg-5 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 </h4>
-                <h6 class="fs-0 text-white pb-lg-5" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
+            <div class="col-lg-3 col-md-6 ">
+              <div class="my-5 progress-no">
+                <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250</h4>
+                <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
               </div>
-              <div class="my-5">
-                <h4 class="fs-3 fs-lg-5 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 </h4>
-                <h6 class="fs-0 text-white " data-zanim-xs='{"delay":0.2}'>Happy Customers Worldwide</h6>
+              <div class="my-5 progress-no">
+                <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500</h4>
+                <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Happy Customers Worldwide</h6>
               </div>
             </div>
             <div class="col-lg-6 d-lg-block d-none text-center">
             <img src="{{asset('assets/inbox/Groupteam.png')}}" class="img-fluid">
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="my-5 ">
-              <h4 class="fs-3 fs-lg-5 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 </h4>
-                    <h6 class="fs-0 text-white pb-lg-5" data-zanim-xs='{"delay":0.2}'>Years of
+            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-lg-end py-5">
+              <div class="mb-5 progress-no ">
+              <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10</h4>
+                    <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Years of
                       Experience</h6>
               </div>
-              <div class="my-5">
-              <h4 class="fs-3 fs-lg-5 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 </h4>
-                    <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Projects Delivered Successfully</h6>
+              <div class=" progress-no">
+              <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550</h4>
+                    <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Projects Delivered Successfully</h6>
               </div>
             </div>
           </div>
@@ -1542,6 +1542,7 @@
       <p>WHAT CLIENT SAYS ABOUT US</p>
       <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Testimonials</h6>
       <hr class="short"
+
         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
         data-zanim-trigger="scroll" />
       </div>

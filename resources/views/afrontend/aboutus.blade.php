@@ -562,9 +562,9 @@
           </div>
 
     <div>
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="h-100 p-3 bg-primary">
+      <div class="row">
+        <div class="col-lg-5 mt-4">
+          <div class=" p-3 bg-primary">
           <!-- <div class=" "> -->
         <h3 class="mb-3 text-white">Our Certified Team</h3>
         <p class="text-white">Transparency is the hallmark of our process for hiring skilled Indian developers. With
@@ -574,11 +574,11 @@
       <!-- </div> -->
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-7">
           <div class="h-100">
           <div class="row">
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="h-100 shadow px-3 py-4 px-lg-4">
+              <div class="h-100 shadow ">
                 <div class="w-50 mx-auto">
                   <img src="{{asset('assets/img/icons/svg_icons/Creative_Support.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                 </div>
@@ -591,7 +591,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="h-100 shadow px-3 py-4 px-lg-4">
+              <div class="h-100 shadow ">
                 <div class="w-50 mx-auto">
                   <img src="{{asset('assets/img/icons/svg_icons/Creating_Experiences.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                 </div>
@@ -604,7 +604,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="h-100 shadow px-3 py-4 px-lg-4">
+              <div class="h-100 shadow ">
                 <div class="w-50 mx-auto">
                   <img src="{{asset('assets/img/icons/svg_icons/Product_Consulting.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                 </div>
@@ -617,7 +617,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="h-100 shadow px-3 py-4 px-lg-4">
+              <div class="h-100 shadow ">
                 <div class="w-50 mx-auto">
                   <img src="{{asset('assets/img/icons/svg_icons/Business_Boosting.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                 </div>
@@ -630,7 +630,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="h-100 shadow px-3 py-4 px-lg-4">
+              <div class="h-100 shadow ">
                 <div class="w-50 mx-auto">
                   <img src="{{asset('assets/img/icons/svg_icons/Strategic_Approach.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                 </div>
@@ -643,7 +643,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="h-100 shadow px-3 py-4 px-lg-4">
+              <div class="h-100 shadow ">
                 <div class="w-50 mx-auto">
                   <img src="{{asset('assets/img/icons/svg_icons/Logistic_Consulting.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                 </div>

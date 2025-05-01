@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Web Development')
+@section('page_title', 'Software Development')
 <?php $s1 = 'index,follow' ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.' ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara' ?>
@@ -37,7 +37,7 @@
                 style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                 <div class="overflow-hidden">
                   <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                    style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;"> Web
+                    style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;"> Software
                     Development </p>
                 </div>
                 <div class="overflow-hidden">
@@ -66,8 +66,6 @@
   </section>
 
   <div class="container">
-
-
     <section>
       <div class="text-center my-5" data-aos="fade-up" data-aos-duration="1000">
         <h3> Comprehensive End-to-End Web Development Services </h3>
@@ -80,10 +78,10 @@
       <div>
         <div class="row" data-aos="fade-up" data-aos-duration="1000">
           <div class="col-lg-4 my-3">
-            <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+            <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                <img src="{{asset('assets/img/icons/svg_icons/Custom_Web_App_Development.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Custom Web App Development </h5>
@@ -99,9 +97,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/Enterprise_Web_Application.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5>Enterprise
@@ -117,9 +115,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/UI_UX_Moder.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> UI/UX Modernization </h5>
@@ -134,9 +132,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/Fullstack_Development_Services.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Fullstack Development Services </h5>
@@ -151,9 +149,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/Single_Page_Applications.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Single Page Applications
@@ -169,9 +167,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/progressive_web_app_development.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Progressive Web App Development(PWA) </h5>
@@ -186,9 +184,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/content_management_system.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Content Management System(CMS) </h5>
@@ -202,9 +200,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/Integration_Upgradation_Migration.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Integration, Upgradation & Migration </h5>
@@ -219,9 +217,9 @@
           </div>
           <div class="col-lg-4 my-3">
             <div class="h-100 p-3" style="border: 1px solid #00406d;border-radius: 20px;">
-              <div class="row">
+              <div class="row align-items-center">
                 <div class="col-3">
-                  <img src="" alt="icon">
+                  <img src="{{asset('assets/img/icons/svg_icons/website_maintenance_support.png')}}" class="img-fluid">
                 </div>
                 <div class="col-9">
                   <h5> Website Support & Maintenance </h5>
@@ -238,10 +236,160 @@
       </div>
     </section>
 
+
+     <!------------------------------------- web development process start  ----------------------------------->
+
+     <section class="web-dev-process">
+      <div class="container">
+        <div class="text-center my-5" data-aos="fade-up" data-aos-duration="1000">
+          <h3> Web Development Process </h3>
+          <p> We collaborate with the client to understand their business goals, target audience, and required website features—such as services, contact forms, team profiles, and branding. This helps us define the project scope and ensure the site meets both functional and marketing needs.
+          </p>
+        </div>
+  
+        <div class="my-5 p-5">
+          
+        <div class="process-after">
+          <div class="web-process web-process-left shadow  my-4">
+            <div class="web-process-no" style=""> 1 </div>
+            <div>
+              <h4> Discovery & Requirement Gathering </h4>
+              <p> TWe gather information about the website's content, target audience, and content needs to define the website's structure, features, and overall direction. <p>
+            </div>
+            <div class="left-container-arrow"></div>
+          </div>
+       
+          <div class="web-process web-process-right shadow my-4 ">
+            <div class="web-process-no" > 2 </div>
+            <div>
+              <h4> Planning & Proposal </h4>
+              <p> We outline the website structure, features, and technology stack, then provide a detailed proposal with project scope, timeline, and cost for approval. </p>
+            </div>
+            <div class="right-container-arrow"></div>
+
+          </div>
+       
+          <div class=" web-process web-process-left shadow  my-4 ">
+            <div class="web-process-no"> 3 </div>
+            <div>
+              <h4> Design (UI/UX) </h4>
+              <p> We create user-friendly, responsive designs that reflect the company’s brand, including layout mockups and visual elements to ensure an engaging user experience. </p>
+            </div>
+            <div class="left-container-arrow"></div>
+
+          </div>
+       
+          <div class="web-process web-process-right shadow my-4 ">
+            <div class="web-process-no" > 4 </div>
+            <div>
+              <h4> Development </h4>
+              <p> We build the website by transforming designs into functional code, incorporating features like content management systems (CMS), forms, and databases, ensuring optimal performance and security.</p>
+            </div>
+            <div class="right-container-arrow"></div>
+
+          </div>
+       
+          <div class="web-process web-process-left shadow  my-4">
+            <div class="web-process-no" > 5 </div>
+            <div>
+              <h4> Testing & Quality Assurance</h4>
+              <p> We thoroughly test the website across different devices and browsers to ensure all features work correctly, perform efficiently, and meet security standards before launch. </p>
+            </div>
+            <div class="left-container-arrow"></div>
+
+          </div>
+       
+          <div class="web-process web-process-right shadow  my-4 ">
+            <div class="web-process-no"> 6 </div>
+            <div>
+              <h4> Deployment </h4>
+              <p> We prepare the website for launch by setting up hosting, configuring the domain, and transferring files to the live server, ensuring everything is optimized and functioning as expected. </p>
+            </div>
+            <div class="right-container-arrow"></div>
+
+          </div>
+       
+          <div class="web-process web-process-left shadow  my-4">
+            <div class="web-process-no"> 7 </div>
+            <div>
+              <h4>Training & Handover </h4>
+              <p> We provide training on how to manage and update the website, along with documentation, ensuring the client is equipped to handle day-to-day operations.
+              </p>
+            </div>
+            <div class="left-container-arrow"></div>
+
+          </div>
+     
+        <div class="web-process web-process-right shadow my-4 ">
+          <div class="web-process-no" style=""> 8 </div>
+          <div>
+            <h4>  Maintenance & Support </h4>
+            <p> We offer ongoing support to ensure the website runs smoothly, providing updates, security patches, performance monitoring, and troubleshooting as needed. </p>
+          </div>
+          <div class="right-container-arrow"></div>
+       
+      </div>
+     
+
+        </div>
+        </div>
+
+      </div>
+    </section>
+    </div>
+    <!------------------------------------- web development process end  ----------------------------------->
+
+
+ <!-- ============================================-->
+    <!-- <section> rquest a callback begin ============================-->
+      <section class="bg-primary my-5">
+      <div class="container-fluid">
+
+        <div class="container">
+          <div class="row align-items-center text-white">
+          <div class="col-lg-4">
+            <div class="border border-2 border-white p-4 py-lg-5 text-center rounded-3" data-zanim-timeline="{}"
+            data-zanim-trigger="scroll">
+            <div class="overflow-hidden">
+              <h6 class="text-white" data-zanim-xs='{"delay":0}'
+              style="font-size:1.776889rem;letter-spacing: -0.05rem;">Request a call back</h6>
+            </div>
+            <div class="overflow-hidden">
+              <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to one of our
+              advisers over the phone? Just submit your details and we’ll be in touch shortly. You can also email us
+              if you would prefer.</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0">
+            <h6 class="text-white" style="font-size:1.333rem;letter-spacing: -0.05rem;">I would like to discuss:</h6>
+            <form action="{{url('contactus/form/submit')}}" method="post">
+            {{ csrf_field() }}
+            <div class="row">
+              <div class="col-6"><input class="form-control" type="text" name="name" placeholder="Your Name"
+                aria-label="Your Name" required /></div>
+              <div class="col-6"><input class="form-control" type="text" name="email" placeholder="Email Id"
+                aria-label="Email Id" required /></div>
+              <div class="col-6 mt-4"><input class="form-control" type="text" name="message" placeholder="Subject"
+                aria-label="Subject" required /></div>
+              <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
+              <div class="col-6 mt-4"><button class="btn btn-primary w-100" type="submit">Submit</button></div>
+            </div>
+            </form>
+          </div>
+          </div>
+        </div><!-- end of .container-->
+      </div>
+    </section>
+    <!-- <section> rquest a callback close ============================-->
+    <!-- ============================================-->
+
+
+
+    <div class="container">
     <!-- ============================================-->
     <!-- <section> Our Tech arsenal  begin ============================-->
     <!-- ============================================-->
-
     <section class="my-5 tech-arsenal">
       <div class="container">
         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
@@ -1104,94 +1252,121 @@
     <!-- ============================================-->
 
 
+   
+    <!------------------------------  things you know start ------------------------->
+	  <section class="my-5">
+        <div class="container">
+          <div class="text-center">
+            <h3 class="fs-2 fs-md-3">Things You Get</h3>
+            <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
+          </div>
 
-    <!------------------------------------- web development process start  ----------------------------------->
-
-    <section class="web-dev-process">
-      <div class="container">
-        <div class="text-center my-5" data-aos="fade-up" data-aos-duration="1000">
-          <h3> Web Development Process </h3>
-          <p> We collaborate with the client to understand their business goals, target audience, and required website features—such as services, contact forms, team profiles, and branding. This helps us define the project scope and ensure the site meets both functional and marketing needs.
-          </p>
+    <div>
+      <div class="row">
+        <div class="col-lg-5 mt-4">
+          <div class=" p-3 bg-primary">
+          <!-- <div class=" "> -->
+        <h3 class="mb-3 text-white">Our Certified Team</h3>
+        <p class="text-white">Transparency is the hallmark of our process for hiring skilled Indian developers. With
+        over a decade of experience in the market, we can ensure the quality of work and results for your project.
+        Our dedicated developers are top performers, and by onboarding them, you can complete your project on time
+        and within budget.</p>
+      <!-- </div> -->
+          </div>
         </div>
-  
-        <div class="my-5 p-5">
+        <div class="col-lg-7">
+          <div class="h-100">
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="h-100 shadow p-3">
+                <div class="w-50 mx-auto">
+                  <img src="{{asset('assets/img/icons/svg_icons/Creative_Support.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                </div>
+                <div class="text-center">
+                  <h5 class="" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
+                </div>
+                <!-- <div class="">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="h-100 shadow p-3">
+                <div class="w-50 mx-auto">
+                  <img src="{{asset('assets/img/icons/svg_icons/Creating_Experiences.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                </div>
+                <div class="text-center">
+                  <h5 class="" data-zanim-xs='{"delay":0.1}'>Creating Experiences</h5>
+                </div>
+                <!-- <div class="">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="h-100 shadow p-3">
+                <div class="w-50 mx-auto">
+                  <img src="{{asset('assets/img/icons/svg_icons/Product_Consulting.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                </div>
+                <div class="text-center">
+                  <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
+                </div>
+                <!-- <div class="">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="h-100 shadow p-3">
+                <div class="w-50 mx-auto">
+                  <img src="{{asset('assets/img/icons/svg_icons/Business_Boosting.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                </div>
+                <div class="text-center">
+                  <h5 class="" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
+                </div>
+                <!-- <div class="">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="h-100 shadow p-3">
+                <div class="w-50 mx-auto">
+                  <img src="{{asset('assets/img/icons/svg_icons/Strategic_Approach.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                </div>
+                <div class="text-center">
+                  <h5 class="" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
+                </div>
+                <!-- <div class="">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="h-100 shadow p-3">
+                <div class="w-50 mx-auto">
+                  <img src="{{asset('assets/img/icons/svg_icons/Logistic_Consulting.svg')}}" alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                </div>
+                <div class="text-center">
+                  <h5 class="" data-zanim-xs='{"delay":0.1}'>Logistic Consulting</h5>
+                </div>
+                <!-- <div class="">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard hitting answers and focus hard on best opportunities.</p>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
           
-        <div class="position-relative process-after">
-          <div class="shadow position-relative w-50 my-4 p-4" style="left: -5%;">
-            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 1 </div>
-            <div>
-              <h4> Discovery & Requirement Gathering </h4>
-              <p> TWe gather information about the website's content, target audience, and content needs to define the website's structure, features, and overall direction. <p>
-            </div>
-          </div>
-       
-          <div class=" shadow position-relative w-50 my-4 p-4" style="left: 55%;">
-            <div class="web-process-no" style="position: absolute; left: -7%;top: 40%;"> 2 </div>
-            <div>
-              <h4> Planning & Proposal </h4>
-              <p> We outline the website structure, features, and technology stack, then provide a detailed proposal with project scope, timeline, and cost for approval. </p>
-            </div>
-          </div>
-       
-          <div class=" shadow position-relative w-50 my-4 p-4" style="left: -5%;">
-            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 3 </div>
-            <div>
-              <h4> Design (UI/UX) </h4>
-              <p> We create user-friendly, responsive designs that reflect the company’s brand, including layout mockups and visual elements to ensure an engaging user experience. </p>
-            </div>
-          </div>
-       
-          <div class="shadow position-relative w-50 my-4 p-4" style="left: 55%;">
-            <div class="web-process-no" style="position: absolute; left: -7%;top: 40%;"> 4 </div>
-            <div>
-              <h4> Development </h4>
-              <p> We build the website by transforming designs into functional code, incorporating features like content management systems (CMS), forms, and databases, ensuring optimal performance and security.</p>
-            </div>
-          </div>
-       
-          <div class=" shadow position-relative w-50 my-4 p-4" style="left: -5%;">
-            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 5 </div>
-            <div>
-              <h4> Testing & Quality Assurance</h4>
-              <p> We thoroughly test the website across different devices and browsers to ensure all features work correctly, perform efficiently, and meet security standards before launch. </p>
-            </div>
-          </div>
-       
-          <div class=" shadow position-relative w-50 my-4 p-4" style="left: 55%;">
-            <div class="web-process-no"style="position: absolute; left: -7%;top: 40%;"> 6 </div>
-            <div>
-              <h4> Deployment </h4>
-              <p> We prepare the website for launch by setting up hosting, configuring the domain, and transferring files to the live server, ensuring everything is optimized and functioning as expected. </p>
-            </div>
-          </div>
-       
-          <div class=" shadow position-relative w-50 my-4 p-4" style="left: -5%;">
-            <div class="web-process-no" style="position: absolute; right: -7%;top: 40%;"> 7 </div>
-            <div>
-              <h4>Training & Handover </h4>
-              <p> We provide training on how to manage and update the website, along with documentation, ensuring the client is equipped to handle day-to-day operations.
-              </p>
-            </div>
-          </div>
-     
-        <div class=" shadow position-relative w-50 my-4 p-4" style="left: 55%;">
-          <div class="web-process-no" style="position: absolute; left: -7%;top: 40%;"> 8 </div>
-          <div>
-            <h4>  Maintenance & Support </h4>
-            <p> We offer ongoing support to ensure the website runs smoothly, providing updates, security patches, performance monitoring, and troubleshooting as needed. </p>
-          </div>
-       
-      </div>
-     
-
-        </div>
-        </div>
-
-      </div>
-    </section>
-    <!------------------------------------- web development process end  ----------------------------------->
-
+        </div><!-- end of .container-->
+      </section>
+      <!-- <section> things you know close ============================-->
+</div>
 
   </div>
 </main>

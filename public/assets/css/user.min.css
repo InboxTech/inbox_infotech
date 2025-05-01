@@ -255,42 +255,176 @@ footer a{
   transform: scale(1.05);
   font-weight: 600;
 }
-/* .web-dev-process .swiper {
-  width: 100%;
-  height: 100%;
+.web-dev-process .process-after{
+  position: relative;
 }
-
-.web-dev-process .swiper-slide {
-  height: 100%;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.web-dev-process .web-process-left{
+position: relative;
+width: 50%;
+padding: 25px;
+left: -3%;
 }
-
-.web-dev-process .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+.web-dev-process .web-process-left .web-process-no{
+  position: absolute;
+   right: -9%;
+   top: 25%;
+}
+.web-dev-process .web-process-right{
+  position: relative;
+  width: 50%;
+  padding: 25px;
+  left: 53%;
+  }
+  .web-dev-process .web-process-right .web-process-no{
+    position: absolute;
+     left: -9%;
+     top: 25%;
+  }
 .web-dev-process .web-process-no{
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #00406d;
+  /* border: 1px solid #00406d; */
   border-radius: 100%;
   font-size: 20px;
+  background-color: #00406d;
+  color: white;
+  font-weight: 600;
+  /* z-index: 2; */
 }
-.web-dev-process::after{
+.web-dev-process .process-after::after{
   content: '';
   position: absolute;
-  top: 10%;
+  top: 0%;
   left: 50%;
-  width: 6px;
-  height: 82%;
+  width: 4px;
+  height: 100%;
   background-color: #00406d;
+  z-index: 1;
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline{
+  0%{
+    height: 0%;
+  }
+  100%{
+    height: 100%;
+  }
+}
+.web-dev-process .web-process{
+  opacity: 0;
+  z-index: 2;
+  animation: movedown 6s linear forwards;
+}
+@keyframes movedown{
+  0%{
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@media screen and (max-width: 768px){
+  .web-dev-process .process-after{
+    margin : 50px auto;
+  }
+  .web-dev-process .process-after::after{
+    position: absolute;
+    left: -10%;
+  }
+  .web-dev-process .web-process-left, .web-dev-process .web-process-right{
+    left: 0%;
+    width: 100%;
+    /* padding-left: 80px;
+    padding-right: 25px; */
+  }
+  .web-dev-process .web-process-right,
+  .web-dev-process .web-process-left {
+    left: 0;
+    width: 100%;
+  }
+  .web-process-left .web-process-no,
+.web-process-right .web-process-no {
+  left: -15%;
+  right: auto;
+}
+.web-process-left .left-container-arrow,
+.web-process-right .right-container-arrow {
+  display: block; /* or inline-block if needed */
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+}
+.web-dev-process .web-process:nth-child(1){
+  animation-delay: 0s;
+}
+.web-dev-process .web-process:nth-child(2){
+  animation-delay: 1s;
+}
+.web-dev-process .web-process:nth-child(3){
+  animation-delay: 2s;
+}
+.web-dev-process .web-process:nth-child(4){
+  animation-delay: 3s;
+}
+.web-dev-process .web-process:nth-child(5){
+  animation-delay: 4s;
+}
+.web-dev-process .web-process:nth-child(6){
+  animation-delay: 5s;
+}
+.web-dev-process .web-process:nth-child(7){
+  animation-delay: 6s;
+}
+.web-dev-process .web-process:nth-child(8){
+  animation-delay: 7s;
+}
+.web-dev-process .process-after .left-container-arrow{
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  border-top: 15px solid  transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+  right: -15px;
+  /* box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1); */
+}
+.web-dev-process .process-after .right-container-arrow{
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  border-top: 15px solid  transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid white;
+  left: -15px;
+}
+.progress-no{
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    color: #00406d;
+    transition: all 1s linear;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* z-index: 2; */
+}
+.progress-no:hover{
+  background: linear-gradient(92.62deg, #006ab6, #00406d);
+}
+.progress-no:hover h4, .progress-no:hover h6{
+  color: white!important;
 }
