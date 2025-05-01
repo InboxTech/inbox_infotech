@@ -1,4 +1,4 @@
-<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
+<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold ">
   <div class="container d-none">
     <div class="row align-items-center gx-4">
       <div class="col-auto d-none d-lg-block fs--1"><span class="fas fa-map-marker-alt text-warning me-2" data-fa-transform="grow-3"></span>402- A B C, C Square Building Sarabhai Campus,Vadodara, Gujarat</div>

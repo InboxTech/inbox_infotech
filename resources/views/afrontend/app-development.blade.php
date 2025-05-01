@@ -157,26 +157,10 @@
 
     <section class="bg-white" style="padding-top:50px;">
       <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-12">
-        <h1 class="my-5" style="font-size:3.1573345183rem; font-weight: 700;">Recruitment and Staffing</h1>
-
-      </div>
-      <div class="col-lg-6 ">
-        <p>With 10+ years of proven expertise in the IT and services sector, our highly skilled and passionate
-        developers bring deep knowledge across various technologies including mobile apps, web platforms,
-        Blockchain, AI, and beyond. We are equipped to handle all your software development needs with precision and
-        quality.</p>
-        <p>At Inbox Infotech, you have the freedom to hire top-tier developers from India on a schedule that fits your
-        project—hourly, part-time, or full-time. Our dedicated professionals are here to support startups,
-        entrepreneurs, and enterprises in building robust web and mobile applications from the ground up.</p>
-        <p>Choosing to hire developers from India allows you to quickly expand your development team, reduce overhead
-        costs, and maintain full control over your project’s lifecycle with ease and efficiency.</p>
-      </div>
+                
+      
       </div>
       {{-- introduction --}}
-
-
-
 
       <!-- end of .container-->
     </section><!-- <section> close ============================-->
@@ -184,10 +168,10 @@
 
     <!------------------------- our hiring service start --------------------------------->
 
-    <section>
+    <section class="">
       <div class="row">
         <div class="col-12 col-md-12 col-xl-5">
-          <div class="sticky-top">
+          <div class="sticky-top" style="top: 100px; z-index: 0;">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam necessitatibus similique! Sed dolorem perferendis vero fugit, optio veniam eos, aliquam necessitatibus itaque incidunt fuga dignissimos in! Vel, totam ut?</h3>
           </div>
         </div>

@@ -191,7 +191,7 @@ class FrontController extends Controller
         $dfg = DB::table('carrers')->where('id', $jobid)->get();
         $position = $dfg[0]->position;
         $resume = $image_name;
-        $emails = "aadil@inbox-infotech.com";
+        $emails = "hr@inbox-infotech.com";
         $data = array('name' => $fullname, 'supportno' => $supportno, 'position' => $position, 'resume' => $resume, 'emailid' => $app_emails);
         $subject = "Job Application for post of " . $position;
 
