@@ -404,6 +404,7 @@
                                         <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject"
                                             aria-label="Enter your Descriptions here..."></textarea>
                                     </div>
+                                    <input type="hidden" value="{{ $_SERVER['REMOTE_ADDR'] }}" name="ip">
                                     <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100"
                                             type="submit">Submit</button></div>
                                 </div>

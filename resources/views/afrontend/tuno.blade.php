@@ -61,8 +61,7 @@
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs" style="color: #fff"
-                                            data-zanim-xs='{"delay":0.1}'>AI-Powered Voice Automation for Smarter Customer
-                                            Engagement</p>
+                                            data-zanim-xs='{"delay":0.1}'>Voice. Intelligence. Delivered.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -455,53 +454,86 @@
 
         <!-- ============================================-->
         <!-- <section> begin ============================-->
-        <section class="bg-primary p-5 my-5">
-            <div class="container">
-                <div class="row align-items-center text-white">
-                    <div class="col-lg-4">
-                        <div class="border border-2 border-white p-4 py-lg-5 text-center rounded-3"
-                            data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                            <div class="overflow-hidden">
-                                <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
-                                    one of our advisers over the phone? Just submit your details and we’ll be in touch
-                                    shortly. You can also email us if you would prefer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0 ">
-                        <div class="bg-white rounded-3 p-4 call-back-form">
-                            <h5 class="text-color mb-4">I would like to discuss:</h5>
-                            <form action="{{ url('contactus/form/submit') }}" method="post">
-                                {{ csrf_field() }}
-                                <div class="row">
-                                    <div class="col-md-6 col-12">
-                                        <input class="form-control" type="text" name="name"
-                                            placeholder="Your Name" aria-label="Your Name" />
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <input class="form-control" type="number" name="phone"
-                                            placeholder="Phone Number" aria-label="Phone Number" />
-                                        <input type="hidden" value="{{ $_SERVER['REMOTE_ADDR'] }}" name="ip">
-                                    </div>
-                                    <div class="col-12"><input class="form-control" type="email" name="email"
-                                            placeholder="Email" aria-label="Email" /></div>
-                                    <div class="col-12">
-                                        <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject"
-                                            aria-label="Enter your Descriptions here..."></textarea>
-                                    </div>
-                                    <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100"
-                                            type="submit">Submit</button></div>
+            <section class="bg-primary p-5 my-5" id="tuno-contnect">
+                <div class="container">
+                    <div class="row align-items-center text-white">
+                        <div class="col-lg-4">
+                            <div class="border border-2 border-white p-4 py-lg-5 text-center rounded-3"
+                                data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                                <div class="overflow-hidden">
+                                    <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                                 </div>
-                            </form>
+                                <div class="overflow-hidden">
+                                    <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
+                                        to
+                                        one of our advisers over the phone? Just submit your details and we’ll be in touch
+                                        shortly. You can also email us if you would prefer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0 ">
+                            <div class="bg-white rounded-3 p-4 call-back-form">
+                                <h5 class="text-color mb-4">I would like to discuss:</h5>
+                                <form action="{{ url('contactus/form/submit') }}" method="post">
+                                    {{ csrf_field() }}
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <input class="form-control" type="text" name="name"
+                                                placeholder="Your Name" aria-label="Your Name" />
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="d-flex">
+                                                <!-- Country Code Dropdown -->
+                                                <select class="form-select" name="country_code" style="max-width: 110px;"
+                                                    required>
+                                                    <option value="+91" selected>+91 (IN)</option>
+                                                    <option value="+1">+1 (US)</option>
+                                                    <option value="+44">+44 (UK)</option>
+                                                    <option value="+61">+61 (AU)</option>
+                                                    <option value="+81">+81 (JP)</option>
+                                                    <option value="+49">+49 (DE)</option>
+                                                    <option value="+33">+33 (FR)</option>
+                                                    <option value="+39">+39 (IT)</option>
+                                                    <option value="+34">+34 (ES)</option>
+                                                    <option value="+82">+82 (KR)</option>
+                                                    <option value="+86">+86 (CN)</option>
+                                                    <option value="+55">+55 (BR)</option>
+                                                    <option value="+7">+7 (RU)</option>
+                                                    <option value="+41">+41 (CH)</option>
+                                                    <option value="+31">+31 (NL)</option>
+                                                    <option value="+46">+46 (SE)</option>
+                                                    <option value="+45">+45 (DK)</option>
+                                                    <option value="+358">+358 (FI)</option>
+                                                    <option value="+351">+351 (PT)</option>
+                                                    <option value="+36">+36 (HU)</option>
+                                                    <option value="+420">+420 (CZ)</option>
+                                                    <option value="+421">+421 (SK)</option>
+                                                    <option value="+43">+43 (AT)</option>
+                                                    <option value="+32">+32 (BE)</option>
+                                                    <option value="+353">+353 (IE)</option>
+                                                </select>
+                                                <!-- Phone Input -->
+                                                <input class="form-control bg-white" type="tel" name="phone"
+                                                    placeholder="Phone number" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12"><input class="form-control" type="email" name="email"
+                                                placeholder="Email" aria-label="Email" /></div>
+                                        <div class="col-12">
+                                            <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject"
+                                                aria-label="Enter your Descriptions here..."></textarea>
+                                        </div>
+                                        <input type="hidden" value="{{ $_SERVER['REMOTE_ADDR'] }}" name="ip">
+                                        <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100"
+                                                type="submit">Submit</button></div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div><!-- end of .container-->
-        </section><!-- <section> close ============================-->
+                </div><!-- end of .container-->
+            </section>
+        <!-- <section> close ============================-->
         <!-- ============================================-->
 
 
