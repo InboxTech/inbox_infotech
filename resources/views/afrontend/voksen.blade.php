@@ -82,10 +82,10 @@
               <h1 class="text-color" style="margin-bottom: 1.333rem;font-size:3.1573345183rem;font-weight: 700;">Voksen</h1>
               <p style="margin-bottom: 1.333rem;font-size: 1.77689rem;font-weight: 700;">AI-Powered Voice Automation for Smarter Customer Engagement  <br></p>
 			  {{-- <h1 class="px-lg-4 mt-4" style="font-weight: 700;color:#2A3855;font-size: 1.77689rem;letter-spacing: 0.1rem;line-height:1; " >The Best Cyber Security Company in India</h1>
-			  
+
               <p class="px-lg-4 mt-4">Get started today to conquer the bigger challenges of your business with our development services. Explore Inbox Infotech’s Development services to stay at par with the industry giants!</p> --}}
 
-              
+
               <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
             </div>
           </div>
@@ -141,7 +141,7 @@
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       {{-- our service --}}
-      <section class="bg-100" style="padding-top:10px;">
+      <section class="" style="padding-top:10px;">
         <div class="container">
           <div class="text-center mb-6">
             <h2 class="text-color">Industries We Serve</h2>
@@ -253,7 +253,7 @@
         {{-- @foreach($service_data as $serv_data)
         @if($serv_data->id % 2 == 0)
         @elseif($serv_data->id % 2 == 1)
-            
+
         @endif
         @endforeach --}}
           <div class="row justify-content-center mt-7">
@@ -475,49 +475,59 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-100 text-center" style="padding-top:50px;">
+      <section class="text-center" style="padding-top:50px;">
         <div class="container">
 
           <div class="text-center mb-6">
             <h6 class="text-color fs-2 fs-md-3" style="font-size:1.333rem;letter-spacing: -0.05rem;">Competitor Comparison</h6>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
-    <div class="row border-bottom py-2">
-      <div class="col-4 feature-name">Feature</div>
-      <div class="col feature-name">Our AI Voicebot</div>
-      <div class="col feature-name">Competitor A</div>
-      <div class="col feature-name">Competitor B</div>
-    </div>
-    <div class="row border-bottom py-2">
-      <div class="col-4 feature-name">Multilingual AI</div>
-      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
-      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
-      <div class="col text-center"><i class="fas fa-times checkmark"></i> <br> No</div>
-    </div>
-    <div class="row border-bottom py-2">
-      <div class="col-4 feature-name">Call Insights</div>
-      <div class="col text-center"> <i class="fas fa-check checkmark"></i> <br> Yes</div>
-      <div class="col text-center"> <i class="fas fa-times checkmark"></i> <br> No</div>
-      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
-    </div>
-    <div class="row border-bottom py-2">
-      <div class="col-4 feature-name">CRM Integration</div>
-      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
-      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
-      <div class="col text-center"><i class="fas fa-exclamation-triangle checkmark"></i> <br> Limited</div>
-    </div>
-    <div class="row border-bottom py-2">
-      <div class="col-4 feature-name">Scalability</div>
-      <div class="col text-center"> <i class="fas fa-check checkmark"></i> <br> Yes</div>
-      <div class="col text-center"> <i class="fas fa-times checkmark"></i>  <br> No</div>
-      <div class="col text-center"><i class="fas fa-check checkmark"></i> <br> Yes</div>
-    </div>
-    <div class="row border-bottom py-2">
-      <div class="col-4 feature-name">Pricing</div>
-      <div class="col text-center"> <i class="fas fa-money-bill checkmark"></i> <br> Flexible </div>
-      <div class="col text-center"> <i class="fas fa-lock checkmark"></i> <br> Fixed</div>
-      <div class="col text-center"> <i class="fas fa-dollar-sign checkmark"></i> <br> High </div>
-    </div>
+          <div class="table-responsive">
+              <table class="table border-0 text-center">
+                <thead class="">
+                  <tr class="align-middle">
+                    <th>Feature</th>
+                    <th>Our AI Voicebot</th>
+                    <th>Competitor A</th>
+                    <th>Competitor B</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="align-middle">
+                    <td>Multilingual AI</td>
+                    <td><i class="fas fa-check text-success"></i><br>Yes</td>
+                    <td><i class="fas fa-exclamation-triangle text-warning"></i><br>Limited</td>
+                    <td><i class="fas fa-times text-danger"></i><br>No</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Call Insights</td>
+                    <td><i class="fas fa-check text-success"></i><br>Yes</td>
+                    <td><i class="fas fa-times text-danger"></i><br>No</td>
+                    <td><i class="fas fa-check text-success"></i><br>Yes</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>CRM Integration</td>
+                    <td><i class="fas fa-check text-success"></i><br>Yes</td>
+                    <td><i class="fas fa-exclamation-triangle text-warning"></i><br>Limited</td>
+                    <td><i class="fas fa-exclamation-triangle text-warning"></i><br>Limited</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Scalability</td>
+                    <td><i class="fas fa-check text-success"></i><br>Yes</td>
+                    <td><i class="fas fa-times text-danger"></i><br>No</td>
+                    <td><i class="fas fa-check text-success"></i><br>Yes</td>
+                  </tr>
+                  <tr class="align-middle">
+                    <td>Pricing</td>
+                    <td><i class="fas fa-money-bill text-success"></i><br>Flexible</td>
+                    <td><i class="fas fa-lock text-secondary"></i><br>Fixed</td>
+                    <td><i class="fas fa-dollar-sign text-danger"></i><br>High</td>
+                  </tr>
+                </tbody>
+              </table>
+
+          </div>
+
 
         </div>
         </div><!-- end of .container-->

@@ -82,8 +82,8 @@ class FrontController extends Controller
     }
     public function appDevelopment()
     {
-        // $arr['testimonials'] = DB::table('testimonials')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.app-development');
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.app-development', $arr);
     }
     public function recruitmentStaffing()
     {
@@ -123,19 +123,19 @@ class FrontController extends Controller
         /* $arr = DB::table('carrers')->where('id',$id)->get();
         $arr['position'] = $arr[0]->position;
         $arr['id'] = $arr[0]->id;   */
-        // $arr['productAttrArr'][0]['aeid']='';
-        // $arr['productAttrArr'][0]['job_application_id']='';
-        // $arr['productAttrArr'][0]['company_name']='';
-        // $arr['productAttrArr'][0]['position']='';
-        // $arr['productAttrArr'][0]['details']='';
-        // $arr['productAttrArr'][0]['start_date']='';
-        // $arr['productAttrArr'][0]['end_date']='';
-        // $arr['productAttrArr'][0]['reason_for_job_change']='';
-        // $arr['productAttrArr'][0]['other']='';
+        $arr['productAttrArr'][0]['aeid']='';
+        $arr['productAttrArr'][0]['job_application_id']='';
+        $arr['productAttrArr'][0]['company_name']='';
+        $arr['productAttrArr'][0]['position']='';
+        $arr['productAttrArr'][0]['details']='';
+        $arr['productAttrArr'][0]['start_date']='';
+        $arr['productAttrArr'][0]['end_date']='';
+        $arr['productAttrArr'][0]['reason_for_job_change']='';
+        $arr['productAttrArr'][0]['other']='';
         // // dd($arr);
-        // $arr = DB::table('carrers')->where('id',$id)->where('status', 1)->get();
-        // $arr['position'] = $arr[0]->position;
-        // $arr['id'] = $arr[0]->id; 
+        $arr = DB::table('carrers')->where('id',$id)->where('status', 1)->get();
+        $arr['position'] = $arr[0]->position;
+        $arr['id'] = $arr[0]->id; 
 
         $arr = Carrer::where(['id' => $id, 'status' => 1])->firstOrFail();
 
@@ -236,10 +236,16 @@ class FrontController extends Controller
             }
         }
 
-        $fullname =  $request->name;
-        $emails = "info@inboxtechs.com";
+        $fullname = $request->name;
+        $emails = ["info@inbox-infotech.com"]; // multiple emails
         $supportno = $request->email;
-        $data = array('name' => $fullname, 'supportno' => $supportno, 'details' => $request->message);
+        $phoneno = $request->phone;
+        $data = [
+            'name' => $fullname,
+            'supportno' => $supportno,
+            'phoneno' => $phoneno,
+            'details' => $request->message
+        ];
         $subject = "Request Call Back / Inquiry";
 
         Mail::send('email.contactus', $data, function ($message) use ($emails, $subject) {

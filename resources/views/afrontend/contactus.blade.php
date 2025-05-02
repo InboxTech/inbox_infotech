@@ -118,10 +118,10 @@
           <div class="col-auto"><span class="fas fa-phone-alt" data-fa-transform="shrink-3"></span><a
             class="contact-link" href="tel:+1-408-641-3739"> +1-408-641-3739</a></div>
           <div class="col-auto"><span class="far fa-envelope" data-fa-transform="shrink-3"></span><a
-            class="contact-link" href="email:info@Inbox-infotech.com"> info@Inbox-infotech.com
+            class="contact-link" href="mailto:info@tnbox-infotech.com"> info@inbox-infotech.com
             </a></div>
           <div class="col-auto"><span class="far fa-envelope" data-fa-transform="shrink-3"></span><a
-            class="contact-link" href="email:hr@Inbox-infotech.com"> hr@Inbox-infotech.com</a></div>
+            class="contact-link" href="mailto:hr@inbox-infotech.com"> hr@inbox-infotech.com</a></div>
           </div>
         </div>
         </div>
@@ -131,46 +131,40 @@
       </div>
 
       <div class="row my-5">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-5">
         <div class="card shadow">
-        <div class="card-body h-100 ">
-          <h5 class="mb-3 text-color">Write to us</h5>
-          <form action="{{url('contactus/form/submit')}}" method="post">
-          {{ csrf_field() }}
-          <div class="row">
-            <div class="col-4">
-            <div class="mb-4"><input class="form-control bg-white" type="text" name="name"
-              placeholder="Your Name" required="required" /></div>
+            <div class="bg-white rounded-3 p-4 call-back-form">
+                <h5 class="mb-3 text-color">Write to us</h5>
+                <form action="{{ url('contactus/form/submit') }}" method="post">
+                    {{ csrf_field() }}
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <input class="form-control" type="text" name="name" placeholder="Your Name" aria-label="Your Name" />
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <input class="form-control" type="number" name="phone" placeholder="Phone Number" aria-label="Phone Number" />
+                            <input type="hidden" value="{{ $_SERVER['REMOTE_ADDR'] }}" name="ip">
+                        </div>
+                        <div class="col-12"><input class="form-control" type="email" name="email" placeholder="Email" aria-label="Email" /></div>
+                        <div class="col-12">
+                            <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject" aria-label="Enter your Descriptions here..." ></textarea>
+                        </div>
+                        <div class="col-4 mt-3 mx-auto"><button class="btn btn-primary w-100" type="submit">Submit</button></div>
+                    </div>
+                </form>
             </div>
-            <div class="col-4">
-            <div class="mb-4"><input class="form-control bg-white" type="email" name="email" placeholder="Email"
-              required="required" /></div>
-            </div>
-            <div class="col-4">
-            <div class="mb-4"><input class="form-control bg-white" type="tel" name="phone" placeholder="Phone" /></div>
-            </div>
-          </div>
-          <div>
-            <div class="mb-4"><textarea class="form-control bg-white" rows="9" name="message"
-              placeholder="Enter your descriptions here..." required="required"></textarea></div>
-            <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
-            <button class="btn btn-md-lg bg-primary" type="Submit"> <span class="color-white fw-600">Send
-              Now</span></button>
-          </div>
-          </form>
-        </div>
         </div>
       </div>
       <div class="col-lg-6">
 
         <div class=" mb-4">
-  
+
           <!-- <div class="mapouter"> -->
           <!-- <div class="gmap_canvas"> -->
             <div class="">
               <iframe
               src="https://www.google.com/maps/embed?pb=!1m19!1m12!1m3!1d41764.230499585334!2d73.12733069692024!3d22.298007754236604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!3e6!4m0!4m1!2sInbox%20Infotech%20Pvt%20Ltd%2C615-%20Supremus%20Vihav%20Building%2C%20Vadodara%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Gujarat%2C%20India%20390021!5e0!3m2!1sen!2sin!4v1745554362893!5m2!1sen!2sin"
-              width="100%" height="450" style="border:0;" allowfullscreen="" class="card shadow" loading="lazy"
+              width="100%" height="500" style="border:0;" allowfullscreen="" class="card shadow" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- <a href="https://mcpenation.com/">Minecraft Website</a> -->
@@ -182,20 +176,20 @@
             width: 100%;
             height: 400px;
             }
-  
+
             .gmap_canvas {
             overflow: hidden;
             background: none !important;
             width: 100%;
             height: 400px;
             }
-  
+
             .gmap_iframe {
             height: 400px !important;
             }
           </style> -->
           </div>
-  
+
         </div>
       </div>
 
