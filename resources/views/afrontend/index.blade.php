@@ -95,7 +95,7 @@
     </div>
     </section>
 
-    <!-----------------------------   client swiper start ---------------------------->
+    <!-----------------------------   client swiper end ---------------------------->
 
 
     <!-- ============================================-->
@@ -213,7 +213,7 @@
           <div class="bg-primary p-5" >
           <!--/.bg-holder-->
           <div class="container mx-auto">
-
+             <h2 class="text-white text-center"> Take the right step, do the big things.  </h2>
           <div class="row justify-content-center align-items-center ">
             <div class="col-lg-3 col-md-6 ">
               <div class="my-5 progress-no">

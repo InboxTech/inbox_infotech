@@ -50,6 +50,17 @@
       <!-- <div class="row my-5"> -->
       <div class="">
       <div class="row my-5">
+      <div class="col-lg-4 mb-3">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+          <h5 class="mb-3 text-color">India</h5>
+          <p class="mb-0 text-1100">Inbox Infotech Pvt Ltd,
+            615- Supremus Vihav
+            Building, Vadodara,
+            Gujarat, India 390021</p>
+          </div>
+        </div>
+        </div>
         <div class="col-lg-4 mb-3">
         <div class="card h-100 shadow">
           <div class="card-body">
@@ -80,20 +91,10 @@
         <!--  -->
         <!-- </div> -->
         <!-- <div class="row align-items-stretch justify-content-center mb-4"> -->
+      
         <div class="col-lg-4 mb-3">
         <div class="card h-100 shadow">
           <div class="card-body">
-          <h5 class="mb-3 text-color">India</h5>
-          <p class="mb-0 text-1100">Inbox Infotech Pvt Ltd,
-            615- Supremus Vihav
-            Building, Vadodara,
-            Gujarat, India 390021</p>
-          </div>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="card h-100 shadow">
-          <div class="card-body px-5">
           <h5 class="mb-3 text-color">New Delhi</h5>
           <p class="mb-0 text-1100">1301 Naurang House<br />Cannaught Place-110001 <br />New Delhi,<br />India</p>
           </div>
@@ -101,7 +102,7 @@
         </div>
         <div class="col-lg-4 mb-3">
         <div class="card h-100 shadow">
-          <div class="card-body px-5">
+          <div class="card-body">
           <h5 class="mb-3 text-color">Bangalore</h5>
           <p class="mb-0 text-1100">EVOMA CO – working and<br />hotel,Old madras road,<br />KR Puram,Bangalore
             <br />560049 India
@@ -114,14 +115,14 @@
           <div class="card-body ">
           <h5 class="text-color">Contact Details</h5>
           <div class="col-auto"><span class="fas fa-phone-alt" data-fa-transform="shrink-3"></span><a
-            class="contact-link" href="tel:0265-2371137"> +91 9662398895 </a></div>
+            class="contact-link" href="tel:+91 9662398895"> +91 9662398895 </a></div>
           <div class="col-auto"><span class="fas fa-phone-alt" data-fa-transform="shrink-3"></span><a
             class="contact-link" href="tel:+1-408-641-3739"> +1-408-641-3739</a></div>
           <div class="col-auto"><span class="far fa-envelope" data-fa-transform="shrink-3"></span><a
-            class="contact-link" href="email:info@Inbox-infotech.com"> info@Inbox-infotech.com
+            class="contact-link" href="mailto:info@Inbox-infotech.com"> info@Inbox-infotech.com
             </a></div>
           <div class="col-auto"><span class="far fa-envelope" data-fa-transform="shrink-3"></span><a
-            class="contact-link" href="email:hr@Inbox-infotech.com"> hr@Inbox-infotech.com</a></div>
+            class="contact-link" href="mailto:hr@Inbox-infotech.com"> hr@Inbox-infotech.com</a></div>
           </div>
         </div>
         </div>
