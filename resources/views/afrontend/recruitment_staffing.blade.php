@@ -328,55 +328,55 @@
         </div>
         </div>
 
-        <!-- <div class="col-lg-3 row">
-      <div class="col-lg-4 mb-3">
-      <div class="shadow  text-center" style="height: 100%;">
-        <div style="width: 50%;margin: 5% auto;">
-        <i class="fas fa-lightbulb fs-6 p-3 text-color"></i>
+      <!-- <div class="col-lg-3 row">
+        <div class="col-lg-4 mb-3">
+        <div class="shadow  text-center" style="height: 100%;">
+          <div style="width: 50%;margin: 5% auto;">
+          <i class="fas fa-lightbulb fs-6 p-3 text-color"></i>
+          </div>
+          <p class="fw-bold"> Creative Support </p>
         </div>
-        <p class="fw-bold"> Creative Support </p>
-      </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-      <div class="shadow  text-center" style="height: 100%;">
-        <div style="width: 50%;margin: 5% auto;">
-        <i class="fas fa-magic fs-6 p-3 text-color"></i>
         </div>
-        <p class="fw-bold"> Creating Experiences </p>
-      </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-      <div class="shadow  text-center" style="height: 100%;">
-        <div style="width: 50%;margin: 5% auto;">
-        <i class="fas fa-cubes fs-6 p-3 text-color"></i>
+        <div class="col-lg-4 mb-3">
+        <div class="shadow  text-center" style="height: 100%;">
+          <div style="width: 50%;margin: 5% auto;">
+          <i class="fas fa-magic fs-6 p-3 text-color"></i>
+          </div>
+          <p class="fw-bold"> Creating Experiences </p>
         </div>
-        <p class="fw-bold"> Product Consulting </p>
-      </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-      <div class="shadow  text-center" style="height: 100%;">
-        <div style="width: 50%;margin: 5% auto;">
-        <i class="fas fa-chart-line fs-6 p-3 text-color"></i>
         </div>
-        <p class="fw-bold"> Business Boosting </p>
-      </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-      <div class="shadow  text-center" style="height: 100%;">
-        <div style="width: 50%;margin: 5% auto;">
-        <i class="fas fa-chess fs-6 p-3 text-color"></i>
+        <div class="col-lg-4 mb-3">
+        <div class="shadow  text-center" style="height: 100%;">
+          <div style="width: 50%;margin: 5% auto;">
+          <i class="fas fa-cubes fs-6 p-3 text-color"></i>
+          </div>
+          <p class="fw-bold"> Product Consulting </p>
         </div>
-        <p class="fw-bold"> Strategic Approach </p>
-      </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-      <div class="shadow  text-center" style="height: 100%;">
-        <div style="width: 50%;margin: 5% auto;">
-        <i class="fas fa-truck fs-6 p-3 text-color"></i>
         </div>
-        <p class="fw-bold"> Logistic Consulting </p>
-      </div>
-      </div>
+        <div class="col-lg-4 mb-3">
+        <div class="shadow  text-center" style="height: 100%;">
+          <div style="width: 50%;margin: 5% auto;">
+          <i class="fas fa-chart-line fs-6 p-3 text-color"></i>
+          </div>
+          <p class="fw-bold"> Business Boosting </p>
+        </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+        <div class="shadow  text-center" style="height: 100%;">
+          <div style="width: 50%;margin: 5% auto;">
+          <i class="fas fa-chess fs-6 p-3 text-color"></i>
+          </div>
+          <p class="fw-bold"> Strategic Approach </p>
+        </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+        <div class="shadow  text-center" style="height: 100%;">
+          <div style="width: 50%;margin: 5% auto;">
+          <i class="fas fa-truck fs-6 p-3 text-color"></i>
+          </div>
+          <p class="fw-bold"> Logistic Consulting </p>
+        </div>
+        </div>
       </div> -->
       </div>
       </div>
@@ -591,7 +591,7 @@
         <div class="swiper-slide d-flex" style="height: auto">
           <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
           <div class="row align-items-center mb-3">
-           
+
             <div class="col-12">
             <h6 class="fs-0 mb-1 mt-4 text-color">Sameer Salunkhe</h6>
             <p class="mb-0 text-500">Director PwC</p>
@@ -610,7 +610,7 @@
         <div class="swiper-slide d-flex" style="height: auto">
           <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
           <div class="row align-items-center mb-3">
-            
+
             <div class="col-12">
             <h6 class="fs-0 mb-1 mt-4 text-color">Rohan Arora</h6>
             <p class="mb-0 text-500"> HR Director, HCL Tech</p>
@@ -629,7 +629,7 @@
         <div class="swiper-slide d-flex" style="height: auto">
           <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
           <div class="row align-items-center mb-3">
-          
+
             <div class="col-12">
             <h6 class="fs-0 mb-1 mt-4 text-color">Varsha Sharma </h6>
             <p class="mb-0 text-500"> Recruitment Head Alembic
@@ -650,7 +650,7 @@
         <div class="swiper-slide d-flex" style="height: auto">
           <div class="card shadow p-3 d-flex flex-column w-100" style="height: 100%">
           <div class="row align-items-center mb-3">
-           
+
             <div class="col-12">
             <h6 class="fs-0 mb-1 mt-4 text-color">Sanjay Patel
             </h6>

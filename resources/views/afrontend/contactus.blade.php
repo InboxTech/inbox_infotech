@@ -136,29 +136,70 @@
         <div class="card shadow">
         <div class="card-body h-100 ">
           <h5 class="mb-3 text-color">Write to us</h5>
-          <form action="{{url('contactus/form/submit')}}" method="post">
-          {{ csrf_field() }}
-          <div class="row">
-            <div class="col-lg-4">
-            <div class="mb-4"><input class="form-control bg-white" type="text" name="name"
-              placeholder="Your Name" required="required" /></div>
+          <form action="{{ url('contactus/form/submit') }}" method="post">
+            {{ csrf_field() }}
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-4">
+                        <input class="form-control bg-white" type="text" name="name"
+                            placeholder="Your Name" required />
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mb-4">
+                        <input class="form-control bg-white" type="email" name="email"
+                            placeholder="Email" required />
+                    </div>
+                </div>
+                <div class="col-6 ps-0">
+                    <div class="mb-4 d-flex">
+                        <!-- Country Code Dropdown -->
+                        <select class="form-select" name="country_code" style="max-width: 110px;" required>
+                          <option value="+91" selected>+91 (IN)</option>
+                          <option value="+1">+1 (US)</option>
+                          <option value="+44">+44 (UK)</option>
+                          <option value="+61">+61 (AU)</option>
+                          <option value="+81">+81 (JP)</option>
+                          <option value="+49">+49 (DE)</option>
+                          <option value="+33">+33 (FR)</option>
+                          <option value="+39">+39 (IT)</option>
+                          <option value="+34">+34 (ES)</option>
+                          <option value="+82">+82 (KR)</option>
+                          <option value="+86">+86 (CN)</option>
+                          <option value="+55">+55 (BR)</option>
+                          <option value="+7">+7 (RU)</option>
+                          <option value="+41">+41 (CH)</option>
+                          <option value="+31">+31 (NL)</option>
+                          <option value="+46">+46 (SE)</option>
+                          <option value="+45">+45 (DK)</option>
+                          <option value="+358">+358 (FI)</option>
+                          <option value="+351">+351 (PT)</option>
+                          <option value="+36">+36 (HU)</option>
+                          <option value="+420">+420 (CZ)</option>
+                          <option value="+421">+421 (SK)</option>
+                          <option value="+43">+43 (AT)</option>
+                          <option value="+32">+32 (BE)</option>
+                          <option value="+353">+353 (IE)</option>
+                        </select>
+                        <!-- Phone Input -->
+                        <input class="form-control bg-white" type="tel" name="phone"
+                            placeholder="Phone number" />
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-            <div class="mb-4"><input class="form-control bg-white" type="email" name="email" placeholder="Email"
-              required="required" /></div>
+
+            <div>
+                <div class="mb-4">
+                    <textarea class="form-control bg-white" rows="9" name="message"
+                        placeholder="Enter your descriptions here..." required></textarea>
+                </div>
+                <input type="hidden" value="{{ $_SERVER['REMOTE_ADDR'] }}" name="ip">
+                <button class="btn btn-md-lg bg-primary" type="submit">
+                    <span class="color-white fw-600">Send Now</span>
+                </button>
             </div>
-            <div class="col-lg-4">
-            <div class="mb-4"><input class="form-control bg-white" type="tel" name="phone" placeholder="Phone" /></div>
-            </div>
-          </div>
-          <div>
-            <div class="mb-4"><textarea class="form-control bg-white" rows="9" name="message"
-              placeholder="Enter your descriptions here..." required="required"></textarea></div>
-            <input type="hidden" value="{{$_SERVER['REMOTE_ADDR']}}" name="ip">
-            <button class="btn btn-md-lg bg-primary" type="Submit"> <span class="color-white fw-600">Send
-              Now</span></button>
-          </div>
-          </form>
+        </form>
+
         </div>
         </div>
       </div>

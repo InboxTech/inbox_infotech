@@ -53,32 +53,32 @@ Route::middleware([
     Route::get('/admin/user/delete/{id}',[UserController::class,'userdelete']);//User Soft Delete
     Route::get('/admin/user/manageuser/{id}',[UserController::class,'usermanage']);  //Manage user form view
     Route::post('/admin/user/manageuser/submit',[UserController::class,'submitform']); //Manage user From Submit
-    Route::get('/admin/user/export',[UserController::class,'export']); //Export Users Data 
+    Route::get('/admin/user/export',[UserController::class,'export']); //Export Users Data
     Route::post('/admin/user/cmslist',[UserController::class,'userlistsearch']); //Search Data
     //CMS Managment
     Route::get('/admin/cms/cmslist',[CmsController::class,'cmslist']); //CMS List View
     Route::get('/admin/cms/managecms/',[CmsController::class,'cmsmanage']);  //CMS ADD form view
     Route::get('/admin/cms/managecms/{id}',[CmsController::class,'cmsmanage']);  //CMS ADD form view
     Route::post('/admin/cms/managecms/submit',[CmsController::class,'submitform']); //CMS From Submit
-    Route::get('/admin/cms/delete/{id}',[CmsController::class,'delete']); //CMS Record Delete 
+    Route::get('/admin/cms/delete/{id}',[CmsController::class,'delete']); //CMS Record Delete
     Route::post('/admin/cms/cmslist',[CmsController::class,'cmslistsearch']); //Search Data
-    Route::get('/admin/cms/export',[CmsController::class,'export']); //Export Data  
+    Route::get('/admin/cms/export',[CmsController::class,'export']); //Export Data
     //Career Page Management
     Route::get('/admin/career/jobposting/list',[CarrerController::class,'joblist']);//Job Posting List
     Route::get('/admin/career/jobposting/managejob',[CarrerController::class,'managejob']);  //Job ADD form view
     Route::get('/admin/career/jobposting/managejob/{id}',[CarrerController::class,'managejob']);  //Job ADD form view
     Route::post('/admin/career/jobposting/managejob/submit',[CarrerController::class,'submitform']); //Job From Submit
-    Route::get('/admin/career/jobposting/delete/{id}',[CarrerController::class,'delete']); //Job Record Delete 
+    Route::get('/admin/career/jobposting/delete/{id}',[CarrerController::class,'delete']); //Job Record Delete
     Route::post('/admin/career/jobposting/list',[CarrerController::class,'joblistsearch']); //Search Data
-    Route::get('/admin/career/jobposting/export',[CarrerController::class,'export']); //Export Data  
+    Route::get('/admin/career/jobposting/export',[CarrerController::class,'export']); //Export Data
     //Job Application  Management
     Route::get('/admin/career/jobapplication/list',[JobapplicationController::class,'jobapplist']);//Job Application List
     Route::get('/admin/career/jobapplication/managejobapp',[JobapplicationController::class,'managejobapp']);  //Job Application ADD form view
     Route::get('/admin/career/jobapplication/managejobapp/{id}',[JobapplicationController::class,'managejobapp']);  //Job Application ADD form view
     Route::post('/admin/career/jobapplication/managejobapp/submit',[JobapplicationController::class,'submitform']); //Job Application From Submit
-    Route::get('/admin/career/jobapplication/delete/{id}',[JobapplicationController::class,'delete']); //Job Application Record Delete 
+    Route::get('/admin/career/jobapplication/delete/{id}',[JobapplicationController::class,'delete']); //Job Application Record Delete
     Route::post('/admin/career/jobapplication/list',[JobapplicationController::class,'jobapplistsearch']); //Search Data
-    Route::get('/admin/career/jobapplication/export',[JobapplicationController::class,'export']); //Export Data  
+    Route::get('/admin/career/jobapplication/export',[JobapplicationController::class,'export']); //Export Data
     Route::get('/admin/career/jobapplication/print/{id}',[JobapplicationController::class,'print']);//Print Application
     //Service Management
     Route::get('/admin/service/list',[ServiceController::class,'index']);//Show list of service
@@ -210,7 +210,7 @@ Route::get('/redirect',[UserController::class,'index']);
 Route::get('/',[FrontController::class,'index']);
 Route::get('/about-us',[FrontController::class,'aboutus']);
 Route::get('/products',[FrontController::class,'products']);
-Route::get('products/voksen',[FrontController::class,'voksen']);
+Route::get('products/tuno',[FrontController::class,'tuno']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);
@@ -229,7 +229,7 @@ Route::post('/jobapplication/submit',[FrontController::class,'jobappsubmitform']
 Route::get('customers/login',[AuthController::class,'login']);//Show Login page to customer
 Route::get('customers/register',[AuthController::class,'register']);//Show Registeration page to customer
 Route::post('customers/post-login', [AuthController::class, 'postLogin']);
-Route::get('customer/logout',[AuthController::class,'logout']); 
+Route::get('customer/logout',[AuthController::class,'logout']);
 Route::post('customers/post-registeration',[AuthController::class,'registerationsubmit']);
 Route::post('/emailsubscriber',[SignupemailController::class,'index']);
 Route::get('/web-cache', function() {
@@ -253,12 +253,12 @@ Route::group(["middleware"=>["restrictcust"]],function(){
     Route::post('/customer/account/submit',[AuthController::class,'accountsettingsubmit']);
     Route::get('customer/account/changepassword',[AuthController::class,'changepasssowrd']);
     Route::post('customer/account/changepassword/submit',[AuthController::class,'changepasswordsubmit']);
-    //Create Support Ticket    
+    //Create Support Ticket
     Route::get('/customer/createticket',[Supportticket::class,'create']);
     Route::post('/customer/supporttickets/category',[Supportticket::class,'fetch']);//search
     Route::get('/customer/supporttickets/showalltikcets',[Supportticket::class,'showalltikcets']);//Ticket List
     Route::post('/customer/supporttickets/manageticket/submit',[Supportticket::class,'store']);
     Route::get('/customer/supporttickets/view/{id}',[Supportticket::class,'viewticket']);
-    Route::post('/customer/supporttickets/ticketreply/submit',[Supportticket::class,'ticketreply']); 
+    Route::post('/customer/supporttickets/ticketreply/submit',[Supportticket::class,'ticketreply']);
 });
 
