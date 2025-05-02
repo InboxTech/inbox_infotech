@@ -10,7 +10,7 @@
 </div>
 <div class="sticky-top navbar-elixir">
   <div class="container">
-    <nav class="navbar navbar-expand-lg" style="padding-top: 0px; padding-bottom: 0px;"> 
+    <nav class="navbar navbar-expand-lg" style="padding-top: 0px; padding-bottom: 0px;">
       <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('inbox-logo.png')}}" alt="logo" height="50px"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
       <!-- <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
 		  </div> -->
@@ -32,7 +32,7 @@
           </li>
 			    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">Voksen (AI Bot)</a></li>
+              <li><a class="dropdown-item" href="{{url('/products/tuno')}}" role="button">Tuno (AI Bot)</a></li>
 				        @foreach($myproducts as $mp)
                   {{-- @if($ms->slug == 'voksen')
                     <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">{{$ms->title}}</a></li>
@@ -59,4 +59,3 @@
     </nav>
   </div>
 </div>
-    

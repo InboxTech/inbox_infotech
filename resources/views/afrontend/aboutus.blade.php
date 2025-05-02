@@ -64,10 +64,10 @@
 
                 <!------------------------------------------mission vision values start ----------------------->
 
-                <section class="my-5">
+                <section class="my-5 MisVisVal">
                     <div>
                         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                            <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Mission Vision Values
+                            <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Mission Vision & Values
                             </h6>
                             <hr class="short"
                                 data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
@@ -77,8 +77,9 @@
                             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="col-lg-4 my-2">
                                     <div style="height: 100%;" class="card shadow p-3">
-                                        <div class="svg-icons">
-                                            <img src="{{ asset('assets/img/icons/svg_icons/Mission.svg') }}">
+                                        <div class="" style="width: 30%;">
+                                            <img src="{{ asset('assets/img/icons/svg_icons/Mission.svg') }}"
+                                                class="img-fluid">
                                         </div>
                                         <div class="card-body p-3">
                                             <h4 class=" text-color"> Our Mission </h4>
@@ -99,8 +100,9 @@
                                 </div>
                                 <div class="col-lg-4 my-2">
                                     <div style="height: 100%;" class="card shadow p-3">
-                                        <div class="svg-icons">
-                                            <img src="{{ asset('assets/img/icons/svg_icons/vision.svg') }}">
+                                        <div class="" style="width: 30%;">
+                                            <img src="{{ asset('assets/img/icons/svg_icons/vision.svg') }}"
+                                                class="img-fluid">
                                         </div>
                                         <div class="card-body p-3">
                                             <h4 class=" text-color"> Our Vision </h4>
@@ -119,8 +121,9 @@
                                 </div>
                                 <div class="col-lg-4 my-2">
                                     <div style="height: 100%;" class="card shadow p-3">
-                                        <div class="svg-icons">
-                                            <img src="{{ asset('assets/img/icons/svg_icons/Values.svg') }}">
+                                        <div class="" style="width: 30%;">
+                                            <img src="{{ asset('assets/img/icons/svg_icons/Values.svg') }}"
+                                                class="img-fluid">
                                         </div>
                                         <div class="card-body p-3">
                                             <h4 class=" text-color"> Our Values </h4>
@@ -264,7 +267,8 @@
 
 
                 <!------------------------------------------ Agile approach start ----------------------->
-                <section class="my-5">
+
+                <section class="my-5 agile-approach">
                     <div>
                         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
                             <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Agile Approach </h6>
@@ -361,7 +365,8 @@
                                     <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                                 </div>
                                 <div class="overflow-hidden">
-                                    <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to
+                                    <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
+                                        to
                                         one of our advisers over the phone? Just submit your details and we’ll be in touch
                                         shortly. You can also email us if you would prefer.</p>
                                 </div>
@@ -374,17 +379,53 @@
                                     {{ csrf_field() }}
                                     <div class="row">
                                         <div class="col-md-6 col-12">
-                                            <input class="form-control" type="text" name="name" placeholder="Your Name" aria-label="Your Name" />
+                                            <input class="form-control" type="text" name="name"
+                                                placeholder="Your Name" aria-label="Your Name" />
                                         </div>
                                         <div class="col-md-6 col-12">
-                                            <input class="form-control" type="number" name="phone" placeholder="Phone Number" aria-label="Phone Number" />
-                                            <input type="hidden" value="{{ $_SERVER['REMOTE_ADDR'] }}" name="ip">
+                                            <div class="d-flex">
+                                                <!-- Country Code Dropdown -->
+                                                <select class="form-select" name="country_code" style="max-width: 110px;"
+                                                    required>
+                                                    <option value="+91" selected>+91 (IN)</option>
+                                                    <option value="+1">+1 (US)</option>
+                                                    <option value="+44">+44 (UK)</option>
+                                                    <option value="+61">+61 (AU)</option>
+                                                    <option value="+81">+81 (JP)</option>
+                                                    <option value="+49">+49 (DE)</option>
+                                                    <option value="+33">+33 (FR)</option>
+                                                    <option value="+39">+39 (IT)</option>
+                                                    <option value="+34">+34 (ES)</option>
+                                                    <option value="+82">+82 (KR)</option>
+                                                    <option value="+86">+86 (CN)</option>
+                                                    <option value="+55">+55 (BR)</option>
+                                                    <option value="+7">+7 (RU)</option>
+                                                    <option value="+41">+41 (CH)</option>
+                                                    <option value="+31">+31 (NL)</option>
+                                                    <option value="+46">+46 (SE)</option>
+                                                    <option value="+45">+45 (DK)</option>
+                                                    <option value="+358">+358 (FI)</option>
+                                                    <option value="+351">+351 (PT)</option>
+                                                    <option value="+36">+36 (HU)</option>
+                                                    <option value="+420">+420 (CZ)</option>
+                                                    <option value="+421">+421 (SK)</option>
+                                                    <option value="+43">+43 (AT)</option>
+                                                    <option value="+32">+32 (BE)</option>
+                                                    <option value="+353">+353 (IE)</option>
+                                                </select>
+                                                <!-- Phone Input -->
+                                                <input class="form-control bg-white" type="tel" name="phone"
+                                                    placeholder="Phone number" />
+                                            </div>
                                         </div>
-                                        <div class="col-12"><input class="form-control" type="email" name="email" placeholder="Email" aria-label="Email" /></div>
+                                        <div class="col-12"><input class="form-control" type="email" name="email"
+                                                placeholder="Email" aria-label="Email" /></div>
                                         <div class="col-12">
-                                            <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject" aria-label="Enter your Descriptions here..." ></textarea>
+                                            <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject"
+                                                aria-label="Enter your Descriptions here..."></textarea>
                                         </div>
-                                        <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100" type="submit">Submit</button></div>
+                                        <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100"
+                                                type="submit">Submit</button></div>
                                     </div>
                                 </form>
                             </div>
@@ -415,7 +456,7 @@
                             <div class="">
                                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto; ">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Retail.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -424,7 +465,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Telecom.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -433,7 +474,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Manufacturing.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -442,7 +483,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Professional_Service.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -451,7 +492,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Healthcare.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -460,7 +501,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Lending.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -469,7 +510,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style=" width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Logistics_Transpotation.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -478,7 +519,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Engineering_Construction.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -487,7 +528,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Bank.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -496,7 +537,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Oil_Gas.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -505,7 +546,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Investment.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -514,7 +555,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sm-6 my-3">
-                                        <div style="height: 100%;" class="card shadow pt-2">
+                                        <div style="height: 100%;" class="indserve pt-2">
                                             <div style="width: 50%; margin: 5% auto;">
                                                 <img src="{{ asset('assets/inbox/industry_serve/Insurance.png') }}"
                                                     style="width: 100%; height: 100%; object-fit: cover;">
@@ -547,7 +588,8 @@
                                     <!--/.bg-holder-->
                                 </div>
 
-                                <div class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
+                                <div
+                                    class="col-lg-8 px-5 py-6 my-lg-0 bg-white rounded-lg-te-lg rounded-be-lg rounded-bs-lg rounded-lg-bs-0 d-flex align-items-center">
                                     <div data-zanim-timeline="{}" data-zanim-trigger="scroll">
                                         <h5 class="text-color" data-zanim-xs='{"delay":0}'>{{ $msgt->title }}</h5>
                                         <p class="my-4 lh-lg" style="font-size: 1.3rem;" data-zanim-xs='{"delay":0.1}'>
@@ -569,7 +611,8 @@
                 <div class="row mt-6">
                     <div class="col" data-aos="fade-up" data-aos-duration="1000">
                         <h3 class="text-center text-color fs-2 fs-md-3">Awards & Achievements</h3>
-                        <p class="text-center">We are proud to be the holders of eminent industry awards that reflect our past
+                        <p class="text-center">We are proud to be the holders of eminent industry awards that reflect our
+                            past
                             contribution and excellence throughout the field.</p>
                         <hr class="short"
                             data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
@@ -603,7 +646,7 @@
         <!-- ============================================-->
 
         <!------------------------------  things you know start ------------------------->
-        <section class="text-center my-5">
+        <section class="my-5">
             <div class="container">
                 <div class="text-center">
                     <h3 class="fs-2 fs-md-3">Things You Get</h3>
@@ -611,86 +654,122 @@
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="px-3 py-4 px-lg-4">
-                            <div class="overflow-hidden"><img src="{{ asset('assets/img/icons/sharing.png') }}"
-                                    alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                            <div class="overflow-hidden">
-                                <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and
-                                    tell brand and product stories in a most creative way.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="px-3 py-4 px-lg-4">
-                            <div class="overflow-hidden"><img src="{{ asset('assets/img/icons/mail.png') }}"
-                                    alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                            <div class="overflow-hidden">
-                                <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Creating Experiences</h5>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative
-                                    platforms and digital projects with one purpose: to create experiences.</p>
+
+                <div>
+                    <div class="row">
+                        <div class="col-lg-5 mt-4">
+                            <div class=" p-3 bg-primary">
+                                <!-- <div class=" "> -->
+                                <h3 class="mb-3 text-white"> Our Expertise</h3>
+                                <p class="text-white">Working with our certified experts means you get tailored,
+                                    high-quality solutions, delivered on time and within budget. We ensure seamless
+                                    collaboration, leveraging industry-best practices to bring your vision to life with
+                                    efficiency and reliability.
+                                </p>
+                                <!-- </div> -->
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="px-3 py-4 px-lg-4">
-                            <div class="overflow-hidden"><img src="{{ asset('assets/img/icons/target.png') }}"
-                                    alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                            <div class="overflow-hidden">
-                                <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
+                        <div class="col-lg-7">
+                            <div class="h-100">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow ">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/Creative_Support.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
+                                            </div>
+                                            <!-- <div class="">
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
+                                                </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow ">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/Creating_Experiences.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Creating Experiences</h5>
+                                            </div>
+                                            <!-- <div class="">
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
+                                                </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow ">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
+                                            </div>
+                                            <!-- <div class="">
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
+                                                </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow ">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/Business_Boosting.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
+                                            </div>
+                                            <!-- <div class="">
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
+                                                </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow ">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/Strategic_Approach.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
+                                            </div>
+                                            <!-- <div class="">
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
+                                                </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow ">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/Logistic_Consulting.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Logistic Consulting</h5>
+                                            </div>
+                                            <!-- <div class="">
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard hitting answers and focus hard on best opportunities.</p>
+                                                </div> -->
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div class="overflow-hidden">
-                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that
-                                    generate new products with higher potential and lower risk.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="px-3 py-4 px-lg-4">
-                            <div class="overflow-hidden"><img src="{{ asset('assets/img/icons/world-globe.png') }}"
-                                    alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                            <div class="overflow-hidden">
-                                <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and
-                                    environmentally conservative solutions to our clients to boost their business.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="px-3 py-4 px-lg-4">
-                            <div class="overflow-hidden"><img src="{{ asset('assets/img/icons/money.png') }}"
-                                    alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                            <div class="overflow-hidden">
-                                <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and
-                                    real, relevant research, we create prototypes, not presentations.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="px-3 py-4 px-lg-4">
-                            <div class="overflow-hidden"><img src="{{ asset('assets/img/icons/data-analytics.png') }}"
-                                    alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                            <div class="overflow-hidden">
-                                <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Logistic Consulting</h5>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our
-                                    clients hard hitting answers and focus hard on best opportunities.</p>
-                            </div>
+
                         </div>
                     </div>
                 </div>
+
             </div><!-- end of .container-->
         </section>
         <!-- <section> things you know close ============================-->

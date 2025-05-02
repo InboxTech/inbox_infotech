@@ -42,18 +42,18 @@ class FrontController extends Controller
     public function products()
     {
         $arr['product'] = DB::table('products')->where('status', 1)->WhereNull('deleted_at')->get();
-        //dd($arr);    
+        //dd($arr);
         return view('afrontend.products', $arr);
     }
 
     // voksen AI bot
-    public function voksen()
+    public function tuno()
     {
         // $arr['slider']=DB::table('sliders')->WhereNull('deleted_at')->get(); //swiper
-        // $arr['product']=DB::table('products')->where('status',1)->WhereNull('deleted_at')->get();    
-        //dd($arr);    
+        // $arr['product']=DB::table('products')->where('status',1)->WhereNull('deleted_at')->get();
+        //dd($arr);
         // return view('afrontend.voksen',$arr);
-        return view('afrontend.voksen');
+        return view('afrontend.tuno');
     }
     public function product(Request $req, $name)
     {
@@ -75,10 +75,10 @@ class FrontController extends Controller
     }
 
     // recruitment and staffing
-    public function webDevelopment()
+    public function softwareDevelopment()
     {
-        // $arr['testimonials'] = DB::table('testimonials')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.web-development');
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.software-development', $arr);
     }
     public function appDevelopment()
     {
@@ -135,7 +135,7 @@ class FrontController extends Controller
         // // dd($arr);
         $arr = DB::table('carrers')->where('id',$id)->where('status', 1)->get();
         $arr['position'] = $arr[0]->position;
-        $arr['id'] = $arr[0]->id; 
+        $arr['id'] = $arr[0]->id;
 
         $arr = Carrer::where(['id' => $id, 'status' => 1])->firstOrFail();
 
@@ -156,11 +156,11 @@ class FrontController extends Controller
             'ready_to_reallocates' => 'required',
         ]);
 
-        
+
         $arr = new Jobapplication();
         $message = "Thanks for apply, We have received your application!";
         $arr->status = 1;
-        
+
         if ($req->hasfile('resume')) {
             $image = $req->file('resume');
             $ext = $image->extension();
@@ -168,20 +168,20 @@ class FrontController extends Controller
             $image->storeAs('/public/media', $image_name);
             $arr->resume = $image_name;
         }
-        
+
         $arr->job_post_id = $req->jobid;
         $arr->first_name = $req->first_name;
         $arr->last_name = $req->last_name;
-        
+
         $arr->address = $req->address;
-        
+
         $arr->city = $req->city;
         $arr->state = $req->state;
         $arr->ready_to_reallocates = $req->ready_to_reallocates;
         $arr->email_id = $req->email_id;
         $arr->phone_no = $req->phone_no;
-        // $arr->save();    
-        
+        // $arr->save();
+
         $fn = $req->first_name;
         $ln = $req->last_name;
         $fullname =  $fn . ' ' . $ln;
@@ -214,6 +214,9 @@ class FrontController extends Controller
             'email' => 'required|email|unique:contactus,email',
         ]);
 
+        // Combine country code with phone number
+        $fullPhone = $request->country_code . $request->phone;
+
         $data = new Contactu();
         $data->created_at = Carbon::now()->toDateTimeString();
         $data->updated_at = Carbon::now()->toDateTimeString();
@@ -221,18 +224,17 @@ class FrontController extends Controller
         $data->message = $request->message;
         $data->name = $request->name;
         $data->email = $request->email;
+        $data->phone = $fullPhone; // Save combined phone
         $data->status = 0;
         $data->save();
 
+        // Spam word filtering
         $string = strtolower($request->name . $request->message);
+        $spamwords = ['women sex', 'sex', 'best women', 'porn', 'viagra', 'girl', 'sexy girl', 'hot girl', 'girls', 'hot sexy'];
 
-        $spamwords = array('women sex', 'sex', 'best women', 'porn', 'viagra', 'girl', 'sexy girl', 'hot girl', 'girls', 'hot sexy');
-
-        foreach ($spamwords as $url) {
-            if (strpos($string, $url) !== FALSE) {
+        foreach ($spamwords as $word) {
+            if (strpos($string, $word) !== false) {
                 return back();
-                return false;
-                die;
             }
         }
 
@@ -254,6 +256,7 @@ class FrontController extends Controller
 
         return redirect('/contact-us')->with('success', "Thank You, We have received your response");
     }
+
     public function industries()
     {
         $arr['industries'] = DB::table('industries')->where('status', 1)->WhereNull('deleted_at')->get();
@@ -284,7 +287,7 @@ class FrontController extends Controller
     }
     public function blogdetails(Request $req, $name)
     {
-        //echo "Test";die;  
+        //echo "Test";die;
         $brr = DB::table('blogs')->where('slug', $name)->get();
         // dd($brr);
         if ($brr->isEmpty()) {

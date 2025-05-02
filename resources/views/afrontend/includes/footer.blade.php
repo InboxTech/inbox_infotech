@@ -47,7 +47,7 @@
         <div class="col-lg-3 ">
           <!-- <div class="row"> -->
           <div style="height: 100%;">
-            <h5 class="text-white mb-3">Important Links</h5>
+            <h5 class="text-white mb-4">Important Links</h5>
             <ul class="list-unstyled">
               <li class="my-2"><a class="text-white" href="{{url('/about-us')}}" role="button">About Us</a></li>
               <li class="my-2"><a class="text-white" href="{{url('/services')}}" role="button">All Services</a></li>
@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <h5 class="text-white mb-3"> Services </h5>
+          <h5 class="text-white mb-4"> Services </h5>
           <ul class="list-unstyled">
             @foreach($myservices as $index => $serv_data)
         <li class="my-2">
@@ -71,28 +71,28 @@
           </ul>
         </div>
         <div class="col-lg-3">
-          <h5 class="text-white mb-3"> Headquarters </h5>
+          <h5 class="text-white mb-4"> Headquarters </h5>
           <ul class="list-unstyled">
-            <li class="mb-5">
+            <li class="">
               <a class="text-white"
                 href="https://www.google.com/maps?q=615+Supremus+Vihav+Building,+Vadodara,+Gujarat,+India+390021"
                 target="_blank">
-                <p> India: Inbox Infotech Pvt Ltd, 615- Supremus Vihav Building,
+                <p>  <strong>   India: </strong> <br> Inbox Infotech Pvt Ltd, 615- Supremus Vihav Building,
                   Vadodara, Gujarat, India 390021 </p>
               </a>
             </li>
-            <li class="mb-5">
+            <li class="">
               <a class="text-white"
                 href="https://www.google.com/maps?q=1150+E+Yorba+Linda+Blvd,+Placentia,+CA+92870,+United+States"
                 target="_blank">
-                <p> USA: Inbox Infotech Pvt Ltd, 1150 E Yorba Linda Blvd, Placentia,
+                <p> <strong>  USA: </strong> <br> Inbox Infotech Pvt Ltd, 1150 E Yorba Linda Blvd, Placentia,
                   CA 92870, United States </p>
               </a>
             </li>
-            <li class="mb-5">
+            <li class="">
               <a class="text-white" href="https://www.google.com/maps?q=RAKEZ,+Ras+al+Khaimah,+Dubai,+UAE"
                 target="_blank">
-                <p> Dubai: INBOX INFOTECH FZ-LLC, RAKEZ - Ras al Khaimah, Dubai </p>
+                <p> <strong>  Dubai: </strong>  <br> INBOX INFOTECH FZ-LLC, RAKEZ - Ras al Khaimah, Dubai </p>
               </a>
             </li>
           </ul>
@@ -127,7 +127,7 @@
           </div>
         </div> -->
         <div class="col-lg-3 px                                                                                                                                                                                       -lg-5" >
-          <h5 class="text-white mb-3"> Contact Us </h5>
+          <h5 class="text-white mb-4"> Contact Us </h5>
           <ul class="list-unstyled">
             <li class="mb-3">
               <a class="text-white" href="tel:+91 9662398895"><i class="fas fa-phone text-white"></i> +91 9662398895

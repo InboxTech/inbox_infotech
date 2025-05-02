@@ -95,7 +95,7 @@
     </div>
     </section>
 
-    <!-----------------------------   client swiper start ---------------------------->
+    <!-----------------------------   client swiper end ---------------------------->
 
 
     <!-- ============================================-->
@@ -153,24 +153,24 @@
 
         @foreach($service_data as $index => $serv_data)
   <div class="col-lg-4 col-md-6 col-sm-12 my-3">
-    <button class="nav-link card-button w-100 px-2 border-0 bg-transparent  {{ $index == 0 ? 'active' : '' }}" 
-      id="tab-{{$index}}"
-      data-bs-toggle="pill" 
-      data-bs-target="#content-{{$index}}" 
-      type="button"   
-      role="tab" 
-      aria-controls="content-{{$index}}">
-
-      <div style="height: 100%;">
-        <div class="card border zoom-bg {{ $index == 0 ? 'shadow' : '' }}" 
-          style="background: linear-gradient(to bottom right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ asset('storage/media/' . $serv_data->imaage) }}'); background-repeat:no-repeat; background-position: center; height:16rem;">
+    
+    <div style="height: 100%;">
+      <button class="nav-link card-button w-100 h-100 px-2 border-0 bg-transparent  {{ $index == 0 ? 'active' : '' }}" 
+        id="tab-{{$index}}"
+        data-bs-toggle="pill" 
+        data-bs-target="#content-{{$index}}" 
+        type="button"   
+        role="tab" 
+        aria-controls="content-{{$index}}">
+      <div class="card border zoom-bg {{ $index == 0 ? 'shadow' : '' }}" 
+      style="background: linear-gradient(to bottom right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ asset('storage/media/' . $serv_data->imaage) }}'); background-repeat:no-repeat; background-position:center center ;background-size: cover; height: 200px;">
           <div class="card-body"></div>
           <div class="card-footer">
             <h5 class="card-title">{{$serv_data->title}}</h5>
           </div>
         </div>
+      </button>
       </div>
-    </button>
   </div>
 @endforeach
 
@@ -210,40 +210,70 @@
       <!-- ============================================-->
       <!-- <section> take the right step begin ============================-->
         <section>
-          <div class="bg-holder overlay overlay-elixir" style="background-image:url('{{ asset('assets/img/background-15.jpg') }}');"></div>
+          <div class="bg-primary p-5" >
           <!--/.bg-holder-->
-          <div class="container">
-            <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
+          <div class="container mx-auto">
+             <h2 class="text-white text-center"> Take the right step, do the big things.  </h2>
+          <div class="row justify-content-center align-items-center ">
+            <div class="col-lg-3 col-md-6 ">
+              <div class="my-5 progress-no">
+                <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250</h4>
+                <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
+              </div>
+              <div class="my-5 progress-no">
+                <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500</h4>
+                <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Happy Customers Worldwide</h6>
+              </div>
+            </div>
+            <div class="col-lg-6 d-lg-block d-none text-center">
+            <img src="{{asset('assets/inbox/Groupteam.png')}}" class="img-fluid">
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-lg-end py-5">
+              <div class="mb-5 progress-no ">
+              <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10</h4>
+                    <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Years of
+                      Experience</h6>
+              </div>
+              <div class=" progress-no">
+              <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550</h4>
+                    <h6 class="fs-0" data-zanim-xs='{"delay":0.2}'>Projects Delivered Successfully</h6>
+              </div>
+            </div>
+          </div>
+            <!-- <div class="d-flex"><span class="me-3"> <img src="{{asset('assets/img/checkmark.png')}}" alt="checkmark" style="width: 55px"/></span>
               <div class="flex-1">
-                <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2>
+                <h2 class="text-warning fs-3 fs-lg-4" style="font-size: 3.1573345183rem;letter-spacing: -0.15rem;">Take the right step,<br /><span class="text-white">do the big things.</span></h2> -->
                 <div class="row mt-4 pe-lg-10">
-                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 <span class="plus"> +</span></div>
+                  <!-- <div class="overflow-hidden col-lg-3 border-end text-center col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <p class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":250}'>250 </p>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Experts in Our Team</h6>
                   </div>
-                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 <span class="plus"> +</span></div>
+                  <div class="overflow-hidden col-lg-3 border-end text-center col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <p class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":500}'>500 </p>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Happy
                       Customers
                       Worldwide
                       </h6>
-                  </div>
-                  <div class="w-100 d-flex d-lg-none"></div>
-                  <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 <span class="plus"> +</span></div>
+                  </div> -->
+                  <!-- <div class="w-100 d-flex d-lg-none"></div> -->
+                  <!-- <div class="overflow-hidden col-lg-3 border-end text-center col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <p class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":10}'>10 </p>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Years of
                       Experience</h6>
                   </div>
                   <div class="overflow-hidden col-lg-3 col-md-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="fs-3 fs-lg-4 mb-0 fw-bold text-white mt-lg-5 mt-3 lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 +</div>
+                    <p class="fs-3 fs-lg-4 mb-0 fw-bold text-white lh-xs countup-plus" data-zanim-xs='{"delay":0.1}' data-countup='{"endValue":550}'>550 </p>
                     <h6 class="fs-0 text-white" data-zanim-xs='{"delay":0.2}'>Projects Delivered
                       Successfully
                       </h6>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
-          </div><!-- end of .container-->
+          </div>
+          
+          <!-- end of .container-->
+          </div>
         </section><!-- <section> take the right step close ============================-->
         <!-- ============================================-->
   
@@ -295,7 +325,7 @@
     <!-- <section> Our hiring model  begin ============================-->
     <!-- ============================================-->
 
-    <section class="my-5">
+    <section class="my-5 hiring-model">
     <div class="container">
       <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
       <h2 class=" fs-md-3 text-color"> Our Hiring Model </h2>
@@ -311,65 +341,47 @@
 
       <div class="my-5">
       <div class="row" data-aos="fade-up" data-aos-duration="1000">
-        <div class="col-lg-3 col-md-6 my-3">
+        <div class="col-lg-3  col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/Build_Your_Team.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/Build_Your_Team.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> Build Your Team </h5>
-          <p class="lh-md"> Experience the power of our cross-functional
-            teams in transforming your business ideas
-            into reality. With our agile approach, we deliver
-            excellence at every step, ensuring your vision
-            comes to life seamlessly. </p>
+          <p class="lh-md">Transform your business ideas into reality with our agile, cross-functional teams—delivering seamless execution and excellence at every step of the journey.</p>
           </div>
         </div>
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/Dedicated_Talent.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/Dedicated_Talent.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> Dedicated Talent </h5>
-          <p class="lh-md"> Empower your projects with our exclusive
-            expertise, precisely tailored to your needs.
-            Take charge of your software solutions,
-            guided by our dedicated team to ensure they
-            align seamlessly with your vision & objectives.</p>
+          <p class="lh-md"> Empower your projects with expert, tailored solutions. Our dedicated team ensures your software aligns seamlessly with your vision, goals, and business needs.</p>
           </div>
         </div>
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/On_Demand_Talent.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/On_Demand_Talent.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> On-Demand Talent </h5>
-          <p class="lh-md"> Discover our On-Demand engagement model,
-            ideal for companies seeking expert assistance
-            on an hourly basis. Whether it's short-term
-            support or ongoing guidance, our flexible
-            approach ensures you have access to the
-            expertise you need, precisely when you need it. </p>
+          <p class="lh-md"> Explore our On-Demand model—perfect for flexible, hourly expert support. Get the guidance you need, exactly when you need it, short- or long-term.</p>
           </div>
         </div>
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
-          <div class="svg-icons">
-          <img src="{{asset('assets/img/icons/svg_icons/Fixed Cost Projects.svg')}}">
+          <div class="" style="width: 30%;">
+          <img src="{{asset('assets/img/icons/svg_icons/Fixed Cost Projects.svg')}}" class="img-fluid">
           </div>
           <div class="card-body p-2">
           <h5 class="text-color"> Fixed Cost Projects</h5>
-          <p class="lh-md"> Take full control of your budget with our fixed
-            cost model, designed to support the
-            development of proofs-of-concept & the
-            execution of your unique ideas. With
-            transparent project costs unleash your innovation
-            without financial worries. </p>
+          <p class="lh-md"> Control your budget with our fixed-cost model—ideal for proofs-of-concept and unique ideas. Enjoy transparent pricing and innovate confidently without financial stress. </p>
           </div>
         </div>
         </div>
@@ -411,7 +423,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Oracle <br> Consultant </p>
+          <p class="fw-medium"> Oracle <br> Consultant </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -419,7 +431,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> SAP <br> Consultant </p>
+          <p class="fw-medium"> SAP <br> Consultant </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -427,7 +439,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Hadoop.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Hadoop <br> Consultant </p>
+          <p class="fw-medium"> Hadoop <br> Consultant </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -435,7 +447,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Salesforce-Developers.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Salesforce <br> Developers </p>
+          <p class="fw-medium"> Salesforce <br> Developers </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -443,7 +455,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/ServiceNow_Developers.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> ServiceNow <br> Developers </p>
+          <p class="fw-medium"> ServiceNow <br> Developers </p>
         </div>
         </div>
 
@@ -452,7 +464,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/AI_ML_Development.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> AI/ML <br> Developers </p>
+          <p class="fw-medium"> AI/ML <br> Developers </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -460,7 +472,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Frontend_Development.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Frontend <br> Developers </p>
+          <p class="fw-medium"> Frontend <br> Developers </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -468,7 +480,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Backend_Development.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Backend <br> Developers </p>
+          <p class="fw-medium"> Backend <br> Developers </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -476,7 +488,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/mobile_app_developer.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> MobileApp <br> Developers </p>
+          <p class="fw-medium"> MobileApp <br> Developers </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -484,7 +496,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Database_Administration.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Database Experts </p>
+          <p class="fw-medium"> Database Experts </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -492,7 +504,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Datacenter_Solutions.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Datacenter <br> Experts </p>
+          <p class="fw-medium"> Datacenter <br> Experts </p>
         </div>
         </div>
         <div class="col-lg-2 col-md-4 col-6 my-3">
@@ -500,7 +512,7 @@
           <div style="width: 50%;margin: 0 auto;">
           <img src="{{asset('assets/inbox/Cyber_Security_Services.png')}}" class="img-fluid">
           </div>
-          <p class="fw-bold"> Cyber Security <br> Experts </p>
+          <p class="fw-medium"> Cyber Security <br> Experts </p>
         </div>
         </div>
       </div>
@@ -619,7 +631,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/net.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> .Net </p>
+              <p class="fw-medium"> .Net </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -627,7 +639,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/php.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> PHP </p>
+              <p class="fw-medium"> PHP </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -635,7 +647,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Laravel.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Laravel </p>
+              <p class="fw-medium"> Laravel </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -643,7 +655,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/node.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Node.js</p>
+              <p class="fw-medium"> Node.js</p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -651,7 +663,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/python.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Python </p>
+              <p class="fw-medium"> Python </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -659,7 +671,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/java.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Java </p>
+              <p class="fw-medium"> Java </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -667,7 +679,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/rubyOnRail.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Ruby On Rails </p>
+              <p class="fw-medium"> Ruby On Rails </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -675,7 +687,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/django.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Django </p>
+              <p class="fw-medium"> Django </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -683,7 +695,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/express.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Express.js </p>
+              <p class="fw-medium"> Express.js </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -691,7 +703,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/flask.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Flask </p>
+              <p class="fw-medium"> Flask </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -699,7 +711,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/springboot.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Spring boot </p>
+              <p class="fw-medium"> Spring boot </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -707,7 +719,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/unity3D.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Unity </p>
+              <p class="fw-medium"> Unity </p>
             </div>
             </div>
           </div>
@@ -719,7 +731,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/angular.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Angular.js </p>
+              <p class="fw-medium"> Angular.js </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -727,7 +739,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/react.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> React.js </p>
+              <p class="fw-medium"> React.js </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -735,7 +747,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/bootstrap.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Bootstrap </p>
+              <p class="fw-medium"> Bootstrap </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -743,7 +755,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/jqery.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> jQuery </p>
+              <p class="fw-medium"> jQuery </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -751,7 +763,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/vue.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Vue.js </p>
+              <p class="fw-medium"> Vue.js </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -759,7 +771,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/ember.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Ember.js </p>
+              <p class="fw-medium"> Ember.js </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -767,7 +779,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/bbackbone.js.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Backbone.js </p>
+              <p class="fw-medium"> Backbone.js </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -775,7 +787,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/flutter.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Flutter </p>
+              <p class="fw-medium"> Flutter </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -783,7 +795,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/unity3D.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Unity 3D </p>
+              <p class="fw-medium"> Unity 3D </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -791,7 +803,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/shopify.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Shopify </p>
+              <p class="fw-medium"> Shopify </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -799,7 +811,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/wordpress.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> WordPress </p>
+              <p class="fw-medium"> WordPress </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -807,7 +819,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/magento.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Magento </p>
+              <p class="fw-medium"> Magento </p>
             </div>
             </div>
 
@@ -820,7 +832,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/GIT-HUB.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Github Copilot </p>
+              <p class="fw-medium"> Github Copilot </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -828,7 +840,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/TABNINE-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Tabnine </p>
+              <p class="fw-medium"> Tabnine </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -836,7 +848,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/CHATGPT.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> ChatGPT </p>
+              <p class="fw-medium"> ChatGPT </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -844,7 +856,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/tensorflow-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Tansorflow </p>
+              <p class="fw-medium"> Tansorflow </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -852,7 +864,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/openaicodex.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> OpenAI Codex </p>
+              <p class="fw-medium"> OpenAI Codex </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -860,7 +872,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/otter.ai_.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Otter.ai </p>
+              <p class="fw-medium"> Otter.ai </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -868,7 +880,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/codewhisperer.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> CodeWhisperer</p>
+              <p class="fw-medium"> CodeWhisperer</p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -876,7 +888,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/hugging-face.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Hugging Face </p>
+              <p class="fw-medium"> Hugging Face </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -884,7 +896,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/blackbox ai.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Blackbox AI </p>
+              <p class="fw-medium"> Blackbox AI </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -892,7 +904,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/cursor ai.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Cursor AI </p>
+              <p class="fw-medium"> Cursor AI </p>
             </div>
             </div>
           </div>
@@ -904,7 +916,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/mysql.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> MySQL </p>
+              <p class="fw-medium"> MySQL </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -912,7 +924,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/mongodb.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> MongoDB </p>
+              <p class="fw-medium"> MongoDB </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -920,7 +932,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/postgresql.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> PostgreySQL </p>
+              <p class="fw-medium"> PostgreySQL </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -928,7 +940,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/snowflake.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Snowflake </p>
+              <p class="fw-medium"> Snowflake </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -936,7 +948,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/redshift.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Redshift </p>
+              <p class="fw-medium"> Redshift </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -944,7 +956,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/azure-sql-synapse.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Azure SQL Synapse </p>
+              <p class="fw-medium"> Azure SQL Synapse </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -952,7 +964,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/splunk.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Splunk </p>
+              <p class="fw-medium"> Splunk </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -960,7 +972,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/talend.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Talend </p>
+              <p class="fw-medium"> Talend </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -968,7 +980,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/fivetran.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Fivetran </p>
+              <p class="fw-medium"> Fivetran </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -976,7 +988,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Oracle </p>
+              <p class="fw-medium"> Oracle </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -984,7 +996,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/mariaDB.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> MariaDB </p>
+              <p class="fw-medium"> MariaDB </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -992,7 +1004,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/sql_server.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> SQL Server </p>
+              <p class="fw-medium"> SQL Server </p>
             </div>
             </div>
           </div>
@@ -1005,7 +1017,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/linux.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Linux </p>
+              <p class="fw-medium"> Linux </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1013,7 +1025,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/ubantoo.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Ubantoo </p>
+              <p class="fw-medium"> Ubantoo </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1021,7 +1033,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/windows.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Windows </p>
+              <p class="fw-medium"> Windows </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1029,7 +1041,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/AWS.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> AWS </p>
+              <p class="fw-medium"> AWS </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1037,7 +1049,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/google-cloud.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Google Cloud </p>
+              <p class="fw-medium"> Google Cloud </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1045,7 +1057,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/azure-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Azure </p>
+              <p class="fw-medium"> Azure </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1053,7 +1065,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/apache-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Apache </p>
+              <p class="fw-medium"> Apache </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1061,7 +1073,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/nginx.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Nginx </p>
+              <p class="fw-medium"> Nginx </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1069,7 +1081,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/cloudflare.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Cloudflare </p>
+              <p class="fw-medium"> Cloudflare </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1077,7 +1089,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/fastly.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Fastly </p>
+              <p class="fw-medium"> Fastly </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1085,7 +1097,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/digital ocean.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Digital Ocean </p>
+              <p class="fw-medium"> Digital Ocean </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1093,7 +1105,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/euris.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Euris </p>
+              <p class="fw-medium"> Euris </p>
             </div>
             </div>
           </div>
@@ -1106,7 +1118,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Kubernetes.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Kubernetes </p>
+              <p class="fw-medium"> Kubernetes </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1114,7 +1126,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/ECS.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> ECS </p>
+              <p class="fw-medium"> ECS </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1122,7 +1134,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/EC2.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> EC2 </p>
+              <p class="fw-medium"> EC2 </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1130,7 +1142,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Lambda.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Lambda </p>
+              <p class="fw-medium"> Lambda </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1138,7 +1150,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/CloudFormation.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> CloudFormation </p>
+              <p class="fw-medium"> CloudFormation </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1146,7 +1158,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Terraform.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Terraform </p>
+              <p class="fw-medium"> Terraform </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1154,7 +1166,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Jenkins.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Jenkins </p>
+              <p class="fw-medium"> Jenkins </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1162,7 +1174,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Bitbucket.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Bitbucket </p>
+              <p class="fw-medium"> Bitbucket </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1170,7 +1182,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/github.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> GitHub </p>
+              <p class="fw-medium"> GitHub </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1178,7 +1190,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Go.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Go </p>
+              <p class="fw-medium"> Go </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1186,7 +1198,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/SaltStack.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> SaltStack </p>
+              <p class="fw-medium"> SaltStack </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1194,7 +1206,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/Docker.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Docker </p>
+              <p class="fw-medium"> Docker </p>
             </div>
             </div>
           </div>
@@ -1206,7 +1218,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/new-relic.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> New Relic </p>
+              <p class="fw-medium"> New Relic </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1214,7 +1226,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/appdynamic-logo-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> AppDynamics </p>
+              <p class="fw-medium"> AppDynamics </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1222,7 +1234,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/dynatrace-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Dynatrace </p>
+              <p class="fw-medium"> Dynatrace </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1230,7 +1242,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/datadog.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Datadog </p>
+              <p class="fw-medium"> Datadog </p>
             </div>
             </div>
           </div>
@@ -1242,7 +1254,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/segement.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Segment </p>
+              <p class="fw-medium"> Segment </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1250,7 +1262,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/google-apigee.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Google Apigee </p>
+              <p class="fw-medium"> Google Apigee </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1258,7 +1270,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/mulesoft.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Mulesoft </p>
+              <p class="fw-medium"> Mulesoft </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1266,7 +1278,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/tealium.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Tealium </p>
+              <p class="fw-medium"> Tealium </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1274,7 +1286,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/zapier.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Zapier </p>
+              <p class="fw-medium"> Zapier </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1282,7 +1294,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/sonarqube.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> SonarQube </p>
+              <p class="fw-medium"> SonarQube </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1290,7 +1302,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/twilio.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Twilio </p>
+              <p class="fw-medium"> Twilio </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1298,7 +1310,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/sendgrid.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Sendgrid </p>
+              <p class="fw-medium"> Sendgrid </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1306,7 +1318,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/stripe.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Stripe </p>
+              <p class="fw-medium"> Stripe </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1314,7 +1326,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/paypal.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Paypal </p>
+              <p class="fw-medium"> Paypal </p>
             </div>
             </div>
           </div>
@@ -1326,7 +1338,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/BUSINESS-INTELIGENCE-POWERBI.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Power BI </p>
+              <p class="fw-medium"> Power BI </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1334,7 +1346,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/sap-business-objects.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> SAP </p>
+              <p class="fw-medium"> SAP </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1342,7 +1354,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/tableau-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Tableau </p>
+              <p class="fw-medium"> Tableau </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1350,7 +1362,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/looker-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Looker </p>
+              <p class="fw-medium"> Looker </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1358,7 +1370,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/qlik-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Qlik </p>
+              <p class="fw-medium"> Qlik </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1366,7 +1378,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/heap-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Heap </p>
+              <p class="fw-medium"> Heap </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1374,7 +1386,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/google-analytics.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Google Analytics </p>
+              <p class="fw-medium"> Google Analytics </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1382,7 +1394,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/amplitude-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Amplitude </p>
+              <p class="fw-medium"> Amplitude </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1390,7 +1402,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/mixpanel-1.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Mixpanel </p>
+              <p class="fw-medium"> Mixpanel </p>
             </div>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 my-2">
@@ -1398,7 +1410,7 @@
               <div style="width: 40%;margin: 3% auto;">
               <img src="{{asset('assets/inbox/countly.png')}}" class="img-fluid">
               </div>
-              <p class="fw-bold"> Countly </p>
+              <p class="fw-medium"> Countly </p>
             </div>
             </div>
           </div>
@@ -1530,6 +1542,7 @@
       <p>WHAT CLIENT SAYS ABOUT US</p>
       <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Testimonials</h6>
       <hr class="short"
+
         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
         data-zanim-trigger="scroll" />
       </div>

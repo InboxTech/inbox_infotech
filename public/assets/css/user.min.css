@@ -49,19 +49,16 @@ body {
     align-items: center;
     text-align: center;
   }
-
   .industry-serve .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-
   .client .swiper {
     width: 100%;
     /* height: 100%; */
   }
-
   .client .swiper-slide {
     width: 30%;
     text-align: center;
@@ -71,14 +68,12 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .client .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-
   .product .card-header{
     padding: 0;
     overflow: hidden;
@@ -102,7 +97,7 @@ body {
     margin-bottom: 0px;
 }
 .tech-arsenal .nav-tabs .nav-link:hover{
-    border-bottom: 2px solid #00406d;
+    /* border-bottom: 2px solid #00406d; */
 }
 .tech-arsenal .nav-tabs .active{
     color: #00406d;
@@ -117,28 +112,17 @@ body {
   height: 100%;
   object-fit: cover;
 }
-/* .services .card-header{
-  padding: 0;
-  height: 100%;
-}
-.services .card-header img{
-  width: 100%;
-  height: 100%;
-} */
-
 .testimonial .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .testimonial .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 300px;
   height: 300px;
 }
-
 .testimonial .swiper-slide img {
   display: block;
   width: 100%;
@@ -159,39 +143,26 @@ footer a{
    color: white !important;
    opacity: 0.5;
 }
-/* .services .card-button{
-  transition: all 0.5s ease;
-} */
-/* .services .card-button:hover .card-title{
-  transform: translateY(20px) !important;
-} */
-.services .card-button.active{
+/* .services .card-button .card.active{
   box-shadow:  0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
 
-}
+} */
 .services .card-button.active .card-title {
   color: white !important;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   opacity: 1;
 }
 .services .card-button .card {
   transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
-
 .services .card-button:hover .card {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
-/* .services .zoom-bg {
-
-  background-size: cover;
-  transition: background-size 0.5s ease;
+.services .card-button:hover .card-title{
+  color: white !important;
+  opacity: 1;
 }
-
-.services .zoom-bg:hover {
-  background-size: 110%;
-} */
-
 .job-details strong{
   background: linear-gradient(92.62deg, #006ab6, #00406d);
   -webkit-text-fill-color: transparent;
@@ -200,10 +171,8 @@ footer a{
 .svg-icons{
   width: 30%;
   /* height: 40%; */
-  border: 1px solid #00406d;
-  border-radius: 100%;
-  padding: 18px;
-  transition: all 0.5s linear;
+  /* border: 1px solid #00406d; */
+  /* border-radius: 100%; */
 
 }
 .svg-icons img{
@@ -220,24 +189,249 @@ footer a{
 .core-service-name{
   border: 1px solid #00406d;
   overflow: hidden;
-  transition: all 0.7s linear;
+  transition: all 0.5s linear;
 }
 .core-service-name img, .core-service-name p{
-  transition: all 0.7s linear;
+  transition: all 0.5s linear;
 }
 .core-service-name:hover img{
   transform: translateY(-120%);
 }
 .core-service-name:hover p{
   transform: translateY(-70%);
+  font-weight: 600;
 }
 .core-service-name:hover{
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(92.62deg, #006ab6, #00406d);
   border: 0;
-  transform: scale(1);
+  transform: scale(1.02);
+  color: white;
+}
+.blog p{
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.blog h5{
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.blog .card{
+  transition: all 0.5s linear;
+}
+.blog .card:hover{
+  background: linear-gradient(92.62deg, #006ab6, #00406d);
+  color: white;
+  /* padding-top: 20%;  */
+  /* background-position: bottom top;; */
+}
+.blog .card:hover img{
+  display:none;
+}
+.blog .card:hover p{
+  overflow: visible;
+  -webkit-line-clamp:10;
+}
+.blog .card:hover h5{
+  color: white;
+  overflow: visible;
+  margin-bottom: 20%;
+  -webkit-line-clamp:4;
+
+}
+.blog .card:hover a{
+  color: white;
+}
+.hiring-model .card, .MisVisVal .card, .agile-approach .card{
+  transition: all .5s linear;
+}
+.hiring-model .card:hover, .MisVisVal .card:hover, .agile-approach .card:hover{
+  transform: scale(1.1);
+}
+.industry-serve .indserve{
+  transition: all 0.5s linear;
+}
+.industry-serve .indserve:hover{
+ color: #00406d;
+  transform: scale(1.05);
+  font-weight: 600;
+}
+.web-dev-process .process-after{
+  position: relative;
+}
+.web-dev-process .web-process-left{
+position: relative;
+width: 50%;
+padding: 25px;
+left: -3%;
+}
+.web-dev-process .web-process-left .web-process-no{
+  position: absolute;
+   right: -9%;
+   top: 25%;
+}
+.web-dev-process .web-process-right{
+  position: relative;
+  width: 50%;
+  padding: 25px;
+  left: 53%;
+  }
+  .web-dev-process .web-process-right .web-process-no{
+    position: absolute;
+     left: -9%;
+     top: 25%;
+  }
+.web-dev-process .web-process-no{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #00406d; */
+  border-radius: 100%;
+  font-size: 20px;
+  background-color: #00406d;
+  color: white;
+  font-weight: 600;
+  /* z-index: 2; */
+}
+.web-dev-process .process-after::after{
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background-color: #00406d;
+  z-index: 1;
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline{
+  0%{
+    height: 0%;
+  }
+  100%{
+    height: 100%;
+  }
+}
+.web-dev-process .web-process{
+  opacity: 0;
+  z-index: 2;
+  animation: movedown 6s linear forwards;
+}
+@keyframes movedown{
+  0%{
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@media screen and (max-width: 992px){
+  .web-dev-process .process-after{
+    margin : 50px auto;
+  }
+  .web-dev-process .process-after::after{
+    position: absolute;
+    left: -10%;
+  }
+  .web-dev-process .web-process-left, .web-dev-process .web-process-right{
+    left: 0%;
+    width: 100%;
+    /* padding-left: 80px;
+    padding-right: 25px; */
+  }
+  .web-dev-process .web-process-right,
+  .web-dev-process .web-process-left {
+    left: 0;
+    width: 100%;
+  }
+ .web-process-no{
+  left: -13% !important;
+  right: auto;
+}
+.web-process-left .left-container-arrow,
+.web-process-right .right-container-arrow {
+  display: none !important; /* or inline-block if needed */
+
+}
+}
+.web-dev-process .web-process:nth-child(1){
+  animation-delay: 0s;
+}
+.web-dev-process .web-process:nth-child(2){
+  animation-delay: 1s;
+}
+.web-dev-process .web-process:nth-child(3){
+  animation-delay: 2s;
+}
+.web-dev-process .web-process:nth-child(4){
+  animation-delay: 3s;
+}
+.web-dev-process .web-process:nth-child(5){
+  animation-delay: 4s;
+}
+.web-dev-process .web-process:nth-child(6){
+  animation-delay: 5s;
+}
+.web-dev-process .web-process:nth-child(7){
+  animation-delay: 6s;
+}
+.web-dev-process .web-process:nth-child(8){
+  animation-delay: 7s;
+}
+.web-dev-process .process-after .left-container-arrow{
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  border-top: 15px solid  transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+  right: -15px;
+  /* box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1); */
+}
+.web-dev-process .process-after .right-container-arrow{
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  border-top: 15px solid  transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid white;
+  left: -15px;
+}
+.progress-no{
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    color: #00406d;
+    transition: all 1s linear;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* z-index: 2; */
+}
+.progress-no:hover{
+  background: linear-gradient(92.62deg, #006ab6, #00406d);
+}
+.progress-no:hover h4, .progress-no:hover h6{
+  color: white!important;
 }
 
 .call-back-form form div input,
+.call-back-form form div select,
 .call-back-form form div textarea{
   border: 0;
   border-bottom: 1px solid #00406d;
@@ -254,6 +448,7 @@ footer a{
     color: #2f2f2f !important;
 }
 .call-back-form form div input:focus,
+.call-back-form form div select:focus,
 .call-back-form form div textarea:focus{
   border: 0;
   border-bottom: 1px solid #00406d !important;
