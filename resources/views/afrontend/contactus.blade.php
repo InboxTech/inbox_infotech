@@ -91,7 +91,7 @@
         <!--  -->
         <!-- </div> -->
         <!-- <div class="row align-items-stretch justify-content-center mb-4"> -->
-      
+
         <div class="col-lg-4 mb-3">
         <div class="card h-100 shadow">
           <div class="card-body">
@@ -139,15 +139,15 @@
           <form action="{{url('contactus/form/submit')}}" method="post">
           {{ csrf_field() }}
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4">
             <div class="mb-4"><input class="form-control bg-white" type="text" name="name"
               placeholder="Your Name" required="required" /></div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
             <div class="mb-4"><input class="form-control bg-white" type="email" name="email" placeholder="Email"
               required="required" /></div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4">
             <div class="mb-4"><input class="form-control bg-white" type="tel" name="phone" placeholder="Phone" /></div>
             </div>
           </div>
@@ -165,7 +165,7 @@
       <div class="col-lg-6">
 
         <div class=" mb-4">
-  
+
           <!-- <div class="mapouter"> -->
           <!-- <div class="gmap_canvas"> -->
             <div class="">
@@ -183,20 +183,20 @@
             width: 100%;
             height: 400px;
             }
-  
+
             .gmap_canvas {
             overflow: hidden;
             background: none !important;
             width: 100%;
             height: 400px;
             }
-  
+
             .gmap_iframe {
             height: 400px !important;
             }
           </style> -->
           </div>
-  
+
         </div>
       </div>
 
