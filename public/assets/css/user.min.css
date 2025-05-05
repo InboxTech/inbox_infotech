@@ -32,7 +32,7 @@ body {
     object-fit: cover;
   }
   .countup-plus::after {
-    content: " +";
+    content: "+";
     width: 20px;
     height: 20px;
   }
@@ -426,7 +426,7 @@ left: -3%;
 .progress-no:hover{
   background: linear-gradient(92.62deg, #006ab6, #00406d);
 }
-.progress-no:hover h4, .progress-no:hover h6{
+.progress-no:hover h4, .progress-no:hover h6 , .progress-no:hover h5{
   color: white!important;
 }
 

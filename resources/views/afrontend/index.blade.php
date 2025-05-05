@@ -303,7 +303,7 @@
           </div>
           <div class="card-body p-3">
             <h5 class="text-color"> {{$product->title}} </h5>
-            <!-- <p> Transforming financial services with secure, AI-driven solutions. </p> -->
+            <p style="text-align:left">{!! $product->short_desc !!}</p>
           </div>
           <div class="card-footer p-3">
             <a href="{{url('products')}}/{{$product->slug}}">Read More  </a>

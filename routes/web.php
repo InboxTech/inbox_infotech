@@ -217,6 +217,7 @@ Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);
 Route::get('/services',[FrontController::class,'services']);
 Route::get('/services/software-development',[FrontController::class,'softwareDevelopment']);
 Route::get('/services/app-development',[FrontController::class,'appDevelopment']);
+Route::get('/services/ai-ml-development',[FrontController::class,'aimlDevelopment']);
 Route::get('/services/recruitment_staffing',[FrontController::class,'recruitmentStaffing']);
 Route::get('/services/{name}',[FrontController::class,'servicesdetails']);
 Route::get('/careers',[FrontController::class,'careers']);
