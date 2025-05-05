@@ -3,8 +3,11 @@
 /.well-known
 /node_modules
 /public/hot
-# /public/storage
-# /storage/*.key
+/public/storage
+/public/storage1
+/public/storage-30-04
+/storage/
+.key
 /vendor
 .env
 .env.backup
@@ -96,4 +99,6 @@ web.php
 webpack.mix.js
 wordfence-waf.php
 numinapharma.com
-.htaccess.phpupgrader.7da45003
+.htaccess.lock-63539e8b833b-6669ac7f-cae56
+.htaccess.lock-6bdc5c06080-6669ac7f-cae56
+/storage/debugbar

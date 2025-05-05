@@ -1,4 +1,4 @@
-<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold">
+<div class="bg-primary py-3 d-none d-sm-block text-white fw-bold ">
   <div class="container d-none">
     <div class="row align-items-center gx-4">
       <div class="col-auto d-none d-lg-block fs--1"><span class="fas fa-map-marker-alt text-warning me-2" data-fa-transform="grow-3"></span>402- A B C, C Square Building Sarabhai Campus,Vadodara, Gujarat</div>
@@ -10,10 +10,10 @@
 </div>
 <div class="sticky-top navbar-elixir">
   <div class="container">
-    <nav class="navbar navbar-expand-lg" style="padding-top: 0px; padding-bottom: 0px;"> 
-      <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
-        <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('inbox-logo.png')}}" alt="logo" height="50px"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
-		  </div>
+    <nav class="navbar navbar-expand-lg" style="padding-top: 0px; padding-bottom: 0px;">
+      <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('inbox-logo.png')}}" alt="logo" height="50px"/></a><button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
+      <!-- <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
+		  </div> -->
       <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
         <ul class="navbar-nav py-3 py-lg-0 mt-1 mb-2 my-lg-0 ms-lg-n1">
           <li class="nav-item dropdown"><a class="nav-link" href="{{url('/')}}" role="button">Home</a></li>
@@ -32,7 +32,7 @@
           </li>
 			    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">Voksen (AI Bot)</a></li>
+              <li><a class="dropdown-item" href="{{url('/products/tuno')}}" role="button">Tuno (AI Bot)</a></li>
 				        @foreach($myproducts as $mp)
                   {{-- @if($ms->slug == 'voksen')
                     <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">{{$ms->title}}</a></li>
@@ -59,4 +59,3 @@
     </nav>
   </div>
 </div>
-    

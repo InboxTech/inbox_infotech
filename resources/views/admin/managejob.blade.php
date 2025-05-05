@@ -66,7 +66,7 @@
 					<label for="email-input" class=" form-control-label">Number of Openings</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-					<input type="number" id="no_openings" name="no_openings" placeholder="Enter Number of Openings" class="form-control" value="{{$salary}}" required>
+					<input type="number" id="no_openings" name="no_openings" placeholder="Enter Number of Openings" class="form-control" value="{{$no_openings}}" required>
 					<small class="help-block form-text">Please enter Number of Openings in Number</small>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 					<label for="password-input" class=" form-control-label">Job Description</label><span class="text-danger">*</span>
 				</div>
 				<div class="col-12 col-md-9">
-			<textarea class="form-control" id="editor" placeholder="Job Description" name="jobdescription" required>{!! $jobdescription !!}</textarea>
+			<textarea class="form-control" id="editor" placeholder="Job Description" name="jobdescription">{!! $jobdescription !!}</textarea>
 			<small class="help-block form-text">Please enter Job Description details</small>
 				</div>
 			</div>

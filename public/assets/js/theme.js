@@ -2401,7 +2401,7 @@ var swiper = new Swiper(".testimonial-swiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: "3",
+  slidesPerView: "1",
   loop: true,
   coverflowEffect: {
     rotate: 50,
@@ -2413,6 +2413,45 @@ var swiper = new Swiper(".testimonial-swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+  },
 });
-
+var swiper = new Swiper(".myWebProcessSwiper", {
+  // slidesPerView: 1,
+  spaceBetween: 5,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
 AOS.init();

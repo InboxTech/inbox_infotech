@@ -31,7 +31,7 @@
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content="@twitter" />
         <meta property="twitter:site" content="@twitter" />
-        
+
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -109,14 +109,14 @@
         <link href="{{asset('vendors/hamburgers/hamburgers.min.css')}}" rel="stylesheet">
         <link href="{{asset('vendors/loaders.css/loaders.min.css')}}" rel="stylesheet">
         <link href="{{asset('assets/css/theme.min.css')}}" rel="stylesheet" />
+        <link href="{{asset('assets/css/user.min.css')}}" rel="stylesheet" />
         <link href="{{asset('assets/css/aos.css')}}" rel="stylesheet" />
 
-        <link href="{{asset('assets/css/user.min.css')}}" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com/">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-        
+
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=sans+serif:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
-        
+
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QZQHT5PRT"></script>
         <script>
