@@ -219,6 +219,8 @@ Route::get('/services/software-development',[FrontController::class,'softwareDev
 Route::get('/services/app-development',[FrontController::class,'appDevelopment']);
 Route::get('/services/ai-ml-development',[FrontController::class,'aimlDevelopment']);
 Route::get('/services/recruitment_staffing',[FrontController::class,'recruitmentStaffing']);
+Route::get('/services/iot',[FrontController::class,'iot']);
+Route::get('/services/cloud',[FrontController::class,'cloud']);
 Route::get('/services/{name}',[FrontController::class,'servicesdetails']);
 Route::get('/careers',[FrontController::class,'careers']);
 Route::get('/careers/{name}/{id}',[FrontController::class,'careersdetails']);
