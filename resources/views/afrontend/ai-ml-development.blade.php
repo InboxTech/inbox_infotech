@@ -334,15 +334,83 @@
             </section>
 <!------------------------------ machine learning development services end ---------------------------------------->
 
-        {{-- <div class="container"> --}}
-            <!-- ============================================-->
-            <!-- <section> Our Tech arsenal  begin ============================-->
-            <!-- ============================================-->
 
+ <!------------------------ AI technologies start ----------------------------->
 
-        <!-- <section> Our Tech arsenal close ============================-->
-        <!-- ============================================-->
+        <section>
+            <div class="text-center">
+                <h3> AI Technologies </h3>
+                <p></p>
+            </div>
+            <div class="my-5">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div>
+                            <h5> Neural Networks </h5>
+                            <p> CNN </p>
+                            <p>RNN </p>
+                            <p> Representation Learning </p>
+                            <p> Manifold Learning </p>
+                            <p>Variational Autoencoders </p>
+                            <p>Bayesian Network </p>
+                            <p>Autoregressive Networks </p>
+                            <p>Autoencoders (VAE, DAE SAE, etc.) </p>
+                            <p>Generative adversarial networks (GANs) </p>
+                            <p>Deep Q-Network (DQN) </p>
+                            <p>Feedforward Neural Network </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                             <h5> Module / Toolkits</h5>
+                             <p>Microsoft Cognitive Toolkit</p>
+                             <p>Core ML</p>
+                             <p>Kurento’s computer vision module</p>
+                        </div>
+                        <div class="mt-5">
+                            <h5>Libraries</h5>
+                            <p> Sonnet</p>
+                            <p>Tensorlfow probability </p>
+                            <p>Tensor2Tensor </p>
+                            <p>tf-slim </p>
+                            <p>OpenNN </p>
+                            <p>Neuroph </p>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-3">
+                        <div>
+                            <h5> Algorithms </h5>
+                            <p>Supervised/ Unsupervised Learning </p>
+                            <p>Clustering</p>
+                            <p>Metric Learning </p>
+                            <p>Fewshot Learning </p>
+                        </div>
+                        <div class="mt-5">
+                            <h5> Concepts</h5>
+                            <p> Supervised/unsupervised learning</p>
+                            <p>Clustering (density-based, Hierarchical, partitioning) </p>
+                            <p>Metric learning </p>
+                            <p>Few-shot learning </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <h5> Frameworks </h5>
+                            <p> Tensorflow</p>
+                            <p> PyTorch</p>
+                            <p> MXNet</p>
+                            <p> Nvidia</p>
+                            <p> Caffe</p>
+                            <p> Caffe2 </p>
+                            <p> Chainer</p>
+                            <p> Theano </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ <!------------------------ AI technologies end ----------------------------->
 
 
         <!------------------------------  things you know start ------------------------->

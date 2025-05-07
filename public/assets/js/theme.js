@@ -2479,8 +2479,12 @@ var swiper = new Swiper(".myIoTSwiper", {
       },
   });
   var swiper = new Swiper(".myCloudSwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+    autoplay: {
+        delay: 2000,
+        // disableOnInteraction: false,
+      },
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
   });

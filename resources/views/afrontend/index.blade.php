@@ -136,7 +136,7 @@
     <section class=" services">
     <div class="container">
       <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-      <h2 class="text-color">Our Services</h2>
+      <h3 class="text-color">Our Services</h3>
       <p class="px-lg-4 mt-3">Our service offerings are aligned to the changing world of our customers. Our portfolio
         of services range from designing strategy to delivering impact.</p>
       <hr class="short"
@@ -213,7 +213,7 @@
           <div class="bg-primary p-5" >
           <!--/.bg-holder-->
           <div class="container mx-auto">
-             <h2 class="text-white text-center"> Take the right step, do the big things.  </h2>
+             <h3 class="text-white text-center"> Take the right step, do the big things.  </h3>
           <div class="row justify-content-center align-items-center ">
             <div class="col-lg-3 col-md-6 ">
               <div class="my-5 progress-no">
@@ -283,7 +283,7 @@
     <section class="product">
     <div class="container">
       <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-      <h5 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Our Industry Led Solutions </h5>
+      <h3 class=" text-color" style="font-size: 2.368593037rem"> Our Industry Led Solutions </h3>
       <hr class="short"
         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
         data-zanim-trigger="scroll" />
@@ -328,7 +328,7 @@
     <section class="my-5 hiring-model">
     <div class="container">
       <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-      <h2 class=" fs-md-3 text-color"> Our Hiring Model </h2>
+      <h3 class=" text-color"> Our Hiring Model </h3>
       <p> At Inbox Infotech, we understand the importance of
         collaboration in bringing your projects to life. That's why
         we offer a range of engagement options tailored to your
@@ -401,8 +401,8 @@
     <section class="my-5">
     <div class="container">
       <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-      <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Hire Your Own Remote
-        Team </h6>
+      <h3 class="text-color" style="font-size: 2.368593037rem"> Hire Your Own Remote
+        Team </h3>
       <p> Build a high-performance tech team —
         without the hiring hassle.
       </p>
@@ -615,7 +615,7 @@
     <section class="my-5 tech-arsenal">
     <div class="container">
       <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-      <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Tech Arsenal</h6>
+      <h3 class="text-color" style="font-size: 2.368593037rem">Our Tech Arsenal</h3>
       <hr class="short"
         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
         data-zanim-trigger="scroll" />
@@ -1479,7 +1479,7 @@
     <section class="industry-rec my-5">
     <div class="container">
       <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-      <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries Recognition </h6>
+      <h3 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries Recognition </h3>
 
       <hr class="short"
         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
@@ -1584,7 +1584,7 @@
     <div class="container">
       <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
       <p>WHAT CLIENT SAYS ABOUT US</p>
-      <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Testimonials</h6>
+      <h3 class=" text-color" style="font-size: 2.368593037rem">Our Testimonials</h3>
       <hr class="short"
 
         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'

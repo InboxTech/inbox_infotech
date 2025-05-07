@@ -67,8 +67,8 @@
                 <section class="my-5 MisVisVal">
                     <div>
                         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                            <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Mission Vision & Values
-                            </h6>
+                            <h3 class="text-color" style="font-size: 2.368593037rem"> Mission Vision & Values
+                            </h3>
                             <hr class="short"
                                 data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                                 data-zanim-trigger="scroll" />
@@ -150,7 +150,7 @@
                 <section class="my-5 core-service">
                     <div>
                         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                            <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Core Services </h6>
+                            <h3 class=" text-color" style="font-size: 2.368593037rem"> Core Services </h3>
                             <hr class="short"
                                 data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                                 data-zanim-trigger="scroll" />
@@ -271,7 +271,7 @@
                 <section class="my-5 agile-approach">
                     <div>
                         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                            <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Agile Approach </h6>
+                            <h3 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Agile Approach </h3>
                             <hr class="short"
                                 data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                                 data-zanim-trigger="scroll" />
@@ -440,8 +440,8 @@
                 <section class="my-5 industry-serve">
                     <div>
                         <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                            <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries We Serve
-                            </h6>
+                            <h3 class=" text-color" style="font-size: 2.368593037rem"> Industries We Serve
+                            </h3>
                             <p class="lh-lg" style="font-size: 1.2rem;"> As a Software Development Company, we understand
                                 every industry has its own set of challenges. We don't offer a one-size-fits-all solution.
                                 Instead, we focus on the unique risks, opportunities, and best practices of your domain.

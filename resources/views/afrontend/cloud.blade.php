@@ -164,206 +164,439 @@
                                 <p> Community Cloud is a cloud deployment model shared by multiple organizations with common concerns, such as security, compliance, or industry-specific requirements. It can be hosted by a third-party provider or managed internally. Community clouds allow for cost-sharing and collaboration while maintaining control over sensitive data, making them ideal for businesses in the same industry or regulatory environment. </p>
                             </div>
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/Community_Cloud.png')}}" class="img-fluid">
+                                <img src="{{asset('assets/inbox/Multi_Cloud.png')}}" class="img-fluid">
                             </div>
                         </div>
                       </div>
 
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    {{-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> --}}
                   </div>
             </div>
         </section>
         <!---------------  cloud deployment model end --------------------->
 
-        <!--------------------------------------- iot services start --------------------------->
+        <!--------------------------------------- cloud services start --------------------------->
 
-        <section class="iot-services">
+        <section class="cloud-services">
            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-               <h3 > Our IoT Development Services </h3>
-               <p> At Inbox, we specialize in delivering innovative Internet of Things (IoT) solutions that drive digital transformation. Our team of experts builds connected ecosystems that enable smarter decision-making, enhanced automation, and real-time insights. From designing custom IoT devices to developing scalable cloud platforms, we provide end-to-end solutions tailored to your business needs. Whether you're looking to optimize operations, enhance customer experiences, or improve data-driven strategies, we have the expertise to bring your IoT vision to life. </p>
+               <h3 > Our Cloud Managed Services </h3>
+               <p> Our Cloud Managed Services provide end-to-end management, monitoring, security, and optimization of your cloud infrastructure, ensuring scalability, performance, compliance, and 24/7 expert support for seamless operations. </p>
            </div>
 
            <div class="my-5">
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-xl-3 nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link border-bottom py-3 active" id="v-pills-iotconsult-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iotconsult" type="button" role="tab" aria-controls="v-pills-iotconsult" aria-selected="true"> IoT Consulting Services </a>
+                <div class="col-xl-3">
+                    <div class=" sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
+                        <div class=" nav flex-column nav-pills"  id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link border-bottom py-3 active" id="v-pills-cloudmigrate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cloudmigrate" type="button" role="tab" aria-controls="v-pills-cloudmigrate" aria-selected="true"> Cloud Migration </a>
 
-                    <a class="nav-link border-bottom py-3" id="v-pills-iotappdev-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iotappdev" type="button" role="tab" aria-controls="v-pills-iotappdev" aria-selected="false">IoT Application Development</a>
+                            <a class="nav-link border-bottom py-3" id="v-pills-clouddeploy-tab" data-bs-toggle="pill" data-bs-target="#v-pills-clouddeploy" type="button" role="tab" aria-controls="v-pills-clouddeploy" aria-selected="false"> Cloud Deployment </a>
 
-                    <a class="nav-link border-bottom py-3" id="v-pills-iotwearappdev-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iotwearappdev" type="button" role="tab" aria-controls="v-pills-iotwearappdev" aria-selected="false"> IoT Wearable App Development </a>
+                            <a class="nav-link border-bottom py-3" id="v-pills-cloudoptimize-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cloudoptimize" type="button" role="tab" aria-controls="v-pills-cloudoptimize" aria-selected="false"> Cloud Optimization  </a>
 
-                    <a class="nav-link border-bottom py-3" id="v-pills-iotcloud-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iotcloud" type="button" role="tab" aria-controls="v-pills-iotcloud" aria-selected="false"> IoT Cloud Development </a>
+                            <a class="nav-link border-bottom py-3" id="v-pills-monitor-tab" data-bs-toggle="pill" data-bs-target="#v-pills-monitor" type="button" role="tab" aria-controls="v-pills-monitor" aria-selected="false"> Monitoring and Maintenance </a>
 
-                    <a class="nav-link border-bottom py-3" id="v-pills-iotanavisu-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iotanavisu" type="button" role="tab" aria-controls="v-pills-iotanavisu" aria-selected="false"> IoT Analytics & Visualization </a>
+                            <a class="nav-link border-bottom py-3" id="v-pills-appmanage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-appmanage" type="button" role="tab" aria-controls="v-pills-appmanage" aria-selected="false"> Application Management Services </a>
 
-                    <a class="nav-link border-bottom py-3" id="v-pills-iotinteimpl-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iotinteimpl" type="button" role="tab" aria-controls="v-pills-iotinteimpl" aria-selected="false"> IoT Integration & implementation </a>
+                            <a class="nav-link border-bottom py-3" id="v-pills-inframanage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-inframanage" type="button" role="tab" aria-controls="v-pills-inframanage" aria-selected="false"> Infrastructure Management  </a>
 
-                    <a class="nav-link border-bottom py-3" id="v-pills-aiot-tab" data-bs-toggle="pill" data-bs-target="#v-pills-aiot" type="button" role="tab" aria-controls="v-pills-aiot" aria-selected="false"> Artificial Intelligence of Things </a>
+                            <a class="nav-link border-bottom py-3" id="v-pills-clouddb-tab" data-bs-toggle="pill" data-bs-target="#v-pills-clouddb" type="button" role="tab" aria-controls="v-pills-clouddb" aria-selected="false"> Managed Cloud Database </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xl-9 my-3 tab-content ps-lg-4" id="v-pills-tabContent">
-                    <div class="tab-pane p-4 card fade show active" id="v-pills-iotconsult" role="tabpanel" aria-labelledby="v-pills-iotconsult-tab" tabindex="0">
-                        <p> Unlock the full potential of the Internet of Things with our expert IoT Consulting Services. At Inbox, we help businesses navigate the complexities of IoT by providing strategic guidance, technical expertise, and actionable roadmaps. Whether you're just starting your IoT journey or looking to optimize an existing solution, our consultants work closely with your team to align IoT technologies with your business goals. </p>
-                        <p>What We Offer: </p>
-                        <ul>
-                            <li> <strong> IoT Strategy Development: </strong> We analyze your business processes to create a tailored IoT strategy that maximizes ROI and efficiency. </li>
-                            <li> <strong> Technology Assessment: </strong>  Our experts evaluate current systems and recommend the best-suited IoT platforms, protocols, and architecture.</li>
-                            <li> <strong> Use Case Identification: </strong>  We identify high-impact IoT use cases relevant to your industry, helping you prioritize investments. </li>
-                            <li> <strong>  Solution Design & Prototyping: </strong> From proof-of-concept to MVPs, we help you design scalable and secure IoT solutions. </li>
-                            <li> <strong> Risk & Compliance Advisory: </strong>  We assess potential risks, ensure data security, and advise on regulatory compliance. </li>
-                            <li><strong> Vendor & Tool Selection: </strong>  Get help choosing the right hardware, software, cloud platforms, and connectivity solutions. </li>
+                <div class="col-xl-9 my-3 " >
+                    <div class="tab-content" id="v-pills-tabContent">
+
+                        <div class="tab-pane p-4 card fade show active" id="v-pills-cloudmigrate" role="tabpanel" aria-labelledby="v-pills-cloudmigrate-tab" tabindex="0">
+                            <p> Seamlessly transition your business to the cloud with our end-to-end Cloud Migration Services. We help you move your data, applications, and infrastructure from legacy systems or other cloud platforms to a modern, secure cloud environment—minimizing downtime and ensuring business continuity.
+
+                                Our expert team assesses your current infrastructure, designs a tailored migration strategy, and executes the move using industry best practices. Whether you're looking to rehost, re-platform, or refactor, we ensure a smooth and secure migration experience with minimal disruption. Post-migration, we optimize your cloud setup for performance, scalability, and cost efficiency. </p>
+                                <p> Our Cloud Migration Approach </p>
+                                <ul>
+                                    <li> Assessment & Planning
+                                      <ul>
+                                         <li> We begin with a full assessment of your existing IT environment. </li>
+                                         <li> Identify workloads suitable for cloud, evaluate dependencies, risks, and compliance needs. </li>
+                                         <li> Develop a tailored migration roadmap aligned with your business objectives.</li>
+                                    </ul>
+                                    </li>
+                                    <li> Cloud Strategy & Architecture
+                                      <ul>
+                                        <li>Choose the right cloud model (public, private, hybrid, or multi-cloud).</li>
+                                        <li>Design scalable, secure, and cost-efficient cloud architectures.</li>
+                                        <li>Select the appropriate migration strategy: Rehost, Replatform, Refactor, Repurchase, or Retire.</li>
+                                      </ul>
+                                    </li>
+                                    <li> Migration Execution
+
+                                        <ul>
+                                            <li> Perform data and application migration with minimal downtime.</li>
+                                            <li> Automate workflows and integrate DevOps practices.</li>
+                                            <li> Validate workloads post-migration to ensure performance and functionality.</li>
+                                        </ul>
+                                    </li>
+                                    <li> Security & Compliance
+                                       <ul>
+                                        <li>Implement end-to-end encryption, access controls, and compliance frameworks. </li>
+                                        <li> Ensure adherence to standards like ISO, GDPR, HIPAA, and others.</li>
+                                       </ul>
+                                    </li>
+                                    <li> Optimization & Support
+                                        <ul>
+                                            <li> Continuously monitor cloud performance and resource utilization.</li>
+                                            <li> Offer cost optimization, governance, and post-migration support. </li>
+                                            <li> Enable auto-scaling, backup, and disaster recovery mechanisms. </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                        </div>
+                        <div class="tab-pane p-4 card fade" id="v-pills-clouddeploy" role="tabpanel" aria-labelledby="v-pills-clouddeploy-tab" tabindex="0">
+                            <p>Accelerate your digital transformation with our expert Cloud Deployment Services, designed to deliver secure, scalable, and high-performance cloud environments tailored to your business needs. At Inbox, we ensure a smooth and efficient deployment process—whether you're adopting a new cloud infrastructure or expanding existing services.</p>
+                            <p> What We Offer </p>
+                            <ul>
+                                <li> Deployment Strategy & Planning
+                                    <ul>
+                                        <li> Evaluate your business goals, application architecture, and compliance requirements. </li>
+                                        <li> Choose the best deployment model: Public, Private, Hybrid, or Multi-cloud. </li>
+                                        <li> Define workload priorities and develop a customized deployment roadmap.</li>
+                                    </ul>
+                                </li>
+                                <li> Cloud Environment Setup
+                                    <ul>
+                                       <li> Provisioning of cloud infrastructure (compute, storage, networking). </li>
+                                       <li> Configuration of cloud-native tools and services (e.g., AWS EC2, Azure Virtual Machines, GCP Compute Engine). </li>
+                                       <li> Integration with DevOps pipelines for continuous delivery. </li>
+                                    </ul>
+                                </li>
+                                <li>Application & Service Deployment
+                                    <ul>
+                                        <li>Deploy web apps, APIs, databases, containers (Docker, Kubernetes), and more.</li>
+                                        <li> Enable auto-scaling, load balancing, and high availability. </li>
+                                        <li> Ensure seamless CI/CD processes for ongoing releases. </li>
+                                    </ul>
+                                </li>
+                                <li>Security & Compliance Integration
+                                    <ul>
+                                        <li> Implement firewalls, IAM policies, encryption, and secure access controls. </li>
+                                        <li> Align deployments with industry standards and regulations (e.g., GDPR, HIPAA, ISO 27001).</li>
+                                    </ul>
+                                </li>
+                                <li> Monitoring & Optimization
+                                    <ul>
+                                        <li> Configure monitoring tools for real-time visibility and alerting. </li>
+                                        <li> Analyze resource utilization and optimize for cost and performance. </li>
+                                        <li> Provide regular reporting and insights for continuous improvement. </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane p-4 card fade" id="v-pills-cloudoptimize" role="tabpanel" aria-labelledby="v-pills-cloudoptimize-tab" tabindex="0">
+                           <p> Maximize the performance, efficiency, and cost-effectiveness of your cloud environment with our expert Cloud Optimization Services. At Inbox, we help businesses streamline their cloud operations by identifying and eliminating inefficiencies, reducing waste, and aligning cloud usage with business objectives. </p>
+                           <p>  Our Cloud Optimization Process: </p>
+                           <ul>
+                            <li> Assessment & Discovery
+                                <ul>
+                                 <li>In-depth audit of your current cloud environment</li>
+                                 <li>Identify underused, over-provisioned, or idle resources</li>
+                                 <li>Analyze billing data and usage patterns </li>
+                                </ul>
+                            </li>
+                            <li> Cost Optimization
+                                    <ul>
+                                        <li>Rightsize compute and storage resources</li>
+                                        <li> Recommend reserved instances, spot instances, and auto-scaling </li>
+                                        <li> Identify cost-saving opportunities across services (e.g., AWS, Azure, GCP) </li>
+                                    </ul>
+                            </li>
+                            <li>
+                                Performance Tuning
+                                <ul>
+                                    <li> Optimize workloads for speed and reliability </li>
+                                    <li> Improve response times and throughput</li>
+                                    <li> Enhance application and database performance</li>
+                                </ul>
+                            </li>
+                            <li> Architecture Review
+                                <ul>
+                                  <li>Evaluate your architecture against cloud best practices</li>
+                                  <li>Refactor or rearchitect for better scalability and maintainability</li>
+                                  <li>Apply Well-Architected Frameworks and cloud-native design principles</li>
+                                </ul> </li>
+                            <li>Security & Compliance Optimization
+                                <ul>
+                                 <li> Close security gaps and reduce unnecessary exposure </li>
+                                 <li> Implement least-privilege access and secure configurations </li>
+                                 <li>Ensure alignment with compliance requirements</li>
+                                </ul>
+                             </li>
+                            <li>Monitoring & Automation
+                              <ul>
+                              <li> Set up proactive monitoring, alerts, and dashboards</li>
+                              <li> Automate scaling, backups, and resource scheduling</li>
+                              <li>Enable continuous optimization with AIOps and FinOps practices</li>
+                            </ul>
+                            </li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane p-4 card fade" id="v-pills-monitor" role="tabpanel" aria-labelledby="v-pills-monitor-tab" tabindex="0">
+                            <p> Ensure the health, performance, and security of your cloud infrastructure with our comprehensive Monitoring and Maintenance Services. At Inbox, we provide 24/7 proactive monitoring, real-time alerting, and regular maintenance to keep your cloud environment running smoothly and efficiently.</p>
+                            <p> What We Do </p>
+                            <ul>
+                                <li>24/7 Cloud Monitoring
+                                  <ul>
+                                    <li> Continuous monitoring of cloud resources, applications, and services</li>
+                                    <li>Real-time performance tracking and anomaly detection</li>
+                                    <li>Instant alerts for issues such as downtime, performance degradation, or security risks</li>
+                                </ul>
+                                </li>
+                                <li>Infrastructure Health Checks
+                                  <ul>
+                                    <li> Regular system diagnostics to assess CPU, memory, disk usage, and network activity</li>
+                                    <li> Detection of resource bottlenecks or failures</li>
+                                    <li>Predictive analytics to prevent future incidents</li>
+                                </ul>
+                                </li>
+                                <li>Patch Management & Updates
+                                    <ul>
+                                       <li> Scheduled updates and security patching for operating systems, databases, and applications</li>
+                                       <li> Version control and rollback planning to minimize service disruption</li>
+                                    </ul> </li>
+                                <li> Security Monitoring
+                                  <ul>
+                                   <li> Continuous threat detection, log analysis, and intrusion prevention</li>
+                                   <li> Integration with SIEM tools and incident response systems </li>
+                                   <li> Compliance audits for standards like ISO, HIPAA, GDPR, etc. </li>
+                                </ul>
+                                </li>
+                                <li> Backup & Recovery Management
+                                    <ul>
+                                        <li>Routine backup verification and validation</li>
+                                        <li> Recovery testing and planning to ensure data integrity </li>
+                                        <li> Disaster recovery drills and failover setup </li>
+                                    </ul>
+                                 </li>
+                                <li> Performance Optimization
+                                    <ul>
+                                        <li>Regular tuning of resources based on usage patterns</li>
+                                        <li> Recommendations for scaling, resource allocation, and cost control </li>
+                                        <li>Application performance management (APM) integration</li>
+                                    </ul>
+                                </li>
+                                <li> Reporting & Analytics
+                                    <ul>
+                                        <li>Detailed reports on uptime, usage, incidents, and system health</li>
+                                        <li> Custom dashboards tailored to your business KPIs</li>
+                                        <li>Monthly or quarterly review meetings with expert recommendations</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane p-4 card fade" id="v-pills-appmanage" role="tabpanel" aria-labelledby="v-pills-appmanage-tab" tabindex="0">
+                          <p>  Optimize performance, reduce downtime, and improve user experience with our end-to-end Application Management Services. At Inbox, we take full responsibility for the lifecycle management of your business-critical applications—whether hosted on the cloud, on-premises, or in hybrid environments. </p>
+                          <p>  What We Offer</p>
+                          <ul>
+                            <li>Application Monitoring & Support
+                              <ul>
+                                <li> 24/7 monitoring of application performance and availability</li>
+                                <li>Real-time issue detection and incident resolution</li>
+                                <li>User support and helpdesk integration</li>
+                            </ul>
+                            </li>
+                            <li>Performance Optimization
+                              <ul>
+                                <li>Tuning applications for speed, responsiveness, and reliability</li>
+                                <li> Load balancing, caching, and database optimization</li>
+                                <li>Proactive recommendations based on usage analytics</li>
+                            </ul>
+                            </li>
+                            <li>Application Updates & Maintenance
+                                <ul>
+                                   <li> Regular patching, bug fixes, and version upgrades</li>
+                                   <li> Compatibility testing and rollback management </li>
+                                   <li> Maintenance windows aligned with your business hours </li>
+                                </ul> </li>
+                            <li> Security & Compliance Management
+                              <ul>
+                               <li> Application vulnerability scanning and threat detection</li>
+                               <li> Role-based access control, encryption, and data privacy compliance </li>
+                               <li> Alignment with industry standards such as GDPR, HIPAA, and PCI-DSS </li>
+                            </ul>
+                            </li>
+                            <li> Application Lifecycle Management
+                                <ul>
+                                    <li>Support from development and deployment to retirement</li>
+                                    <li> Integration with DevOps/CI-CD pipelines</li>
+                                    <li> Documentation, configuration management, and continuous improvement</li>
+                                </ul>
+                             </li>
+                            <li> Backup & Disaster Recovery
+                                <ul>
+                                    <li>Scheduled backups and recovery testing</li>
+                                    <li> Application-level failover strategies </li>
+                                    <li>Business continuity planning and execution/li>
+                                </ul>
+                            </li>
+
                         </ul>
-                    </div>
-                    <div class="tab-pane p-4 card fade" id="v-pills-iotappdev" role="tabpanel" aria-labelledby="v-pills-iotappdev-tab" tabindex="0">
-                        <p> At Inbox, we develop powerful, scalable, and secure IoT applications that seamlessly connect devices, systems, and users. Our end-to-end IoT application development services help businesses harness real-time data, automate operations, and improve decision-making across various industries.</p>
-                        <p> Our Services Include:</p>
-                        <ul>
-                            <li> <strong> Custom IoT App Development: </strong>  Web, mobile, and cloud-based apps tailored to your specific use case.</li>
-                            <li> <strong> Device Integration: </strong>  Seamless communication between IoT devices, sensors, and control systems. </li>
-                            <li> <strong> Real-Time Data Processing: </strong>  Stream and analyze data from connected devices with minimal latency.</li>
-                            <li> <strong> Cloud & Edge Computing: </strong>  Scalable solutions using AWS, Azure, Google Cloud, or on-premise infrastructure.</li>
-                            <li> <strong> Security & Compliance: </strong>  End-to-end encryption, secure APIs, and compliance with industry standards. </li>
-                            <li><strong> User Interface & Experience Design: </strong>  Intuitive dashboards, control panels, and visualizations for better insight and control. </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane p-4 card fade" id="v-pills-iotwearappdev" role="tabpanel" aria-labelledby="v-pills-iotwearappdev-tab" tabindex="0">
-                       <p> At Inbox, we specialize in IoT wearable app development that brings seamless connectivity, real-time insights, and enhanced user experiences to smart wearable devices. From fitness trackers and healthcare monitors to industrial wearables and smartwatches, we create custom applications that integrate smoothly with sensors, mobile platforms, and cloud ecosystems. </p>
-                       <p> What We Offer: </p>
-                       <ul>
-                        <li><strong> Custom Wearable App Development: </strong>  Native and cross-platform apps designed for smartwatches, fitness bands, AR/VR headsets, and more. </li>
-                        <li> <strong>Sensor & Device Integration: </strong>  Connect with heart rate monitors, GPS, motion sensors, and biometric trackers. </li>
-                        <li><strong>  Real-Time Data Syncing: </strong>  Instant data transmission to smartphones, cloud platforms, or control systems.</li>
-                        <li> <strong> Health & Activity Monitoring: </strong>  Applications for fitness, wellness, medical diagnostics, and patient tracking. </li>
-                        <li><strong> User-Centric UI/UX Design: </strong>  Intuitive interfaces designed for small screens and optimal user interaction. </li>
-                        <li> <strong> Cloud & Analytics Integration: </strong>  Store and analyze wearable data with scalable cloud backends and AI-driven insights.</li>
-                       </ul>
-                    </div>
-                    <div class="tab-pane p-4 card fade" id="v-pills-iotcloud" role="tabpanel" aria-labelledby="v-pills-iotcloud-tab" tabindex="0">
-                        <p> At Inbox, we offer robust and scalable IoT Cloud Development services to help businesses collect, store, manage, and analyze data from connected devices in real time. Our cloud-based IoT solutions enable seamless communication between devices and centralized platforms, ensuring high performance, security, and flexibility.</p>
-                        <p> Key Services Include: </p>
-                        <ul>
-                            <li><strong>  Cloud Infrastructure Design: </strong> Build secure and scalable IoT platforms using AWS IoT, Azure IoT Hub, Google Cloud IoT, and more. </li>
-                            <li><strong>  Device & Data Management: </strong> Manage millions of IoT devices, control firmware updates, and process vast data streams in real time. </li>
-                            <li><strong> API & Microservices Development: </strong>  Create RESTful APIs and modular microservices for reliable integration and interoperability. </li>
-                            <li><strong>  Real-Time Analytics & Visualization: </strong> Gain actionable insights with custom dashboards, real-time monitoring, and predictive analytics. </li>
-                            <li><strong>  Security & Compliance: </strong> Implement end-to-end encryption, identity management, and compliance with GDPR, HIPAA, and other standards. </li>
-                            <li> <strong> Edge-Cloud Integration: </strong>  Develop hybrid solutions that balance local processing (edge) with cloud scalability. </li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane p-4 card fade" id="v-pills-iotanavisu" role="tabpanel" aria-labelledby="v-pills-iotanavisu-tab" tabindex="0">
-                      <p>  Turn raw device data into meaningful insights with our advanced IoT Analytics & Visualization services. At Inbox, we help businesses unlock the full value of their IoT ecosystems by transforming real-time and historical data into actionable intelligence through intuitive dashboards and powerful analytics tools. </p>
-                      <p> Our Capabilities Include: </p>
-                      <ul>
-                        <li><strong> Real-Time Data Analytics: </strong>  Monitor device performance, user behavior, and operational metrics as they happen.</li>
-                        <li><strong> Predictive & Prescriptive Analytics: </strong>  Use AI/ML models to forecast trends, detect anomalies, and optimize performance. </li>
-                        <li><strong> Custom Dashboards: </strong>  Build interactive dashboards tailored to business goals, showing KPIs, alerts, and insights clearly.</li>
-                        <li><strong> Data Integration:  </strong> Aggregate data from multiple devices, platforms, and sensors into a unified analytics system. </li>
-                        <li><strong>  Visualization Tools: </strong>  Leverage tools like Power BI, Grafana, Kibana, and custom-built UIs for clear data representation.</li>
-                        <li><strong> Automated Reporting: </strong>  Generate scheduled or on-demand reports with visual summaries for stakeholders. </li>
-                      </ul>
-                    </div>
-                    <div class="tab-pane p-4 card fade" id="v-pills-iotinteimpl" role="tabpanel" aria-labelledby="v-pills-iotinteimpl-tab" tabindex="0">
-                      <p> At Inbox, we provide end-to-end IoT Integration & Implementation services that connect devices, systems, and data streams into a unified and efficient ecosystem. Our team ensures smooth integration of IoT solutions with your existing infrastructure, enabling real-time data exchange, automation, and seamless operations. </p>
-                      <p> Our Services Include:</p>
-                      <ul>
-                        <li><strong> System Integration: </strong>  Connect IoT devices with ERP, CRM, SCADA, and other enterprise systems. </li>
-                        <li><strong> Connectivity Setup: </strong>  Implement reliable communication protocols like MQTT, CoAP, HTTP, and LoRaWAN. </li>
-                        <li><strong> Edge & Cloud Integration: </strong>  Ensure real-time processing and scalability with secure edge-to-cloud connectivity. </li>
-                        <li><strong> Middleware Development: </strong>  Build custom middleware for protocol translation, device management, and data routing. </li>
-                        <li><strong>  Hardware-Software Synchronization:  </strong> Seamless alignment of device firmware with mobile/web/cloud applications. </li>
-                        <li><strong> Implementation & Deployment: </strong>  Full-scale deployment of IoT networks with testing, configuration, and rollout. </li>
-                      </ul>
-                    </div>
-                    <div class="tab-pane p-4 card fade" id="v-pills-aiot" role="tabpanel" aria-labelledby="v-pills-aiot-tab" tabindex="0">
-                        <p> Artificial Intelligence of Things (AIoT) combines the power of Artificial Intelligence (AI) with the Internet of Things (IoT) to create intelligent, autonomous systems that can sense, analyze, and act in real time. At Inbox, we develop AIoT solutions that help businesses automate processes, gain predictive insights, and optimize operations through smart data-driven technologies.</p>
-                        <p> What We Offer: </p>
-                        <ul>
-                            <li><strong> AI-Powered IoT Platforms: </strong>  Integrate machine learning and deep learning models into your IoT systems for intelligent decision-making. </li>
-                            <li><strong> Edge AI Solutions: </strong>  Deploy AI models directly on edge devices for low-latency data processing and offline intelligence. </li>
-                            <li><strong> Predictive Maintenance: </strong>  Use AIoT to monitor equipment health and predict failures before they happen. </li>
-                            <li><strong> Computer Vision & Image Recognition: </strong>  Implement visual intelligence in cameras and sensors for security, automation, and analytics. </li>
-                            <li><strong> Smart Automation: </strong>  Enable systems to adapt and respond autonomously based on real-time data patterns. </li>
-                            <li><strong> Natural Language Processing (NLP): </strong>  Integrate voice and text interfaces for smart assistants, chatbots, and voice-controlled devices.</li>
-                        </ul>
+                        </div>
+                        <div class="tab-pane p-4 card fade" id="v-pills-inframanage" role="tabpanel" aria-labelledby="v-pills-inframanage-tab" tabindex="0">
+                          <p> Ensure stability, scalability, and performance of your IT backbone with our comprehensive Infrastructure Management Services. At Inbox, we take a proactive, end-to-end approach to managing your cloud and on-premises infrastructure—allowing your business to operate efficiently, securely, and without interruption. </p>
+                          <p> Our Core Infrastructure Management Capabilities</p>
+                          <ul>
+                            <li> Server & Network Management
+                                <ul>
+                                    <li>Provisioning, monitoring, and maintenance of cloud and hybrid servers</li>
+                                    <li>Network performance optimization, bandwidth usage analysis, and traffic management</li>
+                                    <li>Configuration and management of firewalls, VPNs, and routing systems</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Cloud Infrastructure Management
+                                <ul>
+                                    <li>Full lifecycle management on AWS, Azure, GCP, and hybrid environments</li>
+                                    <li>Auto-scaling, load balancing, and resource optimization</li>
+                                    <li>Multi-cloud orchestration and governance</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Storage & Backup Management
+                                <ul>
+                                    <li> Design and administration of secure, scalable storage solutions</li>
+                                    <li>Backup scheduling, snapshot management, and data recovery services</li>
+                                    <li>Tiered storage strategy for cost and performance balance</li>
+                                </ul>
+                            </li>
+                            <li>Security & Compliance Oversight
+                                <ul>
+                                    <li>Continuous security posture monitoring and threat prevention</li>
+                                    <li>Access control, vulnerability management, and audit readiness</li>
+                                    <li>Compliance enforcement for standards like ISO, NIST, HIPAA, and GDPR</li>
+                                </ul>
+                            </li>
+                            <li>Monitoring & Alerting
+                                <ul>
+                                    <li>Real-time infrastructure monitoring and performance tracking</li>
+                                    <li>Custom alerting systems for hardware failures, capacity issues, and anomalies</li>
+                                    <li>Integration with ITSM and incident response systems</li>
+                                </ul>
+                            </li>
+                            <li>Infrastructure Automation
+                               <ul>
+                                <li>Deployment of Infrastructure as Code (IaC) using Terraform, Ansible, or CloudFormation</li>
+                                <li> Automated patching, scaling, and provisioning</li>
+                                <li>Reduced manual errors and faster turnaround times</li>
+                               </ul>
+
+
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="tab-pane p-4 card fade" id="v-pills-clouddb" role="tabpanel" aria-labelledby="v-pills-clouddb-tab" tabindex="0">
+                            <p> Ensure high availability, security, and performance of your databases with our fully Managed Cloud Database Services. At Inbox, we manage, monitor, and optimize your cloud-based databases so your teams can focus on innovation—without worrying about downtime, maintenance, or scaling challenges.</p>
+                            <p> What We Offer: </p>
+                            <ul>
+                                <li>Database Provisioning & Configuration
+                                    <ul>
+                                        <li>Setup and configuration of cloud-native databases (e.g., Amazon RDS, Azure SQL, Google Cloud SQL)</li>
+                                        <li>Support for relational and NoSQL databases including MySQL, PostgreSQL, MongoDB, Oracle, SQL Server, DynamoDB, and more</li>
+                                        <li>Custom configuration based on performance, storage, and security requirements</li>
+                                    </ul>
+                                </li>
+                                <li>Performance Monitoring & Tuning
+                                    <ul>
+                                        <li>24/7 monitoring of query performance, CPU usage, memory, and I/O metrics</li>
+                                        <li>Query optimization, indexing strategies, and schema tuning</li>
+                                        <li>Real-time analytics and performance dashboards</li>
+
+                                    </ul>
+                                </li>
+                                <li>Automated Backups & Disaster Recovery
+                                    <ul>
+                                        <li>Scheduled, incremental backups with point-in-time recovery</li>
+                                        <li>High-availability (HA) and multi-region replication</li>
+                                        <li>Disaster recovery planning and testing for business continuity</li>
+                                    </ul>
+                                </li>
+                                <li>Security & Compliance
+                                   <ul>
+                                    <li>Data encryption at rest and in transit</li>
+                                    <li>Role-based access control (RBAC), firewall rules, and audit logging</li>
+                                    <li>Compliance with standards such as HIPAA, PCI-DSS, GDPR, and SOC 2</li>
+
+                                   </ul>
+
+
+                                </li>
+                                <li>Scaling & High Availability
+                                    <ul>
+                                        <li>Horizontal and vertical scaling to meet workload demands</li>
+                                        <li>Load balancing and failover setup for uninterrupted access</li>
+                                        <li>Support for read replicas and clustering </li>
+                                    </ul>
+                                </li>
+                                <li>Patching & Maintenance
+                                    <ul>
+                                        <li>Regular updates and security patching with zero/minimal downtime</li>
+                                        <li>Version upgrades and rollback strategies</li>
+                                        <li>Maintenance windows aligned with business hours</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
            </div>
         </section>
 
-        <!--------------------------------------- iot services end --------------------------->
+        <!--------------------------------------- cloud services end --------------------------->
 
           <!------------------------ iot development process start ------------------------->
 
           <section class="iot-process">
             <div class="text-center">
-                <h3> Our IoT Development Process </h3>
-                <p> We follow a structured, end-to-end process to deliver reliable and scalable IoT solutions</p>
+                <h3> Our Cloud Partners  </h3>
             </div>
-            <div class="my-5 swiper-process">
-                <div class="swiper myIoTSwiper p-5">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 1 </h4>
-                            <h5> Consultation & Requirement Analysis </h5>
-                            <p> We collaborate with stakeholders to understand business goals, define IoT use cases, and gather technical requirements to ensure the solution aligns with operational needs and strategic objectives.</p>
+           <div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/AWS.png') }}" class="img-fluid">
                         </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 2 </h4>
-                            <h5> Solution Architecture Design</h5>
-                            <p> We design a scalable, secure, and efficient IoT architecture, selecting the right hardware, connectivity, cloud platform, and software components to ensure seamless integration and future-ready performance. </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 3 </h4>
-                           <h5>  Hardware & Sensor Integration </h5>
-                           <p> We select and integrate the appropriate IoT devices, sensors, and communication modules, ensuring accurate data capture, reliable connectivity, and compatibility with the overall system architecture. </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 4 </h4>
-                            <h5> Software & App Development</h5>
-                            <p> We develop custom software, mobile, and web applications to manage IoT devices, visualize data, and enable user interaction, ensuring a seamless and intuitive user experience across platforms. </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 5 </h4>
-                            <h5> Cloud & Data Integration</h5>
-                            <p> We integrate IoT systems with secure cloud platforms to enable real-time data storage, processing, and analytics, ensuring scalability, accessibility, and seamless communication between devices and applications. </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 6 </h4>
-                             <h5> Testing & QA</h5>
-                             <p> We conduct thorough testing of devices, software, and connectivity to ensure performance, reliability, and security, identifying and resolving issues before deployment for a seamless user experience. </p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 7 </h4>
-                            <h5> Deployment & Implementation</h5>
-                            <p> We carry out the full-scale rollout of the IoT solution, configuring devices, integrating systems, and ensuring smooth operation in real-world environments with minimal disruption to business processes.</p>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card p-3 h-100 shadow">
-                            <h4> 8 </h4>
-                            <h5> Monitoring & Maintenance </h5>
-                            <p> We provide continuous monitoring, performance optimization, and timely updates to ensure your IoT system runs reliably, stays secure, and adapts to evolving business and technology needs. </p>
-                        </div>
-                      </div>
+                        <p class="fw-medium"> AWS </p>
                     </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/google-cloud.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Google Cloud </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/azure-1.png') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Azure </p>
+                    </div>
+                </div>
+                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/cloudflare.png') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Cloudflare </p>
+                    </div>
+                </div>
             </div>
+           </div>
           </section>
 
           <!------------------------ iot development process end ------------------------->
@@ -454,870 +687,7 @@
         <!-- ============================================-->
 
 
-    <!-- ============================================-->
-    <!-- <section> Our Tech arsenal  begin ============================-->
-    <!-- ============================================-->
-    {{-- <div class="container"> --}}
 
-    <section class="my-5 tech-arsenal">
-        <div class="container">
-          <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-          <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Tech Arsenal</h6>
-          <hr class="short"
-            data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-            data-zanim-trigger="scroll" />
-          </div>
-          <div class="my-5">
-          {{-- <div class="row justify-content-between">
-            <div class="col-lg-4 my-2"> --}}
-            <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up" data-aos-duration="1000">
-              <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend" role="tab"
-                aria-controls="backend" aria-selected="false">Backend </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend" role="tab"
-                aria-controls="frontend" aria-selected="false">Frontend </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="aiml-tab" data-bs-toggle="tab" data-bs-target="#aiml" role="tab"
-                aria-controls="aiml" aria-selected="false"> AI/ML </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="datastore-tab" data-bs-toggle="tab" data-bs-target="#datastore" role="tab"
-                aria-controls="datastore" aria-selected="false"> Database </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="server-tab" data-bs-toggle="tab" data-bs-target="#server" role="tab"
-                aria-controls="server" aria-selected="true"> Servers </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="devop-tab" data-bs-toggle="tab" data-bs-target="#devop" role="tab"
-                aria-controls="devop" aria-selected="false"> DevOps </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="monitoring-tab" data-bs-toggle="tab" data-bs-target="#monitoring" role="tab"
-                aria-controls="monitoring" aria-selected="false"> Monitoring </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="api-tab" data-bs-toggle="tab" data-bs-target="#api" role="tab"
-                aria-controls="api" aria-selected="false">API </a>
-              </li>
-              <li class="nav-item" role="presentation">
-              <a class="nav-link" id="analytics-tab" data-bs-toggle="tab" data-bs-target="#analytics" role="tab"
-                aria-controls="analytics" aria-selected="false"> Analytics </a>
-              </li>
-
-            </ul>
-            {{--
-            </div> --}}
-            {{-- <div class="col-lg-8 my-2"> --}}
-            <div class="tab-content my-5" data-aos="fade-up" data-aos-duration="1000">
-              <div class="tab-pane fade show active" id="backend" role="tabpanel" aria-labelledby="backend-tab"
-              tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/net.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> .Net </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/php.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> PHP </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Laravel.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Laravel </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/node.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Node.js</p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/python.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Python </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/java.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Java </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/rubyOnRail.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Ruby On Rails </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/django.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Django </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/express.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Express.js </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/flask.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Flask </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/springboot.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Spring boot </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/unity3D.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Unity </p>
-                </div>
-                </div>
-              </div>
-              </div>
-              <div class="tab-pane fade" id="frontend" role="tabpanel" aria-labelledby="frontend-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/angular.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Angular.js </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/react.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> React.js </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/bootstrap.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Bootstrap </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/jqery.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> jQuery </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/vue.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Vue.js </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/ember.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Ember.js </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/bbackbone.js.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Backbone.js </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/flutter.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Flutter </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/unity3D.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Unity 3D </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/shopify.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Shopify </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/wordpress.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> WordPress </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/magento.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Magento </p>
-                </div>
-                </div>
-
-              </div>
-              </div>
-              <div class="tab-pane fade" id="aiml" role="tabpanel" aria-labelledby="aiml-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/GIT-HUB.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Github Copilot </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/TABNINE-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Tabnine </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/CHATGPT.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> ChatGPT </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tensorflow-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Tansorflow </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/openaicodex.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> OpenAI Codex </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/otter.ai_.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Otter.ai </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/codewhisperer.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> CodeWhisperer</p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/hugging-face.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Hugging Face </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/blackbox ai.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Blackbox AI </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/cursor ai.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Cursor AI </p>
-                </div>
-                </div>
-              </div>
-              </div>
-              <div class="tab-pane fade" id="datastore" role="tabpanel" aria-labelledby="datastore-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/mysql.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> MySQL </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/mongodb.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> MongoDB </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/postgresql.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> PostgreySQL </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/snowflake.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Snowflake </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/redshift.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Redshift </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/azure-sql-synapse.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Azure SQL Synapse </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/splunk.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Splunk </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/talend.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Talend </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/fivetran.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Fivetran </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Oracle </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/mariaDB.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> MariaDB </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/sql_server.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> SQL Server </p>
-                </div>
-                </div>
-              </div>
-              </div>
-
-              <div class="tab-pane fade " id="server" role="tabpanel" aria-labelledby="server-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/linux.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Linux </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/ubantoo.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Ubantoo </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/windows.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Windows </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/AWS.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> AWS </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/google-cloud.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Google Cloud </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/azure-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Azure </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/apache-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Apache </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/nginx.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Nginx </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/cloudflare.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Cloudflare </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/fastly.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Fastly </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/digital ocean.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Digital Ocean </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/euris.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Euris </p>
-                </div>
-                </div>
-              </div>
-              </div>
-
-              <div class="tab-pane fade" id="devop" role="tabpanel" aria-labelledby="devop-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Kubernetes.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Kubernetes </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/ECS.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> ECS </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/EC2.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> EC2 </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Lambda.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Lambda </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/CloudFormation.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> CloudFormation </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Terraform.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Terraform </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Jenkins.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Jenkins </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Bitbucket.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Bitbucket </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/github.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> GitHub </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Go.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Go </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/SaltStack.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> SaltStack </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/Docker.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Docker </p>
-                </div>
-                </div>
-              </div>
-              </div>
-              <div class="tab-pane fade" id="monitoring" role="tabpanel" aria-labelledby="monitoring-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/new-relic.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> New Relic </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/appdynamic-logo-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> AppDynamics </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/dynatrace-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Dynatrace </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/datadog.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Datadog </p>
-                </div>
-                </div>
-              </div>
-              </div>
-              <div class="tab-pane fade" id="api" role="tabpanel" aria-labelledby="api-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/segement.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Segment </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/google-apigee.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Google Apigee </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/mulesoft.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Mulesoft </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tealium.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Tealium </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/zapier.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Zapier </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/sonarqube.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> SonarQube </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/twilio.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Twilio </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/sendgrid.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Sendgrid </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/stripe.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Stripe </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/paypal.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Paypal </p>
-                </div>
-                </div>
-              </div>
-              </div>
-              <div class="tab-pane fade" id="analytics" role="tabpanel" aria-labelledby="analytics-tab" tabindex="0">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/BUSINESS-INTELIGENCE-POWERBI.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Power BI </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/sap-business-objects.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> SAP </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tableau-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Tableau </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/looker-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Looker </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/qlik-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Qlik </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/heap-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Heap </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/google-analytics.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Google Analytics </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/amplitude-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Amplitude </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/mixpanel-1.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Mixpanel </p>
-                </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
-                <div class="tech-logo p-2 text-center" style="height: 100%;">
-                  <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/countly.png')}}" class="img-fluid">
-                  </div>
-                  <p class="fw-medium"> Countly </p>
-                </div>
-                </div>
-              </div>
-              </div>
-
-            </div>
-            {{--</div> --}}
-
-          </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-    </section>
-
-        <!-- <section> Our Tech arsenal close ============================-->
-        <!-- ============================================-->
 
         <!------------------------------  things you know start ------------------------->
         <section class="my-5">

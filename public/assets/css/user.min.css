@@ -454,11 +454,11 @@ left: -3%;
   border-bottom: 1px solid #00406d !important;
   box-shadow: none;
 }
-.iot-services .nav-pills .active{
+.iot-services .nav-pills .active, .cloud-services .nav-pills .active{
     background: linear-gradient(92.62deg, #006ab6, #00406d) !important;
     color: white;
 }
-.iot-services .tab-content .active{
+.iot-services .tab-content .active,.cloud-services .tab-content .active{
     background: linear-gradient(92.62deg, #006ab6, #00406d) !important;
     color: white;
 }
