@@ -2457,3 +2457,36 @@ var swiper = new Swiper(".myWebProcessSwiper", {
   },
 });
 AOS.init();
+
+var swiper = new Swiper(".myIoTSwiper", {
+    // slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+  });
+  var swiper = new Swiper(".myCloudSwiper", {
+    autoplay: {
+        delay: 2000,
+        // disableOnInteraction: false,
+      },
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+  });

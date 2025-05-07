@@ -55,6 +55,11 @@ class FrontController extends Controller
         // return view('afrontend.voksen',$arr);
         return view('afrontend.tuno');
     }
+    public function healthTech()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.health-tech', $arr);
+    }
     public function product(Request $req, $name)
     {
         $brr = DB::table('products')->where('slug', $name)->get();
@@ -85,10 +90,20 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.app-development', $arr);
     }
-    public function healthTech()
+    public function aimlDevelopment()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.health-tech', $arr);
+        return view('afrontend.ai-ml-development', $arr);
+    }
+    public function iot()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.iot', $arr);
+    }
+    public function cloud()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.cloud', $arr);
     }
     public function recruitmentStaffing()
     {

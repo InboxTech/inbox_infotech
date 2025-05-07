@@ -39,14 +39,14 @@
             <div></div>
           </div>
         </div>
-      </div>   
+      </div>
  <section>
         <div class="container">
           <div class="text-center mb-6">
             <h3 class="fs-2 fs-md-3 text-color">Our Services</h3>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           </div>
-		  
+
           <div class="row">
 		  @foreach($service as $ser)
 		  <?php $new = str_replace(' ', '-', $ser->title); ?>
@@ -54,11 +54,11 @@
 		  <a class="btn-primary btn-icon-left btn-outline-warning btn btn-icon btn-lg" href="{{url('services')}}/{{$ser->slug}}">
 		  <span class="btn-icon-wrapper">
 		  <span class="{{$ser->tax1 }}"></span>
-		  </span>{{$ser->title}}<span class="btn-icon-wrapper"></span><i class="far fa-arrow-alt-circle-right" style="icon-align-left"></i></a>		  
+		  </span>{{$ser->title}}<span class="btn-icon-wrapper"></span><i class="far fa-arrow-alt-circle-right" style="icon-align-left"></i></a>
 		  </div>
-		  @endforeach		  
+		  @endforeach
 		  </div>
-		  
+
 		  <div class="row mt-7">
             <div class="col-lg-4  px-4 px-sm-3 mb-4 mb-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <h5 data-zanim-xs='{"delay":0}'><span class="text-color fs-0 me-3 far fa-credit-card"></span>Awards winner team</h5>
