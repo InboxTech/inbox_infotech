@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Mobile Application Development')
+@section('page_title', 'Health Tech')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -9,26 +9,25 @@
 @section('seo_keyword', "$s3")
 @section('seo_canonical', "$s4")
 
-
 @section('container')
     <style>
         /* .bg-holder{
-        position: relative;
-        overflow: visible;
-      }
-      .bg-holder::before {
-        content: '';
-        position: absolute;
-        right: 0%;
-        bottom: -20%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 980px;
-        height: 700px;
-        z-index: 99;
-        background-image: url({{ asset('storage/media/112673532.webp') }});
-      } */
+            position: relative;
+            overflow: visible;
+          }
+          .bg-holder::before {
+            content: '';
+            position: absolute;
+            right: 0%;
+            bottom: -20%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 980px;
+            height: 700px;
+            z-index: 99;
+            background-image: url({{ asset('storage/media/112673532.webp') }});
+          } */
     </style>
     <main class="main" id="top">
         <div class="preloader" id="preloader">
@@ -57,31 +56,31 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color">Custom
-                                            <span
-                                                style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                                Mobile App Development </span>
-                                            Company
+                                        <p class="fs-4 fs-md-5 lh-1 text-color">
+                                            <span style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                                Revolutionizing Healthcare
+                                            </span>
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
-                                            Connecting top talent with the right opportunities – tailored recruitment and
-                                            staffing solutions for your business success.
+                                            AI-Powered Intelligence for a Healthier Tomorrow.
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                        <div data-zanim-xs='{"delay":0.2}'>
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
@@ -102,10 +101,8 @@
                                 @foreach ($clientlogos as $clogolist)
                                     <div class="swiper-slide">
                                         {{-- <div style="width: 100%;"> --}}
-                                        <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
-                                            alt="partnerco" data-zanim-xs="{}" />
-                                        {{--
-                  </div> --}}
+                                        <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}" alt="partnerco" data-zanim-xs="{}" />
+                                        {{--</div> --}}
                                     </div>
                                 @endforeach
                             </div>
@@ -114,224 +111,374 @@
                     </div>
                 </div>
             </section>
-            <!-----------------------------   client swiper start ---------------------------->
+            <!-----------------------------   client swiper end ---------------------------->
 
+            <!-----------------------------   About _______ start ---------------------------->
+            <section class="" style="padding-top:50px;">
+                <div class="row">
+                    <div class="col-xl-6 col-12">
+                        <img src="{{asset('assets/img/healthTech-about.png')}}" alt="" class="img-fluid" data-zanim-xs="{}">
+                    </div>
+                    <div class="col-xl-6 ps-5 col-12">
+                        <h2 class="text-color">About </h2>
+                        <p class="">
+                            Our AI-based Hospital Management System is a comprehensive, next-generation platform designed to streamline and optimize hospital operations through intelligent automation and data-driven decision-making. Leveraging advanced artificial intelligence, the system enhances efficiency across key functions including patient management, scheduling, electronic medical records (EMR), billing, diagnostics, inventory, and administrative workflows. It empowers healthcare providers with real-time insights, predictive analytics, and personalized care recommendations—improving patient outcomes, operational productivity, and resource utilization.</p>
+                    </div>
+                </div>
+            </section>
+            <!-----------------------------   About _______ end ---------------------------->
 
+            <!-----------------------------   Core Features start   ---------------------------->
 
-            <!-- <section> begin ============================-->
-
-            <section class="bg-white" style="padding-top:50px;">
-                <div>
-
+            <section class="" style="padding-top:50px; padding-bottom:50px;">
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Core Features (Modules) </h6>
                 </div>
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-lg-4 my-3">
-                        <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ asset('assets/inbox/android.png') }}" class="img-fluid"
-                                    style="width: 50px; height: 50px;">
-                                <h5 class="ms-2"> Android App Development </h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/ipd.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <div class="my-2">
-                                <p>Expertise in the complete Android app development stack, including Java and Kotlin. Build
-                                    scalable, secure, and high-performance apps tailored to business needs across
-                                    industries.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>IPD (In-Patient Department)</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-3">
-                        <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ asset('assets/inbox/iOS.png') }}" class="img-fluid"
-                                    style="width: 50px; height: 50px;">
-                                <h5 class="ms-2"> iOS App Development </h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/laboratory.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <div class="my-2">
-                                <p>Specialized in crafting elegant and efficient iOS applications using Swift and
-                                    Objective-C. Delivering seamless experiences that meet Apple’s design and performance
-                                    standards.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Laboratory Management</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-3">
-                        <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ asset('assets/inbox/flutter.png') }}" class="img-fluid"
-                                    style="width: 50px; height: 50px;">
-                                <h5 class="ms-2"> Flutter App Development </h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/hrms.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <div class="my-2">
-                                <p>Cross-platform mobile app development using Flutter and Dart. Build natively compiled
-                                    applications with expressive UIs and fast performance for both Android and iOS
-                                    platforms.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>HRMS (Human Resource Management System)</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-3">
-                        <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ asset('assets/inbox/react.js.png') }}" class="img-fluid"
-                                    style="width: 50px; height: 50px;">
-                                <h5 class="ms-2"> React Native App Development </h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/opd.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <div class="my-2">
-                                <p>Cross-platform development with React Native, enabling fast and cost-effective mobile
-                                    apps using a single JavaScript codebase. Ideal for startups and enterprises alike.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>OPD (Out-Patient Department)</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-3">
-                        <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ asset('assets/inbox/xamarin.png') }}" class="img-fluid"
-                                    style="width: 50px; height: 50px;">
-                                <h5 class="ms-2"> Xamarin App Development </h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/pharmacy.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <div class="my-2">
-                                <p>Enterprise-level mobile app solutions using Xamarin and C#. Leverage native APIs with a
-                                    shared codebase for iOS, Android, and Windows apps.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Pharmacy Management</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-3">
-                        <div class="h-100 p-3" style="border: 1px solid #00256d;border-radius: 20px;">
-                            <div class="d-flex align-items-center">
-                                <img src="{{ asset('assets/inbox/ionic.png') }}" class="img-fluid"
-                                    style="width: 50px; height: 50px;">
-                                <h5 class="ms-2"> Ionic App Development </h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/prm.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <div class="my-2">
-                                <p>Hybrid mobile apps built with web technologies like HTML, CSS, and JavaScript. Perfect
-                                    for rapid development and deployment across multiple platforms.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>PRM (Patient Relationship Management)</h5>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section><!-- <section> close ============================-->
-            <!-- ============================================-->
-
-            <!------------------------- custom mobile app step start --------------------------------->
-
-            <section class="">
-                <div class="row">
-                    <div class="col-12 col-md-12 col-xl-5">
-                        <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
-                            <h3 class="text-color">Custom Mobile App Development Services</h3>
-                            <p class="fw-light">Build high-performance, user-focused mobile apps with a team that
-                                specializes in end-to-end custom solutions for iOS, Android, and cross-platform development.
-                            </p>
-
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/inventory.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Inventory Management</h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-xl-7">
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Strategy & Consulting</h5>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/radiology.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <p class="text-black mb-0">We start by understanding your business goals, target audience, and
-                                industry challenges. Our experts help you choose the right platform, development language,
-                                and feature set to ensure your app delivers maximum value. From market research to MVP
-                                planning, we turn your vision into a clear, actionable roadmap.</p>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Radiology Management</h5>
+                            </div>
                         </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Design</h5>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/insurance.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
                             </div>
-                            <p class="text-black mb-0">Design is at the heart of user engagement. Our UI/UX designers craft
-                                intuitive, responsive interfaces with a mobile-first mindset. Using tools like Figma and
-                                Adobe XD, we create wireframes, prototypes, and final designs that ensure a seamless
-                                experience across iOS, Android, and hybrid platforms.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Custom App Development</h5>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Insurance Management</h5>
                             </div>
-                            <p class="text-black mb-0">We specialize in building fully customized mobile applications
-                                tailored to your business goals, industry needs, and user expectations. Whether you're
-                                targeting iOS, Android, or both, we develop apps using the most suitable technology stack —
-                                including native languages like Swift and Kotlin, or modern frameworks like Flutter and
-                                React Native. Every app we build is designed from the ground up, ensuring unique
-                                functionality, performance, and user experience. From design to deployment, we craft
-                                solutions that align perfectly with your brand and vision.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Cross-Platform App Development</h5>
-                            </div>
-                            <p class="text-black mb-0">Need to launch on both iOS and Android without doubling your budget?
-                                We develop cross-platform apps using Flutter, React Native, and Xamarin. These apps share a
-                                single codebase while maintaining native-like performance and user experience, reducing
-                                time-to-market and maintenance efforts.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Backend Development & API Integration</h5>
-                            </div>
-                            <p class="text-black mb-0">Every great app needs a powerful backend. We build secure, scalable
-                                server-side architectures using Node.js, Python, PHP, Firebase, AWS, and more. Whether
-                                you're syncing data, authenticating users, or integrating third-party APIs, we ensure smooth
-                                communication between frontend and backend systems.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Testing & QA</h5>
-                            </div>
-                            <p class="text-black mb-0">Before any app goes live, it goes through rigorous testing. We
-                                perform functional, performance, security, and user acceptance testing on real devices to
-                                ensure your app works flawlessly. Our QA team uses both manual and automated tools to
-                                eliminate bugs and optimize for performance across platforms.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">App Deployment & Launch</h5>
-                            </div>
-                            <p class="text-black mb-0">We manage the entire app release process, from preparing assets to
-                                publishing on the App Store and Google Play. We ensure your app meets all compliance
-                                standards, help with app store optimization (ASO), and coordinate a smooth rollout with
-                                version control and update planning.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Post-Launch Support & Maintenance</h5>
-                            </div>
-                            <p class="text-black mb-0">After your app is live, we continue to support it. Our team provides
-                                regular updates, performance monitoring, bug fixes, and feature enhancements. With real-time
-                                analytics and user feedback loops, we help you evolve your app to meet changing user demands
-                                and OS updates.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">App Modernization & Migration</h5>
-                            </div>
-                            <p class="text-black mb-0">Already have an app but it’s outdated or underperforming? We can
-                                modernize your codebase, upgrade to newer frameworks, and even migrate from one platform to
-                                another — such as from Android Java to Flutter or from hybrid to fully native — all while
-                                improving performance, design, and scalability.</p>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Emerging Tech Integrationt</h5>
-                            </div>
-                            <p class="text-black mb-0">Stay ahead of the curve by integrating the latest technologies. We
-                                help you add features like AI/ML for personalization, AR/VR for immersive experiences, IoT
-                                connectivity for smart devices, voice assistants, blockchain for secure data, and more — all
-                                seamlessly integrated into your mobile ecosystem.</p>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-----------------------------   Core Features end   ---------------------------->
 
-            <!------------------------- custom mobile app step end --------------------------------->
+            <!-----------------------------   Unified start   ---------------------------->
+            <section class="" style="padding-top:50px;">
+                <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Unified, Modular Hospital Management System</h6>
+                </div>
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="unified-card">
+                            <h5 class="mb-2"> Unified Platform </h5>
+                            <div class="my-2">
+                                <p>
+                                    All core hospital department integrated into a single platform (IPD, OPD, Pharmacy, Labs, Radiology, HRMS, CRM, Inventory, and insurance).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="unified-card">
+                            <h5 class="mb-2"> Centralized Control </h5>
+                            <div class="my-2">
+                                <p>
+                                    Multi-tenant architecture enables centralized control over multiple hospitals or branches.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="unified-card">
+                            <h5 class="mb-2"> Integrated Workflow </h5>
+                            <div class="my-2">
+                                <p>
+                                    IPD links to pharmacy, laboratory, radiology, and biling for seamless inpatient journey.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="unified-card">
+                            <h5 class="mb-2"> Smart Follow-up </h5>
+                            <div class="my-2">
+                                <p>
+                                    OPD integrates with CRM for follow-up using AI voice assistance and retention management.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <div class="unified-card">
+                            <h5 class="mb-2"> Unified Health Record </h5>
+                            <div class="my-2">
+                                <p>
+                                    Single patient profile contains all historical data, including visits, prescriptions, dignostics and billing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-----------------------------   Unified end   ---------------------------->
+
+            <section class="">
+                <!------------------------- AI Innovation & engagement start --------------------------------->
+                <div class="row my-5 custom-border">
+                    <div class="col-12 col-md-12 col-xl-5">
+                        <div class="sticky-top" style="top: 100px; z-index: 0;">
+                            <h3 class="text-color">AI Innovation & engagement</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-7">
+                        <div class="row">
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Predictive Diagnostics</h5>
+                                <p class="text-black mb-0">Early detection of diseases using AI models (e.g., sepsis prediction, radiology image analysis).</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Smart Scheduling</h5>
+                                <p class="text-black mb-0">AI Chatbot handles 24/7 patient queries, appointment scheduling, and availability checks.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Virtual Transcript</h5>
+                                <p class="text-black mb-0">Real-time transcription of audio and video consultations for accurate EHR documentation.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Virtual Health Assistants</h5>
+                                <p class="text-black mb-0">24/7 patient support through AI Voice Bot which enables phonebased appointment booking and
+                                    handles patient queries for elderly or less tech-savvy patients.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Real-time alerts</h5>
+                                <p class="text-black mb-0">Personalized medicine reminders based on prescribed dosage and time using AI
+                                    models to patients, Notifies staff of anomalies in vitals or lab results.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Personalized Treatment Plans</h5>
+                                <p class="text-black mb-0">AI analyzes patient history to recommend customized care.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------- AI Innovation & engagement end --------------------------------->
+
+                <!------------------------- Seamless Patient Experience start --------------------------------->
+                <div class="row my-5 custom-border">
+                    <div class="col-12 col-md-12 col-xl-5">
+                        <div class="sticky-top" style="top: 100px; z-index: 0;">
+                            <h3 class="text-color">Seamless Patient Experience</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-7">
+                        <div class="row">
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Online Scheduling</h5>
+                                <p class="text-black mb-0">Online scheduling and virtual check-ins to reduce wait times</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Telemedicine</h5>
+                                <p class="text-black mb-0">Remote consultation options via secure video/audio calls.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Instant Visibility</h5>
+                                <p class="text-black mb-0">Real-time calendar view for doctor availability and bed status.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Patient Chat</h5>
+                                <p class="text-black mb-0">In-app chat for ongoing patient-doctor communication.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Smart Reminders</h5>
+                                <p class="text-black mb-0">Tailored reminders for appointments, medications, or screenings via SMS/email, AI Voice Assistance.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Patient Feedback</h5>
+                                <p class="text-black mb-0">Post-visit surveys and real-time feedback tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------- Seamless Patient Experience end --------------------------------->
+
+                <!------------------------- Actionable Insights & Dashboard start --------------------------------->
+                <div class="row my-5 custom-border">
+                    <div class="col-12 col-md-12 col-xl-5">
+                        <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
+                            <h3 class="text-color">Actionable Insights & Dashboard</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-7">
+                        <div class="row">
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Live Oversight</h5>
+                                <p class="text-black mb-0">Real-time dashboards for hospital admins, doctors, and department heads</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Predictive Intelligence</h5>
+                                <p class="text-black mb-0">Predictive analytics for patient trends, resource utilization, and care optimization.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Access Management</h5>
+                                <p class="text-black mb-0">Role-based access ensures personalized insights across roles for super admin, admin, Doctors, Receptionist, Radiologist, Pharmacist etc.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Patient Flagging</h5>
+                                <p class="text-black mb-0">Identifying patients at risk for readmission, enabling early interventions.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Custom Dashboards</h5>
+                                <p class="text-black mb-0">Different dashboards for clinicians, administrators, finance teams, etc.</p>
+                            </div>
+                            <div class="col-6 card mb-4">
+                                <h5 class="text-color my-2">Layered Analytics</h5>
+                                <p class="text-black mb-0">multi-layered data access that caters to both strategic decisionmakers and frontline system users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------- Actionable Insights & Dashboard end --------------------------------->
+            </section>
+
+            <!------------------------- Compliance & Global Standards end --------------------------------->
+            <section>
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                      <div class="col-md-8 text-center">
+                        <h2>Compliance & Global Standards</h2>
+                        <p class="lead text-muted mb-4">Built with trust and global reach in mind.</p>
+                      </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                      <div class="col">
+                        <div class="card shadow-sm h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">ICD-10 & ICD-11 Ready</h5>
+                            <p class="card-text text-muted">Seamlessly supports both ICD-10 and the upcoming ICD-11 coding systems.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">HIPAA & GDPR Compliant</h5>
+                            <p class="card-text text-muted">Your patient data is protected with full adherence to HIPAA and GDPR regulations.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">HL7 / FHIR Interoperability</h5>
+                            <p class="card-text text-muted">Adheres to HL7 and FHIR standards for smooth electronic health record (EHR) exchange.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">End-to-End Data Encryption</h5>
+                            <p class="card-text text-muted">Ensuring the security of your data both at rest and during transit (TLS/SSL).</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">Multi-Language & Multi-Currency</h5>
+                            <p class="card-text text-muted">Designed to support healthcare providers operating in diverse, international environments.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">Built for Global Healthcare</h5>
+                            <p class="card-text text-muted">Specifically tailored for healthcare providers with multi-region operations.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------- Compliance & Global Standards end --------------------------------->
+
         </div>
 
         <!-- <section> rquest a callback begin ============================-->
@@ -1328,8 +1475,8 @@
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
                                             </div>
                                             <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
-            </div> -->
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
@@ -1344,8 +1491,8 @@
                                                 </h5>
                                             </div>
                                             <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
-            </div> -->
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
@@ -1359,8 +1506,8 @@
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
                                             </div>
                                             <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
-            </div> -->
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
@@ -1374,8 +1521,8 @@
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
                                             </div>
                                             <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
-            </div> -->
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
@@ -1389,8 +1536,8 @@
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
                                             </div>
                                             <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
-            </div> -->
+                                              <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
@@ -1405,8 +1552,8 @@
                                                 </h5>
                                             </div>
                                             <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard hitting answers and focus hard on best opportunities.</p>
-            </div> -->
+                                                <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard hitting answers and focus hard on best opportunities.</p>
+                                            </div> -->
                                         </div>
                                     </div>
 

@@ -18,13 +18,14 @@ class ContactusConntroller extends Controller
         return view('admin/contactuslist',$result);
     }
 
-    
+
     public function manage_contactus(Request $request,$id='')
     {
         if($id>0){
-            $arr=Contactu::where(['id'=>$id])->get(); 
+            $arr=Contactu::where(['id'=>$id])->get();
             $result['name']=$arr['0']->name;
             $result['email']=$arr['0']->email;
+            $result['phone']=$arr['0']->phone;
             $result['ip']=$arr['0']->ip;
             $result['message1']=$arr['0']->message;
             $result['status']=$arr['0']->status;
@@ -33,6 +34,7 @@ class ContactusConntroller extends Controller
         }else{
             $result['name']='';
             $result['email']='';
+            $result['phone']='';
             $result['ip']='';
             $result['message1']='';
             $result['status']='';
@@ -45,7 +47,7 @@ class ContactusConntroller extends Controller
 
     public function manage_contactus_process(Request $request)
     {
-        
+
 
         if($request->post('id')>0){
             $model=Contactu::find($request->post('id'));
@@ -53,12 +55,12 @@ class ContactusConntroller extends Controller
         }else{
             $model=new Contactu();
             $msg="Record inserted";
-        }        
+        }
         $model->status=$request->post('status');
         $model->save();
         $request->session()->flash('success',$msg);
         return redirect('admin/contactus');
-        
+
     }
 
     public function delete(Request $request,$id){

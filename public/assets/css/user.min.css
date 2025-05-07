@@ -32,7 +32,7 @@ body {
     object-fit: cover;
   }
   .countup-plus::after {
-    content: " +";
+    content: "+";
     width: 20px;
     height: 20px;
   }
@@ -426,7 +426,7 @@ left: -3%;
 .progress-no:hover{
   background: linear-gradient(92.62deg, #006ab6, #00406d);
 }
-.progress-no:hover h4, .progress-no:hover h6{
+.progress-no:hover h4, .progress-no:hover h6 , .progress-no:hover h5{
   color: white!important;
 }
 
@@ -454,3 +454,107 @@ left: -3%;
   border-bottom: 1px solid #00406d !important;
   box-shadow: none;
 }
+
+.iot-services .nav-pills .active, .cloud-services .nav-pills .active{
+    background: linear-gradient(92.62deg, #006ab6, #00406d) !important;
+    color: white;
+}
+.iot-services .tab-content .active,.cloud-services .tab-content .active{
+    background: linear-gradient(92.62deg, #006ab6, #00406d) !important;
+    color: white;
+}
+
+.iot-process .swiper-process .swiper {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    /* padding: 80px !important; */
+  }
+
+  .iot-process .swiper-process .swiper-slide {
+    height: 22rem;
+    /* text-align: center; */
+    font-size: 18px;
+    background-color: transparent!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iot-process .swiper-process .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cloud .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+ .cloud .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .cloud .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .core-features-card{
+    border: 1px solid #00406d;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .core-features-card:hover, .unified-card:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s linear;
+  }
+  .core-features-round{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #E8F9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+  }
+  .core-features-card .core-img{
+      width: 80px;
+      transition: all 0.5s linear;
+  }
+  .core-features-card:hover .core-features-round{
+    transform: translateY(-5px); /* Subtle lift on hover */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .unified-card{
+    border: 1px solid #00406d;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .custom-border{
+    border-bottom: 1px solid  #00406d;
+  }
+
+  .card:hover {
+    transform: translateY(-5px); /* Subtle lift on hover */
+    transition: transform 0.3s ease-in-out;
+  }

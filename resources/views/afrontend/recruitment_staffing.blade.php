@@ -277,7 +277,7 @@
 
 
     <section>
-      <!-- <div class="container"> -->
+       <div class="container-fluid">
       <div data-aos="fade-up" data-aos-duration="1000">
       <h3 class="my-3 text-center" >Why inbox is Your Workforce</h3>
       </div>
@@ -289,41 +289,40 @@
         Our dedicated developers are top performers, and by onboarding them, you can complete your project on time
         and within budget.</p>
       </div>
-      <div class="row align-items-center">
-        <div class="col-lg-3">
-        <div class="card shadow p-4 my-3 h-100">
-          <h5> 300+ Clients </h5>
-          <p class="text-black"> Ranging from MSMES to
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-3 col-md-6">
+        <div class=" my-5 progress-no">
+          <h5> 150+ <br> Clients Globally</h5>
+          {{-- <p class="text-black"> Ranging from MSMES to
           Fortune 500s across several
           countries
-          </p>
+          </p> --}}
         </div>
-        <div class="card shadow p-4 my-3 h-100">
-          <h5> 50+ Team
-          Members </h5>
-          <p class="text-black"> We have a large team of
+        <div class=" my-5 progress-no">
+          <h5> 35+ <br>  Highly Experienced Recruiters </h5>
+          {{-- <p class="text-black"> We have a large team of
           recruiters working on various
           verticals to deliver quality
-          services </p>
+          services </p> --}}
         </div>
         </div>
-        <div class="col-lg-6 mt-2">
-        <div class="text-center">
+        <div class="col-lg-6 d-lg-block d-none text-center">
+        {{-- <div class=""> --}}
           <img src="{{asset('assets/inbox/Teams.png')}}" class="img-fluid">
+        {{-- </div> --}}
         </div>
-        </div>
-        <div class="col-lg-3">
-        <div class="card shadow p-4 my-3 h-100">
-          <h5>7000+ Placements
+        <div class="col-lg-3 col-md-6">
+        <div class=" my-5 progress-no">
+          <h5>3000+ <br> Placements across global
           </h5>
-          <p class="text-black"> Ranging from entry level
+          {{-- <p class="text-black"> Ranging from entry level
           workers to top management.
           We are also experts in head
-          hunting. </p>
+          hunting. </p> --}}
         </div>
-        <div class="card shadow p-4 my-3 h-100">
-          <h5> 3 Locations </h5>
-          <p class="text-black"> Vadodara, Delhi, UAE
+        <div class=" my-5 progress-no">
+          <h5> 3 <br> Locations Vadodara, Delhi, UAE </h5>
+          {{-- <p class="text-black"> Vadodara, Delhi, UAE --}}
           </p>
         </div>
         </div>
@@ -380,6 +379,7 @@
       </div> -->
       </div>
       </div>
+       </div>
     </section>
 
     <section>

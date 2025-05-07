@@ -47,7 +47,7 @@
     </div>
   </section>
 
- 
+
   <main class="main" id="top">
     <div class="preloader" id="preloader">
       <div class="loader">
@@ -59,9 +59,9 @@
           <div></div>
         </div>
       </div>
-    </div>   
+    </div>
     <br>
-	 
+
 
     <section class="">
       <div class="container" style="background-color:#fff;border-radius: 10px;">
@@ -78,24 +78,24 @@
             </div>
 			    </div>
 		    </div>
-		    <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p> 
+		    <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p>
 		    <div style="display:none">
 		      @if($servicedetails->tax2 != '')
-            <p class="lead text-color">{{$servicedetails->tax2}}</p> 
+            <p class="lead text-color">{{$servicedetails->tax2}}</p>
           @endif
           @if($servicedetails->slug != '')
-            <p class="dropcap lead">{{$servicedetails->slug}}</p> 
+            <p class="dropcap lead">{{$servicedetails->slug}}</p>
           @endif
           @if($servicedetails->tax4 != '')
-            <p class="dropcap lead">{{$servicedetails->tax4}}</p> 
+            <p class="dropcap lead">{{$servicedetails->tax4}}</p>
           @endif
           @if($servicedetails->tax5 != '')
-            <p class="dropcap lead">{{$servicedetails->tax5}}</p> 
+            <p class="dropcap lead">{{$servicedetails->tax5}}</p>
           @endif
 		    </div><br><br>
-      </div><!-- end of .container-->		
+      </div><!-- end of .container-->
     </section>
-    <!-- <section> close ============================-->  
+    <!-- <section> close ============================-->
   </main>
 @endforeach
 @endsection

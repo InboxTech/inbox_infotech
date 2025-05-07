@@ -2371,12 +2371,14 @@ var swiper = new Swiper(".myIndRecSwiper", {
 // });
 
 var swiper = new Swiper(".myClientSwiper", {
-  slidesPerView: 8,
-  spaceBetween: 2,
-  autoplay: {
-    delay: 2000,
-    // disableOnInteraction: false,
-  },
+    slidesPerView: 8,
+    spaceBetween: 10,
+    loop: true,
+    speed: 3000, // speed of transition (higher = slower movement)
+    autoplay: {
+      delay: 0, // no delay between transitions
+      disableOnInteraction: 0,
+    },
   breakpoints: {
     320: {
       slidesPerView: 2,
@@ -2455,3 +2457,36 @@ var swiper = new Swiper(".myWebProcessSwiper", {
   },
 });
 AOS.init();
+
+var swiper = new Swiper(".myIoTSwiper", {
+    // slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+  });
+  var swiper = new Swiper(".myCloudSwiper", {
+    autoplay: {
+        delay: 2000,
+        // disableOnInteraction: false,
+      },
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+  });

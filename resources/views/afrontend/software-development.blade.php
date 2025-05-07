@@ -317,7 +317,7 @@
                             <div class="web-process web-process-left shadow  my-4">
                                 <div class="web-process-no" style=""> 1 </div>
                                 <div>
-                                    <h4> Discovery & Requirement Gathering </h4>
+                                    <h5> Discovery & Requirement Gathering </h5>
                                     <p> We gather information about the website's content, target audience, and content
                                         needs to define the
                                         website's structure, features, and overall direction.
@@ -329,7 +329,7 @@
                             <div class="web-process web-process-right shadow my-4 ">
                                 <div class="web-process-no"> 2 </div>
                                 <div>
-                                    <h4> Planning & Proposal </h4>
+                                    <h5> Planning & Proposal </h5>
                                     <p> We outline the website structure, features, and technology stack, then provide a
                                         detailed proposal
                                         with project scope, timeline, and cost for approval. </p>
@@ -341,7 +341,7 @@
                             <div class=" web-process web-process-left shadow  my-4 ">
                                 <div class="web-process-no"> 3 </div>
                                 <div>
-                                    <h4> Design (UI/UX) </h4>
+                                    <h5> Design (UI/UX) </h5>
                                     <p> We create user-friendly, responsive designs that reflect the company’s brand,
                                         including layout
                                         mockups and visual elements to ensure an engaging user experience. </p>
@@ -353,7 +353,7 @@
                             <div class="web-process web-process-right shadow my-4 ">
                                 <div class="web-process-no"> 4 </div>
                                 <div>
-                                    <h4> Development </h4>
+                                    <h5> Development </h5>
                                     <p> We build the website by transforming designs into functional code, incorporating
                                         features like
                                         content management systems (CMS), forms, and databases, ensuring optimal performance
@@ -366,7 +366,7 @@
                             <div class="web-process web-process-left shadow  my-4">
                                 <div class="web-process-no"> 5 </div>
                                 <div>
-                                    <h4> Testing & Quality Assurance</h4>
+                                    <h5> Testing & Quality Assurance</h5>
                                     <p> We thoroughly test the website across different devices and browsers to ensure all
                                         features work
                                         correctly, perform efficiently, and meet security standards before launch. </p>
@@ -378,7 +378,7 @@
                             <div class="web-process web-process-right shadow  my-4 ">
                                 <div class="web-process-no"> 6 </div>
                                 <div>
-                                    <h4> Deployment </h4>
+                                    <h5> Deployment </h5>
                                     <p> We prepare the website for launch by setting up hosting, configuring the domain, and
                                         transferring
                                         files to the live server, ensuring everything is optimized and functioning as
@@ -391,7 +391,7 @@
                             <div class="web-process web-process-left shadow  my-4">
                                 <div class="web-process-no"> 7 </div>
                                 <div>
-                                    <h4>Training & Handover </h4>
+                                    <h5>Training & Handover </h5>
                                     <p> We provide training on how to manage and update the website, along with
                                         documentation, ensuring the
                                         client is equipped to handle day-to-day operations.
@@ -404,7 +404,7 @@
                             <div class="web-process web-process-right shadow my-4 ">
                                 <div class="web-process-no" style=""> 8 </div>
                                 <div>
-                                    <h4> Maintenance & Support </h4>
+                                    <h5> Maintenance & Support </h5>
                                     <p> We offer ongoing support to ensure the website runs smoothly, providing updates,
                                         security patches,
                                         performance monitoring, and troubleshooting as needed. </p>
@@ -1427,7 +1427,7 @@
                                     <img src="{{ asset('assets/img/icons/svg_icons/Agile.svg') }}" class="img-fluid">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h4 class="text-color"> Agile <br> Development </h4>
+                                    <h5 class="text-color"> Agile <br> Development </h5>
                                     <p> We utilize Agile development to deliver flexible, customer-driven solutions through
                                         iterative cycles, ensuring continuous feedback, faster delivery, and the ability to
                                         adapt to changing needs. </p>
@@ -1442,7 +1442,7 @@
                                         class="img-fluid">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h4 class="text-color"> Waterfall <br> Development</h4>
+                                    <h5 class="text-color"> Waterfall <br> Development</h5>
                                     <p> We follow the Waterfall development model for projects with clear requirements,
                                         ensuring structured, step-by-step execution from planning to deployment with
                                         predictable outcomes.
@@ -1457,7 +1457,7 @@
                                         class="img-fluid">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h4 class="text-color"> Rapid <br> Development </h4>
+                                    <h5 class="text-color"> Rapid <br> Development </h5>
                                     <p> We use Rapid Application Development to quickly build and refine software through
                                         prototyping and user feedback, ensuring faster delivery and improved client
                                         satisfaction.</p>
@@ -1470,7 +1470,7 @@
                                     <img src="{{ asset('assets/img/icons/svg_icons/DevOps.svg') }}" class="img-fluid">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h4 class="text-color"> DevOps <br> Development </h4>
+                                    <h5 class="text-color"> DevOps <br> Development </h5>
                                     <p> We implement DevOps practices to streamline development and operations, ensuring
                                         faster delivery, continuous integration, and improved collaboration for reliable,
                                         high-quality software solutions.

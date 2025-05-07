@@ -55,6 +55,11 @@ class FrontController extends Controller
         // return view('afrontend.voksen',$arr);
         return view('afrontend.tuno');
     }
+    public function healthTech()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.health-tech', $arr);
+    }
     public function product(Request $req, $name)
     {
         $brr = DB::table('products')->where('slug', $name)->get();
@@ -84,6 +89,21 @@ class FrontController extends Controller
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.app-development', $arr);
+    }
+    public function aimlDevelopment()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.ai-ml-development', $arr);
+    }
+    public function iot()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.iot', $arr);
+    }
+    public function cloud()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.cloud', $arr);
     }
     public function recruitmentStaffing()
     {
@@ -215,7 +235,7 @@ class FrontController extends Controller
         ]);
 
         // Combine country code with phone number
-        $fullPhone = $request->country_code . $request->phone;
+        $phone = $request->country_code . $request->phone;
 
         $data = new Contactu();
         $data->created_at = Carbon::now()->toDateTimeString();
@@ -224,7 +244,7 @@ class FrontController extends Controller
         $data->message = $request->message;
         $data->name = $request->name;
         $data->email = $request->email;
-        $data->phone = $fullPhone; // Save combined phone
+        $data->phone = $phone; // Save combined phone
         $data->status = 0;
         $data->save();
 
