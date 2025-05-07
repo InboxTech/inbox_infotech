@@ -12,9 +12,9 @@
 <!-- DATA TABLE -->
 <h3 class="title-5 m-b-35">Contactus List</h3>
 <div class="table-data__tool">
-    
+
 <div class="table-data__tool-left">
-  
+
 </div>
 </div>
 @if ($message = Session::get('success'))
@@ -30,6 +30,7 @@
     <th>ID</th>
     <th>Name</th>
     <th>Email</th>
+    <th>Phone</th>
     <th>IP</th>
     <th>message</th>
     <th>Action</th>
@@ -42,6 +43,7 @@
         <td>{{$list->id}}</td>
         <td>{{$list->name}}</td>
         <td>{{$list->email}}</td>
+        <td>{{$list->phone}}</td>
         <td>{{$list->ip}}</td>
         <td><?php echo $msgTrimmed = mb_substr($list->message,0,40);?></td>
         <td>
@@ -56,7 +58,7 @@
                     <i class="zmdi zmdi-delete"></i>
                 </button>
                 </a>
-                
+
 
             @if($list->status==1)
             <a href="{{url('admin/contactus/status/1')}}/{{$list->id}}"><button type="button" class="btn btn-primary" style="background-color:#08324A;">Seen</button></a>
@@ -65,7 +67,7 @@
             @endif
             </div>
         </td>
-        
+
     </tr>
     @endforeach
 </tbody>
@@ -79,7 +81,7 @@
 
 </div>
 </div>
-</div>                       
+</div>
 @endsection
 <script>
   function myFunction() {

@@ -454,3 +454,73 @@ left: -3%;
   border-bottom: 1px solid #00406d !important;
   box-shadow: none;
 }
+
+.core-features-card{
+  border: 1px solid #00406d;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.core-features-card:hover, .unified-card:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: all 0.2s linear;
+}
+.core-features-round{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #E8F9FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.core-features-card .core-img{
+    width: 80px;
+    transition: all 0.5s linear;
+}
+.core-features-card:hover .core-features-round{
+  transform: translateY(-5px); /* Subtle lift on hover */
+  transition: transform 0.3s ease-in-out;
+}
+
+.unified-card{
+  border: 1px solid #00406d;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.custom-border{
+  border-bottom: 1px solid  #00406d;
+}
+
+/* test */
+.compliance-box {
+  border: 1px solid #eee;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.compliance-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.compliance-box i {
+  opacity: 0.8;
+}
+
+.card-title i {
+  vertical-align: middle; /* Align the icon with the text */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  transition: transform 0.3s ease-in-out;
+}

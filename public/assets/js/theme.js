@@ -2371,12 +2371,14 @@ var swiper = new Swiper(".myIndRecSwiper", {
 // });
 
 var swiper = new Swiper(".myClientSwiper", {
-  slidesPerView: 8,
-  spaceBetween: 2,
-  autoplay: {
-    delay: 2000,
-    // disableOnInteraction: false,
-  },
+    slidesPerView: 8,
+    spaceBetween: 10,
+    loop: true,
+    speed: 3000, // speed of transition (higher = slower movement)
+    autoplay: {
+      delay: 0, // no delay between transitions
+      disableOnInteraction: 0,
+    },
   breakpoints: {
     320: {
       slidesPerView: 2,
