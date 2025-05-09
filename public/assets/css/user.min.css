@@ -568,3 +568,15 @@ left: -3%;
     height: 100%;
     padding-left: 20px;
   }
+
+  .cyber-security .service-card{
+    border-bottom: 1px solid #00406d;
+    border-right: 1px solid #00406d;
+    height: 100%;
+    padding: 20px;
+}
+
+.cyber-security .service-card:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s linear;
+}

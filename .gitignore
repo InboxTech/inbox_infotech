@@ -6,7 +6,7 @@
 /public/storage
 /public/storage1
 /public/storage-30-04
-/storage/*
+/storage/
 .key
 /vendor
 .env

@@ -58,13 +58,13 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color">
                                             <span style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                                Comprehensive Cybersecurity Solutions to Protect Your Business
+                                                DATA CENTER SOLUTIONS
                                             </span>
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
-                                            From proactive threat detection to rapid incident response, we offer end-to-end security for your digital assets
+                                            Empowering Your Business with Secure, Scalable, and Reliable Data Center Solutions
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -117,12 +117,46 @@
             <section class="" style="padding-top:50px;">
                 <div class="row">
                     <div class="col-xl-6 col-12">
-                        <img src="{{asset('storage/media/579290391.webp')}}" alt="" class="img-fluid rounded" data-zanim-xs="{}">
+                        <div class=" mb-5" data-aos="fade-up" data-aos-duration="1000">
+                            <h3 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Data Center Solutions</h3>
+                            <p class="lead text-muted mb-4">
+                                At Inbox Infotech, we specialize in providing end-to-end data center solutions that enable businesses to
+                                scale, optimize, and secure their IT infrastructure. Whether you are looking for colocation services,
+                                cloud hosting, or disaster recovery, we offer flexible, cost effective, and secure solutions that meet
+                                the diverse needs of your business.
+                            </p>
+                            <p class="lead text-muted mb-4">
+                                Our data center services are built on cutting-edge technologies and best practices to deliver high
+                                availability, robust security, and unmatched performance. We ensure that your critical data is
+                                well-managed, always accessible, and protected from any potential disruptions.
+                            </p>
+                        </div>
                     </div>
                     <div class="col-xl-6 ps-5 col-12">
-                        <h2 class="text-color">About </h2>
-                        <p class="">
-                            Our AI-based Hospital Management System is a comprehensive, next-generation platform designed to streamline and optimize hospital operations through intelligent automation and data-driven decision-making. Leveraging advanced artificial intelligence, the system enhances efficiency across key functions including patient management, scheduling, electronic medical records (EMR), billing, diagnostics, inventory, and administrative workflows. It empowers healthcare providers with real-time insights, predictive analytics, and personalized care recommendations—improving patient outcomes, operational productivity, and resource utilization.</p>
+                        <div class="card">
+                            <h5 class="text-color">Cloud Hosting & Hybrid Solutions</h5>
+                            <p class="mb-3">
+                                Custom cloud environments for businesses seeking flexibility and scalability. Scalable solutions that can grow with your business.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h5 class="text-color"> Managed Services</h5>
+                            <p class="mb-3">
+                                Custom cloud environments for businesses seeking flexibility and scalability. Scalable solutions that can grow with your business.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h5 class="text-color"> Security & Compliance </h5>
+                            <p class="mb-3">
+                                Implementation of multi-layer security protocols, including firewalls, encryption, and access controls. Adherence to key compliance standards (ISO 27001, GDPR, HIPAA, etc.).
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h5 class="text-color"> Network Infrastructure </h5>
+                            <p class="mb-3">
+                                 High-performance network solutions with low latency and high availability.Scalable and customizable networking options to support your growing business.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
