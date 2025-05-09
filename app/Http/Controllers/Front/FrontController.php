@@ -105,6 +105,11 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.cloud', $arr);
     }
+    public function cyberSecurity()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.cyber-security', $arr);
+    }
     public function recruitmentStaffing()
     {
         $arr['testimonials'] = DB::table('testimonials')->where('status', 1)->WhereNull('deleted_at')->get();
@@ -143,17 +148,17 @@ class FrontController extends Controller
         /* $arr = DB::table('carrers')->where('id',$id)->get();
         $arr['position'] = $arr[0]->position;
         $arr['id'] = $arr[0]->id;   */
-        $arr['productAttrArr'][0]['aeid']='';
-        $arr['productAttrArr'][0]['job_application_id']='';
-        $arr['productAttrArr'][0]['company_name']='';
-        $arr['productAttrArr'][0]['position']='';
-        $arr['productAttrArr'][0]['details']='';
-        $arr['productAttrArr'][0]['start_date']='';
-        $arr['productAttrArr'][0]['end_date']='';
-        $arr['productAttrArr'][0]['reason_for_job_change']='';
-        $arr['productAttrArr'][0]['other']='';
+        $arr['productAttrArr'][0]['aeid'] = '';
+        $arr['productAttrArr'][0]['job_application_id'] = '';
+        $arr['productAttrArr'][0]['company_name'] = '';
+        $arr['productAttrArr'][0]['position'] = '';
+        $arr['productAttrArr'][0]['details'] = '';
+        $arr['productAttrArr'][0]['start_date'] = '';
+        $arr['productAttrArr'][0]['end_date'] = '';
+        $arr['productAttrArr'][0]['reason_for_job_change'] = '';
+        $arr['productAttrArr'][0]['other'] = '';
         // // dd($arr);
-        $arr = DB::table('carrers')->where('id',$id)->where('status', 1)->get();
+        $arr = DB::table('carrers')->where('id', $id)->where('status', 1)->get();
         $arr['position'] = $arr[0]->position;
         $arr['id'] = $arr[0]->id;
 
@@ -235,7 +240,7 @@ class FrontController extends Controller
         ]);
 
         // Combine country code with phone number
-        $phone = $request->country_code . $request->phone;
+        $fullPhone = $request->country_code . $request->phone;
 
         $data = new Contactu();
         $data->created_at = Carbon::now()->toDateTimeString();
@@ -244,7 +249,7 @@ class FrontController extends Controller
         $data->message = $request->message;
         $data->name = $request->name;
         $data->email = $request->email;
-        $data->phone = $phone; // Save combined phone
+        $data->phone = $fullPhone; // Save combined phone
         $data->status = 0;
         $data->save();
 
@@ -261,7 +266,7 @@ class FrontController extends Controller
         $fullname = $request->name;
         $emails = ["info@inbox-infotech.com"]; // multiple emails
         $supportno = $request->email;
-        $phoneno = $request->phone;
+        $phoneno = $fullPhone;
         $data = [
             'name' => $fullname,
             'supportno' => $supportno,
@@ -329,9 +334,8 @@ class FrontController extends Controller
         $arr['product'] = DB::table('blogs')->where('id', $id)->where('status', 1)->WhereNull('deleted_at')->get();
         $arr['slider'] = DB::table('blog_images')->where('service_id', $id)->get();
         //dd($arr);
-        return view('afrontend.blogdetail', $arr);
+        // return view('afrontend.blogdetail', $arr);
         //dd();
-
     }
     /* public function sitemap()
 	{

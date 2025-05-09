@@ -57,7 +57,7 @@ body {
   }
   .client .swiper {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
   }
   .client .swiper-slide {
     width: 30%;
@@ -554,7 +554,17 @@ left: -3%;
     border-bottom: 1px solid  #00406d;
   }
 
-  .card:hover {
+  .health-tech .card:hover {
     transform: translateY(-5px); /* Subtle lift on hover */
     transition: transform 0.3s ease-in-out;
+  }
+
+  .scalable-cloud .row{
+    border-bottom: 1px solid #00406d;
+    padding: 20px;
+  }
+  .scalable-cloud .vr{
+    border-right: 1px solid #00406d;
+    height: 100%;
+    padding-left: 20px;
   }

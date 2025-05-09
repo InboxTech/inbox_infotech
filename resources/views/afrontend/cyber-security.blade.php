@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Health Tech')
+@section('page_title', 'Cyber Security')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -117,7 +117,7 @@
             <section class="" style="padding-top:50px;">
                 <div class="row">
                     <div class="col-xl-6 col-12">
-                        <img src="{{asset('assets/img/healthTech-about.png')}}" alt="" class="img-fluid" data-zanim-xs="{}">
+                        <img src="{{asset('storage/media/579290391.webp')}}" alt="" class="img-fluid rounded" data-zanim-xs="{}">
                     </div>
                     <div class="col-xl-6 ps-5 col-12">
                         <h2 class="text-color">About </h2>

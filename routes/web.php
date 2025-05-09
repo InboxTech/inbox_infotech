@@ -222,6 +222,7 @@ Route::get('/services/ai-ml-development',[FrontController::class,'aimlDevelopmen
 Route::get('/services/recruitment_staffing',[FrontController::class,'recruitmentStaffing']);
 Route::get('/services/iot',[FrontController::class,'iot']);
 Route::get('/services/cloud',[FrontController::class,'cloud']);
+Route::get('/services/cyber-security',[FrontController::class,'cyberSecurity']);
 Route::get('/services/{name}',[FrontController::class,'servicesdetails']);
 Route::get('/careers',[FrontController::class,'careers']);
 Route::get('/careers/{name}/{id}',[FrontController::class,'careersdetails']);
