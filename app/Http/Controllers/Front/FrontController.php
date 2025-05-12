@@ -235,7 +235,7 @@ class FrontController extends Controller
         ]);
 
         // Combine country code with phone number
-        $phone = $request->country_code . $request->phone;
+        $fullPhone = $request->country_code . $request->phone;
 
         $data = new Contactu();
         $data->created_at = Carbon::now()->toDateTimeString();
@@ -244,7 +244,7 @@ class FrontController extends Controller
         $data->message = $request->message;
         $data->name = $request->name;
         $data->email = $request->email;
-        $data->phone = $phone; // Save combined phone
+        $data->phone = $fullPhone; // Save combined phone
         $data->status = 0;
         $data->save();
 
@@ -261,7 +261,7 @@ class FrontController extends Controller
         $fullname = $request->name;
         $emails = ["info@inbox-infotech.com"]; // multiple emails
         $supportno = $request->email;
-        $phoneno = $request->phone;
+        $phoneno = $fullPhone;
         $data = [
             'name' => $fullname,
             'supportno' => $supportno,
