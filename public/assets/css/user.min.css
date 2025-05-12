@@ -245,10 +245,10 @@ footer a{
 .blog .card:hover a{
   color: white;
 }
-.hiring-model .card, .MisVisVal .card, .agile-approach .card{
+.hiring-model .card, .MisVisVal .card, .agile-approach .card, .infra-manag-ai .card{
   transition: all .5s linear;
 }
-.hiring-model .card:hover, .MisVisVal .card:hover, .agile-approach .card:hover{
+.hiring-model .card:hover, .MisVisVal .card:hover, .agile-approach .card:hover, .infra-manag-ai .card:hover{
   transform: scale(1.1);
 }
 .industry-serve .indserve{
@@ -554,7 +554,7 @@ left: -3%;
     border-bottom: 1px solid  #00406d;
   }
 
-  .health-tech .card:hover {
+  .health-tech .card:hover,.infra-manag-ai .card{
     transform: translateY(-5px); /* Subtle lift on hover */
     transition: transform 0.3s ease-in-out;
   }

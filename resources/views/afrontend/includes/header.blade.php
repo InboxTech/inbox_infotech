@@ -32,15 +32,13 @@
           </li>
 			    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="{{url('/products/tuno')}}" role="button">Tuno (AI Bot)</a></li>
-				        @foreach($myproducts as $mp)
-                  {{-- @if($ms->slug == 'voksen')
-                    <li><a class="dropdown-item" href="{{url('/products/voksen')}}" role="button">{{$ms->title}}</a></li>
+                @foreach($myproducts as $mp)
+                  @if($mp->slug == 'tuno')
+                    <li><a class="dropdown-item" href="{{url('/products/tuno')}}" role="button"> Tuno (AI Bot) </a></li>
                   @else
                     <li><a class="dropdown-item" href="{{url('/products')}}/{{$mp->slug}}">{{$mp->title}}</a></li>
-                  @endif --}}
-                  <li><a class="dropdown-item" href="{{url('/products')}}/{{$mp->slug}}">{{$mp->title}}</a></li>
-				        @endforeach
+                  @endif
+                @endforeach
             </ul>
           </li>
           <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Industries</a>

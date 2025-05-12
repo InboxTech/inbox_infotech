@@ -188,7 +188,7 @@
            <div class="my-5">
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-xl-3">
-                    <div class=" sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
+                    <div>
                         <div class=" nav flex-column nav-pills"  id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link border-bottom py-3 active" id="v-pills-cloudmigrate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cloudmigrate" type="button" role="tab" aria-controls="v-pills-cloudmigrate" aria-selected="true"> Cloud Migration </a>
 
@@ -210,339 +210,138 @@
                     <div class="tab-content" id="v-pills-tabContent">
 
                         <div class="tab-pane p-4 card fade show active" id="v-pills-cloudmigrate" role="tabpanel" aria-labelledby="v-pills-cloudmigrate-tab" tabindex="0">
-                            <p> Seamlessly transition your business to the cloud with our end-to-end Cloud Migration Services. We help you move your data, applications, and infrastructure from legacy systems or other cloud platforms to a modern, secure cloud environment—minimizing downtime and ensuring business continuity.
-
-                                Our expert team assesses your current infrastructure, designs a tailored migration strategy, and executes the move using industry best practices. Whether you're looking to rehost, re-platform, or refactor, we ensure a smooth and secure migration experience with minimal disruption. Post-migration, we optimize your cloud setup for performance, scalability, and cost efficiency. </p>
-                                <p> Our Cloud Migration Approach </p>
+                            <p> We offer comprehensive cloud migration solutions to help businesses move their data, apps, and infrastructure from legacy or other cloud systems to a modern, secure cloud environment—ensuring minimal downtime and seamless transition. </p>
+                            <p> Our 5 Phase Approach: </p>
                                 <ul>
-                                    <li> Assessment & Planning
-                                      <ul>
-                                         <li> We begin with a full assessment of your existing IT environment. </li>
-                                         <li> Identify workloads suitable for cloud, evaluate dependencies, risks, and compliance needs. </li>
-                                         <li> Develop a tailored migration roadmap aligned with your business objectives.</li>
-                                    </ul>
+                                    <li> <strong> Assessment & Planning: </strong> Analyze existing infrastructure, identify cloud-suitable workloads, and create a tailored migration roadmap.
                                     </li>
-                                    <li> Cloud Strategy & Architecture
-                                      <ul>
-                                        <li>Choose the right cloud model (public, private, hybrid, or multi-cloud).</li>
-                                        <li>Design scalable, secure, and cost-efficient cloud architectures.</li>
-                                        <li>Select the appropriate migration strategy: Rehost, Replatform, Refactor, Repurchase, or Retire.</li>
-                                      </ul>
-                                    </li>
-                                    <li> Migration Execution
+                                    <li> <strong> Cloud Strategy & Architecture: </strong> Choose the right cloud model (public, private, hybrid), design secure architectures, and select the best migration strategy (Rehost, Replatform, Refactor, etc.).
 
-                                        <ul>
-                                            <li> Perform data and application migration with minimal downtime.</li>
-                                            <li> Automate workflows and integrate DevOps practices.</li>
-                                            <li> Validate workloads post-migration to ensure performance and functionality.</li>
-                                        </ul>
                                     </li>
-                                    <li> Security & Compliance
-                                       <ul>
-                                        <li>Implement end-to-end encryption, access controls, and compliance frameworks. </li>
-                                        <li> Ensure adherence to standards like ISO, GDPR, HIPAA, and others.</li>
-                                       </ul>
+                                    <li> <strong> Migration Execution: </strong> Migrate data and apps with minimal disruption, apply automation and DevOps, and validate post-migration performance.
+
+
                                     </li>
-                                    <li> Optimization & Support
-                                        <ul>
-                                            <li> Continuously monitor cloud performance and resource utilization.</li>
-                                            <li> Offer cost optimization, governance, and post-migration support. </li>
-                                            <li> Enable auto-scaling, backup, and disaster recovery mechanisms. </li>
-                                        </ul>
+                                    <li> <strong> Security & Compliance: </strong> Apply encryption, access control, and ensure compliance with standards like ISO, GDPR, HIPAA.
+
+                                    </li>
+                                    <li> <strong> Optimization & Support: </strong> Monitor performance, optimize costs, enable auto-scaling, and provide ongoing support and disaster recovery.
+
                                     </li>
                                 </ul>
 
                         </div>
                         <div class="tab-pane p-4 card fade" id="v-pills-clouddeploy" role="tabpanel" aria-labelledby="v-pills-clouddeploy-tab" tabindex="0">
-                            <p>Accelerate your digital transformation with our expert Cloud Deployment Services, designed to deliver secure, scalable, and high-performance cloud environments tailored to your business needs. At Inbox, we ensure a smooth and efficient deployment process—whether you're adopting a new cloud infrastructure or expanding existing services.</p>
-                            <p> What We Offer </p>
+                            <p>Inbox offers expert cloud deployment solutions to help businesses set up secure, scalable, and high-performing cloud environments tailored to their goals—whether starting fresh or expanding existing infrastructure.</p>
+                            <p> Key Offering: </p>
                             <ul>
-                                <li> Deployment Strategy & Planning
-                                    <ul>
-                                        <li> Evaluate your business goals, application architecture, and compliance requirements. </li>
-                                        <li> Choose the best deployment model: Public, Private, Hybrid, or Multi-cloud. </li>
-                                        <li> Define workload priorities and develop a customized deployment roadmap.</li>
-                                    </ul>
+                                <li> <strong> Deployment Strategy & Planning: </strong> Align cloud deployment with business goals, choose the right model (Public, Private, Hybrid, Multi-cloud), and create a custom roadmap.
+
                                 </li>
-                                <li> Cloud Environment Setup
-                                    <ul>
-                                       <li> Provisioning of cloud infrastructure (compute, storage, networking). </li>
-                                       <li> Configuration of cloud-native tools and services (e.g., AWS EC2, Azure Virtual Machines, GCP Compute Engine). </li>
-                                       <li> Integration with DevOps pipelines for continuous delivery. </li>
-                                    </ul>
+                                <li> <strong>  Cloud Environment Setup: </strong>Provision cloud infrastructure, configure native tools (AWS, Azure, GCP), and integrate with DevOps pipelines.
+
                                 </li>
-                                <li>Application & Service Deployment
-                                    <ul>
-                                        <li>Deploy web apps, APIs, databases, containers (Docker, Kubernetes), and more.</li>
-                                        <li> Enable auto-scaling, load balancing, and high availability. </li>
-                                        <li> Ensure seamless CI/CD processes for ongoing releases. </li>
-                                    </ul>
+                                <li> <strong> Application & Service Deployment: </strong> Deploy apps, databases, containers (Docker, Kubernetes) with auto-scaling, load balancing, and seamless CI/CD.
+
                                 </li>
-                                <li>Security & Compliance Integration
-                                    <ul>
-                                        <li> Implement firewalls, IAM policies, encryption, and secure access controls. </li>
-                                        <li> Align deployments with industry standards and regulations (e.g., GDPR, HIPAA, ISO 27001).</li>
-                                    </ul>
+                                <li> <strong> Security & Compliance Integration: </strong> Implement IAM, encryption, firewalls, and ensure regulatory compliance (e.g., GDPR, HIPAA, ISO 27001).
+
                                 </li>
-                                <li> Monitoring & Optimization
-                                    <ul>
-                                        <li> Configure monitoring tools for real-time visibility and alerting. </li>
-                                        <li> Analyze resource utilization and optimize for cost and performance. </li>
-                                        <li> Provide regular reporting and insights for continuous improvement. </li>
-                                    </ul>
+                                <li> <strong> Monitoring & Optimization: </strong> Set up monitoring tools, optimize performance and costs, and provide actionable reports for continuous enhancement.
+
                                 </li>
                             </ul>
                         </div>
                         <div class="tab-pane p-4 card fade" id="v-pills-cloudoptimize" role="tabpanel" aria-labelledby="v-pills-cloudoptimize-tab" tabindex="0">
-                           <p> Maximize the performance, efficiency, and cost-effectiveness of your cloud environment with our expert Cloud Optimization Services. At Inbox, we help businesses streamline their cloud operations by identifying and eliminating inefficiencies, reducing waste, and aligning cloud usage with business objectives. </p>
-                           <p>  Our Cloud Optimization Process: </p>
+                           <p> Inbox helps businesses maximize cloud performance, reduce costs, and streamline operations by identifying inefficiencies and aligning usage with business goals.</p>
+                           <p>  Key Optimization Areas: </p>
                            <ul>
-                            <li> Assessment & Discovery
-                                <ul>
-                                 <li>In-depth audit of your current cloud environment</li>
-                                 <li>Identify underused, over-provisioned, or idle resources</li>
-                                 <li>Analyze billing data and usage patterns </li>
-                                </ul>
+                            <li> <strong>  Assessment & Discovery:  </strong> Conduct a detailed audit to find underused, over-provisioned, or idle resources and analyze billing and usage data.
+
                             </li>
-                            <li> Cost Optimization
-                                    <ul>
-                                        <li>Rightsize compute and storage resources</li>
-                                        <li> Recommend reserved instances, spot instances, and auto-scaling </li>
-                                        <li> Identify cost-saving opportunities across services (e.g., AWS, Azure, GCP) </li>
-                                    </ul>
+                            <li> <strong> Cost Optimization: </strong> Rightsize resources, recommend reserved or spot instances, and uncover savings across cloud platforms (AWS, Azure, GCP).
+
                             </li>
-                            <li>
-                                Performance Tuning
-                                <ul>
-                                    <li> Optimize workloads for speed and reliability </li>
-                                    <li> Improve response times and throughput</li>
-                                    <li> Enhance application and database performance</li>
-                                </ul>
+                            <li> <strong> Performance Tuning: </strong> Enhance workload speed, response times, and application/database performance for better reliability.
+
                             </li>
-                            <li> Architecture Review
-                                <ul>
-                                  <li>Evaluate your architecture against cloud best practices</li>
-                                  <li>Refactor or rearchitect for better scalability and maintainability</li>
-                                  <li>Apply Well-Architected Frameworks and cloud-native design principles</li>
-                                </ul> </li>
-                            <li>Security & Compliance Optimization
-                                <ul>
-                                 <li> Close security gaps and reduce unnecessary exposure </li>
-                                 <li> Implement least-privilege access and secure configurations </li>
-                                 <li>Ensure alignment with compliance requirements</li>
-                                </ul>
+                            <li> <strong> Architecture Review: </strong> Evaluate and refactor architecture for scalability, maintainability, and alignment with best practices.
+                                </li>
+                            <li> <strong>  Security & Compliance Optimization:  </strong> Improve security configurations, enforce least-privilege access, and meet compliance standards.
                              </li>
-                            <li>Monitoring & Automation
-                              <ul>
-                              <li> Set up proactive monitoring, alerts, and dashboards</li>
-                              <li> Automate scaling, backups, and resource scheduling</li>
-                              <li>Enable continuous optimization with AIOps and FinOps practices</li>
-                            </ul>
+                            <li> <strong> Monitoring & Automation: </strong> Implement proactive monitoring, automate scaling and backups, and adopt AIOps/FinOps for ongoing optimization.
                             </li>
                            </ul>
                         </div>
                         <div class="tab-pane p-4 card fade" id="v-pills-monitor" role="tabpanel" aria-labelledby="v-pills-monitor-tab" tabindex="0">
-                            <p> Ensure the health, performance, and security of your cloud infrastructure with our comprehensive Monitoring and Maintenance Services. At Inbox, we provide 24/7 proactive monitoring, real-time alerting, and regular maintenance to keep your cloud environment running smoothly and efficiently.</p>
-                            <p> What We Do </p>
+                            <p> Inbox ensures your cloud infrastructure stays healthy, secure, and high-performing through 24/7 monitoring, real-time alerting, and proactive maintenance.</p>
+                            <p> Key Service Areas: </p>
                             <ul>
-                                <li>24/7 Cloud Monitoring
-                                  <ul>
-                                    <li> Continuous monitoring of cloud resources, applications, and services</li>
-                                    <li>Real-time performance tracking and anomaly detection</li>
-                                    <li>Instant alerts for issues such as downtime, performance degradation, or security risks</li>
-                                </ul>
+                                <li> <strong> 24/7 Cloud Monitoring: </strong> Real-time tracking of cloud resources with instant alerts for downtime, performance issues, and threats.
+
                                 </li>
-                                <li>Infrastructure Health Checks
-                                  <ul>
-                                    <li> Regular system diagnostics to assess CPU, memory, disk usage, and network activity</li>
-                                    <li> Detection of resource bottlenecks or failures</li>
-                                    <li>Predictive analytics to prevent future incidents</li>
-                                </ul>
+                                <li> <strong> Infrastructure Health Checks: </strong> Regular diagnostics to detect bottlenecks and predict potential failures using analytics.
+
                                 </li>
-                                <li>Patch Management & Updates
-                                    <ul>
-                                       <li> Scheduled updates and security patching for operating systems, databases, and applications</li>
-                                       <li> Version control and rollback planning to minimize service disruption</li>
-                                    </ul> </li>
-                                <li> Security Monitoring
-                                  <ul>
-                                   <li> Continuous threat detection, log analysis, and intrusion prevention</li>
-                                   <li> Integration with SIEM tools and incident response systems </li>
-                                   <li> Compliance audits for standards like ISO, HIPAA, GDPR, etc. </li>
-                                </ul>
+                                <li> <strong> Patch Management & Updates: </strong>   Scheduled security updates and version control to minimize disruptions.
+                                     </li>
+                                <li> <strong> Security Monitoring:  </strong> Continuous threat detection, log analysis, and compliance auditing (ISO, HIPAA, GDPR, etc.).
+
                                 </li>
-                                <li> Backup & Recovery Management
-                                    <ul>
-                                        <li>Routine backup verification and validation</li>
-                                        <li> Recovery testing and planning to ensure data integrity </li>
-                                        <li> Disaster recovery drills and failover setup </li>
-                                    </ul>
+                                <li> <strong> Backup & Recovery Management: </strong> Routine backups, disaster recovery drills, and data integrity assurance.
+
                                  </li>
-                                <li> Performance Optimization
-                                    <ul>
-                                        <li>Regular tuning of resources based on usage patterns</li>
-                                        <li> Recommendations for scaling, resource allocation, and cost control </li>
-                                        <li>Application performance management (APM) integration</li>
-                                    </ul>
-                                </li>
-                                <li> Reporting & Analytics
-                                    <ul>
-                                        <li>Detailed reports on uptime, usage, incidents, and system health</li>
-                                        <li> Custom dashboards tailored to your business KPIs</li>
-                                        <li>Monthly or quarterly review meetings with expert recommendations</li>
-                                    </ul>
-                                </li>
+                                <li> <strong> Performance Optimization: </strong> Resource tuning, scaling recommendations, and APM tool integration for better performance.</li>
+                                <li> <strong> Reporting & Analytics: </strong> Custom dashboards, health reports, and expert insights shared through regular reviews. </li>
                             </ul>
                         </div>
                         <div class="tab-pane p-4 card fade" id="v-pills-appmanage" role="tabpanel" aria-labelledby="v-pills-appmanage-tab" tabindex="0">
-                          <p>  Optimize performance, reduce downtime, and improve user experience with our end-to-end Application Management Services. At Inbox, we take full responsibility for the lifecycle management of your business-critical applications—whether hosted on the cloud, on-premises, or in hybrid environments. </p>
-                          <p>  What We Offer</p>
+                          <p>  Inbox delivers full lifecycle management for cloud, on-premises, and hybrid applications—enhancing performance, reducing downtime, and ensuring a seamless user experience. </p>
+                          <p>  Key Service Areas: </p>
                           <ul>
-                            <li>Application Monitoring & Support
-                              <ul>
-                                <li> 24/7 monitoring of application performance and availability</li>
-                                <li>Real-time issue detection and incident resolution</li>
-                                <li>User support and helpdesk integration</li>
-                            </ul>
+                            <li> <strong> Application Monitoring & Support: </strong>  24/7 performance monitoring, incident resolution, and user support integration.
+
                             </li>
-                            <li>Performance Optimization
-                              <ul>
-                                <li>Tuning applications for speed, responsiveness, and reliability</li>
-                                <li> Load balancing, caching, and database optimization</li>
-                                <li>Proactive recommendations based on usage analytics</li>
-                            </ul>
-                            </li>
-                            <li>Application Updates & Maintenance
-                                <ul>
-                                   <li> Regular patching, bug fixes, and version upgrades</li>
-                                   <li> Compatibility testing and rollback management </li>
-                                   <li> Maintenance windows aligned with your business hours </li>
-                                </ul> </li>
-                            <li> Security & Compliance Management
-                              <ul>
-                               <li> Application vulnerability scanning and threat detection</li>
-                               <li> Role-based access control, encryption, and data privacy compliance </li>
-                               <li> Alignment with industry standards such as GDPR, HIPAA, and PCI-DSS </li>
-                            </ul>
-                            </li>
-                            <li> Application Lifecycle Management
-                                <ul>
-                                    <li>Support from development and deployment to retirement</li>
-                                    <li> Integration with DevOps/CI-CD pipelines</li>
-                                    <li> Documentation, configuration management, and continuous improvement</li>
-                                </ul>
-                             </li>
-                            <li> Backup & Disaster Recovery
-                                <ul>
-                                    <li>Scheduled backups and recovery testing</li>
-                                    <li> Application-level failover strategies </li>
-                                    <li>Business continuity planning and execution/li>
-                                </ul>
-                            </li>
+                            <li> <strong> Performance Optimization:  </strong> Improve speed and reliability through tuning, load balancing, caching, and analytics-based recommendations.<li>
+                            <li> <strong> Application Updates & Maintenance: </strong>  Regular patches, upgrades, and compatibility testing with minimal business disruption.
+                                 </li>
+                            <li> <strong> Security & Compliance Management: </strong> Application security scanning, role-based access, encryption, and adherence to GDPR, HIPAA, PCI-DSS. </li>
+                            <li> <strong>  Application Lifecycle Management: </strong> End-to-end support from development to retirement, including CI/CD integration and documentation. </li>
+                            <li> <strong> Backup & Disaster Recovery: </strong> Routine backups, failover strategies, and business continuity planning. </li>
 
                         </ul>
                         </div>
                         <div class="tab-pane p-4 card fade" id="v-pills-inframanage" role="tabpanel" aria-labelledby="v-pills-inframanage-tab" tabindex="0">
-                          <p> Ensure stability, scalability, and performance of your IT backbone with our comprehensive Infrastructure Management Services. At Inbox, we take a proactive, end-to-end approach to managing your cloud and on-premises infrastructure—allowing your business to operate efficiently, securely, and without interruption. </p>
-                          <p> Our Core Infrastructure Management Capabilities</p>
+                          <p> Inbox delivers proactive, end-to-end management of cloud and on-premises infrastructure to ensure stability, security, scalability, and high performance across your IT environment. </p>
+                          <p> Core Capabilities: </p>
                           <ul>
-                            <li> Server & Network Management
-                                <ul>
-                                    <li>Provisioning, monitoring, and maintenance of cloud and hybrid servers</li>
-                                    <li>Network performance optimization, bandwidth usage analysis, and traffic management</li>
-                                    <li>Configuration and management of firewalls, VPNs, and routing systems</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Cloud Infrastructure Management
-                                <ul>
-                                    <li>Full lifecycle management on AWS, Azure, GCP, and hybrid environments</li>
-                                    <li>Auto-scaling, load balancing, and resource optimization</li>
-                                    <li>Multi-cloud orchestration and governance</li>
-                                </ul>
-                            </li>
-                            <li>
-                                Storage & Backup Management
-                                <ul>
-                                    <li> Design and administration of secure, scalable storage solutions</li>
-                                    <li>Backup scheduling, snapshot management, and data recovery services</li>
-                                    <li>Tiered storage strategy for cost and performance balance</li>
-                                </ul>
-                            </li>
-                            <li>Security & Compliance Oversight
-                                <ul>
-                                    <li>Continuous security posture monitoring and threat prevention</li>
-                                    <li>Access control, vulnerability management, and audit readiness</li>
-                                    <li>Compliance enforcement for standards like ISO, NIST, HIPAA, and GDPR</li>
-                                </ul>
-                            </li>
-                            <li>Monitoring & Alerting
-                                <ul>
-                                    <li>Real-time infrastructure monitoring and performance tracking</li>
-                                    <li>Custom alerting systems for hardware failures, capacity issues, and anomalies</li>
-                                    <li>Integration with ITSM and incident response systems</li>
-                                </ul>
-                            </li>
-                            <li>Infrastructure Automation
-                               <ul>
-                                <li>Deployment of Infrastructure as Code (IaC) using Terraform, Ansible, or CloudFormation</li>
-                                <li> Automated patching, scaling, and provisioning</li>
-                                <li>Reduced manual errors and faster turnaround times</li>
-                               </ul>
-
+                            <li> <strong> Server & Network Management: </strong> Manage servers and networks with optimization, traffic control, firewall, and VPN configurations.
 
                             </li>
+                            <li> <strong> Cloud Infrastructure Management: </strong> Full lifecycle support across AWS, Azure, GCP, with multi-cloud orchestration and auto-scaling.
+
+                            </li>
+                            <li> <strong> Storage & Backup Management: </strong> Scalable storage design, automated backups, and tiered storage strategies for cost-effective performance. </li>
+                            <li> <strong> Security & Compliance Oversight: </strong> Real-time security monitoring, vulnerability management, and compliance enforcement (ISO, NIST, HIPAA, GDPR). </li>
+                            <li> <strong>  Monitoring & Alerting:  </strong> Real-time alerts for failures and anomalies, integrated with ITSM and incident response systems.
+
+                            </li>
+                            <li> <strong> Infrastructure Automation:  </strong> Use of IaC tools (Terraform, Ansible) for faster, error-free provisioning, patching, and scaling. </li>
                           </ul>
                         </div>
                         <div class="tab-pane p-4 card fade" id="v-pills-clouddb" role="tabpanel" aria-labelledby="v-pills-clouddb-tab" tabindex="0">
-                            <p> Ensure high availability, security, and performance of your databases with our fully Managed Cloud Database Services. At Inbox, we manage, monitor, and optimize your cloud-based databases so your teams can focus on innovation—without worrying about downtime, maintenance, or scaling challenges.</p>
-                            <p> What We Offer: </p>
+                            <p> Inbox provides end-to-end management of cloud databases—ensuring high availability, security, and optimal performance so your team can focus on innovation, not maintenance. </p>
+                            <p> Key Service Areas: </p>
                             <ul>
-                                <li>Database Provisioning & Configuration
-                                    <ul>
-                                        <li>Setup and configuration of cloud-native databases (e.g., Amazon RDS, Azure SQL, Google Cloud SQL)</li>
-                                        <li>Support for relational and NoSQL databases including MySQL, PostgreSQL, MongoDB, Oracle, SQL Server, DynamoDB, and more</li>
-                                        <li>Custom configuration based on performance, storage, and security requirements</li>
-                                    </ul>
-                                </li>
-                                <li>Performance Monitoring & Tuning
-                                    <ul>
-                                        <li>24/7 monitoring of query performance, CPU usage, memory, and I/O metrics</li>
-                                        <li>Query optimization, indexing strategies, and schema tuning</li>
-                                        <li>Real-time analytics and performance dashboards</li>
-
-                                    </ul>
-                                </li>
-                                <li>Automated Backups & Disaster Recovery
-                                    <ul>
-                                        <li>Scheduled, incremental backups with point-in-time recovery</li>
-                                        <li>High-availability (HA) and multi-region replication</li>
-                                        <li>Disaster recovery planning and testing for business continuity</li>
-                                    </ul>
-                                </li>
-                                <li>Security & Compliance
-                                   <ul>
-                                    <li>Data encryption at rest and in transit</li>
-                                    <li>Role-based access control (RBAC), firewall rules, and audit logging</li>
-                                    <li>Compliance with standards such as HIPAA, PCI-DSS, GDPR, and SOC 2</li>
-
-                                   </ul>
-
+                                <li> <strong> Database Provisioning & Configuration: </strong> Setup and customize databases (e.g., RDS, Azure SQL, MongoDB, PostgreSQL) for performance, security, and storage needs. </li>
+                                <li> <strong> Performance Monitoring & Tuning: </strong> 24/7 monitoring with query optimization, indexing, and real-time analytics for peak efficiency. </li>
+                                <li> <strong> Automated Backups & Disaster Recovery: </strong> Scheduled backups, point-in-time recovery, HA setups, and multi-region replication for business continuity. </li>
+                                <li> <strong>  Security & Compliance: </strong>Encryption, RBAC, firewall policies, and adherence to HIPAA, PCI-DSS, GDPR, SOC 2 standards.
 
                                 </li>
-                                <li>Scaling & High Availability
-                                    <ul>
-                                        <li>Horizontal and vertical scaling to meet workload demands</li>
-                                        <li>Load balancing and failover setup for uninterrupted access</li>
-                                        <li>Support for read replicas and clustering </li>
-                                    </ul>
+                                <li> <strong> Scaling & High Availability: </strong> On-demand scaling, load balancing, failover, and support for clustering and read replicas.
                                 </li>
-                                <li>Patching & Maintenance
-                                    <ul>
-                                        <li>Regular updates and security patching with zero/minimal downtime</li>
-                                        <li>Version upgrades and rollback strategies</li>
-                                        <li>Maintenance windows aligned with business hours</li>
-                                    </ul>
+                                <li> <strong> Patching & Maintenance: </strong> Routine patching, upgrades, and minimal-downtime maintenance aligned with business hours.
                                 </li>
                             </ul>
                         </div>
@@ -554,7 +353,7 @@
 
         <!--------------------------------------- cloud services end --------------------------->
 
-          <!------------------------ iot development process start ------------------------->
+          <!------------------------ cloud partners start ------------------------->
 
           <section class="iot-process">
             <div class="text-center">
@@ -595,11 +394,65 @@
                         <p class="fw-medium"> Cloudflare </p>
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/Docker.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Docker </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/Kubernetes.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Kubernetes </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/Jenkins.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Jenkins </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/Terraform.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Terraform </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/oracle.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Oracle </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 3% auto;">
+                            <img src="{{ asset('assets/inbox/CloudFormation.png') }}"
+                                class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> CloudFormation </p>
+                    </div>
+                </div>
             </div>
            </div>
           </section>
 
-          <!------------------------ iot development process end ------------------------->
+          <!------------------------ cloud partners end ------------------------->
 
         </div>
 
@@ -689,8 +542,8 @@
 
 
 
-        <!------------------------------  things you know start ------------------------->
-        <section class="my-5">
+         <!------------------------------  things you know start ------------------------->
+         <section class="my-5">
             <div class="container">
                 <div class="text-center">
                     <h3 class="fs-2 fs-md-3">Things You Get</h3>
@@ -720,92 +573,72 @@
                                         data-zanim-trigger="scroll">
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Creative_Support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
-            </div> -->
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Creating_Experiences.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Creating Experiences
-                                                </h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
-            </div> -->
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
                                                     alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
                                             </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
-            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
                                         data-zanim-trigger="scroll">
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Business_Boosting.svg') }}"
+                                                <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
                                                     alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
                                             </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
-            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
                                         data-zanim-trigger="scroll">
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Strategic_Approach.svg') }}"
+                                                <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
                                                     alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
                                             </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
-            </div> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
                                         data-zanim-trigger="scroll">
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Logistic_Consulting.svg') }}"
+                                                <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
                                                     alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Logistic Consulting
-                                                </h5>
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
                                             </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard hitting answers and focus hard on best opportunities.</p>
-            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow p-3">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                        data-zanim-trigger="scroll">
+                                        <div class="h-100 shadow p-3">
+                                            <div class="w-50 p-3 mx-auto">
+                                                <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
+                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                            </div>
+                                            <div class="text-center">
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -816,10 +649,10 @@
                     </div>
                 </div>
 
-            </div>
-            <!-- end of .container-->
+            </div><!-- end of .container-->
         </section>
         <!-- <section> things you know close ============================-->
+
         </div>
 
         </div>
