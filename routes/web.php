@@ -212,6 +212,7 @@ Route::get('/about-us',[FrontController::class,'aboutus']);
 Route::get('/products',[FrontController::class,'products']);
 Route::get('/products/tuno',[FrontController::class,'tuno']);
 Route::get('/products/HealthTech',[FrontController::class,'healthTech']);
+Route::get('/products/fintech',[FrontController::class,'finTech']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);
@@ -222,6 +223,7 @@ Route::get('/services/ai-ml-development',[FrontController::class,'aimlDevelopmen
 Route::get('/services/recruitment_staffing',[FrontController::class,'recruitmentStaffing']);
 Route::get('/services/iot',[FrontController::class,'iot']);
 Route::get('/services/cloud',[FrontController::class,'cloud']);
+Route::get('/services/infrastructure-management',[FrontController::class,'infrastructureManagement']);
 Route::get('/services/cyber-security',[FrontController::class,'cyberSecurity']);
 Route::get('/services/data-center-solutions',[FrontController::class,'dataCenterSolutions']);
 Route::get('/services/{name}',[FrontController::class,'servicesdetails']);

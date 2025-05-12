@@ -1485,137 +1485,117 @@
 
         <!------------------------------------------ s/w devlopment methodology end ----------------------->
 
+  <!------------------------------  things you know start ------------------------->
+  <section class="my-5">
+    <div class="container">
+        <div class="text-center">
+            <h3 class="fs-2 fs-md-3">Things You Get</h3>
+            <hr class="short"
+                data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
+                data-zanim-trigger="scroll" />
+        </div>
 
-        <!------------------------------  things you know start ------------------------->
-        <section class="my-5">
-            <div class="container">
-                <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
-                    <hr class="short"
-                        data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-                        data-zanim-trigger="scroll" />
+        <div>
+            <div class="row">
+                <div class="col-lg-5 mt-4">
+                    <div class=" p-3 bg-primary">
+                        <!-- <div class=" "> -->
+                        <h3 class="mb-3 text-white"> Our Expertise</h3>
+                        <p class="text-white">Working with our certified experts means you get tailored,
+                            high-quality solutions, delivered on time and within budget. We ensure seamless
+                            collaboration, leveraging industry-best practices to bring your vision to life with
+                            efficiency and reliability.
+                        </p>
+                        <!-- </div> -->
+                    </div>
                 </div>
-
-                <div>
-                    <div class="row">
-                        <div class="col-lg-5 mt-4">
-                            <div class=" p-3 bg-primary">
-                                <!-- <div class=" "> -->
-                                <h3 class="mb-3 text-white"> Our Expertise</h3>
-                                <p class="text-white">Working with our certified experts means you get tailored,
-                                    high-quality solutions, delivered on time and within budget. We ensure seamless
-                                    collaboration, leveraging industry-best practices to bring your vision to life with
-                                    efficiency and reliability.
-                                </p>
-                                <!-- </div> -->
+                <div class="col-lg-7">
+                    <div class="h-100">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                data-zanim-trigger="scroll">
+                                <div class="h-100 shadow p-3">
+                                    <div class="w-50 p-3 mx-auto">
+                                        <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
+                                            alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                    </div>
+                                    <div class="text-center">
+                                        <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="h-100">
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Creative_Support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
-            </div> -->
-                                        </div>
+                            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                data-zanim-trigger="scroll">
+                                <div class="h-100 shadow p-3">
+                                    <div class="w-50 p-3 mx-auto">
+                                        <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
+                                            alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                     </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Creating_Experiences.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Creating Experiences
-                                                </h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
-            </div> -->
-                                        </div>
+                                    <div class="text-center">
+                                        <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
                                     </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
-            </div> -->
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                data-zanim-trigger="scroll">
+                                <div class="h-100 shadow p-3">
+                                    <div class="w-50 p-3 mx-auto">
+                                        <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
+                                            alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                     </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Business_Boosting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
-            </div> -->
-                                        </div>
+                                    <div class="text-center">
+                                        <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
                                     </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Strategic_Approach.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
-            </div> -->
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                data-zanim-trigger="scroll">
+                                <div class="h-100 shadow p-3">
+                                    <div class="w-50 p-3 mx-auto">
+                                        <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
+                                            alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
                                     </div>
-                                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
-                                        data-zanim-trigger="scroll">
-                                        <div class="h-100 shadow p-3">
-                                            <div class="w-50 p-3 mx-auto">
-                                                <img src="{{ asset('assets/img/icons/svg_icons/Logistic_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
-                                            </div>
-                                            <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Logistic Consulting
-                                                </h5>
-                                            </div>
-                                            <!-- <div class="">
-            <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clients hard hitting answers and focus hard on best opportunities.</p>
-            </div> -->
-                                        </div>
+                                    <div class="text-center">
+                                        <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
                                     </div>
-
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                data-zanim-trigger="scroll">
+                                <div class="h-100 shadow p-3">
+                                    <div class="w-50 p-3 mx-auto">
+                                        <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
+                                            alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                    </div>
+                                    <div class="text-center">
+                                        <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}"
+                                data-zanim-trigger="scroll">
+                                <div class="h-100 shadow p-3">
+                                    <div class="w-50 p-3 mx-auto">
+                                        <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
+                                            alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                    </div>
+                                    <div class="text-center">
+                                        <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                </div>
 
-            </div><!-- end of .container-->
-        </section>
-        <!-- <section> things you know close ============================-->
+                </div>
+            </div>
+        </div>
+
+    </div><!-- end of .container-->
+</section>
+<!-- <section> things you know close ============================-->
+
         </div>
 
         </div>
