@@ -213,6 +213,7 @@ Route::get('/products',[FrontController::class,'products']);
 Route::get('/products/tuno',[FrontController::class,'tuno']);
 Route::get('/products/HealthTech',[FrontController::class,'healthTech']);
 Route::get('/products/fintech',[FrontController::class,'finTech']);
+Route::get('/products/retail&e-commerce',[FrontController::class,'retailEcommerce']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);

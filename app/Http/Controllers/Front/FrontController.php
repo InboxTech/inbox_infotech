@@ -65,6 +65,11 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.fintech', $arr);
     }
+     public function retailEcommerce()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.retail-ecommerce', $arr);
+    }
     public function product(Request $req, $name)
     {
         $brr = DB::table('products')->where('slug', $name)->get();
