@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Cyber Security')
+@section('page_title', 'DATA CENTER SOLUTIONS')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -117,41 +117,41 @@
             <section class="" style="padding-top:50px;">
                 <div class="row">
                     <div class="col-xl-6 col-12">
-                        <div class=" mb-5" data-aos="fade-up" data-aos-duration="1000">
-                            <h3 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Data Center Solutions</h3>
-                            <p class="lead text-muted mb-4">
+                        <div class="mb-5" data-aos="fade-up" data-aos-duration="1000">
+                            <h3 class="fs-2 fs-md-3 text-color mb-4">Our Data Center Solutions</h3>
+                            <p class="lead text-muted mb-3">
                                 At Inbox Infotech, we specialize in providing end-to-end data center solutions that enable businesses to
                                 scale, optimize, and secure their IT infrastructure. Whether you are looking for colocation services,
                                 cloud hosting, or disaster recovery, we offer flexible, cost effective, and secure solutions that meet
                                 the diverse needs of your business.
                             </p>
-                            <p class="lead text-muted mb-4">
+                            <p class="lead text-muted mb-3">
                                 Our data center services are built on cutting-edge technologies and best practices to deliver high
                                 availability, robust security, and unmatched performance. We ensure that your critical data is
                                 well-managed, always accessible, and protected from any potential disruptions.
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-6 ps-5 col-12">
-                        <div class="card">
+                    <div class="col-xl-6 col-12 mb-5 ps-lg-5" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="">
                             <h5 class="text-color">Cloud Hosting & Hybrid Solutions</h5>
                             <p class="mb-3">
                                 Custom cloud environments for businesses seeking flexibility and scalability. Scalable solutions that can grow with your business.
                             </p>
                         </div>
-                        <div class="card">
+                        <div class="">
                             <h5 class="text-color"> Managed Services</h5>
                             <p class="mb-3">
                                 Custom cloud environments for businesses seeking flexibility and scalability. Scalable solutions that can grow with your business.
                             </p>
                         </div>
-                        <div class="card">
+                        <div class="">
                             <h5 class="text-color"> Security & Compliance </h5>
                             <p class="mb-3">
                                 Implementation of multi-layer security protocols, including firewalls, encryption, and access controls. Adherence to key compliance standards (ISO 27001, GDPR, HIPAA, etc.).
                             </p>
                         </div>
-                        <div class="card">
+                        <div class="">
                             <h5 class="text-color"> Network Infrastructure </h5>
                             <p class="mb-3">
                                  High-performance network solutions with low latency and high availability.Scalable and customizable networking options to support your growing business.
@@ -166,95 +166,57 @@
 
             <section class="" style="padding-top:50px; padding-bottom:50px;">
                 <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Our Comprehensive Cybersecurity Services </h6>
+                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Solutions for Critical AI Barriers </h6>
                 </div>
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Authentication & Access Control</h5>
-                                <p>
-                                    Manages user identity and access using multi-factor authentication, role-based permissions, and session controls to prevent unauthorized system access.
+                    <div class="col-lg-6 col-12 mb-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Where to Strategically Integrate AI</h5>
+                                <p class="card-text">
+                                    Smart data investment is the cornerstone of tackling your most pressing business challenges. Inbox Infotech provides the strategic guidance to pinpoint optimal AI and ML integration points, effectively mitigating implementation risks through robust data architectures and seamless migration strategies.
+                                </p>
+                                <p class="card-text">
+                                    We partner with you to define clear AI and ML objectives and translate them into tangible, impactful solutions, supporting your growth at every stage of AI and ML maturity.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Network Security</h5>
-                                <p>
-                                    Secures data in transit with firewalls, intrusion detection/prevention systems, VPNs, and encrypted communication protocols to block external threats.
+                    <div class="col-lg-6 col-12 mb-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">How to Capitalize on AI's Potential</h5>
+                                <p class="card-text">
+                                    Unlock significant efficiency gains by automating repetitive tasks and accelerating predictive analysis to uncover valuable data correlations. Inbox Infotech's expertise ensures a positive return on your data, AI, and ML investments by seamlessly operationalizing intelligent models across your organization.
+                                </p>
+                                <p class="card-text">
+                                    Leverage our proven track record in enterprise automation and business intelligence to rapidly advance your AI and ML maturity throughout your data ecosystems.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Protection</h5>
-                                <p>
-                                    Safeguards sensitive data using encryption, secure backups, masking, and data loss prevention tools to avoid breaches and data leakage.
+                    <div class="col-lg-6 col-12 mb-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Preparing Your Data for AI Success</h5>
+                                <p class="card-text">
+                                    Build a foundation of accountability and trust in your AI and ML initiatives by implementing reliable strategies for structuring diverse data sources. Proactively identify data anomalies with AI-powered vulnerability tracking.
+                                </p>
+                                <p class="card-text">
+                                    Through responsible data mining, cleansing, warehousing, and structured governance, we enable your data to scale and meet the precise requirements of sophisticated AI algorithms. Our commitment to statistical analysis and data visualization ensures adherence to the highest data quality standards.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Threat Detection & Monitoring</h5>
-                                <p>
-                                    Continuously monitors systems to identify, analyze, and respond to suspicious activities, leveraging threat intelligence and anomaly detection tools.
+                    <div class="col-lg-6 col-12 mb-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Identifying High-Impact AI Use Cases</h5>
+                                <p class="card-text">
+                                    Inbox Infotech empowers you to effectively classify your platform architecture and optimize AI model development. We also help define the scope of AI integration and pinpoint areas where AI-driven capabilities can deliver the greatest impact.
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Vulnerability Management</h5>
-                                <p>
-                                    Detects and resolves security weaknesses through regular scanning, patch deployment, risk assessments, and simulated attacks like penetration testing.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Endpoint Security</h5>
-                                <p>
-                                    Protects end-user devices using antivirus software, EDR tools, access restrictions, and remote wipe capabilities to secure all endpoints.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Web & Application Security</h5>
-                                <p>
-                                    Defends web apps and APIs using WAFs, secure coding practices, regular security tests, and OWASP Top 10 compliance measures.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Incident Response & Forensics</h5>
-                                <p>
-                                    Manages cybersecurity incidents with logging, automated response, forensic tools, and root cause analysis to quickly contain and recover from breaches.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                        <div class="service-card">
-                            <div class="">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Compliance & Reporting</h5>
-                                <p>
-                                    Ensures adherence to laws and standards like GDPR or ISO, with audit trails, security reports, and real-time compliance monitoring dashboards.
+                                <p class="card-text">
+                                    Our core objective is to help you solve critical business challenges through the strategic application of data and the seamless integration of intelligence into your enterprise solutions. We provide the clarity needed to identify the most promising business use cases for AI and ML by streamlining your data landscape.
                                 </p>
                             </div>
                         </div>
@@ -264,60 +226,84 @@
             <!----------------------------- Cybersecurity Services end ---------------------------->
 
             <!-----------------------------   Cybersecurity AIstart   ---------------------------->
-            <section class="" style="padding-top:50px;">
-                <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Solving Today's Cybersecurity Challenges with AI's Intelligence</h6>
-                    <p class="lead text-muted mb-4">Today's cyber threats are complex and fast-moving. Inbox Infotech uses the power of Artificial Intelligence to provide smarter, faster, and more adaptive security.</p>
+            <section class="">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-5">
+                        <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
+                            <h3 class="text-color">Scaling Your AI and ML Initiatives for Long-Term Value</h3>
+                            <p class="fw-light">Beyond initial implementation, achieving sustained value from AI and ML requires a strategic approach to scaling. Radixweb partners with you to develop a robust roadmap for expanding your AI capabilities across different business functions.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-7">
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Building Scalable Infrastructure</h5>
+                            </div>
+                            <p class="text-black mb-0">Designing and implementing data and technology architectures that can accommodate growing data volumes and increasingly complex AI models.</p>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Establishing Center of Excellence (CoE)</h5>
+                            </div>
+                            <p class="text-black mb-0">Facilitating the creation of internal teams with the expertise and governance structures necessary to drive AI adoption and innovation throughout the organization.</p>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Continuous Model Monitoring and Improvement</h5>
+                            </div>
+                            <p class="text-black mb-0">Implementing systems to track the performance of deployed AI models, identify drift, and implement necessary retraining and updates to ensure ongoing accuracy and effectiveness.</p>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Fostering a Data-Driven Culture</h5>
+                            </div>
+                            <p class="text-black mb-0">Empowering your teams with the skills and understanding to leverage AI insights in their daily decision-making processes.</p>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Ensuring Ethical and Responsible AI Deployment</h5>
+                            </div>
+                            <p class="text-black mb-0">Establishing frameworks and guidelines to address potential biases, ensure fairness, and maintain transparency in your AI applications.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-lg-4 col-md-6 my-3">
-                        <div class="unified-card">
-                            <h5 class="mb-2"> Smarter Threat Detection </h5>
-                            <div class="my-2">
-                                <p>
-                                    AI analyzes massive amounts of data to pinpoint real threats, reducing overwhelming alerts for our security experts.
-                                </p>
-                            </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-5">
+                        <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
+                            <h3 class="text-color">Navigating the Evolving AI and ML Landscape</h3>
+                            <p class="fw-light">The field of Artificial Intelligence and Machine Learning is constantly evolving, with new technologies and methodologies emerging rapidly. Radixweb stays at the forefront of these advancements.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 my-3">
-                        <div class="unified-card">
-                            <h5 class="mb-2"> Detecting New Attacks </h5>
-                            <div class="my-2">
-                                <p>
-                                    AI learns and identifies subtle signs of even the newest attack methods that traditional security might miss.
-                                </p>
+                    <div class="col-12 col-md-12 col-xl-7">
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Evaluate and Adopt Emerging Technologies</h5>
                             </div>
+                            <p class="text-black mb-0">Identifying and assessing the potential of new AI and ML tools, frameworks, and platforms to enhance your business outcomes.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 my-3">
-                        <div class="unified-card">
-                            <h5 class="mb-2"> Faster Response </h5>
-                            <div class="my-2">
-                                <p>
-                                    AI automates actions to quickly contain threats like ransomware, minimizing damage and downtime.
-                                </p>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Staying Ahead of Industry Best Practices</h5>
                             </div>
+                            <p class="text-black mb-0">Ensuring your AI initiatives align with the latest standards and guidelines for development, deployment, and governance.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 my-3">
-                        <div class="unified-card">
-                            <h5 class="mb-2"> Understanding User Behavior </h5>
-                            <div class="my-2">
-                                <p>
-                                    AI spots unusual activity that could indicate compromised accounts or insider threats.
-                                </p>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Addressing Regulatory Compliance</h5>
                             </div>
+                            <p class="text-black mb-0">Navigating the evolving landscape of data privacy and AI regulations to ensure your solutions remain compliant.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 my-3">
-                        <div class="unified-card">
-                            <h5 class="mb-2"> Extending Security Expertise </h5>
-                            <div class="my-2">
-                                <p>
-                                    AI provides advanced insights, helping our team deliver stronger security even with industry-wide skill shortages.
-                                </p>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Facilitating Innovation and Experimentation</h5>
                             </div>
+                            <p class="text-black mb-0">Creating environments and processes that encourage the exploration of new AI applications and the development of innovative solutions to emerging business challenges.</p>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="d-flex mb-2">
+                                <h5 class="text-color my-2">Bridging the Gap Between Research and Application</h5>
+                            </div>
+                            <p class="text-black mb-0">Translating cutting-edge AI research into practical and impactful business solutions.</p>
                         </div>
                     </div>
                 </div>
