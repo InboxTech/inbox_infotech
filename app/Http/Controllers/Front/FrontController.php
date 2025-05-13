@@ -70,6 +70,16 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.retail-ecommerce', $arr);
     }
+     public function logistic()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.logistics', $arr);
+    }
+     public function edTech()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.edtech', $arr);
+    }
     public function product(Request $req, $name)
     {
         $brr = DB::table('products')->where('slug', $name)->get();
