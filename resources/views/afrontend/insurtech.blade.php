@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'EdTech')
+@section('page_title', 'InsurTech')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            EdTech</p>
+                                            InsurTech</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                        EdTech, or educational technology, uses digital tools to enhance teaching, learning, and educational access across all levels.</p>
+                                        InsurTech applies advanced IT solutions like AI, cloud, and data analytics to streamline insurance processes, improve efficiency, and enhance customer experience.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -93,128 +93,72 @@
 
         <div class="container">
 
-            <!------------------------ e-learning overview start ----------------------->
-
-            <section>
-                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-
-                    <h3>  Overview of E-Learning Software Development </h3>
-                </div>
-                <div class="my-5">
-                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="col-lg-6">
-                                 <img src="{{ asset('assets/inbox/E_Learning.png') }}" class="img-fluid" style="border-radius: 30px;"/>
-                        </div>
-                        <div class="col-lg-6">
-                            <p> At Inbox, we believe technology is revolutionizing the way people teach, learn, and grow. Our e-learning software development services are designed to empower educators, trainers, and learning institutions by delivering powerful, interactive, and scalable digital learning solutions. </p>
-                            <p> E-learning is no longer just a digital alternative to the classroom—it's a complete ecosystem that supports remote learning, lifelong skill development, corporate training, onboarding, and more. We help businesses, universities, schools, and EdTech startups build custom e-learning platforms that are secure, user-friendly, and aligned with their instructional goals.</p>
-                            <p> Whether you're envisioning a full-scale Learning Management System (LMS), an engaging mobile learning app, or a virtual classroom with real-time collaboration features, our team brings the technical expertise and educational insight needed to bring your vision to life.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!------------------------ e-learning overview end ----------------------->
 
 
             <!---------------------------  our services start ------------------------->
               <section class="">
 
-                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="">Types of E-Learning Software Solutions</h3>
-                            <p class="fw-light">The development services typically cover a wide range of solutions, depending on the client’s needs. These include:
+                <div class="text-center">
+                <h3 class="">Driving Innovation in Insurance with Advanced Service Lines</h3>
+                            <p class="fw-light">Advanced service lines are reshaping the insurance industry by driving innovation, efficiency, and customer-centricity. This approach empowers insurers to modernize operations, enhance decision-making, and stay competitive in a rapidly evolving digital and regulatory landscape.
                             </p>
                 </div>
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-lg-3 my-3">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 my-3">
                     <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Custom Learning Management Systems (LMS)</h5>
+                                <h5 class="card-title my-2">Adaptive Insurance Solution Creation </h5>
                                 <div class="card-body p-0">
-                            <p class="card-text mb-0">A custom Learning Management System (LMS) is a tailored e-learning platform that supports course creation, user management, progress tracking, and reporting. Unlike off-the-shelf options, it offers full control over features, branding, and workflows.</p>
+                            <p class="card-text mb-0">Adaptive Insurance Solution Creation focuses on developing flexible, customer-centric insurance products tailored to evolving market demands and individual needs. It leverages data, technology, and agile methodologies to deliver responsive, scalable solutions that drive engagement and competitive advantage.</p>
                             </div>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
+                        <div class="col-lg-4 my-3">
                         <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Mobile Learning Applications</h5>
+                                <h5 class="card-title my-2">Strategic Insurance Consulting</h5>
                                 <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning apps cater to mobile-first learners, offering features like offline access, push notifications, and gamification. Developed for Android and iOS, they enhance engagement and accessibility, supporting learning anytime, anywhere.</p>
+                                    <p class="card-text mb-0">Insurance Consulting Services provide strategic guidance to insurers across product development, operations, compliance, digital transformation, and customer experience. These services help insurers navigate market shifts, optimize performance, manage risk, and implement innovative, future-ready business models.</p>
                                 </div>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
+                        <div class="col-lg-4 my-3">
                         <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2"> Virtual Classrooms and Live Learning Tools</h5>
+                                <h5 class="card-title my-2"> Legacy System Modernization</h5>
                                 <div class="card-body p-0">
-                                    <p class="card-text mb-0">Modern e-learning platforms support live teaching through virtual classrooms with video conferencing, chat, screen sharing, whiteboards, and recordings. Built with WebRTC or integrated with tools like Zoom or Teams, they enable real-time, interactive learning.<p>
+                                    <p class="card-text mb-0">Legacy System Modernization for Insurance involves upgrading outdated core platforms to modern, cloud-based, and API-enabled systems. It improves agility, reduces maintenance costs, enhances customer experience, and supports digital initiatives like real-time data processing, automation, and regulatory compliance.<p>
                                 </div>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
+                        <div class="col-lg-4 my-3">
                         <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Content Authoring and Management Tools</h5>
+                                <h5 class="card-title my-2">Data Architecture and ML Integration</h5>
                                 <div class="card-body p-0">
-                                    <p class="card-text mb-0">A content creation system lets educators design multimedia-rich courses with videos, audio, quizzes, and interactivity. Supporting standards like SCORM or xAPI, it ensures content is reusable, trackable, and compatible across various e-learning platforms.</p>
+                                    <p class="card-text mb-0">Data Architecture and ML Integration focuses on designing scalable, efficient data frameworks that seamlessly integrate with machine learning models. This approach ensures the smooth flow of high-quality data, enabling accurate predictions, real-time insights, and enhanced decision-making in industries like insurance, finance, and healthcare.</p>
                                 </div>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
+                        <div class="col-lg-4 my-3">
                         <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Assessment, Testing, and Certification</h5>
+                                <h5 class="card-title my-2">Concept Validation and MVP Build</h5>
                                 <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning platforms offer test and assessment tools for both formative and summative evaluations. They support auto-grading, performance tracking, feedback delivery, and certificate generation, enhancing learning outcomes and recognizing achievement.</p>
+                                    <p class="card-text mb-0">Concept Validation and MVP Build focuses on testing an idea's viability through a proof of concept (POC), followed by the development of a Minimum Viable Product (MVP). This approach allows businesses to quickly assess market demand, refine features, and gather early user feedback before full-scale development.</p>
                                 </div>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
+                        <div class="col-lg-4 my-3">
                         <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Analytics and Reporting</h5>
+                                <h5 class="card-title my-2">AI-Powered Insurance Assistant Creation</h5>
                                 <div class="card-body p-0">
-                                    <p class="card-text mb-0">Detailed analytics in e-learning platforms track course completion, engagement, time on tasks, and performance trends. Custom dashboards help administrators, instructors, and learners monitor progress and measure learning effectiveness.</p>
+                                    <p class="card-text mb-0">AI-Powered Insurance Assistant Creation involves developing intelligent virtual assistants that utilize artificial intelligence to handle customer inquiries, policy management, claims processing, and personalized recommendations. These assistants enhance customer experience, reduce operational costs, and improve response times in the insurance industry.</p>
                                 </div>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Gamification and Interactive Learning</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">To boost engagement, e-learning platforms use gamification features like points, badges, leaderboards, and challenges. Interactive elements—such as drag-and-drop tasks, simulations, and decision trees—make learning more dynamic and motivating.</p>
-                                </div>
-                        </div>
-                        </div>
 
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">AI and Personalization</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">AI enhances e-learning by recommending personalized learning paths, using chatbots for support and reminders, and applying machine learning to help instructors identify and assist struggling students early.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Third-Party Integration</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning platforms often integrate with payment gateways, CRMs, ERPs, and collaboration tools to enable seamless operations, especially in enterprise or institutional settings, supporting monetization, data management, and streamlined user experiences.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Security and Compliance </h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning platforms prioritize security and accessibility with role-based access, encryption, secure authentication, and compliance with GDPR, HIPAA, or FERPA. They also follow WCAG 2.1 standards to ensure usability for learners with disabilities.</p>
-                                </div>
-                        </div>
-                        </div>
 
                 </div>
             </section>
@@ -235,8 +179,7 @@
                                 <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                             </div>
                             <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
+                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to
                                     one of our advisers over the phone? Just submit your details and we’ll be in touch
                                     shortly. You can also email us if you would prefer.</p>
                             </div>
@@ -319,97 +262,77 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> E-Learning by AI</h3>
+                        <h3> AI with InsurTech</h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p class="mt-4"> At Inbox, we harness the power of Artificial Intelligence to transform e-learning into personalized, engaging experiences. Our AI-driven solutions adapt content, provide real-time feedback, and offer tailored learning paths for every learner. With features like predictive analytics, automated grading, and 24/7 AI support, we ensure smarter, more efficient learning journeys for individuals and organizations alike. </p>
+                        <p class="mt-4"> Artificial Intelligence (AI) enhances InsurTech by making insurance smarter, faster, and more customer-centric. It automates processes, improves decision-making, and personalizes experiences across the insurance value chain. </p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> AI in e-learning can be categorized into several types based on its functionality: </strong> </h4>
+                    <h4> <strong> Key Applications: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Learning:
+                                  Underwriting
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI analyzes learner data (performance, preferences, etc.) to recommend tailored learning paths, ensuring content meets individual needs and learning styles.</div>
+                                <div class="accordion-body">AI analyzes large datasets to assess risk and price policies more accurately.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Intelligent Tutoring Systems:
+                                   Claims Processing
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">These AI systems provide real-time, one-on-one support, offering feedback, explanations, and guidance similar to a human tutor.</div>
+                                <div class="accordion-body"> Automates claim filing, fraud detection, and damage estimation using AI and computer vision.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   AI-Powered Chatbots:
+                                   Customer Support
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> Chatbots assist learners by answering questions, guiding through lessons, providing reminders, and offering instant feedback, improving learner engagement.
-                                </div>
+                                <div class="accordion-body"> Chatbots and virtual assistants provide 24/7 service and instant answers. </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                   Adaptive Learning:
+                                  Fraud Prevention
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI adjusts the difficulty of tasks and content dynamically, providing personalized learning experiences by adapting to learners' strengths and weaknesses.</div>
+                                  <div class="accordion-body">AI detects abnormal patterns and flags potentially fraudulent activities.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Automated Grading and Assessment:
+                                   Personalized Products
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI can automatically grade assignments, quizzes, and essays, providing quick feedback and reducing instructors' workload.</div>
+                                  <div class="accordion-body">Recommends insurance based on behavior, location, or usage patterns.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Predictive Analytics:
+                                  Operational Efficiency
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tracks learner progress, identifying patterns and predicting performance trends, helping instructors detect at-risk students early and offer targeted interventions.</div>
+                                  <div class="accordion-body">Reduces manual tasks through AI-driven automation and document processing.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Natural Language Processing (NLP):
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">NLP helps in enhancing language learning apps, speech recognition, and chatbots, improving learner interaction through language understanding and response generation.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                                   Gamification and AI-Driven Engagement:
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI designs dynamic challenges, interactive simulations, and games, promoting engagement through adaptive difficulty levels and rewards systems.</div>
-                                </div>
-                            </div>
+
                           </div>
                     </div>
 

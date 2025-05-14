@@ -216,6 +216,8 @@ Route::get('/products/fintech',[FrontController::class,'finTech']);
 Route::get('/products/retail&e-commerce',[FrontController::class,'retailEcommerce']);
 Route::get('/products/logistic',[FrontController::class,'logistic']);
 Route::get('/products/edtech',[FrontController::class,'edTech']);
+Route::get('/products/insurtech',[FrontController::class,'insurTech']);
+Route::get('/products/pharmatech',[FrontController::class,'pharmaTech']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);

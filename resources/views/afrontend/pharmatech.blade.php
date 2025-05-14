@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'EdTech')
+@section('page_title', 'PharmaTech')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            EdTech</p>
+                                            PharmaTech </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                        EdTech, or educational technology, uses digital tools to enhance teaching, learning, and educational access across all levels.</p>
+                                          We provide innovative PharmaTech solutions, including software development, data analytics, and compliance tools, to streamline pharmaceutical operations and accelerate drug development.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -93,132 +93,129 @@
 
         <div class="container">
 
-            <!------------------------ e-learning overview start ----------------------->
-
-            <section>
-                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-
-                    <h3>  Overview of E-Learning Software Development </h3>
-                </div>
-                <div class="my-5">
-                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="col-lg-6">
-                                 <img src="{{ asset('assets/inbox/E_Learning.png') }}" class="img-fluid" style="border-radius: 30px;"/>
-                        </div>
-                        <div class="col-lg-6">
-                            <p> At Inbox, we believe technology is revolutionizing the way people teach, learn, and grow. Our e-learning software development services are designed to empower educators, trainers, and learning institutions by delivering powerful, interactive, and scalable digital learning solutions. </p>
-                            <p> E-learning is no longer just a digital alternative to the classroom—it's a complete ecosystem that supports remote learning, lifelong skill development, corporate training, onboarding, and more. We help businesses, universities, schools, and EdTech startups build custom e-learning platforms that are secure, user-friendly, and aligned with their instructional goals.</p>
-                            <p> Whether you're envisioning a full-scale Learning Management System (LMS), an engaging mobile learning app, or a virtual classroom with real-time collaboration features, our team brings the technical expertise and educational insight needed to bring your vision to life.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!------------------------ e-learning overview end ----------------------->
 
 
-            <!---------------------------  our services start ------------------------->
-              <section class="">
+        <!--------------- retail software dev services start --------------------->
 
-                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="">Types of E-Learning Software Solutions</h3>
-                            <p class="fw-light">The development services typically cover a wide range of solutions, depending on the client’s needs. These include:
-                            </p>
-                </div>
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-lg-3 my-3">
-                    <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Custom Learning Management Systems (LMS)</h5>
-                                <div class="card-body p-0">
-                            <p class="card-text mb-0">A custom Learning Management System (LMS) is a tailored e-learning platform that supports course creation, user management, progress tracking, and reporting. Unlike off-the-shelf options, it offers full control over features, branding, and workflows.</p>
+        <section class="software-dev-service">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="text-color">Types of PharmaTech services we offer</h3>
+                <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
+                </p>
+            </div>
+           <div>
+            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+
+
+                <div class="col-lg-4 col-md-6 col-12 my-3">
+                <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Custom Software Development</h5>
                             </div>
+                            <p> We develop custom software solutions designed to optimize pharmaceutical operations, streamline research and development processes, and enhance production management, ensuring efficiency, scalability, and regulatory compliance across all functions. </p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Clinical Trial Management Systems (CTMS)</h5>
+                            </div>
+                            <p> We provide Clinical Trial Management Systems (CTMS) that help pharmaceutical companies efficiently plan, track, and analyze clinical trials, improving data accuracy, regulatory compliance, and overall trial efficiency.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Regulatory Compliance Solutions </h5>
+                            </div>
+                          <p> Our Regulatory Compliance Solutions help pharmaceutical companies meet FDA, EMA, and global standards by automating documentation, tracking changes, and ensuring consistent adherence to industry regulations and quality requirements.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Data Analytics & AI</h5>
+                            </div>
+                           <p>  Our Data Analytics & AI solutions leverage big data and machine learning to accelerate drug discovery, uncover valuable patient insights, and enable predictive modeling for informed decision-making and personalized treatment development.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Pharmacovigilance Systems</h5>
+                            </div>
+                            <p> Our Pharmacovigilance Systems provide robust software to monitor, track, and analyze drug safety data, ensuring timely reporting of adverse events and compliance with regulatory requirements for patient safety.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Supply Chain & Inventory Management </h5>
+                            </div>
+                           <p>Our Supply Chain & Inventory Management systems optimize pharmaceutical logistics, streamline inventory control, and ensure efficient cold chain tracking, enhancing product availability, reducing waste, and maintaining compliance with regulatory standards. </p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">IoT & Automation Integration</h5>
+                            </div>
+                            <p>Our IoT & Automation Integration services provide smart devices and automation tools for pharmaceutical manufacturing, lab environments, and real-time monitoring, improving efficiency, accuracy, and operational control while reducing human error.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Cloud & Cybersecurity Solutions </h5>
+                            </div>
+                            <p> Our Cloud & Cybersecurity Solutions offer secure cloud platforms and advanced data protection services, ensuring the confidentiality, integrity, and compliance of sensitive healthcare and pharmaceutical data across all digital operations.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="card p-3 h-100">
+                            <div class="d-flex mb-2">
+                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
+                                <h5 class="text-color my-2">Mobile Health (mHealth) Apps</h5>
+                            </div>
+                          <p> Our Mobile Health (mHealth) Apps enable patients to track medications, access telehealth services, and monitor their health in real-time, empowering individuals to manage their well-being and stay connected with healthcare providers.</p>
                         </div>
                         </div>
 
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Mobile Learning Applications</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning apps cater to mobile-first learners, offering features like offline access, push notifications, and gamification. Developed for Android and iOS, they enhance engagement and accessibility, supporting learning anytime, anywhere.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2"> Virtual Classrooms and Live Learning Tools</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">Modern e-learning platforms support live teaching through virtual classrooms with video conferencing, chat, screen sharing, whiteboards, and recordings. Built with WebRTC or integrated with tools like Zoom or Teams, they enable real-time, interactive learning.<p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Content Authoring and Management Tools</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">A content creation system lets educators design multimedia-rich courses with videos, audio, quizzes, and interactivity. Supporting standards like SCORM or xAPI, it ensures content is reusable, trackable, and compatible across various e-learning platforms.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Assessment, Testing, and Certification</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning platforms offer test and assessment tools for both formative and summative evaluations. They support auto-grading, performance tracking, feedback delivery, and certificate generation, enhancing learning outcomes and recognizing achievement.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Analytics and Reporting</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">Detailed analytics in e-learning platforms track course completion, engagement, time on tasks, and performance trends. Custom dashboards help administrators, instructors, and learners monitor progress and measure learning effectiveness.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Gamification and Interactive Learning</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">To boost engagement, e-learning platforms use gamification features like points, badges, leaderboards, and challenges. Interactive elements—such as drag-and-drop tasks, simulations, and decision trees—make learning more dynamic and motivating.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">AI and Personalization</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">AI enhances e-learning by recommending personalized learning paths, using chatbots for support and reminders, and applying machine learning to help instructors identify and assist struggling students early.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Third-Party Integration</h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning platforms often integrate with payment gateways, CRMs, ERPs, and collaboration tools to enable seamless operations, especially in enterprise or institutional settings, supporting monetization, data management, and streamlined user experiences.</p>
-                                </div>
-                        </div>
-                        </div>
-
-                        <div class="col-lg-3 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                <h5 class="card-title my-2">Security and Compliance </h5>
-                                <div class="card-body p-0">
-                                    <p class="card-text mb-0">E-learning platforms prioritize security and accessibility with role-based access, encryption, secure authentication, and compliance with GDPR, HIPAA, or FERPA. They also follow WCAG 2.1 standards to ensure usability for learners with disabilities.</p>
-                                </div>
-                        </div>
-                        </div>
 
                 </div>
-            </section>
-            <!---------------------------  our services end ------------------------->
+           </div>
+        </section>
+
+        <!--------------- retail software dev services end --------------------->
+
+
+<!------------------------------------ our e-commerce development start ------------------------->
+
+   <section>
+    <div class="my-5">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-lg-6 my-3">
+                <h3> Our E-commerce Development </h3>
+                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
+            </div>
+            <div class="col-lg-6 my-3">
+                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
+                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+<!------------------------------------ our e-commerce development end ------------------------->
 
 
         </div>
@@ -310,8 +307,7 @@
 
 
         <div class="container">
-
-              <!------------------------------------ e-learning with ai start ----------------------------------------->
+              <!------------------------------------ ecommerce with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -319,95 +315,87 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> E-Learning by AI</h3>
+                        <h3> Retail & eCommerce Powered by AI</h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p class="mt-4"> At Inbox, we harness the power of Artificial Intelligence to transform e-learning into personalized, engaging experiences. Our AI-driven solutions adapt content, provide real-time feedback, and offer tailored learning paths for every learner. With features like predictive analytics, automated grading, and 24/7 AI support, we ensure smarter, more efficient learning journeys for individuals and organizations alike. </p>
+                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
+
+                        </p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> AI in e-learning can be categorized into several types based on its functionality: </strong> </h4>
+                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Learning:
+                                   Personalized Recommendations
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI analyzes learner data (performance, preferences, etc.) to recommend tailored learning paths, ensuring content meets individual needs and learning styles.</div>
+                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Intelligent Tutoring Systems:
+                                    Smart Search and Filtering
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">These AI systems provide real-time, one-on-one support, offering feedback, explanations, and guidance similar to a human tutor.</div>
+                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   AI-Powered Chatbots:
+                                   Chatbots and Virtual Assistants
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> Chatbots assist learners by answering questions, guiding through lessons, providing reminders, and offering instant feedback, improving learner engagement.
+                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                   Adaptive Learning:
+                                    Dynamic Pricing and Promotions
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI adjusts the difficulty of tasks and content dynamically, providing personalized learning experiences by adapting to learners' strengths and weaknesses.</div>
+                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Automated Grading and Assessment:
+                                   Inventory Forecasting
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI can automatically grade assignments, quizzes, and essays, providing quick feedback and reducing instructors' workload.</div>
+                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Predictive Analytics:
+                                   Visual Search & Image Recognition
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tracks learner progress, identifying patterns and predicting performance trends, helping instructors detect at-risk students early and offer targeted interventions.</div>
+                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Natural Language Processing (NLP):
+                                   Fraud Detection and Secure Payments
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">NLP helps in enhancing language learning apps, speech recognition, and chatbots, improving learner interaction through language understanding and response generation.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                                   Gamification and AI-Driven Engagement:
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI designs dynamic challenges, interactive simulations, and games, promoting engagement through adaptive difficulty levels and rewards systems.</div>
+                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
                                 </div>
                             </div>
                           </div>
@@ -418,8 +406,7 @@
         </div>
        </section>
 
-        <!------------------------------------ e-learning with ai end ------------------------------------------->
-
+        <!------------------------------------ ecommerce with ai end ------------------------------------------->
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">

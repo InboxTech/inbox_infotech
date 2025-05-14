@@ -122,57 +122,58 @@
 
 
             <div class="my-5">
-                <div class="swiper myCloudSwiper">
+                {{-- <div class="swiper myCloudSwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="row align-items-center">
+                      <div class="swiper-slide"> --}}
+                        <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/public_cloud.png')}}" class="img-fluid">
+                                <img src="{{asset('assets/inbox/public_cloud.png')}}" class="w-100 h-100">
                             </div>
-                            <div class="col-lg-8 p-5">
+                            <div class="col-lg-8">
                                 <h5> Public Cloud </h5>
                                 <p> Public Cloud is a cloud deployment model where services and resources are provided by third-party providers over the internet. These resources are shared across multiple organizations (multi-tenant) and include infrastructure, storage, and applications. Public clouds offer scalability, cost-effectiveness, and flexibility, as businesses only pay for the resources they use. Major providers include AWS, Microsoft Azure, and Google Cloud. While public clouds provide strong security measures, they offer less control compared to private clouds. Ideal for businesses seeking low upfront costs and easy scalability. </p>
                             </div>
                         </div>
-                      </div>
-                      <div class="swiper-slide">
-                       <div class="row align-items-center">
-                            <div class="col-lg-8 p-5">
+                      {{-- </div> --}}
+                      {{-- <div class="swiper-slide"> --}}
+                       <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
+                            <div class="col-lg-8">
                                 <h5> Private Cloud </h5>
                                 <p> Private Cloud is a cloud deployment model where cloud resources are used exclusively by a single organization, either on-premises or hosted by a third-party provider. It offers enhanced security, control, and customization compared to public clouds. Private clouds are ideal for businesses with strict compliance or security requirements, but they tend to have higher upfront costs. </p>
                             </div>
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/private_cloud.png')}}" class="img-fluid">
+                                <img src="{{asset('assets/inbox/private_cloud.png')}}" class="w-100 h-100">
                             </div>
                         </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="row align-items-center">
+                      {{-- </div> --}}
+                      {{-- <div class="swiper-slide"> --}}
+                        <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/hybrid_cloud.png')}}" class="img-fluid">
+                                <img src="{{asset('assets/inbox/hybrid_cloud.png')}}" class="w-100 h-100">
                             </div>
-                            <div class="col-lg-8 p-5">
+                            <div class="col-lg-8">
                                 <h5> Hybrid Cloud </h5>
                                 <p> Hybrid Cloud is a cloud deployment model that combines both private and public cloud infrastructures, allowing data and applications to be shared between them. This approach provides greater flexibility, enabling businesses to leverage the scalability of public clouds while maintaining control and security with private clouds for sensitive workloads. Hybrid cloud is ideal for organizations that need a mix of both environments for different tasks. </p>
                             </div>
                         </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="row align-items-center">
-                            <div class="col-lg-8 p-5">
+                      {{-- </div> --}}
+                      {{-- <div class="swiper-slide"> --}}
+                        <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
+                            <div class="col-lg-8">
                                 <h5> Community Cloud </h5>
                                 <p> Community Cloud is a cloud deployment model shared by multiple organizations with common concerns, such as security, compliance, or industry-specific requirements. It can be hosted by a third-party provider or managed internally. Community clouds allow for cost-sharing and collaboration while maintaining control over sensitive data, making them ideal for businesses in the same industry or regulatory environment. </p>
                             </div>
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/Multi_Cloud.png')}}" class="img-fluid">
+                                <img src="{{asset('assets/inbox/Multi_Cloud.png')}}" class="w-100 h-100">
                             </div>
                         </div>
-                      </div>
+                      {{-- </div> --}}
 
-                    </div>
+                    {{-- </div> --}}
                     {{-- <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div> --}}
-                  </div>
+                    {{-- <div class="swiper-pagination"></div> --}}
+                  {{-- </div> --}}
             </div>
         </section>
         <!---------------  cloud deployment model end --------------------->
@@ -353,7 +354,98 @@
 
         <!--------------------------------------- cloud services end --------------------------->
 
-          <!------------------------ cloud partners start ------------------------->
+
+
+        </div>
+
+        <!-- ============================================-->
+        <!-- <section> rquest a callback begin ============================-->
+            <section class="bg-primary p-5 my-5">
+            <div class="container-fluid">
+                <div class="row align-items-center text-white">
+                    <div class="col-lg-4">
+                        <div class="border border-2 border-white p-4 py-lg-5 text-center rounded-3"
+                            data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                            <div class="overflow-hidden">
+                                <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
+                            </div>
+                            <div class="overflow-hidden">
+                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
+                                    to
+                                    one of our advisers over the phone? Just submit your details and we’ll be in touch
+                                    shortly. You can also email us if you would prefer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0 ">
+                        <div class="bg-white rounded-3 p-4 call-back-form">
+                            <h5 class="text-color mb-4">I would like to discuss:</h5>
+                            <form action="{{ url('contactus/form/submit') }}" method="post">
+                                {{ csrf_field() }}
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <input class="form-control" type="text" name="name"
+                                            placeholder="Your Name" aria-label="Your Name" />
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="d-flex">
+                                            <!-- Country Code Dropdown -->
+                                            <select class="form-select" name="country_code" style="max-width: 110px;"
+                                                required>
+                                                <option value="+91" selected>+91 (IN)</option>
+                                                <option value="+1">+1 (US)</option>
+                                                <option value="+44">+44 (UK)</option>
+                                                <option value="+61">+61 (AU)</option>
+                                                <option value="+81">+81 (JP)</option>
+                                                <option value="+49">+49 (DE)</option>
+                                                <option value="+33">+33 (FR)</option>
+                                                <option value="+39">+39 (IT)</option>
+                                                <option value="+34">+34 (ES)</option>
+                                                <option value="+82">+82 (KR)</option>
+                                                <option value="+86">+86 (CN)</option>
+                                                <option value="+55">+55 (BR)</option>
+                                                <option value="+7">+7 (RU)</option>
+                                                <option value="+41">+41 (CH)</option>
+                                                <option value="+31">+31 (NL)</option>
+                                                <option value="+46">+46 (SE)</option>
+                                                <option value="+45">+45 (DK)</option>
+                                                <option value="+358">+358 (FI)</option>
+                                                <option value="+351">+351 (PT)</option>
+                                                <option value="+36">+36 (HU)</option>
+                                                <option value="+420">+420 (CZ)</option>
+                                                <option value="+421">+421 (SK)</option>
+                                                <option value="+43">+43 (AT)</option>
+                                                <option value="+32">+32 (BE)</option>
+                                                <option value="+353">+353 (IE)</option>
+                                            </select>
+                                            <!-- Phone Input -->
+                                            <input class="form-control bg-white" type="tel" name="phone"
+                                                placeholder="Phone number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-12"><input class="form-control" type="email" name="email"
+                                            placeholder="Email" aria-label="Email" /></div>
+                                    <div class="col-12">
+                                        <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject"
+                                            aria-label="Enter your Descriptions here..."></textarea>
+                                    </div>
+                                    <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100"
+                                            type="submit">Submit</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of .container-->
+            </section>
+        <!-- <section> rquest a callback close ============================-->
+        <!-- ============================================-->
+
+
+
+        <div class="container">
+
+             <!------------------------ cloud partners start ------------------------->
 
           <section class="iot-process">
             <div class="text-center">
@@ -453,98 +545,8 @@
           </section>
 
           <!------------------------ cloud partners end ------------------------->
-
-        </div>
-
-        <!-- ============================================-->
-        <!-- <section> rquest a callback begin ============================-->
-            <section class="bg-primary p-5 my-5">
-            <div class="container-fluid">
-                <div class="row align-items-center text-white">
-                    <div class="col-lg-4">
-                        <div class="border border-2 border-white p-4 py-lg-5 text-center rounded-3"
-                            data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                            <div class="overflow-hidden">
-                                <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
-                            </div>
-                            <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
-                                    one of our advisers over the phone? Just submit your details and we’ll be in touch
-                                    shortly. You can also email us if you would prefer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0 ">
-                        <div class="bg-white rounded-3 p-4 call-back-form">
-                            <h5 class="text-color mb-4">I would like to discuss:</h5>
-                            <form action="{{ url('contactus/form/submit') }}" method="post">
-                                {{ csrf_field() }}
-                                <div class="row">
-                                    <div class="col-md-6 col-12">
-                                        <input class="form-control" type="text" name="name"
-                                            placeholder="Your Name" aria-label="Your Name" />
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="d-flex">
-                                            <!-- Country Code Dropdown -->
-                                            <select class="form-select" name="country_code" style="max-width: 110px;"
-                                                required>
-                                                <option value="+91" selected>+91 (IN)</option>
-                                                <option value="+1">+1 (US)</option>
-                                                <option value="+44">+44 (UK)</option>
-                                                <option value="+61">+61 (AU)</option>
-                                                <option value="+81">+81 (JP)</option>
-                                                <option value="+49">+49 (DE)</option>
-                                                <option value="+33">+33 (FR)</option>
-                                                <option value="+39">+39 (IT)</option>
-                                                <option value="+34">+34 (ES)</option>
-                                                <option value="+82">+82 (KR)</option>
-                                                <option value="+86">+86 (CN)</option>
-                                                <option value="+55">+55 (BR)</option>
-                                                <option value="+7">+7 (RU)</option>
-                                                <option value="+41">+41 (CH)</option>
-                                                <option value="+31">+31 (NL)</option>
-                                                <option value="+46">+46 (SE)</option>
-                                                <option value="+45">+45 (DK)</option>
-                                                <option value="+358">+358 (FI)</option>
-                                                <option value="+351">+351 (PT)</option>
-                                                <option value="+36">+36 (HU)</option>
-                                                <option value="+420">+420 (CZ)</option>
-                                                <option value="+421">+421 (SK)</option>
-                                                <option value="+43">+43 (AT)</option>
-                                                <option value="+32">+32 (BE)</option>
-                                                <option value="+353">+353 (IE)</option>
-                                            </select>
-                                            <!-- Phone Input -->
-                                            <input class="form-control bg-white" type="tel" name="phone"
-                                                placeholder="Phone number" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12"><input class="form-control" type="email" name="email"
-                                            placeholder="Email" aria-label="Email" /></div>
-                                    <div class="col-12">
-                                        <textarea class="form-control" name="message" id="" rows="4" placeholder="Subject"
-                                            aria-label="Enter your Descriptions here..."></textarea>
-                                    </div>
-                                    <div class="col-4 mt-4 mx-auto"><button class="btn btn-primary w-100"
-                                            type="submit">Submit</button></div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of .container-->
-            </section>
-        <!-- <section> rquest a callback close ============================-->
-        <!-- ============================================-->
-
-
-
-
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
-            <div class="container">
                 <div class="text-center">
                     <h3 class="fs-2 fs-md-3">Things You Get</h3>
                     <hr class="short"
@@ -649,10 +651,10 @@
                     </div>
                 </div>
 
-            </div><!-- end of .container-->
-        </section>
-        <!-- <section> things you know close ============================-->
+            </section>
+            <!-- <section> things you know close ============================-->
 
+            </div><!-- end of .container-->
         </div>
 
         </div>
