@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'InsurTech')
+@section('page_title', 'Oil & Gas')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/1214549853.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/487686572.webp') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            InsurTech</p>
+                                            Oil & gas</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                        InsurTech applies advanced IT solutions like AI, cloud, and data analytics to streamline insurance processes, improve efficiency, and enhance customer experience.</p>
+                                        We help oil and gas companies embrace digital transformation through smart, scalable IT solutions that enhance efficiency, safety, and sustainability.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -95,153 +95,79 @@
 
 
 
-            <!---------------------------  our services start ------------------------->
-              <section class="">
-
-                <div class="text-center">
-                <h3 class="">Driving Innovation in Insurance with Advanced Service Lines</h3>
-                            <p class="fw-light">Advanced service lines are reshaping the insurance industry by driving innovation, efficiency, and customer-centricity. This approach empowers insurers to modernize operations, enhance decision-making, and stay competitive in a rapidly evolving digital and regulatory landscape.
-                            </p>
-                </div>
-                <div class="my-5">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                    <h5 class="card-title my-2">Adaptive Insurance Solution Creation </h5>
-                                    <div class="card-body p-0">
-                                <p class="card-text mb-0">Adaptive Insurance Solution Creation focuses on developing flexible, customer-centric insurance products tailored to evolving market demands and individual needs. It leverages data, technology, and agile methodologies to deliver responsive, scalable solutions that drive engagement and competitive advantage.</p>
-                                </div>
+            <!---------------------------  overview of oil & gas start ------------------------->
+               <section>
+                <div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3> Oil and Gas Industry – Overview </h3>
+                            <p> The oil and gas industry is a cornerstone of the global economy, providing the essential energy and materials that drive modern life. From powering homes and vehicles to enabling industrial processes, it plays a vital role across every sector.</p>
+                            <p> However, as the industry evolves, it faces growing challenges—fluctuating demand, aging infrastructure, operational inefficiencies, and increasing pressure to meet environmental and safety standards.</p>
+                            <p> At Inbox, we help oil and gas businesses harness the power of technology to meet these challenges head-on. Our IT solutions empower upstream, midstream, and downstream operations with digital tools that improve performance, ensure regulatory compliance, and drive innovation across the energy value chain.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5> The industry is typically divided into three main sectors: </h5>
+                            <div>
+                                <h5> Upstream</h5>
+                                <p> Exploration and production of crude oil and natural gas.</p>
                             </div>
+                            <div>
+                                <h5> Midstream</h5>
+                                <p> Transportation and storage of oil and gas. </p>
                             </div>
-
-                            <div class="col-lg-4 my-3">
-                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                    <h5 class="card-title my-2">Strategic Insurance Consulting</h5>
-                                    <div class="card-body p-0">
-                                        <p class="card-text mb-0">Insurance Consulting Services provide strategic guidance to insurers across product development, operations, compliance, digital transformation, and customer experience. These services help insurers navigate market shifts, optimize performance, manage risk, and implement innovative, future-ready business models.</p>
-                                    </div>
+                            <div>
+                                <h5> Downstream </h5>
+                                <p> Refining and selling finished products like gasoline, diesel, and petrochemicals.</p>
                             </div>
-                            </div>
-
-                            <div class="col-lg-4 my-3">
-                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                    <h5 class="card-title my-2"> Legacy System Modernization</h5>
-                                    <div class="card-body p-0">
-                                        <p class="card-text mb-0">Legacy System Modernization for Insurance involves upgrading outdated core platforms to modern, cloud-based, and API-enabled systems. It improves agility, reduces maintenance costs, enhances customer experience, and supports digital initiatives like real-time data processing, automation, and regulatory compliance.<p>
-                                    </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 my-3">
-                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                    <h5 class="card-title my-2">Data Architecture and ML Integration</h5>
-                                    <div class="card-body p-0">
-                                        <p class="card-text mb-0">Data Architecture and ML Integration focuses on designing scalable, efficient data frameworks that seamlessly integrate with machine learning models. This approach ensures the smooth flow of high-quality data, enabling accurate predictions, real-time insights, and enhanced decision-making in industries like insurance, finance, and healthcare.</p>
-                                    </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 my-3">
-                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                    <h5 class="card-title my-2">Concept Validation and MVP Build</h5>
-                                    <div class="card-body p-0">
-                                        <p class="card-text mb-0">Concept Validation and MVP Build focuses on testing an idea's viability through a proof of concept (POC), followed by the development of a Minimum Viable Product (MVP). This approach allows businesses to quickly assess market demand, refine features, and gather early user feedback before full-scale development.</p>
-                                    </div>
-                            </div>
-                            </div>
-
-                            <div class="col-lg-4 my-3">
-                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
-                                    <h5 class="card-title my-2">AI-Powered Insurance Assistant Creation</h5>
-                                    <div class="card-body p-0">
-                                        <p class="card-text mb-0">AI-Powered Insurance Assistant Creation involves developing intelligent virtual assistants that utilize artificial intelligence to handle customer inquiries, policy management, claims processing, and personalized recommendations. These assistants enhance customer experience, reduce operational costs, and improve response times in the insurance industry.</p>
-                                    </div>
-                            </div>
-                            </div>
-
-
-
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!---------------------------  our services end ------------------------->
+               </section>
+            <!--------------------------- overview of oil & gas end ------------------------->
 
-            <!------------------------------ insurance workflows start ------------------------->
+            <!------------------------------ digital solution of oil & gas start ------------------------->
              <section class="insurance-workflow">
                 <div class="text-center">
-                    <h3 class=""> Insurance Workflow Automation for Efficiency</h3>
+                    <h3 class=""> Digital Solutions for Oil & Gas </h3>
+                    <p> At Inbox, we deliver specialized IT services that drive digital transformation across the oil and gas value chain. Whether it's improving field operations, enhancing safety, or streamlining data management, our solutions are designed to meet the unique demands of energy companies.</p>
                 </div>
-                <div class="my-5">
-                <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
-                        <div class="row">
-                            <div class="col-lg-3 d-flex justify-content-between" >
-                                <h5> Policy Management</h5>
-                                <div class="vr d-lg-block d-none"></div>
+                 <div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Custom Software Development </h5>
+                               <p> We develop custom software solutions for the oil and gas industry, including SCADA system integration, real-time field data capture apps, and automated production monitoring tools. Our solutions enhance visibility, streamline operations, and support data-driven decision-making across all stages of oil and gas operations.</p>
                             </div>
-                            <div class="col-lg-9">
-                                <p> Policy management in insurance involves the administration of policy lifecycle activities, including issuance, endorsements, renewals, cancellations, and record updates. Automating this process ensures accuracy, improves customer service, and reduces operational costs. It enables real-time updates, document generation, compliance tracking, and seamless integration with underwriting and claims systems for efficient policy handling.</p>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                <h5> Cloud Infrastructure & Migration</h5>
+                                <p>We provide secure cloud solutions for storing seismic and operational data, ensuring reliable access from anywhere. Our scalable infrastructure supports remote oilfield operations, while hybrid cloud deployments offer flexibility, enabling seamless integration with existing systems and enhancing overall performance, security, and data availability.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                <h5>Data Analytics & AI</h5>
+                                <p> We leverage data analytics and AI to optimize oil and gas operations. Our predictive maintenance tools reduce equipment failures, while real-time analytics dashboards provide actionable insights. Additionally, our AI/ML models enhance reservoir optimization, improving decision-making and operational efficiency across the entire energy value chain.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Industrial IoT (IIoT)</h5>
+                                <p> We implement Industrial IoT (IIoT) solutions for real-time remote monitoring of pipelines and drilling equipment. Our sensor-based automation and alert systems ensure proactive maintenance, while IoT gateways enable edge computing, allowing for faster data processing and improved decision-making in remote oil and gas operations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Cybersecurity for Critical Infrastructure</h5>
+                                <p> We provide robust cybersecurity solutions to protect critical oil and gas infrastructure. Our services include advanced network protection, threat detection, and compliance with industry regulations (NIST, ISO, etc.). We also implement OT/IT convergence security strategies, ensuring safe and secure integration across operational and IT systems.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
-                        <div class="row">
-                            <div class="col-lg-3 d-flex justify-content-between" >
-                                <h5> Claims Processing </h5>
-                                <div class="vr d-lg-block d-none"></div>
-                            </div>
-                            <div class="col-lg-9">
-                                <p> Claims processing is the end-to-end procedure insurers follow to receive, evaluate, and settle claims filed by policyholders. Automation streamlines this process by enabling digital claim submission, document verification, fraud detection, and rules-based assessments. This reduces turnaround time, enhances accuracy, and improves customer satisfaction while minimizing manual intervention and operational costs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
-                        <div class="row">
-                            <div class="col-lg-3 d-flex justify-content-between" >
-                                <h5> Policy Underwriting</h5>
-                                <div class="vr d-lg-block d-none"></div>
-                            </div>
-                            <div class="col-lg-9">
-                                <p> Policy underwriting is the process insurers use to assess risk and determine the terms and pricing of an insurance policy. Automated underwriting leverages data analytics, AI, and predefined rules to evaluate applications quickly and consistently. This improves decision accuracy, reduces processing time, minimizes human error, and enables scalable, real-time risk assessments for faster policy issuance.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
-                        <div class="row">
-                            <div class="col-lg-3 d-flex justify-content-between" >
-                                <h5> Insurance Compliances </h5>
-                                <div class="vr d-lg-block d-none"></div>
-                            </div>
-                            <div class="col-lg-9">
-                                <p> Insurance compliances refer to the regulatory and legal requirements insurers must follow to operate lawfully. This includes adherence to industry regulations, data protection laws, financial reporting standards, and customer disclosure norms. Automation helps ensure timely reporting, real-time monitoring, audit trails, and reduced risk of non-compliance, enhancing transparency, accountability, and operational integrity across insurance processes.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
-                        <div class="row">
-                            <div class="col-lg-3 d-flex justify-content-between" >
-                                <h5>Insurance Quoting</h5>
-                                <div class="vr d-lg-block d-none"></div>
-                            </div>
-                            <div class="col-lg-9">
-                                <p> Insurance quoting is the process of providing potential policyholders with estimated premiums based on their risk profile and coverage needs. Automated quoting systems use data inputs, predefined rules, and rating algorithms to generate instant, accurate quotes. This streamlines customer acquisition, reduces manual work, enhances pricing consistency, and improves the overall user experience through real-time responses.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="" style="padding: 20px 0;">
-                        <div class="row">
-                            <div class="col-lg-3 d-flex justify-content-between" >
-                                <h5> Document Management</h5>
-                                <div class="vr d-lg-block d-none"></div>
-                            </div>
-                            <div class="col-lg-9">
-                                <p> Document management in insurance involves the systematic handling of all documents related to policies, claims, underwriting, and compliance. Automation enables secure storage, easy retrieval, version control, and seamless sharing of documents. It reduces paper usage, minimizes errors, ensures regulatory compliance, and improves workflow efficiency by integrating with core insurance systems and digital platforms. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                 </div>
              </section>
 
-            <!------------------------------ insurance workflows end ------------------------->
+            <!------------------------------ digital solution of oil & gas end ------------------------->
 
 
         </div>
@@ -341,9 +267,9 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> AI with InsurTech</h3>
+                        <h3> AI-Driven Solutions in Oil & Gas </h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p class="mt-4"> Artificial Intelligence (AI) enhances InsurTech by making insurance smarter, faster, and more customer-centric. It automates processes, improves decision-making, and personalizes experiences across the insurance value chain. </p>
+                        <p class="mt-4"> Artificial Intelligence (AI) is revolutionizing the oil and gas industry by enabling smarter decision-making, optimizing operations, and driving cost efficiencies. From exploration to production, AI technologies like machine learning, predictive analytics, and automation are enhancing every stage of the value chain.</p>
 
                     </div>
                 </div>
@@ -354,61 +280,61 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                  Underwriting
+                                  Predictive Maintenance
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI analyzes large datasets to assess risk and price policies more accurately.</div>
+                                <div class="accordion-body">AI-powered algorithms analyze real-time data from sensors to predict equipment failures before they occur. This proactive approach minimizes downtime, reduces maintenance costs, and ensures a more reliable and efficient operation across drilling rigs, pipelines, and refineries.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                   Claims Processing
+                                   Exploration & Reservoir Optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> Automates claim filing, fraud detection, and damage estimation using AI and computer vision.</div>
+                                <div class="accordion-body"> AI enhances seismic data analysis and reservoir management by identifying hidden patterns and optimizing drilling plans. Machine learning models process vast amounts of geological and operational data to predict the most promising drilling locations, significantly improving exploration success rates and minimizing risks.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Customer Support
+                                   Production Optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> Chatbots and virtual assistants provide 24/7 service and instant answers. </div>
+                                <div class="accordion-body"> AI systems can automate production processes, adjusting variables like pressure and flow rates to maximize efficiency. Real-time analytics help monitor equipment health and optimize energy consumption, ensuring operations are running at peak performance while reducing costs. </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                  Fraud Prevention
+                                  Supply Chain Optimization
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI detects abnormal patterns and flags potentially fraudulent activities.</div>
+                                  <div class="accordion-body">AI-powered solutions can predict demand fluctuations and optimize the supply chain by adjusting inventory, logistics, and procurement strategies. This ensures that oil and gas companies maintain steady production while avoiding costly disruptions or overstocking.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Personalized Products
+                                   Energy Trading & Market Forecasting
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Recommends insurance based on behavior, location, or usage patterns.</div>
+                                  <div class="accordion-body">AI models analyze vast amounts of market data, news, and weather patterns to forecast price movements and optimize trading strategies. This helps companies in the energy sector make informed decisions and hedge against market volatility.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                  Operational Efficiency
+                                 Safety and Risk Management
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Reduces manual tasks through AI-driven automation and document processing.</div>
+                                  <div class="accordion-body">AI-based systems enhance safety by analyzing data from sensors and cameras to detect anomalies, such as gas leaks or equipment malfunctions, and trigger real-time alerts. Predictive models can also help identify potential hazards, allowing companies to mitigate risks before they escalate.</div>
                                 </div>
                               </div>
 

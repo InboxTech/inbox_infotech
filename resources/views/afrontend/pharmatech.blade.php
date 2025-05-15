@@ -203,12 +203,12 @@
     <div class="my-5">
         <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
-                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
+                <h3> Our Pharma Product </h3>
+                <p> Our pharma product provides an extensive database of medicines, offering accurate and up-to-date information on drug composition, indications, dosage guidelines, side effects, and precautions. It is designed to support healthcare professionals, pharmacists, and consumers in making informed decisions about medication use. With a user-friendly interface and reliable content, the platform ensures quick access to essential drug details, enhancing safety, efficiency, and trust in pharmaceutical care and treatment management across various healthcare settings.</p>
             </div>
             <div class="col-lg-6 my-3">
-                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+                <div style="background-color: rgb(0, 217, 255);padding: 20px;">
+                    <img src="{{ asset('assets/inbox/numina.png') }}" style="width: 100%;height: 80vh;"/>
                 </div>
             </div>
         </div>
@@ -307,7 +307,7 @@
 
 
         <div class="container">
-              <!------------------------------------ ecommerce with ai start ----------------------------------------->
+              <!------------------------------------ pharmatech with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -315,89 +315,123 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Retail & eCommerce Powered by AI</h3>
+                        <h3> Pharmatech with AI </h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
-
+                        <p> It refers to the integration of artificial intelligence technologies into the pharmaceutical industry to improve drug discovery, development, manufacturing, supply chain, and patient outcomes.
                         </p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
+                    <h4> <strong> overview of how AI is transforming Pharmatech across various domains: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Recommendations
+                                   Drug Discovery and Development
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
+                                <div class="accordion-body">
+                                    <ul>
+                                        AI helps identify potential drug candidates faster and more accurately than traditional methods.
+                                        <li> <strong> Target Identification: </strong> AI analyzes biological data to predict which proteins or genes might be good drug targets.</li>
+                                        <li> <strong> Molecule Generation: </strong> Generative models (like deep learning-based GANs) design novel compounds.</li>
+                                        <li>
+                                            <strong> Drug Repurposing:</strong> AI identifies new uses for existing drugs by analyzing biological and clinical data (e.g., COVID-19 drug candidates).
+                                        </li>
+                                    </ul>
+                                </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Smart Search and Filtering
+                                    Clinical Trials Optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
+                                <div class="accordion-body">
+                                    <ul>
+                                        AI streamlines and improves the efficiency of clinical trials.
+                                        <li> <strong> Patient Recruitment:</strong>Natural language processing (NLP) extracts relevant data from electronic health records (EHRs) to match patients with trials.
+                                        </li>
+                                        <li><strong> Trial Design:</strong> Predictive models simulate trial outcomes to design more effective and shorter trials.</li>
+                                        <li> <strong> Monitoring and Adherence:</strong> AI-powered apps monitor patient compliance and adverse events in real-time.</li>
+                                    </ul>
+                                </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Chatbots and Virtual Assistants
+                                   Manufacturing and Quality Control
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
+                                <div class="accordion-body">
+                                    <ul>
+                                        Smart manufacturing (Industry 4.0) integrated with AI boosts productivity and quality.
+                                        <li> <strong> Predictive Maintenance:</strong> AI detects machinery issues before failure occurs.</li>
+                                        <li><strong> Process Optimization:</strong> Machine learning adjusts parameters in real time to maintain product quality.</li>
+                                        <li> <strong> Defect Detection:</strong> Computer vision inspects products for quality assurance.</li>
+                                    </ul>
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Dynamic Pricing and Promotions
+                                    Supply Chain and Logistics
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
+                                  <div class="accordion-body">
+                                    <ul>
+                                        AI enables more resilient, responsive, and cost-effective pharmaceutical supply chains.
+                                        <li><strong> Demand Forecasting:</strong> AI models predict drug demand across regions.</li>
+                                        <li> <strong>Inventory Optimization: </strong>Dynamic reordering based on real-time data. </li>
+                                        <li><strong> Cold Chain Monitoring: </strong>  IoT + AI ensures temperature-sensitive drugs (like vaccines) are transported safely.
+                                        </li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Inventory Forecasting
+                                   Personalized Medicine
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
+                                  <div class="accordion-body">
+                                    <ul>
+                                        AI supports development of precision therapeutics tailored to individual patients.
+                                        <li> <strong> Genomic Analysis:</strong> AI deciphers genetic data to guide drug selection and dosage. </li>
+                                        <li><strong> Digital Twins: </strong>  Virtual replicas of patients help simulate responses to treatment.</li>
+                                        <li><strong> Companion Diagnostics: </strong> AI matches the right drug to the right patient based on biomarkers.</li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Visual Search & Image Recognition
+                                   Pharmacovigilance
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
+                                  <div class="accordion-body">
+                                    <ul>
+                                        AI automates the detection and analysis of adverse drug reactions (ADRs).
+                                        <li><strong> NLP for Signal Detection:</strong> AI scans social media, EHRs, and reports for early signs of side effects.</li>
+                                        <li><strong> Automated Case Processing: </strong> Reduces manual effort and increases reporting accuracy. </li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Fraud Detection and Secure Payments
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
-                                </div>
-                            </div>
+
                           </div>
                     </div>
 
@@ -406,7 +440,7 @@
         </div>
        </section>
 
-        <!------------------------------------ ecommerce with ai end ------------------------------------------->
+        <!------------------------------------ pharmatech with ai end ------------------------------------------->
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">
