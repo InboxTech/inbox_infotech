@@ -227,7 +227,7 @@
             <!-----------------------------   Core Features end   ---------------------------->
 
             <section>
-                
+
             </section>
         </div>
 
@@ -318,144 +318,44 @@
 
 
         <div class="container">
-            <!------------------------------------ ecommerce with ai start ----------------------------------------->
+
+            <!------------------------- Cloud-First Architecture start --------------------------------->
             <section>
-
-                <div class="my-5">
-
-                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="col-12 col-md-12 col-xl-5">
-                            <div>
-                                <h3> Retail & eCommerce Powered by AI</h3>
-                                {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                                <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering
-                                    smarter, faster, and more personalized experiences. From intelligent product
-                                    recommendations to automated inventory management, AI-driven tools are helping
-                                    businesses streamline operations and enhance customer satisfaction.
-
-                                </p>
-
-                            </div>
+                <div class="container my-5">
+                    <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                        <h2> Cloud-First HRMS Architecture</h2>
+                        <p class="lead text-muted mb-4">Empowering your HR, built for scalability.</p>
+                    </div>
+                    <div class="scalable-cloud" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="row my-3">
+                            <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Multi-Location Support</h5> <div class="vr d-lg-block d-none"></div></div>
+                            <div class="col-lg-9 col-12">Enables seamless HR operations across various office locations or remote teams with flexible access, facilitating centralized HR management and efficient communication across the organization.</div>
                         </div>
-                        <div class="col-12 col-md-12 col-xl-7">
-                            <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
-                            <div class="">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                                aria-expanded="false" aria-controls="flush-collapseOne">
-                                                Personalized Recommendations
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">AI algorithms analyze browsing behavior, purchase
-                                                history, and user preferences to suggest the most relevant products,
-                                                increasing conversion rates and customer satisfaction.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                                aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                Smart Search and Filtering
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Advanced AI search functions allow users to find
-                                                products by keywords, author names, store names, publications, and
-                                                more—making the shopping experience faster and more intuitive.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                                aria-expanded="false" aria-controls="flush-collapseThree">
-                                                Chatbots and Virtual Assistants
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body"> AI-powered chatbots provide instant customer
-                                                support, answer FAQs, guide users through product selection, and even assist
-                                                in checkout—improving service availability and user engagement.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                                aria-expanded="false" aria-controls="flush-collapseFour">
-                                                Dynamic Pricing and Promotions
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">AI tools track market trends, competitor pricing,
-                                                and user demand to automatically adjust pricing and suggest personalized
-                                                discounts or deals in real-time.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
-                                                aria-expanded="false" aria-controls="flush-collapseFive">
-                                                Inventory Forecasting
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Machine learning models predict product demand,
-                                                helping retailers manage stock levels, reduce overstock or shortages, and
-                                                improve supply chain efficiency.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
-                                                aria-expanded="false" aria-controls="flush-collapseSix">
-                                                Visual Search & Image Recognition
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseSix" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Customers can search using images, enabling a
-                                                smoother discovery process for similar or exact match products—ideal for
-                                                fashion, books, and stationery.</div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <h5 class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
-                                                aria-expanded="false" aria-controls="flush-collapseSeven">
-                                                Fraud Detection and Secure Payments
-                                            </h5>
-                                        </h2>
-                                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body"> AI detects unusual buying patterns and helps
-                                                prevent fraudulent transactions, ensuring secure eCommerce environments.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="row my-3">
+                            <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Scalable Architecture</h5> <div class="vr d-lg-block d-none"></div></div>
+                            <div class="col-lg-9 col-12">Designed to accommodate organizational growth, this robust architecture effortlessly scales from small businesses to large multinational corporations, ensuring consistent HR system performance as your needs evolve.</div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Cloud Deployment</h5> <div class="vr d-lg-block d-none"></div></div>
+                            <div class="col-lg-9 col-12">Eliminates the need for complex on-premises IT infrastructure, leading to faster implementation, reduced IT overhead, and lower total cost of ownership for your HR technology.</div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Third-Party Integration</h5> <div class="vr d-lg-block d-none"></div></div>
+                            <div class="col-lg-9 col-12">Facilitates smooth connections with other business systems such as payroll providers, benefits administrators, learning management systems (LMS), and other HR-related platforms, streamlining data flow and improving overall efficiency.</div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Tenant Segregation</h5> <div class="vr d-lg-block d-none"></div></div>
+                            <div class="col-lg-9 col-12">Provides each client with a dedicated and secure data environment while allowing HR administrators centralized control for organization-wide configuration, reporting, and compliance management.</div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">24/7 Reliability</h5> <div class="vr d-lg-block d-none"></div></div>
+                            <div class="col-lg-9 col-12">Features a high-availability architecture ensuring continuous access to critical HR functions around the clock, minimizing disruptions and supporting global HR operations without interruption.</div>
                         </div>
                     </div>
                 </div>
             </section>
+            <!------------------------- Cloud-First Architecture end --------------------------------->
 
-            <!------------------------------------ ecommerce with ai end ------------------------------------------->
             <!------------------------------  things you know start ------------------------->
             <section class="my-5">
                 <div class="text-center">

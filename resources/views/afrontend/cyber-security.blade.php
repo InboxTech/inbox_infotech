@@ -374,6 +374,43 @@
         </section>
         <!-- <section> rquest a callback close ============================-->
 
+        <!------------------------- Cloud-First Architecture start --------------------------------->
+        <section>
+            <div class="container my-5">
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h2> Cloud-First Architecture</h2>
+                    <p class="lead text-muted mb-4">Designed for growth, built for the future.</p>
+                </div>
+                <div class="scalable-cloud" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="row my-3">
+                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Multi-Location Support</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-9 col-12">Enables seamless operations across various locations with flexible access options, empowering centralized management and efficient collaboration for dispersed teams.</div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Scalable Architecture</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-9 col-12">Designed to accommodate growth, this robust architecture effortlessly scales from individual clinics to expansive hospital networks, ensuring consistent performance and adaptability.</div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Cloud Deployment</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-9 col-12">Eliminates the necessity for on-site infrastructure, resulting in accelerated deployment timelines and a reduced total cost of ownership for healthcare providers.</div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Third-Party Integration</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-9 col-12">Facilitates smooth connections with external systems like labs, insurance providers, TPAs, and government portals, streamlining workflows and enhancing data exchange capabilities.</div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Tenant Segregation</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-9 col-12">Provides each tenant with a dedicated and secure database while offering administrators centralized oversight and control for corporate-level management and reporting.</div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">24/7 Reliability</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-9 col-12">Features a high-availability architecture that guarantees continuous business operations around the clock, minimizing downtime and ensuring uninterrupted critical services.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------- Cloud-First Architecture end --------------------------------->
+
         <!------------------------------  things you know start ------------------------->
         <section class="my-5">
             <div class="container">
