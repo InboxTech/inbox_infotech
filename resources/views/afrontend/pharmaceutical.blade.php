@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Oil & Gas')
+@section('page_title', 'Manufacturing')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/487686572.webp') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/611356523.webp') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Oil & gas</p>
+                                            Pharmaceutical</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                        We help oil and gas companies embrace digital transformation through smart, scalable IT solutions that enhance efficiency, safety, and sustainability.</p>
+                                        We support pharmaceutical innovation with robust, compliant, and scalable solutions tailored to every stage of the product lifecycle — from R&D to commercialization.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -94,80 +94,145 @@
         <div class="container">
 
 
-
-            <!---------------------------  overview of oil & gas start ------------------------->
-               <section>
-                <div>
-                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="col-lg-6">
-                            <h3> Oil and Gas Industry – Overview </h3>
-                            <p> The oil and gas industry is a cornerstone of the global economy, providing the essential energy and materials that drive modern life. From powering homes and vehicles to enabling industrial processes, it plays a vital role across every sector.</p>
-                            <p> However, as the industry evolves, it faces growing challenges—fluctuating demand, aging infrastructure, operational inefficiencies, and increasing pressure to meet environmental and safety standards.</p>
-                            <p> At Inbox, we help oil and gas businesses harness the power of technology to meet these challenges head-on. Our IT solutions empower upstream, midstream, and downstream operations with digital tools that improve performance, ensure regulatory compliance, and drive innovation across the energy value chain.</p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h5> The industry is typically divided into three main sectors: </h5>
-                            <div>
-                                <h5> Upstream</h5>
-                                <p> Exploration and production of crude oil and natural gas.</p>
-                            </div>
-                            <div>
-                                <h5> Midstream</h5>
-                                <p> Transportation and storage of oil and gas. </p>
-                            </div>
-                            <div>
-                                <h5> Downstream </h5>
-                                <p> Refining and selling finished products like gasoline, diesel, and petrochemicals.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               </section>
-            <!--------------------------- overview of oil & gas end ------------------------->
-
-            <!------------------------------ digital solution of oil & gas start ------------------------->
-             <section class="insurance-workflow">
+            <!------------------------------ capabilities and services start ------------------------->
+             <section class="">
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                    <h3 class=""> Digital Solutions for Oil & Gas </h3>
-                    <p> At Inbox, we deliver specialized IT services that drive digital transformation across the oil and gas value chain. Whether it's improving field operations, enhancing safety, or streamlining data management, our solutions are designed to meet the unique demands of energy companies.</p>
+                    <h3 class=""> Capabilities & Services</h3>
+                    <p> We provide end-to-end solutions across the pharmaceutical value chain. Our capabilities are designed to support pharmaceutical companies in developing, manufacturing, and distributing safe, effective, and compliant products.</p>
                 </div>
                  <div>
                     <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="col-lg-4 my-3">
+                        <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Custom Software Development </h5>
-                               <p> We develop custom software solutions for the oil and gas industry, including SCADA system integration, real-time field data capture apps, and automated production monitoring tools. Our solutions enhance visibility, streamline operations, and support data-driven decision-making across all stages of oil and gas operations.</p>
+                                 <h5> Drug Development & Formulation</h5>
+                               <p> We provide comprehensive drug development and formulation services, optimizing dosage forms for safety, efficacy, and stability. Our expertise covers pre-formulation, solubility enhancement, stability studies, and clinical trial prototypes across various delivery systems.</p>
+
                             </div>
                         </div>
-                        <div class="col-lg-4 my-3">
+                        <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5> Cloud Infrastructure & Migration</h5>
-                                <p>We provide secure cloud solutions for storing seismic and operational data, ensuring reliable access from anywhere. Our scalable infrastructure supports remote oilfield operations, while hybrid cloud deployments offer flexibility, enabling seamless integration with existing systems and enhancing overall performance, security, and data availability.</p>
+                                <h5> API Manufacturing (Active Pharmaceutical Ingredients) </h5>
+                                <p>We offer end-to-end API manufacturing, from custom synthesis to commercial scale, with expertise in HPAPI handling, route optimization, and impurity profiling. Our cGMP-compliant facilities ensure regulatory-ready production with full DMF support. </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 my-3">
+                        <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5>Data Analytics & AI</h5>
-                                <p> We leverage data analytics and AI to optimize oil and gas operations. Our predictive maintenance tools reduce equipment failures, while real-time analytics dashboards provide actionable insights. Additionally, our AI/ML models enhance reservoir optimization, improving decision-making and operational efficiency across the entire energy value chain.</p>
+                                <h5>Contract Manufacturing (CMO/CDMO)</h5>
+                                <p> We provide end-to-end CMO/CDMO services, from R&D to commercial launch. Our capabilities include tech transfer, scalable production, dedicated cleanrooms, and audit-ready facilities—ensuring speed, quality, and cost-effective manufacturing for pharmaceutical partners.</p>
+
                             </div>
                         </div>
-                        <div class="col-lg-4 my-3">
+                        <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Industrial IoT (IIoT)</h5>
-                                <p> We implement Industrial IoT (IIoT) solutions for real-time remote monitoring of pipelines and drilling equipment. Our sensor-based automation and alert systems ensure proactive maintenance, while IoT gateways enable edge computing, allowing for faster data processing and improved decision-making in remote oil and gas operations.</p>
+                                 <h5>  Quality Control & Regulatory Compliance</h5>
+                                <p> Our quality systems ensure every product meets global regulatory standards. We offer analytical method validation, microbiological testing, and full batch documentation, maintaining strict compliance with FDA, EMA, WHO, and other international regulatory bodies.</p>
+
                             </div>
                         </div>
-                        <div class="col-lg-4 my-3">
+                        <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Cybersecurity for Critical Infrastructure</h5>
-                                <p> We provide robust cybersecurity solutions to protect critical oil and gas infrastructure. Our services include advanced network protection, threat detection, and compliance with industry regulations (NIST, ISO, etc.). We also implement OT/IT convergence security strategies, ensuring safe and secure integration across operational and IT systems.</p>
+                                 <h5>  Clinical Trial Support</h5>
+                                <p> We provide end-to-end clinical trial support, including CTM manufacturing, labeling, blinding, and kit design. Our global distribution network ensures timely delivery, while our expertise ensures compliance and efficiency throughout all phases of clinical development.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5>  Packaging & Labeling Solutions</h5>
+                                <p>We deliver secure, compliant packaging and labeling solutions, including primary and secondary packaging, serialization, tamper-evident designs, and multilingual labeling. Our services support global distribution and include custom kitting for clinical trials and commercial supply chains.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5>  Cold Chain Logistics</h5>
+                                <p> We provide reliable cold chain logistics, ensuring temperature-sensitive products are stored and transported under strict conditions. Our services include temperature-controlled warehousing, real-time monitoring, GDP-compliant transportation, custom packaging, and global emergency logistics solutions.</p>
+
                             </div>
                         </div>
                     </div>
                  </div>
              </section>
 
-            <!------------------------------ digital solution of oil & gas end ------------------------->
+            <!------------------------------ capabilities and services end ------------------------->
+
+             <!-----------------------------   industries covered start   ---------------------------->
+
+            <section class="" style="padding-top:50px; padding-bottom:50px;">
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries we covered </h6>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/biotechnology.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/vaccine.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/dietary.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/veterinary.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>API</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/nutraceuticals.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-----------------------------   industries covered end   ---------------------------->
 
 
         </div>
@@ -259,7 +324,7 @@
 
         <div class="container">
 
-              <!------------------------------------ insurtech with ai start ----------------------------------------->
+              <!------------------------------------ manufacturing with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -267,74 +332,74 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> AI-Driven Solutions in Oil & Gas </h3>
+                        <h3> AI-Powered Features</h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p class="mt-4"> Artificial Intelligence (AI) is revolutionizing the oil and gas industry by enabling smarter decision-making, optimizing operations, and driving cost efficiencies. From exploration to production, AI technologies like machine learning, predictive analytics, and automation are enhancing every stage of the value chain.</p>
+                        <p class="mt-4"> Our AI-powered features enhance pharmaceutical operations through real-time analytics, predictive planning, intelligent alerts, chatbots, and automated quality checks—driving efficiency, accuracy, and compliance across the value chain.</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key Applications: </strong> </h4>
+                    {{-- <h4> <strong> Key AI Applications in Manufacturing: </strong> </h4> --}}
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                  Predictive Maintenance
+                                   Predictive demand planning
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI-powered algorithms analyze real-time data from sensors to predict equipment failures before they occur. This proactive approach minimizes downtime, reduces maintenance costs, and ensures a more reliable and efficient operation across drilling rigs, pipelines, and refineries.</div>
+                                <div class="accordion-body">Predictive demand planning uses data analytics to forecast pharmaceutical product needs, ensuring optimal inventory and supply continuity.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                   Exploration & Reservoir Optimization
+                                 Anomaly detection in quality data
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI enhances seismic data analysis and reservoir management by identifying hidden patterns and optimizing drilling plans. Machine learning models process vast amounts of geological and operational data to predict the most promising drilling locations, significantly improving exploration success rates and minimizing risks.</div>
+                                <div class="accordion-body"> AI-powered anomaly detection analyzes quality data in real time to identify deviations, reducing risks and ensuring regulatory compliance.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Production Optimization
+                                  Smart reordering and inventory optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI systems can automate production processes, adjusting variables like pressure and flow rates to maximize efficiency. Real-time analytics help monitor equipment health and optimize energy consumption, ensuring operations are running at peak performance while reducing costs. </div>
+                                <div class="accordion-body"> AI-driven smart reordering and inventory optimization ensures accurate stock levels, minimizes waste, and improves pharmaceutical supply chain efficiency.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                  Supply Chain Optimization
+                                  AI Chatbot for internal queries
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI-powered solutions can predict demand fluctuations and optimize the supply chain by adjusting inventory, logistics, and procurement strategies. This ensures that oil and gas companies maintain steady production while avoiding costly disruptions or overstocking.</div>
+                                  <div class="accordion-body">An AI chatbot for internal queries streamlines employee support by providing instant answers on SOPs, compliance, HR, and operations.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Energy Trading & Market Forecasting
+                                 Intelligent alerts and compliance reminders
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI models analyze vast amounts of market data, news, and weather patterns to forecast price movements and optimize trading strategies. This helps companies in the energy sector make informed decisions and hedge against market volatility.</div>
+                                  <div class="accordion-body">AI-powered intelligent alerts and compliance reminders help ensure timely actions, reduce human error, and support regulatory adherence in pharmaceutical operations.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
+                                <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                 Safety and Risk Management
+                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Real-time KPI dashboards
                                   </h5>
                                 </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI-based systems enhance safety by analyzing data from sensors and cameras to detect anomalies, such as gas leaks or equipment malfunctions, and trigger real-time alerts. Predictive models can also help identify potential hazards, allowing companies to mitigate risks before they escalate.</div>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">AI-enabled real-time KPI dashboards provide instant visibility into pharmaceutical operations, tracking performance metrics to support data-driven decision-making and compliance.</div>
                                 </div>
                               </div>
 
@@ -346,7 +411,7 @@
         </div>
        </section>
 
-        <!------------------------------------ insurtech with ai end ------------------------------------------->
+        <!------------------------------------ manufacturing with ai end ------------------------------------------->
 
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">

@@ -160,6 +160,17 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.oil_gas', $arr);
     }
+     public function manufacturing()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.manufacturing', $arr);
+    }
+    public function pharmaceutical()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.pharmaceutical', $arr);
+    }
+
     public function servicesdetails(Request $req, $name)
     {
         $brr = DB::table('services')->where('slug', $name)->get();

@@ -96,15 +96,15 @@
 
 
             <!---------------------------  our services start ------------------------->
-              <section class="">
+              <section class="" >
 
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="">Driving Innovation in Insurance with Advanced Service Lines</h3>
                             <p class="fw-light">Advanced service lines are reshaping the insurance industry by driving innovation, efficiency, and customer-centricity. This approach empowers insurers to modernize operations, enhance decision-making, and stay competitive in a rapidly evolving digital and regulatory landscape.
                             </p>
                 </div>
                 <div class="my-5">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-4 my-3">
                         <div class="card h-100 p-3" style="border: 1px solid #00406d;">
                                     <h5 class="card-title my-2">Adaptive Insurance Solution Creation </h5>
@@ -168,12 +168,12 @@
 
             <!------------------------------ insurance workflows start ------------------------->
              <section class="insurance-workflow">
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                     <h3 class=""> Insurance Workflow Automation for Efficiency</h3>
                 </div>
                 <div class="my-5">
-                <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
-                        <div class="row">
+                <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row" >
                             <div class="col-lg-3 d-flex justify-content-between" >
                                 <h5> Policy Management</h5>
                                 <div class="vr d-lg-block d-none"></div>
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
                         <div class="row">
                             <div class="col-lg-3 d-flex justify-content-between" >
                                 <h5> Claims Processing </h5>
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
                         <div class="row">
                             <div class="col-lg-3 d-flex justify-content-between" >
                                 <h5> Policy Underwriting</h5>
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
                         <div class="row">
                             <div class="col-lg-3 d-flex justify-content-between" >
                                 <h5> Insurance Compliances </h5>
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;">
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
                         <div class="row">
                             <div class="col-lg-3 d-flex justify-content-between" >
                                 <h5>Insurance Quoting</h5>
@@ -227,7 +227,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="" style="padding: 20px 0;">
+                    <div class="" style="padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
                         <div class="row">
                             <div class="col-lg-3 d-flex justify-content-between" >
                                 <h5> Document Management</h5>

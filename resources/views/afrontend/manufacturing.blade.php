@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Oil & Gas')
+@section('page_title', 'Manufacturing')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/487686572.webp') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/800680855.webp') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Oil & gas</p>
+                                            Transforming Manufacturing with Smart IT Solutions</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                        We help oil and gas companies embrace digital transformation through smart, scalable IT solutions that enhance efficiency, safety, and sustainability.</p>
+                                        Optimize operations, reduce downtime, and embrace Industry 4.0 with our customized tech services for manufacturers.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -95,72 +95,93 @@
 
 
 
-            <!---------------------------  overview of oil & gas start ------------------------->
+            <!---------------------------  empowering manufacturing start ------------------------->
                <section>
-                <div>
+                <div class="text-center">
+                    <h3> Empowering Manufacturing Through Innovative IT Solutions</h3>
+                    <p> Boost efficiency, streamline operations, and lead in Industry 4.0 with our tailored tech solutions. </p>
+                </div>
+                <div  class="my-5">
                     <div class="row" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-6">
-                            <h3> Oil and Gas Industry – Overview </h3>
-                            <p> The oil and gas industry is a cornerstone of the global economy, providing the essential energy and materials that drive modern life. From powering homes and vehicles to enabling industrial processes, it plays a vital role across every sector.</p>
-                            <p> However, as the industry evolves, it faces growing challenges—fluctuating demand, aging infrastructure, operational inefficiencies, and increasing pressure to meet environmental and safety standards.</p>
-                            <p> At Inbox, we help oil and gas businesses harness the power of technology to meet these challenges head-on. Our IT solutions empower upstream, midstream, and downstream operations with digital tools that improve performance, ensure regulatory compliance, and drive innovation across the energy value chain.</p>
+                              <div class="sticky-top" style="top: 100px;bottom: 100px; z-index: 0;">
+                                  <p> At Inbox, we help manufacturing companies modernize their operations by leveraging cutting-edge IT services and smart automation. Whether it's optimizing production lines, integrating IoT, or implementing ERP systems, we deliver technology that drives growth and resilience in a competitive industry. </p>
+                              </div>
                         </div>
                         <div class="col-lg-6">
-                            <h5> The industry is typically divided into three main sectors: </h5>
-                            <div>
-                                <h5> Upstream</h5>
-                                <p> Exploration and production of crude oil and natural gas.</p>
+                            <h5> Key Solutions for the Manufacturing Sector:</h5>
+                            <div class="my-4">
+                                <h5> Smart Factory & IoT Integration</h5>
+                                <p> Connect machines, sensors, and systems to enable real-time data analysis, predictive maintenance, and process automation..</p>
                             </div>
-                            <div>
-                                <h5> Midstream</h5>
-                                <p> Transportation and storage of oil and gas. </p>
+                            <div class="my-4">
+                                <h5> ERP & Supply Chain Management</h5>
+                                <p> Implement scalable ERP solutions to improve inventory control, procurement, logistics, and supplier coordination. </p>
                             </div>
-                            <div>
-                                <h5> Downstream </h5>
-                                <p> Refining and selling finished products like gasoline, diesel, and petrochemicals.</p>
+                            <div class="my-4">
+                                <h5>Custom Software Development </h5>
+                                <p> Build tailored applications for shop floor management, scheduling, or quality control to match your specific workflows.</p>
+                            </div>
+                            <div class="my-4">
+                                <h5> Data Analytics & Business Intelligence</h5>
+                                <p> Gain actionable insights from production data to improve decision-making and reduce waste.</p>
+                            </div>
+                            <div class="my-4">
+                                <h5>Cybersecurity for Manufacturing Systems</h5>
+                                <p> Protect your critical infrastructure from threats with advanced network security and compliance solutions. </p>
+                            </div>
+                            <div class="my-4">
+                                <h5> Cloud Migration & Infrastructure Support</h5>
+                                <p> Transition legacy systems to the cloud for better scalability, accessibility, and cost-efficiency.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                </section>
-            <!--------------------------- overview of oil & gas end ------------------------->
+            <!--------------------------- empowering manufacturing end ------------------------->
 
             <!------------------------------ digital solution of oil & gas start ------------------------->
-             <section class="insurance-workflow">
+             <section class="">
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                    <h3 class=""> Digital Solutions for Oil & Gas </h3>
-                    <p> At Inbox, we deliver specialized IT services that drive digital transformation across the oil and gas value chain. Whether it's improving field operations, enhancing safety, or streamlining data management, our solutions are designed to meet the unique demands of energy companies.</p>
+                    <h3 class=""> Driving Digital Transformation Across the Manufacturing Value Chain </h3>
+                    <p> We help manufacturers go digital with scalable, secure, and intelligent solutions that improve every part of the production cycle — from shop floor to supply chain.</p>
                 </div>
                  <div>
                     <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Custom Software Development </h5>
-                               <p> We develop custom software solutions for the oil and gas industry, including SCADA system integration, real-time field data capture apps, and automated production monitoring tools. Our solutions enhance visibility, streamline operations, and support data-driven decision-making across all stages of oil and gas operations.</p>
+                                 <h5> Manufacturing Execution Systems (MES)</h5>
+                               <p> We develop and implement MES solutions that enable real-time visibility and control across your production floor. Our systems help manufacturers streamline operations, reduce downtime, and improve product quality by integrating with ERP and IoT platforms for seamless data flow and smarter decision-making.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5> Cloud Infrastructure & Migration</h5>
-                                <p>We provide secure cloud solutions for storing seismic and operational data, ensuring reliable access from anywhere. Our scalable infrastructure supports remote oilfield operations, while hybrid cloud deployments offer flexibility, enabling seamless integration with existing systems and enhancing overall performance, security, and data availability.</p>
+                                <h5> Cloud-Based ERP Systems </h5>
+                                <p> We deliver scalable ERP solutions that centralize your core business functions—finance, HR, inventory, procurement, and more—on a secure cloud platform. Our ERP systems improve collaboration, enhance visibility across departments, and support faster, data-driven decisions to keep your manufacturing operations agile and efficient. </p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5>Data Analytics & AI</h5>
-                                <p> We leverage data analytics and AI to optimize oil and gas operations. Our predictive maintenance tools reduce equipment failures, while real-time analytics dashboards provide actionable insights. Additionally, our AI/ML models enhance reservoir optimization, improving decision-making and operational efficiency across the entire energy value chain.</p>
+                                <h5>Industrial IoT (IIoT)</h5>
+                                <p> We help manufacturers implement IIoT solutions that connect machines, sensors, and systems across the factory floor. Our platforms enable real-time data exchange, predictive maintenance, and remote monitoring—empowering smarter operations, reduced downtime, and seamless integration with MES, ERP, and analytics tools.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Industrial IoT (IIoT)</h5>
-                                <p> We implement Industrial IoT (IIoT) solutions for real-time remote monitoring of pipelines and drilling equipment. Our sensor-based automation and alert systems ensure proactive maintenance, while IoT gateways enable edge computing, allowing for faster data processing and improved decision-making in remote oil and gas operations.</p>
+                                 <h5> AI & Machine Learning Platforms</h5>
+                                <p> Our AI and machine learning solutions enable manufacturers to unlock valuable insights from data. By leveraging pattern recognition, predictive analytics, and automation, we help optimize production schedules, improve quality control, and drive data-driven decision-making to enhance operational efficiency and reduce costs.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Cybersecurity for Critical Infrastructure</h5>
-                                <p> We provide robust cybersecurity solutions to protect critical oil and gas infrastructure. Our services include advanced network protection, threat detection, and compliance with industry regulations (NIST, ISO, etc.). We also implement OT/IT convergence security strategies, ensuring safe and secure integration across operational and IT systems.</p>
+                                 <h5>  Mobile & Web Apps for Field Operations</h5>
+                                <p> Our custom mobile and web applications give field operators real-time access to work orders, production data, and maintenance schedules. This seamless connectivity improves communication, boosts productivity, and ensures quick, informed decision-making on the go, driving efficiency and reducing operational delays.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Cybersecurity & Compliance Solutions</h5>
+                                <p> We provide robust cybersecurity solutions to protect your manufacturing operations from digital threats. Our services ensure the security of sensitive data, safeguard your digital ecosystem, and help maintain compliance with industry regulations—mitigating risks and keeping your systems secure and resilient against evolving cyber threats. </p>
                             </div>
                         </div>
                     </div>
@@ -259,7 +280,7 @@
 
         <div class="container">
 
-              <!------------------------------------ insurtech with ai start ----------------------------------------->
+              <!------------------------------------ manufacturing with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -267,76 +288,67 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> AI-Driven Solutions in Oil & Gas </h3>
+                        <h3> Revolutionize Your Manufacturing with AI </h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p class="mt-4"> Artificial Intelligence (AI) is revolutionizing the oil and gas industry by enabling smarter decision-making, optimizing operations, and driving cost efficiencies. From exploration to production, AI technologies like machine learning, predictive analytics, and automation are enhancing every stage of the value chain.</p>
+                        <p class="mt-4"> Harness the power of Artificial Intelligence to drive smarter decisions, automate complex processes, and unlock new levels of efficiency in your manufacturing operations.</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key Applications: </strong> </h4>
+                    <h4> <strong> Key AI Applications in Manufacturing: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                  Predictive Maintenance
+                                   Predictive Maintenance
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI-powered algorithms analyze real-time data from sensors to predict equipment failures before they occur. This proactive approach minimizes downtime, reduces maintenance costs, and ensures a more reliable and efficient operation across drilling rigs, pipelines, and refineries.</div>
+                                <div class="accordion-body">Use AI to monitor equipment health and predict failures before they happen—reducing downtime and repair costs.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                   Exploration & Reservoir Optimization
+                                  Smart Inventory Management
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI enhances seismic data analysis and reservoir management by identifying hidden patterns and optimizing drilling plans. Machine learning models process vast amounts of geological and operational data to predict the most promising drilling locations, significantly improving exploration success rates and minimizing risks.</div>
+                                <div class="accordion-body"> AI algorithms optimize stock levels and automate reordering based on demand patterns.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Production Optimization
+                                   Process Automation
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI systems can automate production processes, adjusting variables like pressure and flow rates to maximize efficiency. Real-time analytics help monitor equipment health and optimize energy consumption, ensuring operations are running at peak performance while reducing costs. </div>
+                                <div class="accordion-body"> Automate repetitive tasks on the shop floor using AI-powered robotics and control systems.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                  Supply Chain Optimization
+                                  Quality Control with Computer Vision
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI-powered solutions can predict demand fluctuations and optimize the supply chain by adjusting inventory, logistics, and procurement strategies. This ensures that oil and gas companies maintain steady production while avoiding costly disruptions or overstocking.</div>
+                                  <div class="accordion-body">Use AI to detect defects and improve product quality with image recognition and real-time analysis.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Energy Trading & Market Forecasting
+                                  Demand Forecasting
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI models analyze vast amounts of market data, news, and weather patterns to forecast price movements and optimize trading strategies. This helps companies in the energy sector make informed decisions and hedge against market volatility.</div>
+                                  <div class="accordion-body">Analyze historical data and market trends to better predict customer demand and production needs.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                 Safety and Risk Management
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI-based systems enhance safety by analyzing data from sensors and cameras to detect anomalies, such as gas leaks or equipment malfunctions, and trigger real-time alerts. Predictive models can also help identify potential hazards, allowing companies to mitigate risks before they escalate.</div>
-                                </div>
-                              </div>
+
 
                           </div>
                     </div>
@@ -346,7 +358,7 @@
         </div>
        </section>
 
-        <!------------------------------------ insurtech with ai end ------------------------------------------->
+        <!------------------------------------ manufacturing with ai end ------------------------------------------->
 
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
