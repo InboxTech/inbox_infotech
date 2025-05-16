@@ -75,6 +75,26 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.hrtech', $arr);
     }
+     public function logistic()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.logistics', $arr);
+    }
+     public function edTech()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.edtech', $arr);
+    }
+    public function insurTech()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.insurtech', $arr);
+    }
+    public function pharmaTech()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.pharmatech', $arr);
+    }
     public function product(Request $req, $name)
     {
         $brr = DB::table('products')->where('slug', $name)->get();
@@ -140,6 +160,22 @@ class FrontController extends Controller
         $arr['testimonials'] = DB::table('testimonials')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.recruitment_staffing', $arr);
     }
+    public function oilGas()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.oil_gas', $arr);
+    }
+     public function manufacturing()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.manufacturing', $arr);
+    }
+    public function pharmaceutical()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.pharmaceutical', $arr);
+    }
+
     public function servicesdetails(Request $req, $name)
     {
         $brr = DB::table('services')->where('slug', $name)->get();

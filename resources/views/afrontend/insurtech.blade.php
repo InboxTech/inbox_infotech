@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Retail & E-commerce')
+@section('page_title', 'InsurTech')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Retail & E-commerce </p>
+                                            InsurTech</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                          Inbox is an IT solutions company offering e-commerce platforms with secure, scalable features, specializing in website development, payment integration, and custom software to support global, 24/7 online business operations. </p>
+                                        InsurTech applies advanced IT solutions like AI, cloud, and data analytics to streamline insurance processes, improve efficiency, and enhance customer experience.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -95,154 +95,153 @@
 
 
 
-        <!--------------- retail software dev services start --------------------->
+            <!---------------------------  our services start ------------------------->
+              <section class="" >
 
-        <section class="software-dev-service">
-            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
-                <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
-                </p>
-            </div>
-           <div>
-            <div class="row" data-aos="fade-up" data-aos-duration="1000">
-
-
-                <div class="col-lg-4 col-md-6 col-12 my-3">
-                <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
-                            </div>
-                            <ul>
-                                <li> Design and development of scalable, user-friendly e-commerce platforms.</li>
-                                <li> Seamless integration with payment gateways, shipping providers, and inventory management systems. </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li> Development of secure, real-time POS systems that integrate with sales and inventory.</li>
-                                <li>Mobile POS capabilities for enhanced customer service.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Inventory Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li> Real-time stock tracking and automated reordering.</li>
-                                <li> Integration with POS systems for better inventory control and accuracy.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li>Tailored CRM solutions for managing customer data, improving marketing strategies, and building customer loyalty. </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
-                            </div>
-                            <ul>
-                                <li> Multi-channel order processing with real-time tracking and seamless integration across sales platforms.</li>
-                                <li>Automated order fulfillment and return management.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
-                            </div>
-                            <ul>
-                                <li>Custom mobile apps to offer consumers a seamless shopping experience.</li>
-                                <li>Features such as mobile payments, product browsing, and personalized offers.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Payment Gateway Integration:</h5>
-                            </div>
-                            <ul>
-                                <li> Secure and efficient payment gateway integration for smooth transactions.</li>
-                                <li>Support for various payment methods, including digital wallets
-                                     and credit card p-3 h-100ents.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Supply Chain Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li>Tools to optimize logistics, vendor management, and delivery scheduling.</li>
-                                <li>Real-time tracking and data analytics for supply chain optimization.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
-                            </div>
-                           <ul>
-                            <li> Comprehensive analytics to track sales, customer behavior, and inventory performance.</li>
-                            <li>Customizable reports to aid in decision-making and strategic planning.</li>
-                           </ul>
-                        </div>
-                        </div>
-
-
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="">Driving Innovation in Insurance with Advanced Service Lines</h3>
+                            <p class="fw-light">Advanced service lines are reshaping the insurance industry by driving innovation, efficiency, and customer-centricity. This approach empowers insurers to modernize operations, enhance decision-making, and stay competitive in a rapidly evolving digital and regulatory landscape.
+                            </p>
                 </div>
-           </div>
-        </section>
+                <div class="my-5">
+                    <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-lg-4 my-3">
+                        <div class="card h-100 p-3" style="border: 1px solid #00406d;">
+                                    <h5 class="card-title my-2">Adaptive Insurance Solution Creation </h5>
+                                    <div class="card-body p-0">
+                                <p class="card-text mb-0">Adaptive Insurance Solution Creation focuses on developing flexible, customer-centric insurance products tailored to evolving market demands and individual needs. It leverages data, technology, and agile methodologies to deliver responsive, scalable solutions that drive engagement and competitive advantage.</p>
+                                </div>
+                            </div>
+                            </div>
 
-        <!--------------- retail software dev services end --------------------->
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
+                                    <h5 class="card-title my-2">Strategic Insurance Consulting</h5>
+                                    <div class="card-body p-0">
+                                        <p class="card-text mb-0">Insurance Consulting Services provide strategic guidance to insurers across product development, operations, compliance, digital transformation, and customer experience. These services help insurers navigate market shifts, optimize performance, manage risk, and implement innovative, future-ready business models.</p>
+                                    </div>
+                            </div>
+                            </div>
+
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
+                                    <h5 class="card-title my-2"> Legacy System Modernization</h5>
+                                    <div class="card-body p-0">
+                                        <p class="card-text mb-0">Legacy System Modernization for Insurance involves upgrading outdated core platforms to modern, cloud-based, and API-enabled systems. It improves agility, reduces maintenance costs, enhances customer experience, and supports digital initiatives like real-time data processing, automation, and regulatory compliance.<p>
+                                    </div>
+                            </div>
+                            </div>
+
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
+                                    <h5 class="card-title my-2">Data Architecture and ML Integration</h5>
+                                    <div class="card-body p-0">
+                                        <p class="card-text mb-0">Data Architecture and ML Integration focuses on designing scalable, efficient data frameworks that seamlessly integrate with machine learning models. This approach ensures the smooth flow of high-quality data, enabling accurate predictions, real-time insights, and enhanced decision-making in industries like insurance, finance, and healthcare.</p>
+                                    </div>
+                            </div>
+                            </div>
+
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
+                                    <h5 class="card-title my-2">Concept Validation and MVP Build</h5>
+                                    <div class="card-body p-0">
+                                        <p class="card-text mb-0">Concept Validation and MVP Build focuses on testing an idea's viability through a proof of concept (POC), followed by the development of a Minimum Viable Product (MVP). This approach allows businesses to quickly assess market demand, refine features, and gather early user feedback before full-scale development.</p>
+                                    </div>
+                            </div>
+                            </div>
+
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 p-3" style="border: 1px solid #00406d;">
+                                    <h5 class="card-title my-2">AI-Powered Insurance Assistant Creation</h5>
+                                    <div class="card-body p-0">
+                                        <p class="card-text mb-0">AI-Powered Insurance Assistant Creation involves developing intelligent virtual assistants that utilize artificial intelligence to handle customer inquiries, policy management, claims processing, and personalized recommendations. These assistants enhance customer experience, reduce operational costs, and improve response times in the insurance industry.</p>
+                                    </div>
+                            </div>
+                            </div>
 
 
-<!------------------------------------ our e-commerce development start ------------------------->
 
-   <section>
-    <div class="my-5">
-        <div class="row" data-aos="fade-up" data-aos-duration="1000">
-            <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
-                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
-            </div>
-            <div class="col-lg-6 my-3">
-                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-   </section>
+            </section>
+            <!---------------------------  our services end ------------------------->
 
-<!------------------------------------ our e-commerce development end ------------------------->
+            <!------------------------------ insurance workflows start ------------------------->
+             <section class="insurance-workflow">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class=""> Insurance Workflow Automation for Efficiency</h3>
+                </div>
+                <div class="my-5">
+                <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row" >
+                            <div class="col-lg-3 d-flex justify-content-between" >
+                                <h5> Policy Management</h5>
+                                <div class="vr d-lg-block d-none"></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <p> Policy management in insurance involves the administration of policy lifecycle activities, including issuance, endorsements, renewals, cancellations, and record updates. Automating this process ensures accuracy, improves customer service, and reduces operational costs. It enables real-time updates, document generation, compliance tracking, and seamless integration with underwriting and claims systems for efficient policy handling.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-lg-3 d-flex justify-content-between" >
+                                <h5> Claims Processing </h5>
+                                <div class="vr d-lg-block d-none"></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <p> Claims processing is the end-to-end procedure insurers follow to receive, evaluate, and settle claims filed by policyholders. Automation streamlines this process by enabling digital claim submission, document verification, fraud detection, and rules-based assessments. This reduces turnaround time, enhances accuracy, and improves customer satisfaction while minimizing manual intervention and operational costs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-lg-3 d-flex justify-content-between" >
+                                <h5> Policy Underwriting</h5>
+                                <div class="vr d-lg-block d-none"></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <p> Policy underwriting is the process insurers use to assess risk and determine the terms and pricing of an insurance policy. Automated underwriting leverages data analytics, AI, and predefined rules to evaluate applications quickly and consistently. This improves decision accuracy, reduces processing time, minimizes human error, and enables scalable, real-time risk assessments for faster policy issuance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-lg-3 d-flex justify-content-between" >
+                                <h5> Insurance Compliances </h5>
+                                <div class="vr d-lg-block d-none"></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <p> Insurance compliances refer to the regulatory and legal requirements insurers must follow to operate lawfully. This includes adherence to industry regulations, data protection laws, financial reporting standards, and customer disclosure norms. Automation helps ensure timely reporting, real-time monitoring, audit trails, and reduced risk of non-compliance, enhancing transparency, accountability, and operational integrity across insurance processes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="" style="border-bottom: 1px solid #00406d;padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-lg-3 d-flex justify-content-between" >
+                                <h5>Insurance Quoting</h5>
+                                <div class="vr d-lg-block d-none"></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <p> Insurance quoting is the process of providing potential policyholders with estimated premiums based on their risk profile and coverage needs. Automated quoting systems use data inputs, predefined rules, and rating algorithms to generate instant, accurate quotes. This streamlines customer acquisition, reduces manual work, enhances pricing consistency, and improves the overall user experience through real-time responses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="" style="padding: 20px 0;" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-lg-3 d-flex justify-content-between" >
+                                <h5> Document Management</h5>
+                                <div class="vr d-lg-block d-none"></div>
+                            </div>
+                            <div class="col-lg-9">
+                                <p> Document management in insurance involves the systematic handling of all documents related to policies, claims, underwriting, and compliance. Automation enables secure storage, easy retrieval, version control, and seamless sharing of documents. It reduces paper usage, minimizes errors, ensures regulatory compliance, and improves workflow efficiency by integrating with core insurance systems and digital platforms. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+            <!------------------------------ insurance workflows end ------------------------->
 
 
         </div>
@@ -259,8 +258,7 @@
                                 <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                             </div>
                             <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
+                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to
                                     one of our advisers over the phone? Just submit your details and we’ll be in touch
                                     shortly. You can also email us if you would prefer.</p>
                             </div>
@@ -334,7 +332,8 @@
 
 
         <div class="container">
-              <!------------------------------------ ecommerce with ai start ----------------------------------------->
+
+              <!------------------------------------ insurtech with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -342,89 +341,77 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Retail & eCommerce Powered by AI</h3>
+                        <h3> AI with InsurTech</h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
-
-                        </p>
+                        <p class="mt-4"> Artificial Intelligence (AI) enhances InsurTech by making insurance smarter, faster, and more customer-centric. It automates processes, improves decision-making, and personalizes experiences across the insurance value chain. </p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
+                    <h4> <strong> Key Applications: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Recommendations
+                                  Underwriting
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
+                                <div class="accordion-body">AI analyzes large datasets to assess risk and price policies more accurately.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Smart Search and Filtering
+                                   Claims Processing
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
+                                <div class="accordion-body"> Automates claim filing, fraud detection, and damage estimation using AI and computer vision.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Chatbots and Virtual Assistants
+                                   Customer Support
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
-                                </div>
+                                <div class="accordion-body"> Chatbots and virtual assistants provide 24/7 service and instant answers. </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Dynamic Pricing and Promotions
+                                  Fraud Prevention
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
+                                  <div class="accordion-body">AI detects abnormal patterns and flags potentially fraudulent activities.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Inventory Forecasting
+                                   Personalized Products
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
+                                  <div class="accordion-body">Recommends insurance based on behavior, location, or usage patterns.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Visual Search & Image Recognition
+                                  Operational Efficiency
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
+                                  <div class="accordion-body">Reduces manual tasks through AI-driven automation and document processing.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Fraud Detection and Secure Payments
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
-                                </div>
-                            </div>
+
                           </div>
                     </div>
 
@@ -433,7 +420,8 @@
         </div>
        </section>
 
-        <!------------------------------------ ecommerce with ai end ------------------------------------------->
+        <!------------------------------------ insurtech with ai end ------------------------------------------->
+
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">

@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Retail & E-commerce')
+@section('page_title', 'Manufacturing')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/1214549853.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/611356523.webp') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Retail & E-commerce </p>
+                                            Pharmaceutical</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                          Inbox is an IT solutions company offering e-commerce platforms with secure, scalable features, specializing in website development, payment integration, and custom software to support global, 24/7 online business operations. </p>
+                                        We support pharmaceutical innovation with robust, compliant, and scalable solutions tailored to every stage of the product lifecycle — from R&D to commercialization.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -94,155 +94,145 @@
         <div class="container">
 
 
+            <!------------------------------ capabilities and services start ------------------------->
+             <section class="">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class=""> Capabilities & Services</h3>
+                    <p> We provide end-to-end solutions across the pharmaceutical value chain. Our capabilities are designed to support pharmaceutical companies in developing, manufacturing, and distributing safe, effective, and compliant products.</p>
+                </div>
+                 <div>
+                    <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Drug Development & Formulation</h5>
+                               <p> We provide comprehensive drug development and formulation services, optimizing dosage forms for safety, efficacy, and stability. Our expertise covers pre-formulation, solubility enhancement, stability studies, and clinical trial prototypes across various delivery systems.</p>
 
-        <!--------------- retail software dev services start --------------------->
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                <h5> API Manufacturing (Active Pharmaceutical Ingredients) </h5>
+                                <p>We offer end-to-end API manufacturing, from custom synthesis to commercial scale, with expertise in HPAPI handling, route optimization, and impurity profiling. Our cGMP-compliant facilities ensure regulatory-ready production with full DMF support. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                <h5>Contract Manufacturing (CMO/CDMO)</h5>
+                                <p> We provide end-to-end CMO/CDMO services, from R&D to commercial launch. Our capabilities include tech transfer, scalable production, dedicated cleanrooms, and audit-ready facilities—ensuring speed, quality, and cost-effective manufacturing for pharmaceutical partners.</p>
 
-        <section class="software-dev-service">
-            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
-                <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
-                </p>
-            </div>
-           <div>
-            <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5>  Quality Control & Regulatory Compliance</h5>
+                                <p> Our quality systems ensure every product meets global regulatory standards. We offer analytical method validation, microbiological testing, and full batch documentation, maintaining strict compliance with FDA, EMA, WHO, and other international regulatory bodies.</p>
 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5>  Clinical Trial Support</h5>
+                                <p> We provide end-to-end clinical trial support, including CTM manufacturing, labeling, blinding, and kit design. Our global distribution network ensures timely delivery, while our expertise ensures compliance and efficiency throughout all phases of clinical development.</p>
 
-                <div class="col-lg-4 col-md-6 col-12 my-3">
-                <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
                             </div>
-                            <ul>
-                                <li> Design and development of scalable, user-friendly e-commerce platforms.</li>
-                                <li> Seamless integration with payment gateways, shipping providers, and inventory management systems. </li>
-                            </ul>
                         </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li> Development of secure, real-time POS systems that integrate with sales and inventory.</li>
-                                <li>Mobile POS capabilities for enhanced customer service.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Inventory Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li> Real-time stock tracking and automated reordering.</li>
-                                <li> Integration with POS systems for better inventory control and accuracy.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li>Tailored CRM solutions for managing customer data, improving marketing strategies, and building customer loyalty. </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
-                            </div>
-                            <ul>
-                                <li> Multi-channel order processing with real-time tracking and seamless integration across sales platforms.</li>
-                                <li>Automated order fulfillment and return management.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
-                            </div>
-                            <ul>
-                                <li>Custom mobile apps to offer consumers a seamless shopping experience.</li>
-                                <li>Features such as mobile payments, product browsing, and personalized offers.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Payment Gateway Integration:</h5>
-                            </div>
-                            <ul>
-                                <li> Secure and efficient payment gateway integration for smooth transactions.</li>
-                                <li>Support for various payment methods, including digital wallets
-                                     and credit card p-3 h-100ents.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Supply Chain Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li>Tools to optimize logistics, vendor management, and delivery scheduling.</li>
-                                <li>Real-time tracking and data analytics for supply chain optimization.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
-                            </div>
-                           <ul>
-                            <li> Comprehensive analytics to track sales, customer behavior, and inventory performance.</li>
-                            <li>Customizable reports to aid in decision-making and strategic planning.</li>
-                           </ul>
-                        </div>
-                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5>  Packaging & Labeling Solutions</h5>
+                                <p>We deliver secure, compliant packaging and labeling solutions, including primary and secondary packaging, serialization, tamper-evident designs, and multilingual labeling. Our services support global distribution and include custom kitting for clinical trials and commercial supply chains.</p>
 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5>  Cold Chain Logistics</h5>
+                                <p> We provide reliable cold chain logistics, ensuring temperature-sensitive products are stored and transported under strict conditions. Our services include temperature-controlled warehousing, real-time monitoring, GDP-compliant transportation, custom packaging, and global emergency logistics solutions.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </section>
+
+            <!------------------------------ capabilities and services end ------------------------->
+
+             <!-----------------------------   industries covered start   ---------------------------->
+
+            <section class="" style="padding-top:50px; padding-bottom:50px;">
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries we covered </h6>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/biotechnology.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/vaccine.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/dietary.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/veterinary.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>API</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/nutraceuticals.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-           </div>
-        </section>
-
-        <!--------------- retail software dev services end --------------------->
-
-
-<!------------------------------------ our e-commerce development start ------------------------->
-
-   <section>
-    <div class="my-5">
-        <div class="row" data-aos="fade-up" data-aos-duration="1000">
-            <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
-                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
-            </div>
-            <div class="col-lg-6 my-3">
-                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
-                </div>
-            </div>
-        </div>
-    </div>
-   </section>
-
-<!------------------------------------ our e-commerce development end ------------------------->
+            </section>
+            <!-----------------------------   industries covered end   ---------------------------->
 
 
         </div>
@@ -259,8 +249,7 @@
                                 <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                             </div>
                             <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
+                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to
                                     one of our advisers over the phone? Just submit your details and we’ll be in touch
                                     shortly. You can also email us if you would prefer.</p>
                             </div>
@@ -334,7 +323,8 @@
 
 
         <div class="container">
-              <!------------------------------------ ecommerce with ai start ----------------------------------------->
+
+              <!------------------------------------ manufacturing with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -342,89 +332,77 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Retail & eCommerce Powered by AI</h3>
+                        <h3> AI-Powered Features</h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
-
-                        </p>
+                        <p class="mt-4"> Our AI-powered features enhance pharmaceutical operations through real-time analytics, predictive planning, intelligent alerts, chatbots, and automated quality checks—driving efficiency, accuracy, and compliance across the value chain.</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
+                    {{-- <h4> <strong> Key AI Applications in Manufacturing: </strong> </h4> --}}
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Recommendations
+                                   Predictive demand planning
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
+                                <div class="accordion-body">Predictive demand planning uses data analytics to forecast pharmaceutical product needs, ensuring optimal inventory and supply continuity.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Smart Search and Filtering
+                                 Anomaly detection in quality data
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
+                                <div class="accordion-body"> AI-powered anomaly detection analyzes quality data in real time to identify deviations, reducing risks and ensuring regulatory compliance.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Chatbots and Virtual Assistants
+                                  Smart reordering and inventory optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
-                                </div>
+                                <div class="accordion-body"> AI-driven smart reordering and inventory optimization ensures accurate stock levels, minimizes waste, and improves pharmaceutical supply chain efficiency.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Dynamic Pricing and Promotions
+                                  AI Chatbot for internal queries
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
+                                  <div class="accordion-body">An AI chatbot for internal queries streamlines employee support by providing instant answers on SOPs, compliance, HR, and operations.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Inventory Forecasting
+                                 Intelligent alerts and compliance reminders
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
+                                  <div class="accordion-body">AI-powered intelligent alerts and compliance reminders help ensure timely actions, reduce human error, and support regulatory adherence in pharmaceutical operations.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
+                                <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Visual Search & Image Recognition
+                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Real-time KPI dashboards
                                   </h5>
                                 </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">AI-enabled real-time KPI dashboards provide instant visibility into pharmaceutical operations, tracking performance metrics to support data-driven decision-making and compliance.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Fraud Detection and Secure Payments
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
-                                </div>
-                            </div>
+
                           </div>
                     </div>
 
@@ -433,7 +411,8 @@
         </div>
        </section>
 
-        <!------------------------------------ ecommerce with ai end ------------------------------------------->
+        <!------------------------------------ manufacturing with ai end ------------------------------------------->
+
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">

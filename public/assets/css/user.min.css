@@ -487,7 +487,7 @@ left: -3%;
     height: 100%;
     object-fit: cover;
   }
-  .cloud .swiper {
+  /* .cloud .swiper {
     width: 100%;
     height: 100%;
   }
@@ -506,7 +506,7 @@ left: -3%;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+  } */
 
   .core-features-card{
     border: 1px solid #00406d;
@@ -585,4 +585,9 @@ left: -3%;
 }
 .software-dev-service .card:hover{
    border: 1px solid #00406d;
+}
+.insurance-workflow .vr{
+    width: 1px;
+    height: 100%;
+    background-color: #00406d;
 }

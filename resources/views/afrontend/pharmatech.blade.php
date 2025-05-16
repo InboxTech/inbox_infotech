@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Retail & E-commerce')
+@section('page_title', 'PharmaTech')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Retail & E-commerce </p>
+                                            PharmaTech </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                          Inbox is an IT solutions company offering e-commerce platforms with secure, scalable features, specializing in website development, payment integration, and custom software to support global, 24/7 online business operations. </p>
+                                          We provide innovative PharmaTech solutions, including software development, data analytics, and compliance tools, to streamline pharmaceutical operations and accelerate drug development.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -99,7 +99,7 @@
 
         <section class="software-dev-service">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
+                <h3 class="text-color">Types of PharmaTech services we offer</h3>
                 <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
                 </p>
             </div>
@@ -111,108 +111,81 @@
                 <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
+                                <h5 class="text-color my-2">Custom Software Development</h5>
                             </div>
-                            <ul>
-                                <li> Design and development of scalable, user-friendly e-commerce platforms.</li>
-                                <li> Seamless integration with payment gateways, shipping providers, and inventory management systems. </li>
-                            </ul>
+                            <p> We develop custom software solutions designed to optimize pharmaceutical operations, streamline research and development processes, and enhance production management, ensuring efficiency, scalability, and regulatory compliance across all functions. </p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
+                                <h5 class="text-color my-2">Clinical Trial Management Systems (CTMS)</h5>
                             </div>
-                            <ul>
-                                <li> Development of secure, real-time POS systems that integrate with sales and inventory.</li>
-                                <li>Mobile POS capabilities for enhanced customer service.</li>
-                            </ul>
+                            <p> We provide Clinical Trial Management Systems (CTMS) that help pharmaceutical companies efficiently plan, track, and analyze clinical trials, improving data accuracy, regulatory compliance, and overall trial efficiency.</p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Inventory Management Software:</h5>
+                                <h5 class="text-color my-2">Regulatory Compliance Solutions </h5>
                             </div>
-                            <ul>
-                                <li> Real-time stock tracking and automated reordering.</li>
-                                <li> Integration with POS systems for better inventory control and accuracy.</li>
-                            </ul>
+                          <p> Our Regulatory Compliance Solutions help pharmaceutical companies meet FDA, EMA, and global standards by automating documentation, tracking changes, and ensuring consistent adherence to industry regulations and quality requirements.</p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
+                                <h5 class="text-color my-2">Data Analytics & AI</h5>
                             </div>
-                            <ul>
-                                <li>Tailored CRM solutions for managing customer data, improving marketing strategies, and building customer loyalty. </li>
-                            </ul>
+                           <p>  Our Data Analytics & AI solutions leverage big data and machine learning to accelerate drug discovery, uncover valuable patient insights, and enable predictive modeling for informed decision-making and personalized treatment development.</p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
+                                <h5 class="text-color my-2">Pharmacovigilance Systems</h5>
                             </div>
-                            <ul>
-                                <li> Multi-channel order processing with real-time tracking and seamless integration across sales platforms.</li>
-                                <li>Automated order fulfillment and return management.</li>
-                            </ul>
+                            <p> Our Pharmacovigilance Systems provide robust software to monitor, track, and analyze drug safety data, ensuring timely reporting of adverse events and compliance with regulatory requirements for patient safety.</p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
+                                <h5 class="text-color my-2">Supply Chain & Inventory Management </h5>
                             </div>
-                            <ul>
-                                <li>Custom mobile apps to offer consumers a seamless shopping experience.</li>
-                                <li>Features such as mobile payments, product browsing, and personalized offers.</li>
-                            </ul>
+                           <p>Our Supply Chain & Inventory Management systems optimize pharmaceutical logistics, streamline inventory control, and ensure efficient cold chain tracking, enhancing product availability, reducing waste, and maintaining compliance with regulatory standards. </p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Payment Gateway Integration:</h5>
+                                <h5 class="text-color my-2">IoT & Automation Integration</h5>
                             </div>
-                            <ul>
-                                <li> Secure and efficient payment gateway integration for smooth transactions.</li>
-                                <li>Support for various payment methods, including digital wallets
-                                     and credit card p-3 h-100ents.</li>
-                            </ul>
+                            <p>Our IoT & Automation Integration services provide smart devices and automation tools for pharmaceutical manufacturing, lab environments, and real-time monitoring, improving efficiency, accuracy, and operational control while reducing human error.</p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Supply Chain Management Software:</h5>
+                                <h5 class="text-color my-2">Cloud & Cybersecurity Solutions </h5>
                             </div>
-                            <ul>
-                                <li>Tools to optimize logistics, vendor management, and delivery scheduling.</li>
-                                <li>Real-time tracking and data analytics for supply chain optimization.</li>
-                            </ul>
+                            <p> Our Cloud & Cybersecurity Solutions offer secure cloud platforms and advanced data protection services, ensuring the confidentiality, integrity, and compliance of sensitive healthcare and pharmaceutical data across all digital operations.</p>
                         </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
                                 {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
+                                <h5 class="text-color my-2">Mobile Health (mHealth) Apps</h5>
                             </div>
-                           <ul>
-                            <li> Comprehensive analytics to track sales, customer behavior, and inventory performance.</li>
-                            <li>Customizable reports to aid in decision-making and strategic planning.</li>
-                           </ul>
+                          <p> Our Mobile Health (mHealth) Apps enable patients to track medications, access telehealth services, and monitor their health in real-time, empowering individuals to manage their well-being and stay connected with healthcare providers.</p>
                         </div>
                         </div>
 
@@ -230,12 +203,12 @@
     <div class="my-5">
         <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
-                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
+                <h3> Our Pharma Product </h3>
+                <p> Our pharma product provides an extensive database of medicines, offering accurate and up-to-date information on drug composition, indications, dosage guidelines, side effects, and precautions. It is designed to support healthcare professionals, pharmacists, and consumers in making informed decisions about medication use. With a user-friendly interface and reliable content, the platform ensures quick access to essential drug details, enhancing safety, efficiency, and trust in pharmaceutical care and treatment management across various healthcare settings.</p>
             </div>
             <div class="col-lg-6 my-3">
-                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+                <div style="background-color: rgb(0, 217, 255);padding: 20px;">
+                    <img src="{{ asset('assets/inbox/numina.png') }}" style="width: 100%;height: 80vh;"/>
                 </div>
             </div>
         </div>
@@ -334,7 +307,7 @@
 
 
         <div class="container">
-              <!------------------------------------ ecommerce with ai start ----------------------------------------->
+              <!------------------------------------ pharmatech with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -342,89 +315,123 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Retail & eCommerce Powered by AI</h3>
+                        <h3> Pharmatech with AI </h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
-
+                        <p> It refers to the integration of artificial intelligence technologies into the pharmaceutical industry to improve drug discovery, development, manufacturing, supply chain, and patient outcomes.
                         </p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
+                    <h4> <strong> overview of how AI is transforming Pharmatech across various domains: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Recommendations
+                                   Drug Discovery and Development
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
+                                <div class="accordion-body">
+                                    <ul>
+                                        AI helps identify potential drug candidates faster and more accurately than traditional methods.
+                                        <li> <strong> Target Identification: </strong> AI analyzes biological data to predict which proteins or genes might be good drug targets.</li>
+                                        <li> <strong> Molecule Generation: </strong> Generative models (like deep learning-based GANs) design novel compounds.</li>
+                                        <li>
+                                            <strong> Drug Repurposing:</strong> AI identifies new uses for existing drugs by analyzing biological and clinical data (e.g., COVID-19 drug candidates).
+                                        </li>
+                                    </ul>
+                                </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Smart Search and Filtering
+                                    Clinical Trials Optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
+                                <div class="accordion-body">
+                                    <ul>
+                                        AI streamlines and improves the efficiency of clinical trials.
+                                        <li> <strong> Patient Recruitment:</strong>Natural language processing (NLP) extracts relevant data from electronic health records (EHRs) to match patients with trials.
+                                        </li>
+                                        <li><strong> Trial Design:</strong> Predictive models simulate trial outcomes to design more effective and shorter trials.</li>
+                                        <li> <strong> Monitoring and Adherence:</strong> AI-powered apps monitor patient compliance and adverse events in real-time.</li>
+                                    </ul>
+                                </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Chatbots and Virtual Assistants
+                                   Manufacturing and Quality Control
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
+                                <div class="accordion-body">
+                                    <ul>
+                                        Smart manufacturing (Industry 4.0) integrated with AI boosts productivity and quality.
+                                        <li> <strong> Predictive Maintenance:</strong> AI detects machinery issues before failure occurs.</li>
+                                        <li><strong> Process Optimization:</strong> Machine learning adjusts parameters in real time to maintain product quality.</li>
+                                        <li> <strong> Defect Detection:</strong> Computer vision inspects products for quality assurance.</li>
+                                    </ul>
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Dynamic Pricing and Promotions
+                                    Supply Chain and Logistics
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
+                                  <div class="accordion-body">
+                                    <ul>
+                                        AI enables more resilient, responsive, and cost-effective pharmaceutical supply chains.
+                                        <li><strong> Demand Forecasting:</strong> AI models predict drug demand across regions.</li>
+                                        <li> <strong>Inventory Optimization: </strong>Dynamic reordering based on real-time data. </li>
+                                        <li><strong> Cold Chain Monitoring: </strong>  IoT + AI ensures temperature-sensitive drugs (like vaccines) are transported safely.
+                                        </li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Inventory Forecasting
+                                   Personalized Medicine
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
+                                  <div class="accordion-body">
+                                    <ul>
+                                        AI supports development of precision therapeutics tailored to individual patients.
+                                        <li> <strong> Genomic Analysis:</strong> AI deciphers genetic data to guide drug selection and dosage. </li>
+                                        <li><strong> Digital Twins: </strong>  Virtual replicas of patients help simulate responses to treatment.</li>
+                                        <li><strong> Companion Diagnostics: </strong> AI matches the right drug to the right patient based on biomarkers.</li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Visual Search & Image Recognition
+                                   Pharmacovigilance
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
+                                  <div class="accordion-body">
+                                    <ul>
+                                        AI automates the detection and analysis of adverse drug reactions (ADRs).
+                                        <li><strong> NLP for Signal Detection:</strong> AI scans social media, EHRs, and reports for early signs of side effects.</li>
+                                        <li><strong> Automated Case Processing: </strong> Reduces manual effort and increases reporting accuracy. </li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Fraud Detection and Secure Payments
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
-                                </div>
-                            </div>
+
                           </div>
                     </div>
 
@@ -433,7 +440,7 @@
         </div>
        </section>
 
-        <!------------------------------------ ecommerce with ai end ------------------------------------------->
+        <!------------------------------------ pharmatech with ai end ------------------------------------------->
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">

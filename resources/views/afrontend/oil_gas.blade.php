@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Retail & E-commerce')
+@section('page_title', 'Oil & Gas')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/1214549853.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/487686572.webp') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Retail & E-commerce </p>
+                                            Oil & gas</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                          Inbox is an IT solutions company offering e-commerce platforms with secure, scalable features, specializing in website development, payment integration, and custom software to support global, 24/7 online business operations. </p>
+                                        We help oil and gas companies embrace digital transformation through smart, scalable IT solutions that enhance efficiency, safety, and sustainability.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -95,154 +95,79 @@
 
 
 
-        <!--------------- retail software dev services start --------------------->
-
-        <section class="software-dev-service">
-            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
-                <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
-                </p>
-            </div>
-           <div>
-            <div class="row" data-aos="fade-up" data-aos-duration="1000">
-
-
-                <div class="col-lg-4 col-md-6 col-12 my-3">
-                <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
+            <!---------------------------  overview of oil & gas start ------------------------->
+               <section>
+                <div>
+                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-lg-6">
+                            <h3> Oil and Gas Industry – Overview </h3>
+                            <p> The oil and gas industry is a cornerstone of the global economy, providing the essential energy and materials that drive modern life. From powering homes and vehicles to enabling industrial processes, it plays a vital role across every sector.</p>
+                            <p> However, as the industry evolves, it faces growing challenges—fluctuating demand, aging infrastructure, operational inefficiencies, and increasing pressure to meet environmental and safety standards.</p>
+                            <p> At Inbox, we help oil and gas businesses harness the power of technology to meet these challenges head-on. Our IT solutions empower upstream, midstream, and downstream operations with digital tools that improve performance, ensure regulatory compliance, and drive innovation across the energy value chain.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5> The industry is typically divided into three main sectors: </h5>
+                            <div>
+                                <h5> Upstream</h5>
+                                <p> Exploration and production of crude oil and natural gas.</p>
                             </div>
-                            <ul>
-                                <li> Design and development of scalable, user-friendly e-commerce platforms.</li>
-                                <li> Seamless integration with payment gateways, shipping providers, and inventory management systems. </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
+                            <div>
+                                <h5> Midstream</h5>
+                                <p> Transportation and storage of oil and gas. </p>
                             </div>
-                            <ul>
-                                <li> Development of secure, real-time POS systems that integrate with sales and inventory.</li>
-                                <li>Mobile POS capabilities for enhanced customer service.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Inventory Management Software:</h5>
+                            <div>
+                                <h5> Downstream </h5>
+                                <p> Refining and selling finished products like gasoline, diesel, and petrochemicals.</p>
                             </div>
-                            <ul>
-                                <li> Real-time stock tracking and automated reordering.</li>
-                                <li> Integration with POS systems for better inventory control and accuracy.</li>
-                            </ul>
                         </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li>Tailored CRM solutions for managing customer data, improving marketing strategies, and building customer loyalty. </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
-                            </div>
-                            <ul>
-                                <li> Multi-channel order processing with real-time tracking and seamless integration across sales platforms.</li>
-                                <li>Automated order fulfillment and return management.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
-                            </div>
-                            <ul>
-                                <li>Custom mobile apps to offer consumers a seamless shopping experience.</li>
-                                <li>Features such as mobile payments, product browsing, and personalized offers.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Payment Gateway Integration:</h5>
-                            </div>
-                            <ul>
-                                <li> Secure and efficient payment gateway integration for smooth transactions.</li>
-                                <li>Support for various payment methods, including digital wallets
-                                     and credit card p-3 h-100ents.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Supply Chain Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li>Tools to optimize logistics, vendor management, and delivery scheduling.</li>
-                                <li>Real-time tracking and data analytics for supply chain optimization.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
-                            </div>
-                           <ul>
-                            <li> Comprehensive analytics to track sales, customer behavior, and inventory performance.</li>
-                            <li>Customizable reports to aid in decision-making and strategic planning.</li>
-                           </ul>
-                        </div>
-                        </div>
-
-
+                    </div>
                 </div>
-           </div>
-        </section>
+               </section>
+            <!--------------------------- overview of oil & gas end ------------------------->
 
-        <!--------------- retail software dev services end --------------------->
-
-
-<!------------------------------------ our e-commerce development start ------------------------->
-
-   <section>
-    <div class="my-5">
-        <div class="row" data-aos="fade-up" data-aos-duration="1000">
-            <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
-                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
-            </div>
-            <div class="col-lg-6 my-3">
-                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+            <!------------------------------ digital solution of oil & gas start ------------------------->
+             <section class="insurance-workflow">
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class=""> Digital Solutions for Oil & Gas </h3>
+                    <p> At Inbox, we deliver specialized IT services that drive digital transformation across the oil and gas value chain. Whether it's improving field operations, enhancing safety, or streamlining data management, our solutions are designed to meet the unique demands of energy companies.</p>
                 </div>
-            </div>
-        </div>
-    </div>
-   </section>
+                 <div>
+                    <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Custom Software Development </h5>
+                               <p> We develop custom software solutions for the oil and gas industry, including SCADA system integration, real-time field data capture apps, and automated production monitoring tools. Our solutions enhance visibility, streamline operations, and support data-driven decision-making across all stages of oil and gas operations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                <h5> Cloud Infrastructure & Migration</h5>
+                                <p>We provide secure cloud solutions for storing seismic and operational data, ensuring reliable access from anywhere. Our scalable infrastructure supports remote oilfield operations, while hybrid cloud deployments offer flexibility, enabling seamless integration with existing systems and enhancing overall performance, security, and data availability.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                <h5>Data Analytics & AI</h5>
+                                <p> We leverage data analytics and AI to optimize oil and gas operations. Our predictive maintenance tools reduce equipment failures, while real-time analytics dashboards provide actionable insights. Additionally, our AI/ML models enhance reservoir optimization, improving decision-making and operational efficiency across the entire energy value chain.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Industrial IoT (IIoT)</h5>
+                                <p> We implement Industrial IoT (IIoT) solutions for real-time remote monitoring of pipelines and drilling equipment. Our sensor-based automation and alert systems ensure proactive maintenance, while IoT gateways enable edge computing, allowing for faster data processing and improved decision-making in remote oil and gas operations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
+                                 <h5> Cybersecurity for Critical Infrastructure</h5>
+                                <p> We provide robust cybersecurity solutions to protect critical oil and gas infrastructure. Our services include advanced network protection, threat detection, and compliance with industry regulations (NIST, ISO, etc.). We also implement OT/IT convergence security strategies, ensuring safe and secure integration across operational and IT systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </section>
 
-<!------------------------------------ our e-commerce development end ------------------------->
+            <!------------------------------ digital solution of oil & gas end ------------------------->
 
 
         </div>
@@ -259,8 +184,7 @@
                                 <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                             </div>
                             <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
+                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to
                                     one of our advisers over the phone? Just submit your details and we’ll be in touch
                                     shortly. You can also email us if you would prefer.</p>
                             </div>
@@ -334,7 +258,8 @@
 
 
         <div class="container">
-              <!------------------------------------ ecommerce with ai start ----------------------------------------->
+
+              <!------------------------------------ insurtech with ai start ----------------------------------------->
        <section>
 
         <div class="my-5">
@@ -342,89 +267,77 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Retail & eCommerce Powered by AI</h3>
+                        <h3> AI-Driven Solutions in Oil & Gas </h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
-
-                        </p>
+                        <p class="mt-4"> Artificial Intelligence (AI) is revolutionizing the oil and gas industry by enabling smarter decision-making, optimizing operations, and driving cost efficiencies. From exploration to production, AI technologies like machine learning, predictive analytics, and automation are enhancing every stage of the value chain.</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
+                    <h4> <strong> Key Applications: </strong> </h4>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Recommendations
+                                  Predictive Maintenance
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
+                                <div class="accordion-body">AI-powered algorithms analyze real-time data from sensors to predict equipment failures before they occur. This proactive approach minimizes downtime, reduces maintenance costs, and ensures a more reliable and efficient operation across drilling rigs, pipelines, and refineries.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Smart Search and Filtering
+                                   Exploration & Reservoir Optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
+                                <div class="accordion-body"> AI enhances seismic data analysis and reservoir management by identifying hidden patterns and optimizing drilling plans. Machine learning models process vast amounts of geological and operational data to predict the most promising drilling locations, significantly improving exploration success rates and minimizing risks.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Chatbots and Virtual Assistants
+                                   Production Optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
-                                </div>
+                                <div class="accordion-body"> AI systems can automate production processes, adjusting variables like pressure and flow rates to maximize efficiency. Real-time analytics help monitor equipment health and optimize energy consumption, ensuring operations are running at peak performance while reducing costs. </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Dynamic Pricing and Promotions
+                                  Supply Chain Optimization
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
+                                  <div class="accordion-body">AI-powered solutions can predict demand fluctuations and optimize the supply chain by adjusting inventory, logistics, and procurement strategies. This ensures that oil and gas companies maintain steady production while avoiding costly disruptions or overstocking.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Inventory Forecasting
+                                   Energy Trading & Market Forecasting
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
+                                  <div class="accordion-body">AI models analyze vast amounts of market data, news, and weather patterns to forecast price movements and optimize trading strategies. This helps companies in the energy sector make informed decisions and hedge against market volatility.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Visual Search & Image Recognition
+                                 Safety and Risk Management
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
+                                  <div class="accordion-body">AI-based systems enhance safety by analyzing data from sensors and cameras to detect anomalies, such as gas leaks or equipment malfunctions, and trigger real-time alerts. Predictive models can also help identify potential hazards, allowing companies to mitigate risks before they escalate.</div>
                                 </div>
                               </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Fraud Detection and Secure Payments
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
-                                </div>
-                            </div>
+
                           </div>
                     </div>
 
@@ -433,7 +346,8 @@
         </div>
        </section>
 
-        <!------------------------------------ ecommerce with ai end ------------------------------------------->
+        <!------------------------------------ insurtech with ai end ------------------------------------------->
+
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">

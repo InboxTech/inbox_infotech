@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Retail & E-commerce')
+@section('page_title', 'Logistics')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Retail & E-commerce </p>
+                                            Smart Logistics Solutions for Your Business</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                          Inbox is an IT solutions company offering e-commerce platforms with secure, scalable features, specializing in website development, payment integration, and custom software to support global, 24/7 online business operations. </p>
+                                         We provide reliable logistics solutions including freight, warehousing, distribution, and customs clearance to ensure efficient, timely, and secure movement of goods globally.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -93,156 +93,74 @@
 
         <div class="container">
 
+            <!------------------------ logistic solutions start ----------------------->
 
+            <section>
+                <div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3> Reliable, End-to-End Logistics Solutions </h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <p> We provide comprehensive logistics services designed to simplify supply chains and deliver goods efficiently. From freight forwarding and warehousing to last-mile delivery and customs clearance, our tailored solutions ensure your cargo moves safely and on time—every time. Backed by advanced technology, experienced professionals, and a customer-first approach, we help businesses reduce costs, improve speed, and gain full visibility across their logistics operations.
 
-        <!--------------- retail software dev services start --------------------->
-
-        <section class="software-dev-service">
-            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
-                <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
-                </p>
-            </div>
-           <div>
-            <div class="row" data-aos="fade-up" data-aos-duration="1000">
-
-
-                <div class="col-lg-4 col-md-6 col-12 my-3">
-                <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
-                            </div>
-                            <ul>
-                                <li> Design and development of scalable, user-friendly e-commerce platforms.</li>
-                                <li> Seamless integration with payment gateways, shipping providers, and inventory management systems. </li>
-                            </ul>
+                                </p>
                         </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li> Development of secure, real-time POS systems that integrate with sales and inventory.</li>
-                                <li>Mobile POS capabilities for enhanced customer service.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Inventory Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li> Real-time stock tracking and automated reordering.</li>
-                                <li> Integration with POS systems for better inventory control and accuracy.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
-                            </div>
-                            <ul>
-                                <li>Tailored CRM solutions for managing customer data, improving marketing strategies, and building customer loyalty. </li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
-                            </div>
-                            <ul>
-                                <li> Multi-channel order processing with real-time tracking and seamless integration across sales platforms.</li>
-                                <li>Automated order fulfillment and return management.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
-                            </div>
-                            <ul>
-                                <li>Custom mobile apps to offer consumers a seamless shopping experience.</li>
-                                <li>Features such as mobile payments, product browsing, and personalized offers.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Payment Gateway Integration:</h5>
-                            </div>
-                            <ul>
-                                <li> Secure and efficient payment gateway integration for smooth transactions.</li>
-                                <li>Support for various payment methods, including digital wallets
-                                     and credit card p-3 h-100ents.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Supply Chain Management Software:</h5>
-                            </div>
-                            <ul>
-                                <li>Tools to optimize logistics, vendor management, and delivery scheduling.</li>
-                                <li>Real-time tracking and data analytics for supply chain optimization.</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 my-3">
-                        <div class="card p-3 h-100">
-                            <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
-                                <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
-                            </div>
-                           <ul>
-                            <li> Comprehensive analytics to track sales, customer behavior, and inventory performance.</li>
-                            <li>Customizable reports to aid in decision-making and strategic planning.</li>
-                           </ul>
-                        </div>
-                        </div>
-
-
+                    </div>
                 </div>
-           </div>
-        </section>
+            </section>
 
-        <!--------------- retail software dev services end --------------------->
+            <!------------------------ logistic solutions end ----------------------->
 
 
-<!------------------------------------ our e-commerce development start ------------------------->
-
-   <section>
-    <div class="my-5">
-        <div class="row" data-aos="fade-up" data-aos-duration="1000">
-            <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
-                <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
-            </div>
-            <div class="col-lg-6 my-3">
-                <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+            <!---------------------------  our services start ------------------------->
+            <section>
+                <div class="text-center">
+                    <h3> Our services</h3>
                 </div>
-            </div>
-        </div>
-    </div>
-   </section>
 
-<!------------------------------------ our e-commerce development end ------------------------->
+                <div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5> Freight Forwarding</h5>
+                                <p> Efficient air, sea, and land transport for domestic and international shipments.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5> Warehousing & Storage</h5>
+                                <p> Secure, scalable storage solutions with inventory management and order fulfillment.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5> Last-Mile Delivery</h5>
+                                <p> Fast and reliable final delivery to end customers or retail locations.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5> Customs Clearance</h5>
+                                <p> Expert handling of documentation, duties, and regulations for smooth border crossing.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5> Supply Chain Management</h5>
+                                <p> End-to-end coordination of logistics processes to optimize efficiency and cost.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!---------------------------  our services end ------------------------->
+
+
+
+
+
 
 
         </div>
@@ -334,106 +252,7 @@
 
 
         <div class="container">
-              <!------------------------------------ ecommerce with ai start ----------------------------------------->
-       <section>
 
-        <div class="my-5">
-
-            <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-12 col-md-12 col-xl-5">
-                    <div>
-                        <h3> Retail & eCommerce Powered by AI</h3>
-                        {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
-                        <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
-
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Retail & eCommerce: </strong> </h4>
-                    <div class="">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Personalized Recommendations
-                                </h5>
-                              </h2>
-                              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Smart Search and Filtering
-                                </h5>
-                              </h2>
-                              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header">
-                                <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Chatbots and Virtual Assistants
-                                </h5>
-                              </h2>
-                              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Dynamic Pricing and Promotions
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Inventory Forecasting
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Visual Search & Image Recognition
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                                   Fraud Detection and Secure Payments
-                                  </h5>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                  <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-       </section>
-
-        <!------------------------------------ ecommerce with ai end ------------------------------------------->
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">
