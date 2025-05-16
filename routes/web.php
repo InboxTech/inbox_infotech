@@ -217,6 +217,8 @@ Route::get('/products/retail&e-commerce',[FrontController::class,'retailEcommerc
 Route::get('/products/hrtech',[FrontController::class,'hrTech']);
 Route::get('/products/{name}',[FrontController::class,'product']);
 Route::get('/industries',[FrontController::class,'industries']);
+Route::get('/industries/Financial-Services',[FrontController::class,'financialServices']);
+Route::get('/industries/Healthcare',[FrontController::class,'healthCare']);
 Route::get('/industries/{name}',[FrontController::class,'industriesdetails']);
 Route::get('/services',[FrontController::class,'services']);
 Route::get('/services/software-development',[FrontController::class,'softwareDevelopment']);

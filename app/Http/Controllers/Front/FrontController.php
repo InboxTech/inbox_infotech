@@ -327,7 +327,16 @@ class FrontController extends Controller
             return view('afrontend.industriesdetail', $arr);
         }
         //dd();
-
+    }
+    public function financialServices()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.financial-services', $arr);
+    }
+    public function healthCare()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.health-care', $arr);
     }
     public function blog()
     {

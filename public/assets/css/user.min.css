@@ -559,7 +559,7 @@ left: -3%;
     transition: transform 0.3s ease-in-out;
   }
 
-  .scalable-cloud .row{
+  .scalable-cloud .row, .cybersecurity-ai .row{
     border-bottom: 1px solid #00406d;
     padding: 20px;
   }

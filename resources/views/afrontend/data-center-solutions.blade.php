@@ -225,8 +225,8 @@
             </section>
             <!----------------------------- Cybersecurity Services end ---------------------------->
 
-            <!-----------------------------   Cybersecurity AIstart   ---------------------------->
-            <section class="">
+            <!-----------------------------   Cybersecurity AI start   ---------------------------->
+            <section class="cybersecurity-ai">
                 <div class="row">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
