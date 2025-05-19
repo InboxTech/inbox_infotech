@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/800680855.webp') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Manufacturing.jpg') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -47,11 +47,14 @@
                                         Optimize operations, reduce downtime, and embrace Industry 4.0 with our customized tech services for manufacturers.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                        <div data-zanim-xs='{"delay":0.2}'>
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more<span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us<span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

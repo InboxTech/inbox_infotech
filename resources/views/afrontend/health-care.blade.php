@@ -43,104 +43,49 @@
         </div>
 
         <section class="py-0">
-        <div class="swiper theme-slider min-vh-100 swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events" data-swiper="{&quot;loop&quot;:true,&quot;allowTouchMove&quot;:false,&quot;autoplay&quot;:{&quot;delay&quot;:5000},&quot;effect&quot;:&quot;fade&quot;,&quot;speed&quot;:800}">
-          <div class="swiper-wrapper" id="swiper-wrapper-9967b264b30403f1" aria-live="off" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-zanim-timeline="{}" data-swiper-slide-index="1" style="width: 2008px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);" role="group" aria-label="2 / 2">
-              <div class="bg-holder" style="background-image:url(http://localhost/inboxtech/public/storage/media/775396637.jpg);">
-			  </div>
-              <!--/.bg-holder-->
-              <div class="container">
-                <div class="row min-vh-100 py-8 align-items-center" data-inertia="{&quot;weight&quot;:1.5}" style="transform: translate(0px, 4.8673px);">
-                  <div class="col-sm-12 col-lg-12 px-6 px-sm-6">
-				  <div style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
-                    <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs="{&quot;delay&quot;:0}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare</h1>
+            <div class="swiper theme-slider min-vh-100"
+                data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-zanim-timeline="{}">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Healthcare.jpg') }});">
+                        </div>
+                        <!--/.bg-holder-->
+                        <div class="container">
+                            <div class="row min-vh-100 py-8 align-items-center justify-content-center"
+                                data-inertia='{"weight":1.5}'>
+                                <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
+                                    style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
+                                    <div class="overflow-hidden">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
+                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                            Healthcare</p>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                            Healthcare IT Services: Leading IT Support for the Healthcare Industry.
+                                        </p>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <div data-zanim-xs='{"delay":0.2}'>
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more<span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us<span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="overflow-hidden">
-                      <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare IT Services: Leading IT Support for the Healthcare Industry.
-					  </p>
-                    </div>
-                    <div class="overflow-hidden">
-                      <div data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;"><a class="btn btn-primary me-3 mt-3" href="http://localhost/inboxtech/public/about-us">Read more<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a><a class="btn btn-warning mt-3" href="http://localhost/inboxtech/public/contact-us">Contact us<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a></div>
-                    </div>
-                  </div>
-				  </div>
+                    {{-- @foreach ($slider as $list)     @endforeach --}}
                 </div>
-              </div>
+                <div class="swiper-nav">
+                    <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
+                    <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
+                </div>
             </div>
-			            <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-zanim-timeline="{}" data-swiper-slide-index="0" style="width: 2008px; transition-duration: 0ms; opacity: 1; transform: translate3d(-2008px, 0px, 0px);" role="group" aria-label="1 / 2">
-              <div class="bg-holder" style="background-image:url(http://localhost/inboxtech/public/storage/media/791139692.webp);">
-			  </div>
-              <!--/.bg-holder-->
-              <div class="container">
-                <div class="row min-vh-100 py-8 align-items-center" data-inertia="{&quot;weight&quot;:1.5}" style="transform: translate(0px, 4.8673px);">
-                  <div class="col-sm-12 col-lg-12 px-6 px-sm-6">
-				  <div style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
-                    <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs="{&quot;delay&quot;:0}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare</h1>
-                    </div>
-                    <div class="overflow-hidden">
-                      <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare IT Services: Leading IT Support for the Healthcare Industry.
-					  </p>
-                    </div>
-                    <div class="overflow-hidden">
-                      <div data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;"><a class="btn btn-primary me-3 mt-3" href="http://localhost/inboxtech/public/about-us">Read more<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a><a class="btn btn-warning mt-3" href="http://localhost/inboxtech/public/contact-us">Contact us<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a></div>
-                    </div>
-                  </div>
-				  </div>
-                </div>
-              </div>
-            </div>
-			            <div class="swiper-slide swiper-slide-visible swiper-slide-active" data-zanim-timeline="{}" data-swiper-slide-index="1" style="width: 2008px; transition-duration: 0ms; opacity: 1; transform: translate3d(-4016px, 0px, 0px);" role="group" aria-label="2 / 2">
-              <div class="bg-holder" style="background-image:url(http://localhost/inboxtech/public/storage/media/775396637.jpg);">
-			  </div>
-              <!--/.bg-holder-->
-              <div class="container">
-                <div class="row min-vh-100 py-8 align-items-center" data-inertia="{&quot;weight&quot;:1.5}" style="transform: translate(0px, 4.8673px);">
-                  <div class="col-sm-12 col-lg-12 px-6 px-sm-6">
-				  <div style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
-                    <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs="{&quot;delay&quot;:0}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare</h1>
-                    </div>
-                    <div class="overflow-hidden">
-                      <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare IT Services: Leading IT Support for the Healthcare Industry.
-					  </p>
-                    </div>
-                    <div class="overflow-hidden">
-                      <div data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;"><a class="btn btn-primary me-3 mt-3" href="http://localhost/inboxtech/public/about-us">Read more<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a><a class="btn btn-warning mt-3" href="http://localhost/inboxtech/public/contact-us">Contact us<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a></div>
-                    </div>
-                  </div>
-				  </div>
-                </div>
-              </div>
-            </div>
-			          <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-zanim-timeline="{}" data-swiper-slide-index="0" style="width: 2008px; transition-duration: 0ms; opacity: 0; transform: translate3d(-6024px, 0px, 0px);" role="group" aria-label="1 / 2">
-              <div class="bg-holder" style="background-image:url(http://localhost/inboxtech/public/storage/media/791139692.webp);">
-			  </div>
-              <!--/.bg-holder-->
-              <div class="container">
-                <div class="row min-vh-100 py-8 align-items-center" data-inertia="{&quot;weight&quot;:1.5}" style="transform: translate(0px, 4.8673px);">
-                  <div class="col-sm-12 col-lg-12 px-6 px-sm-6">
-				  <div style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
-                    <div class="overflow-hidden">
-                      <h1 class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs="{&quot;delay&quot;:0}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare</h1>
-                    </div>
-                    <div class="overflow-hidden">
-                      <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">Healthcare IT Services: Leading IT Support for the Healthcare Industry.
-					  </p>
-                    </div>
-                    <div class="overflow-hidden">
-                      <div data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;"><a class="btn btn-primary me-3 mt-3" href="http://localhost/inboxtech/public/about-us">Read more<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a><a class="btn btn-warning mt-3" href="http://localhost/inboxtech/public/contact-us">Contact us<svg class="svg-inline--fa fa-chevron-right fa-w-10 ms-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right ms-2"></span> Font Awesome fontawesome.com --></a></div>
-                    </div>
-                  </div>
-				  </div>
-                </div>
-              </div>
-            </div></div>
-          <div class="swiper-nav">
-            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9967b264b30403f1"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <span class="fas fa-chevron-left"></span> Font Awesome fontawesome.com --></div>
-            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9967b264b30403f1"><svg class="svg-inline--fa fa-chevron-right fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg><!-- <span class="fas fa-chevron-right"></span> Font Awesome fontawesome.com --></div>
-          </div>
-        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
       </section>
 
         <div class="container">
