@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'Retail & E-commerce')
+@section('page_title', 'E-commerce')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -40,7 +40,7 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Retail & E-commerce </p>
+                                        E-commerce </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
@@ -93,11 +93,375 @@
 
         <div class="container">
 
+        <!-------------------------- revolutionalize access start ----------------------->
+                <section>
 
+                    <div class="my-5">
+                        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-lg-6">
+                                <img src="{{ asset('assets/inbox/educational_resource.png') }}" class="img-fluid" style="border-radius: 30px;"/>
+                            </div>
+                            <div class="col-lg-6">
+                                <h3> Revolutionizing Access to Educational Resources </h3>
+                                <p> To make quality education more accessible and stress-free for students and parents alike. We are committed to simplifying the often confusing and time-consuming process of purchasing school textbooks and academic resources for students from grades 1 through 12.</p>
+                                <p> We understand that educational success starts with access to the right materials—on time and at a price that families can afford. That’s why our platform is designed to provide a comprehensive, user-friendly, and affordable solution that brings together textbooks, reference guides, and learning tools from all major educational boards and publishers in one convenient place.</p>
+                                <p> By combining affordability, convenience, and reliability, we aim to remove barriers to learning and ensure that every child has the tools they need to succeed in school. Whether it’s finding the latest curriculum-aligned books, getting fast doorstep delivery, or accessing exclusive discounts, we strive to make the journey of education smoother and more accessible for all.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-------------------------- revolutionalize access end ----------------------->
+
+    <!-------------------------- need for educational platform start ----------------------->
+            <section>
+
+                <div class="my-5">
+                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-lg-6">
+                            <h3> The Need for an Educational E-commerce Platform </h3>
+                            <p> Students and parents face challenges in finding all necessary books in one place.Our platform is designed to provide convenience, variety, and affordability for students across multiple regions by delivering books right to their doorsteps.To reduce the stress of finding books & study materials.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="{{ asset('assets/inbox/study_with_parents.png') }}" class="img-fluid" style="border-radius: 30px;"/>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+    <!-------------------------- need for educational platform end ----------------------->
+
+                <!----------------------------- one stop online shop start --------------------------->
+                <section>
+                    <div>
+                        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-lg-6">
+                                <h3> Your One-Stop Online Shop for Educational Resources </h3>
+                            </div>
+                            <div class="col-lg-6">
+                                <div>
+                                    <div class="card h-100 my-2">
+                                        <h5> Target Audience</h5>
+                                        <p>Students, parents, and educators.</p>
+                                    </div>
+                                    <div class="card h-100 my-2">
+                                        <h5> Product Range</h5>
+                                        <p> Briefly elaborate on what you want to discuss. </p>
+                                    </div>
+                                    <div class="card h-100 my-2">
+                                        <h5> Platform</h5>
+                                        <p> A user-friendly e-commerce site</p>
+                                    </div>
+                                    <div class="card h-100 my-2">
+                                        <h5> Goal </h5>
+                                        <p> To create a smooth shopping experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!----------------------------- one stop online shop end --------------------------->
+
+            <!------------------------------ key features start -------------------------->
+
+            <section>
+                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <h3> Key Features of Our E-commerce Platform </h3>
+                </div>
+                <div class="my-5">
+                    <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5 class="mb-3">  Comprehensive Catalog</h5>
+                                <ul>
+                                    <li><strong> Curriculum-Aligned: </strong> Covers CBSE, ICSE, state boards, and international curriculums (like IGCSE, IB).</li>
+                                    <li><strong> Grades 1–12:</strong> Textbooks, workbooks, lab manuals, and reference guides for all subjects.</li>
+                                    <li><strong> Brands & Publishers:</strong> NCERT, S. Chand, RD Sharma, Oswaal, Arihant, and more.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5 class="mb-3">  Easy Search & Navigation</h5>
+                                <ul>
+                                    <li><strong> Grade-wise & Board-wise Filters: </strong> Quickly find relevant materials.</li>
+                                    <li><strong> Smart Suggestions:</strong> Based on subject, exam goals, and past purchases.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5 class="mb-3">  Fast & Reliable Delivery</h5>
+                                <ul>
+                                    <li><strong> Same-Day or Next-Day Delivery: </strong> In major cities.</li>
+                                    <li><strong> Pan-India Shipping:</strong> Reliable delivery to even remote areas. </li>
+                                    <li><strong> Real-Time Tracking:</strong> So parents and students can plan ahead.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5 class="mb-3">  Affordable Pricing</h5>
+                                <ul>
+                                    <li><strong> Competitive Rates:  </strong> Lower prices compared to traditional stores. </li>
+                                    <li><strong> Bundles & Discounts:</strong> Offers on combos and early purchases.</li>
+                                    <li><strong> Used Book Options:</strong> Buyback & resale for savings.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow h-100 p-3">
+                                <h5 class="mb-3">  Quality Assurance </h5>
+                                <ul>
+                                    <li>100% genuine books sourced directly from publishers. </li>
+                                    <li>Regular updates to ensure latest editions only.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------------ key features end -------------------------->
+
+ <!-----------------------------  modules start ----------------------->
+
+  <section>
+                <div>
+                    <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="col-12 col-md-12 col-xl-5">
+                            <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
+                                <h3 class=""> Modules of the E-commerce Store</h3>
+                                <p class="fw-light">Key modules for an e-commerce store focused on selling school books and study materials. These modules form the backbone of your platform and ensure smooth functionality for users, admins, and logistics.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-xl-7">
+                            <div class="row">
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Product Management Module </h5>
+                                       <ul>
+                                        <li>Add, update, and delete products (books, bundles, stationery).</li>
+                                        <li>Categorize by grade, board, subject, and publisher.</li>
+                                        <li>Inventory tracking and stock status.</li>
+                                        <li>Product details (ISBN, edition, publisher, author, description).</li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Catalog & Search Module  </h5>
+                                      <ul>
+                                        <li>Dynamic product catalog for browsing by category, grade, or subject.</li>
+                                        <li>Advanced search with filters (boards, standards, price, etc.).</li>
+                                        <li>Featured products, bestsellers, and new arrivals.</li>
+                                        <li>Book bundles and recommendations.</li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> User Account Module </h5>
+                                       <ul>
+                                        <li>Student/Parent registration & login.</li>
+                                        <li>Profile management (addresses, contact info, preferences).</li>
+                                        <li>Order history & reordering.</li>
+                                        <li>Wishlist and saved items.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Shopkeeper Acoount Module </h5>
+                                       <ul>
+                                        <li>Shopkeeper registration & login.</li>
+                                        <li>Profile management (addresses, contact info, preferences).</li>
+                                        <li>Pending/Deliver Order list</li>
+                                        <li>Add,update,delete books </li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Shopping Cart & Checkout Module </h5>
+                                       <ul>
+                                        <li>Add to cart, remove, update quantity. </li>
+                                        <li>Apply coupons and promotional discounts.</li>
+                                        <li>Secure, multi-step checkout process.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Payment Module </h5>
+                                       <ul>
+                                        <li>Integration with multiple payment gateways (UPI, credit/debit cards, net banking, wallets).</li>
+                                        <li>Payment confirmation and status tracking.</li>
+                                        <li>Invoice generation.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Order Management & Logistics Module</h5>
+                                       <ul>
+                                        <li>Real-time order tracking.</li>
+                                        <li>Order status updates (Processing, Shipped, Delivered, Cancelled).</li>
+                                        <li>Estimated delivery time and shipping fees.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Notification & Communication Module </h5>
+                                       <ul>
+                                        <li>Order confirmations and updates  email and push notifications.</li>
+                                        <li>Customer service chat or chatbot.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5> Customer Support Module </h5>
+                                       <ul>
+                                        <li>Contact form or live chat for inquiries. </li>
+                                        <li>FAQ section.</li>
+                                        <li>Order issue reporting (wrong/damaged book).</li>
+                                        <li>Return & refund requests.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 my-3">
+                                    <div class="card h-100">
+                                       <h5>  Admin Dashboard Module </h5>
+                                       <ul>
+                                        <li>User and order management.</li>
+                                        <li>Product and inventory management.</li>
+                                        <li>Promotions & coupon code creation.</li>
+                                        <li> Content management (banners, homepage).</li>
+                                       </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+ <!-----------------------------  modules end ----------------------->
+
+       <!-----------------------------------   how platform is used start ------------------------------->
+          <section>
+            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h3> How the Platform is Used</h3>
+            </div>
+            <div class="my-5">
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-6 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> For Sellers</h5>
+                            <ul>
+                                <li>Register and upload books easily.</li>
+                                <li>Manage inventory and view orders in real-time.</li>
+                                <li>Access sales analytics to optimize offerings</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                         <div class="card shadow h-100 p-3">
+                            <h5> For Educational Institutions</h5>
+                            <ul>
+                                <li>Institutions can place bulk textbook orders.</li>
+                                <li>Access customized reports for better budgeting.</li>
+                                <li>Simplify procurement to save time & reduce admin work. </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                         <div class="card shadow h-100 p-3">
+                            <h5> For Buyers </h5>
+                            <ul>
+                                <li>Browse through categories of books.</li>
+                                <li>Use filters for specific subjects, & boards.</li>
+                                <li>Place orders easily</li>
+                                <li>Track orders and get notifications </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                         <div class="card shadow h-100 p-3">
+                            <h5> For Parents</h5>
+                            <ul>
+                                <li>Parents can browse and buy books easily.</li>
+                                <li>Get updates on new releases and discounts.</li>
+                                <li>Use a Wishlist to track future book needs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+       <!-----------------------------------   how platform is used end ------------------------------->
+
+       <!----------------------------------   key benefits start ----------------------------------->
+
+       <section>
+        <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Key Benefits</h3>
+            </div>
+            <div class="my-5">
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5>For Administrators</h5>
+                            <ul>
+                                <li>Manage platform activities.</li>
+                                <li>Assist users with issues.</li>
+                                <li>Analyze data for improvements.</li>
+                                <li>Update book and publisher listings.</li>
+                                <li>Monitor sales and engagement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5>For Sellers</h5>
+                            <ul>
+                                <li>Access a broad student base nationwide.</li>
+                                <li>User-friendly inventory and order management.</li>
+                                <li>Gain insights into sales trends and preferences.</li>
+                                <li>Secure and timely payouts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5>For Buyers</h5>
+                            <ul>
+                                <li>Shop from home.</li>
+                                <li>Competitive prices with discounts.</li>
+                                <li>Wide selection of books.</li>
+                                <li>Reliable delivery to your doorstep. </li>
+                                <li>Read student reviews before buying.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+       </section>
+       <!----------------------------------   key benefits end ----------------------------------->
 
         <!--------------- retail software dev services start --------------------->
 
-        <section class="software-dev-service">
+        {{-- <section class="software-dev-service">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
                 <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
@@ -110,7 +474,6 @@
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                 <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
                             </div>
                             <ul>
@@ -122,7 +485,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
                             </div>
                             <ul>
@@ -134,7 +496,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Inventory Management Software:</h5>
                             </div>
                             <ul>
@@ -146,7 +507,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
                             </div>
                             <ul>
@@ -157,7 +517,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
                             </div>
                             <ul>
@@ -169,7 +528,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
                             </div>
                             <ul>
@@ -181,7 +539,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Payment Gateway Integration:</h5>
                             </div>
                             <ul>
@@ -194,7 +551,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Supply Chain Management Software:</h5>
                             </div>
                             <ul>
@@ -206,7 +562,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
                             </div>
                            <ul>
@@ -219,14 +574,14 @@
 
                 </div>
            </div>
-        </section>
+        </section> --}}
 
         <!--------------- retail software dev services end --------------------->
 
 
 <!------------------------------------ our e-commerce development start ------------------------->
 
-   <section>
+   {{-- <section>
     <div class="my-5">
         <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-lg-6 my-3">
@@ -240,7 +595,7 @@
             </div>
         </div>
     </div>
-   </section>
+   </section> --}}
 
 <!------------------------------------ our e-commerce development end ------------------------->
 
@@ -335,7 +690,7 @@
 
         <div class="container">
               <!------------------------------------ ecommerce with ai start ----------------------------------------->
-       <section>
+       {{-- <section>
 
         <div class="my-5">
 
@@ -343,7 +698,7 @@
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
                         <h3> Retail & eCommerce Powered by AI</h3>
-                        {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
+
                         <p> Artificial Intelligence is reshaping the retail and eCommerce industry by delivering smarter, faster, and more personalized experiences. From intelligent product recommendations to automated inventory management, AI-driven tools are helping businesses streamline operations and enhance customer satisfaction.
 
                         </p>
@@ -431,7 +786,7 @@
                 </div>
             </div>
         </div>
-       </section>
+       </section> --}}
 
         <!------------------------------------ ecommerce with ai end ------------------------------------------->
          <!------------------------------  things you know start ------------------------->

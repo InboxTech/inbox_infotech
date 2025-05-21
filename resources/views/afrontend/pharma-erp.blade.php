@@ -1,5 +1,5 @@
 @extends('afrontend/layout')
-@section('page_title', 'PharmaTech')
+@section('page_title', 'PharmaERP')
 <?php $s1 = 'index,follow'; ?>
 <?php $s2 = 'A managed cloud services provider manages partial or complete cloud platforms of their clients, including the migration, maintenance and optimization.'; ?>
 <?php $s3 = 'web development company,web design company,web application development,best web development company,web development company india,web development company vadodara'; ?>
@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/PharmaTech.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/PharmaERP_banner.png') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            PharmaTech </p>
+                                            PharmaERP </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                          We provide innovative PharmaTech solutions, including software development, data analytics, and compliance tools, to streamline pharmaceutical operations and accelerate drug development.</p>
+                                          Comprehensive ERP software built for pharma companies to manage operations, compliance, and innovation.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -92,12 +92,31 @@
         <!-----------------------------   client swiper end ---------------------------->
 
         <div class="container">
-
+             <!-------------------------  about pharma iq start -------------------------->
+             <section>
+                <div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3> About Us </h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <p> PharmaIQ is an advanced, AI-powered Enterprise Resource
+                                Planning (ERP) system purpose-built for the
+                                pharmaceutical industry. Designed to streamline the
+                                complex operations of pharmaceutical R&D,
+                                manufacturing, quality control, regulatory compliance, and
+                                supply chain management, PharmaIQ integrates cuttingedge artificial intelligence to deliver intelligent automation,
+                                predictive insights, and compliance-driven workflows.</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <!-------------------------  about pharma iq end -------------------------->
 
 
         <!--------------- retail software dev services start --------------------->
 
-        <section class="software-dev-service">
+        {{-- <section class="software-dev-service">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="text-color">Types of PharmaTech services we offer</h3>
                 <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
@@ -110,7 +129,6 @@
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                 <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Custom Software Development</h5>
                             </div>
                             <p> We develop custom software solutions designed to optimize pharmaceutical operations, streamline research and development processes, and enhance production management, ensuring efficiency, scalability, and regulatory compliance across all functions. </p>
@@ -119,7 +137,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Clinical Trial Management Systems (CTMS)</h5>
                             </div>
                             <p> We provide Clinical Trial Management Systems (CTMS) that help pharmaceutical companies efficiently plan, track, and analyze clinical trials, improving data accuracy, regulatory compliance, and overall trial efficiency.</p>
@@ -128,7 +145,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Regulatory Compliance Solutions </h5>
                             </div>
                           <p> Our Regulatory Compliance Solutions help pharmaceutical companies meet FDA, EMA, and global standards by automating documentation, tracking changes, and ensuring consistent adherence to industry regulations and quality requirements.</p>
@@ -137,7 +153,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Data Analytics & AI</h5>
                             </div>
                            <p>  Our Data Analytics & AI solutions leverage big data and machine learning to accelerate drug discovery, uncover valuable patient insights, and enable predictive modeling for informed decision-making and personalized treatment development.</p>
@@ -146,7 +161,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Pharmacovigilance Systems</h5>
                             </div>
                             <p> Our Pharmacovigilance Systems provide robust software to monitor, track, and analyze drug safety data, ensuring timely reporting of adverse events and compliance with regulatory requirements for patient safety.</p>
@@ -155,7 +169,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Supply Chain & Inventory Management </h5>
                             </div>
                            <p>Our Supply Chain & Inventory Management systems optimize pharmaceutical logistics, streamline inventory control, and ensure efficient cold chain tracking, enhancing product availability, reducing waste, and maintaining compliance with regulatory standards. </p>
@@ -164,7 +177,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">IoT & Automation Integration</h5>
                             </div>
                             <p>Our IoT & Automation Integration services provide smart devices and automation tools for pharmaceutical manufacturing, lab environments, and real-time monitoring, improving efficiency, accuracy, and operational control while reducing human error.</p>
@@ -173,7 +185,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Cloud & Cybersecurity Solutions </h5>
                             </div>
                             <p> Our Cloud & Cybersecurity Solutions offer secure cloud platforms and advanced data protection services, ensuring the confidentiality, integrity, and compliance of sensitive healthcare and pharmaceutical data across all digital operations.</p>
@@ -182,7 +193,6 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                {{-- <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" style="height: 35px; width:35px;" class="img-fluid"> --}}
                                 <h5 class="text-color my-2">Mobile Health (mHealth) Apps</h5>
                             </div>
                           <p> Our Mobile Health (mHealth) Apps enable patients to track medications, access telehealth services, and monitor their health in real-time, empowering individuals to manage their well-being and stay connected with healthcare providers.</p>
@@ -192,14 +202,285 @@
 
                 </div>
            </div>
-        </section>
+        </section> --}}
 
         <!--------------- retail software dev services end --------------------->
 
 
-<!------------------------------------ our e-commerce development start ------------------------->
+        <!------------------------------  core modules start ----------------------------->
 
-   <section>
+        <section>
+            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h3> Core Modules </h3>
+            </div>
+            <div class="my-5">
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Production Planning</h5>
+                            <ul>
+                                <li>Material Requirement Planning</li>
+                                <li> Master Production Scheduling</li>
+                                <li> Production Process Definition</li>
+                                <li> Demand Management </li>
+                                <li> Batch Manufacturing Practice </li>
+                                <li> Raw Material Formulation </li>
+                                <li> Packing Material Formulation</li>
+                                <li> Material Planning </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Inventory Management</h5>
+                            <ul>
+                                <li>Inventory Planning</li>
+                                <li> Warehouse Management</li>
+                                <li> Bin Management </li>
+                                <li>Material Inward / Outward</li>
+                                <li> Physical Stock Verification </li>
+                                <li> Physical Stock Verification</li>
+                                <li> Stock Costing and Valuation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Material Management</h5>
+                            <ul>
+                                <li>Raw Material Indent</li>
+                                <li> Packing Material Indent</li>
+                                <li>Raw Material Issue</li>
+                                <li>Packing Material Issue </li>
+                                <li>Return Raw Material</li>
+                                <li> Return Packing Material</li>
+                                <li>Quality Assurance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Sales & Procurement</h5>
+                            <ul>
+                                <li>Supplier/ Vendor Management</li>
+                                <li>Product Delivery & tracking</li>
+                                <li>Quote to Receipt Management</li>
+                                <li>Integration with Planning</li>
+                                <li>Customer Management</li>
+                                <li>Sales Management </li>
+                                <li>Reduce Forecasting Errors</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Purchase Management</h5>
+                            <ul>
+                                <li>Supplier Evaluation </li>
+                                <li>Request for Quote</li>
+                                <li>Quote Comparison</li>
+                                <li>Order Calling</li>
+                                <li>Purchase Budget and Approval</li>
+                                <li>Integrated with Planning Function </li>
+                                <li> Supplier Order Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Quality Control</h5>
+                            <ul>
+                                <li>Raw Material Testing</li>
+                                <li>Bulk/ Finish Goods Testing</li>
+                                <li>Release Order</li>
+                                <li>Transfer Slip </li>
+                                <li> Tag Printing  </li>
+                                <li> Rejection Order </li>
+                                <li> Testing Req. Slip </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Finance & Accounting</h5>
+                            <ul>
+                                <li>General Ledger, Accounts Payable, Receivables </li>
+                                <li>Trial Balance, Cash Flow</li>
+                                <li> Debit Note/ Credit Note/ Cost</li>
+                                <li>Automatic TAX Calculation</li>
+                                <li> PDC & Outstanding </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5>Quality & Compliance Management</h5>
+                            <ul>
+                                <li> FDA Compliant </li>
+                                <li>Quality Analysis and Control</li>
+                                <li>Pre-process, Inprocess, Post-Process </li>
+                                <li>Inventory & Stock QC </li>
+                                <li>Lot movement as per GMP</li>
+                                <li>Labels, MBR, BMR, SOPs and COA generation</li>
+                                <li>Stability Testing, NC,CAPA and Adverse Event Reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card shadow h-100 p-3">
+                            <h5> Reporting </h5>
+                            <ul>
+                                <li>Production Register</li>
+                                <li>Consolidate Register</li>
+                                <li>Yield Register</li>
+                                <li>Packing Not Issue</li>
+                                <li>Sample RegisterBulk/finish/Raw</li>
+                                <li>Control Sample Register</li>
+                                <li>Transfer register</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------  core modules end ----------------------------->
+
+    <!---------------------------------  key benefits start ----------------------------->
+         <section class="">
+                <div class="">
+                    <div class="">
+                        <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+                            <h3 class="text-color"> Key Benefits </h3>
+                        </div>
+                    </div>
+                    <div class="my-5">
+                        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-lg-4 my-3">
+                            <div class="card mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Regulatory Compliance Made Easy</h5>
+                                </div>
+                                <ul>
+                                    <li> All core hospital dFDA 21 CFR Part 11</li>
+                                    <li>GMP, GLP, GCP </li>
+                                    <li>WHO, EMA, CDSCO compliant with unified, secure hospital system.</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Complete Batch & Lot Traceability</h5>
+                                </div>
+                                <ul>
+                                    <li>Recalls</li>
+                                    <li>Regulatory audits </li>
+                                    <li>Quality investigations</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Integrated Quality Control & Assurance</h5>
+                                </div>
+                                <ul>
+                                    <li>Automated inward, in-process, and final quality checks</li>
+                                    <li> CAPA and deviation tracking </li>
+                                    <li>SOP and CoA management Build a quality-first culture across your organization.</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Powerful Manufacturing Management </h5>
+                                </div>
+                                <ul>
+                                    <li>BMR/BPR automation</li>
+                                    <li>Formulation control (BOMs)</li>
+                                    <li>Yield analysis</li>
+                                    <li>Equipment calibration tracking</li>
+                                    <li>Batch validation and costing</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Real-Time Inventory & Warehouse Control </h5>
+                                </div>
+                                <ul>
+                                    <li>Live inventory updates</li>
+                                    <li>Multi-location & cold-chain warehouse support</li>
+                                    <li>Expiry & re-test alerts</li>
+                                    <li> Barcode/RFID integration</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Smarter Procurement & Vendor Management</h5>
+                                </div>
+                                <ul>
+                                    <li>Approved vendor list (AVL) enforcement</li>
+                                    <li>Supplier audit logs</li>
+                                    <li>Purchase planning based on actual demand</li>
+                                    <li> Quality-based supplier rating </li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Built for Pharma, Not Generic</h5>
+                                </div>
+                               <ul>
+                                <li>BMR/BPR automation</li>
+                                <li>Formulation control (BOMs) </li>
+                                <li>Yield analysis</li>
+                                <li>Equipment calibration tracking</li>
+                                <li> Batch validation and costing</li>
+                               </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Executive Dashboards & Custom Reports</h5>
+                                </div>
+                               <ul>
+                                <li>KPI dashboards (OTIF, yield %, rejection rate)</li>
+                                <li>Regulatory and financial reports</li>
+                                <li>Customizable analytics by role or department</li>
+                               </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-4 my-3">
+                            <div class="card h-100 mb-4">
+                                <div class="d-flex mb-2">
+                                    <h5 class="text-color my-2">Role-Based Security & Audit Logs </h5>
+                                </div>
+                                <ul>
+                                    <li>User-level access control</li>
+                                    <li>Encrypted logins </li>
+                                    <li>System-wide audit trails for 21 CFR Part 11 compliance</li>
+                                </ul>
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>
+                 </div>
+            </section>
+
+    <!---------------------------------  key benefits end ----------------------------->
+
+<!------------------------------------ our pharma start ------------------------->
+
+   {{-- <section>
     <div class="my-5">
         <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-lg-6 my-3">
@@ -213,9 +494,9 @@
             </div>
         </div>
     </div>
-   </section>
+   </section> --}}
 
-<!------------------------------------ our e-commerce development end ------------------------->
+<!------------------------------------ our pharma end ------------------------->
 
 
         </div>
@@ -307,6 +588,84 @@
 
 
         <div class="container">
+
+             <!-----------------------------   industries covered start   ---------------------------->
+
+            <section class="" style="padding-top:50px; padding-bottom:50px;">
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries we covered </h6>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/biotechnology.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/vaccine.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/dietary.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/veterinary.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>API</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="core-features-card">
+                            <div class="core-features-round">
+                                <img src="{{ asset('assets/img/icons/svg_icons/nutraceuticals.svg') }}"
+                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                            </div>
+                            <div class="text-center">
+                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-----------------------------   industries covered end   ---------------------------->
               <!------------------------------------ pharmatech with ai start ----------------------------------------->
        <section>
 
@@ -315,7 +674,7 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Pharmatech with AI </h3>
+                        <h3> AI-POWERED FEATURES </h3>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
                         <p> It refers to the integration of artificial intelligence technologies into the pharmaceutical industry to improve drug discovery, development, manufacturing, supply chain, and patient outcomes.
                         </p>
@@ -323,111 +682,77 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> overview of how AI is transforming Pharmatech across various domains: </strong> </h4>
+                    {{-- <h4> <strong> overview of how AI is transforming Pharmatech across various domains: </strong> </h4> --}}
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                   Drug Discovery and Development
+                                   Predictive demand planning
                                 </h5>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <ul>
-                                        AI helps identify potential drug candidates faster and more accurately than traditional methods.
-                                        <li> <strong> Target Identification: </strong> AI analyzes biological data to predict which proteins or genes might be good drug targets.</li>
-                                        <li> <strong> Molecule Generation: </strong> Generative models (like deep learning-based GANs) design novel compounds.</li>
-                                        <li>
-                                            <strong> Drug Repurposing:</strong> AI identifies new uses for existing drugs by analyzing biological and clinical data (e.g., COVID-19 drug candidates).
-                                        </li>
-                                    </ul>
-                                </div>
+                                 <p>  Predictive demand planning in PharmaTech uses AI and data analytics to forecast product needs, optimize inventory, reduce waste, support compliance, and improve patient access to medications and technologies.</p> </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    Clinical Trials Optimization
+                                    Anomaly detection in quality data
                                 </h5>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <ul>
-                                        AI streamlines and improves the efficiency of clinical trials.
-                                        <li> <strong> Patient Recruitment:</strong>Natural language processing (NLP) extracts relevant data from electronic health records (EHRs) to match patients with trials.
-                                        </li>
-                                        <li><strong> Trial Design:</strong> Predictive models simulate trial outcomes to design more effective and shorter trials.</li>
-                                        <li> <strong> Monitoring and Adherence:</strong> AI-powered apps monitor patient compliance and adverse events in real-time.</li>
-                                    </ul>
+                                    <p> Anomaly detection in quality data identifies deviations from normal patterns in pharmaceutical manufacturing, helping detect defects, process issues, or data integrity problems early to ensure compliance and safety.</p>
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                   Manufacturing and Quality Control
+                                  Smart reordering and inventory optimization
                                 </h5>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <ul>
-                                        Smart manufacturing (Industry 4.0) integrated with AI boosts productivity and quality.
-                                        <li> <strong> Predictive Maintenance:</strong> AI detects machinery issues before failure occurs.</li>
-                                        <li><strong> Process Optimization:</strong> Machine learning adjusts parameters in real time to maintain product quality.</li>
-                                        <li> <strong> Defect Detection:</strong> Computer vision inspects products for quality assurance.</li>
-                                    </ul>
+                                   <p> Smart reordering and inventory optimization use real-time data and AI to automate stock replenishment, reduce excess inventory, prevent stockouts, and improve efficiency across the pharmaceutical supply chain.</p>
                                 </div>
                               </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    Supply Chain and Logistics
+                                    AI Chatbot for internal queries
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">
-                                    <ul>
-                                        AI enables more resilient, responsive, and cost-effective pharmaceutical supply chains.
-                                        <li><strong> Demand Forecasting:</strong> AI models predict drug demand across regions.</li>
-                                        <li> <strong>Inventory Optimization: </strong>Dynamic reordering based on real-time data. </li>
-                                        <li><strong> Cold Chain Monitoring: </strong>  IoT + AI ensures temperature-sensitive drugs (like vaccines) are transported safely.
-                                        </li>
-                                    </ul>
+                                    <p> An AI chatbot for internal queries streamlines employee support by instantly answering HR, IT, compliance, and operations questions, improving productivity, reducing response time, and ensuring consistent information across teams. </p>
                                   </div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                   Personalized Medicine
+                                   Intelligent alerts and compliance reminders
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">
-                                    <ul>
-                                        AI supports development of precision therapeutics tailored to individual patients.
-                                        <li> <strong> Genomic Analysis:</strong> AI deciphers genetic data to guide drug selection and dosage. </li>
-                                        <li><strong> Digital Twins: </strong>  Virtual replicas of patients help simulate responses to treatment.</li>
-                                        <li><strong> Companion Diagnostics: </strong> AI matches the right drug to the right patient based on biomarkers.</li>
-                                    </ul>
+                                   <p>  Intelligent alerts and compliance reminders use AI to notify staff of critical deadlines, regulatory updates, or process deviations, ensuring timely actions, reducing risks, and maintaining regulatory compliance in PharmaTech operations.</p>
                                   </div>
                                 </div>
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                   Pharmacovigilance
+                                   Real-time KPI dashboards
                                   </h5>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">
-                                    <ul>
-                                        AI automates the detection and analysis of adverse drug reactions (ADRs).
-                                        <li><strong> NLP for Signal Detection:</strong> AI scans social media, EHRs, and reports for early signs of side effects.</li>
-                                        <li><strong> Automated Case Processing: </strong> Reduces manual effort and increases reporting accuracy. </li>
-                                    </ul>
+                                    <p> Real-time KPI dashboards provide live visibility into key performance indicators across production, quality, and supply chain, enabling faster decision-making, proactive issue resolution, and improved operational efficiency in PharmaTech.</p>
                                   </div>
                                 </div>
                               </div>

@@ -65,20 +65,20 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.fintech', $arr);
     }
-     public function retailEcommerce()
+     public function Ecommerce()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.retail-ecommerce', $arr);
+        return view('afrontend.ecommerce', $arr);
     }
      public function hrTech()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.hrtech', $arr);
     }
-     public function logistic()
+     public function travelHospitality()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.logistics', $arr);
+        return view('afrontend.travel-hospitality', $arr);
     }
      public function edTech()
     {
@@ -90,10 +90,15 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.insurtech', $arr);
     }
-    public function pharmaTech()
+    public function pharmaERP()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.pharmatech', $arr);
+        return view('afrontend.pharma-erp', $arr);
+    }
+    public function pharmaRD()
+    {
+        $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
+        return view('afrontend.pharmar&d', $arr);
     }
     public function product(Request $req, $name)
     {

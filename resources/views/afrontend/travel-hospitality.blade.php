@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Logistic.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Travel_Hospitality.png') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            Smart Logistics Solutions for Your Business</p>
+                                            Travel & Hospitality</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                         We provide reliable logistics solutions including freight, warehousing, distribution, and customs clearance to ensure efficient, timely, and secure movement of goods globally.</p>
+                                         We provide tailored digital solutions to enhance guest experiences, streamline operations, and boost growth in travel and hospitality.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -93,24 +93,7 @@
 
         <div class="container">
 
-            <!------------------------ logistic solutions start ----------------------->
 
-            <section>
-                <div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h3> Reliable, End-to-End Logistics Solutions </h3>
-                        </div>
-                        <div class="col-lg-6">
-                            <p> We provide comprehensive logistics services designed to simplify supply chains and deliver goods efficiently. From freight forwarding and warehousing to last-mile delivery and customs clearance, our tailored solutions ensure your cargo moves safely and on time—every time. Backed by advanced technology, experienced professionals, and a customer-first approach, we help businesses reduce costs, improve speed, and gain full visibility across their logistics operations.
-
-                                </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!------------------------ logistic solutions end ----------------------->
 
 
             <!---------------------------  our services start ------------------------->
@@ -123,32 +106,32 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5> Freight Forwarding</h5>
-                                <p> Efficient air, sea, and land transport for domestic and international shipments.</p>
+                                <h5> Online Booking System </h5>
+                                <p> Our Online Booking System offers seamless, real-time reservations with integrated payment gateways, calendar syncing, and mobile compatibility—enhancing user convenience and operational efficiency for travel and hospitality businesses.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5> Warehousing & Storage</h5>
-                                <p> Secure, scalable storage solutions with inventory management and order fulfillment.</p>
+                                <h5> Customer relationship management </h5>
+                                <p> Our Customer Relationship Management (CRM) solutions help travel and hospitality businesses personalize guest experiences, manage leads, track interactions, and build long-term loyalty through data-driven insights and automated engagement tools.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5> Last-Mile Delivery</h5>
-                                <p> Fast and reliable final delivery to end customers or retail locations.</p>
+                                <h5> Mobile app development</h5>
+                                <p> We design and develop user-friendly mobile apps for travel and hospitality, enabling easy booking, real-time updates, personalized offers, and seamless customer engagement across iOS and Android platforms.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5> Customs Clearance</h5>
-                                <p> Expert handling of documentation, duties, and regulations for smooth border crossing.</p>
+                                <h5>Loyalty programs</h5>
+                                <p> Our customizable loyalty programs help travel and hospitality brands reward repeat customers, increase engagement, and drive retention through points, tiered benefits, and personalized promotional offers.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5> Supply Chain Management</h5>
-                                <p> End-to-end coordination of logistics processes to optimize efficiency and cost.</p>
+                                <h5> Property management integrations</h5>
+                                <p> We provide seamless property management system (PMS) integrations that centralize bookings, automate tasks, sync availability, and enhance operational efficiency for hotels, resorts, and vacation rentals.</p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +141,26 @@
             <!---------------------------  our services end ------------------------->
 
 
+ <!------------------------ our travel development start ----------------------->
 
+            <section>
+                <div>
+                    <div class="row">
+
+                        <div class="col-lg-6 my-3">
+                            <h3> Our Travel Development </h3>
+                            <p class="mt-4"> We specialize in delivering smart, scalable digital solutions for the travel and hospitality industry. From booking systems to guest engagement tools, our services are designed to enhance customer experiences, optimize operations, and support long-term business growth. Whether you're a hotel, travel agency, or tour operator, we help you stay competitive in a fast-evolving landscape. </p>
+                        </div>
+                        <div class="col-lg-6 my-3">
+                            {{-- <div style="background-color: rgb(3, 3, 48);padding: 20px;"> --}}
+                    <img src="{{ asset('assets/inbox/tripglide.png') }}" class="img-fluid"/>
+                {{-- </div> --}}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------------ our travel development end ----------------------->
 
 
 
@@ -252,6 +254,59 @@
 
 
         <div class="container">
+
+            <!----------------------------------  industries we serve start --------------->
+               <section class="iot-process">
+            <div class="text-center">
+                <h3> Industries we serve  </h3>
+            </div>
+           <div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 6% auto;">
+                            <img src="{{ asset('assets/img/icons/svg_icons/hotel_resort.svg') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Hotel & Resort </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 6% auto;">
+                            <img src="{{ asset('assets/img/icons/svg_icons/travel_agency.svg') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Travel Agencies </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 6% auto;">
+                            <img src="{{ asset('assets/img/icons/svg_icons/airlines.svg') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Airlines & Transportation </p>
+                    </div>
+                </div>
+                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 6% auto;">
+                            <img src="{{ asset('assets/img/icons/svg_icons/tour_operator.svg') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Tour Operators </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 my-2">
+                    <div class="tech-logo p-2 text-center" style="height: 100%;">
+                        <div style="width: 40%;margin: 6% auto;">
+                            <img src="{{ asset('assets/img/icons/svg_icons/event_conference.svg') }}" class="img-fluid">
+                        </div>
+                        <p class="fw-medium"> Event & Conference Venue </p>
+                    </div>
+                </div>
+
+            </div>
+           </div>
+          </section>
+            <!----------------------------------  industries we serve end --------------->
 
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">

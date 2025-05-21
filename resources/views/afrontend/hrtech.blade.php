@@ -226,6 +226,27 @@
             </section>
             <!-----------------------------   Core Features end   ---------------------------->
 
+            <!------------------------ our hrms product start ----------------------->
+
+            <section>
+                <div>
+                    <div class="row">
+
+                        <div class="col-lg-6 my-3">
+                            <h3> Our HRMS Product </h3>
+                            <p class="mt-4"> Our HRMS is a comprehensive, cloud-based solution that streamlines HR operations, from recruitment to payroll and performance management. It offers employee self-service, attendance tracking, compliance tools, and real-time analytics. Designed for scalability and ease of use, it empowers HR teams to save time, improve accuracy, and enhance the employee experience across the organization. </p>
+                        </div>
+                        <div class="col-lg-6 my-3">
+                            {{-- <div style="background-color: rgb(3, 3, 48);padding: 20px;"> --}}
+                    <img src="{{ asset('assets/inbox/HRMS_product.png') }}" class="img-fluid"/>
+                {{-- </div> --}}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------------ our hrms product end ----------------------->
+
             <section>
 
             </section>

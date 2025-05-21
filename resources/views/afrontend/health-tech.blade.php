@@ -416,6 +416,27 @@
                 <!------------------------- Actionable Insights & Dashboard end --------------------------------->
             </section>
 
+<!------------------------ our healthcare dashboard start ----------------------->
+
+            <section>
+                <div>
+                    <div class="row">
+
+                        <div class="col-lg-6 my-3">
+                            <h3> Our Healthcare Dashboard </h3>
+                            <p class="mt-4"> Our Healthcare Dashboard is a powerful, real-time analytics platform designed to transform healthcare data into actionable insights. With customizable views, predictive analytics, and seamless integration, it helps healthcare providers improve patient outcomes, optimize operations, and make data-driven decisions. Secure and user-friendly, it supports smarter, more efficient healthcare management at every organizational level. </p>
+                        </div>
+                        <div class="col-lg-6 my-3">
+                            {{-- <div style="background-color: rgb(3, 3, 48);padding: 20px;"> --}}
+                    <img src="{{ asset('assets/inbox/Healthcare_Dashboard .jpg') }}" class="img-fluid"/>
+                {{-- </div> --}}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------------ our healthcare dashboard end ----------------------->
+
             <!------------------------- Compliance & Global Standards start --------------------------------->
             <section>
                 <div class="container py-5">
