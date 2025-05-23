@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                            We deliver end-to-end IoT development services that connect devices, data, and people to drive smarter business decisions. From hardware integration to cloud platforms and mobile apps, we build scalable and secure IoT solutions tailored to your industry needs.</p>
+                                            We provide end-to-end IoT solutions, integrating devices, cloud, and apps to enable smarter, industry-specific decisions.</p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"

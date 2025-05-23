@@ -90,15 +90,15 @@ class FrontController extends Controller
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
         return view('afrontend.insurtech', $arr);
     }
-    public function pharmaERP()
+    public function pharmaIQERP()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.pharma-erp', $arr);
+        return view('afrontend.pharma-iq-erp', $arr);
     }
-    public function pharmaRD()
+    public function quantRXRD()
     {
         $arr['clientlogos'] = DB::table('clientlogos')->where('status', 1)->WhereNull('deleted_at')->get();
-        return view('afrontend.pharmar&d', $arr);
+        return view('afrontend.quantrx-r&d', $arr);
     }
     public function product(Request $req, $name)
     {

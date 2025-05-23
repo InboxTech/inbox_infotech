@@ -58,7 +58,7 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color">
                                             <span style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                                Comprehensive Cybersecurity Solutions to Protect Your Business
+                                                Advanced Cybersecurity to Safeguard Your Business
                                             </span>
                                         </p>
                                     </div>

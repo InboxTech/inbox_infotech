@@ -563,10 +563,11 @@ left: -3%;
     border-bottom: 1px solid #00406d;
     padding: 20px;
   }
-  .scalable-cloud .vr{
+ .vr{
     border-right: 1px solid #00406d;
     height: 100%;
-    padding-left: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
   }
 
   .cyber-security .service-card{
@@ -590,4 +591,39 @@ left: -3%;
     width: 1px;
     height: 100%;
     background-color: #00406d;
+}
+.loan-advance .card{
+    width:  20rem;
+    height: 20rem;
+    margin: 0 auto;
+    border: 1px solid #00406d;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    align-content: center;
+
+}
+.project-mng .card{
+    border-left: 4px solid #3081bb;
+    border-bottom: 4px solid #3081bb;
+    transition: all 0.5s linear;
+}
+.project-mng .card h5{
+     transition: all 0.5s linear;
+}
+.project-mng .card:hover{
+  background-color: #00406d;
+  color: white;
+}
+.project-mng .card:hover h5{
+  /* background-color: #00406d; */
+  color: white;
+}
+.hrms .card{
+    border: 2px dashed #3081bb;
+    transition: all .5s linear;
+}
+.hrms .card:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
