@@ -40,11 +40,11 @@
                                     <div class="overflow-hidden">
                                         <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
                                             style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            FinTech </p>
+                                            Simplify Your Finances with Smart Automation </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
-                                            We leverage cutting-edge financial technology to deliver secure, efficient, and user-friendly digital solutions that transform how businesses and individuals manage their finances. </p>
+                                           Effortlessly manage your finances, grow savings, and make smart investments—all in one secure, easy-to-use platform. </p>
                                     </div>
                                     <div class="overflow-hidden">
                                         <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
@@ -93,7 +93,7 @@
 
         <div class="container">
 
-            <!-------------------------- fintech solution start ---------------->
+            <!-------------------------- key value proposition start ---------------->
                 <section>
                     <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                     </div>
@@ -101,74 +101,76 @@
                         <div class="row " data-aos="fade-up" data-aos-duration="1000">
                             <div class="col-lg-6">
 
-                                <h3> Innovating Custom Fintech Solutions for a Smarter Future </h3>
+                                <h3> A secure, all-in-one digital wallet designed to give you control of your financial life.</h3>
+                                <p class="my-3"> At Inbox, we specialize in building custom fintech products that help businesses and startups reimagine how they manage, move, and grow money. From digital wallets and mobile banking to payment gateways and lending platforms, we create tailored financial technology that meets your unique goals.
+                                </p>
                             </div>
                             <div class="col-lg-6">
-                                <p> At Inbox, we specialize in building custom fintech products that help businesses and startups reimagine how they manage, move, and grow money. From digital wallets and mobile banking to payment gateways and lending platforms, we create tailored financial technology that meets your unique goals.
-                                </p>
+                                <h5> Key Value Propositions </h5>
+                                <div class="my-3">
+                                    <div class="h-100 p-3">
+                                        <h5>Fast and secure transactions </h5>
+                                        <p>Enjoy lightning-fast, encrypted transactions with bank-level security, ensuring your money moves safely and instantly whenever you need it.</p>
+                                    </div>
+                                    <div class="h-100 p-3">
+                                        <h5> Real-time expense tracking </h5>
+                                        <p>Monitor your spending instantly with real-time expense tracking, helping you stay on budget and make smarter financial decisions every day.</p>
+                                    </div>
+                                    <div class="h-100 p-3">
+                                        <h5>AI-driven savings and investment tips</h5>
+                                        <p>Get personalized savings strategies and smart investment tips powered by AI to help you grow your wealth with confidence and ease.</p>
+                                    </div>
+                                    <div class="h-100 p-3">
+                                        <h5>Seamless integration with your bank accounts</h5>
+                                        <p> Easily connect and sync your bank accounts for a unified financial view, enabling smooth transactions and real-time data updates across platforms. </p>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
                     </div>
                 </section>
-        <!--------------------------  fintech solution end ---------------->
+        <!--------------------------  key value proposition end ---------------->
 
         <!--------------- custom fintech solutions start --------------------->
 
          <section>
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> Our Custom Fintech Solutions </h3>
+                <h3> Key Features </h3>
             </div>
         <div class="my-5">
-                <div class="row" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                               <h5> Digital Wallets & Mobile Payments </h5>
-                               <p> We build secure and user-friendly digital wallets that support peer-to-peer (P2P) transfers, QR code payments, contactless NFC, and digital loyalty programs. Our custom wallet solutions are perfect for startups, telecoms, retailers, and banks looking to offer seamless payment experiences to their users.</p>
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-xl-4 col-md-6 col-12 my-3">
+                        <div class="card shadow h-100 p-3" style="border-bottom: 6px solid #00406d; border-radius: 20px;">
+                               <h5> Smart Budgeting </h5>
+                               <p> Smart Budgeting helps you take full control of your finances by analyzing your income, expenses, and spending patterns to create personalized, flexible budgets. Set monthly goals, receive real-time alerts when you're nearing limits, and get intelligent recommendations to cut unnecessary costs. With visual charts and intuitive tracking, staying on budget becomes effortless and sustainable.</p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5>  Online & Neo Banking Platforms</h5>
-                            <p> We help you launch fully digital banking experiences, including mobile apps for savings, checking, and investment accounts. From account management and card issuing to real-time notifications and multi-currency support, our solutions are designed for speed, compliance, and scalability.</p>
+                    <div class="col-xl-4 col-md-6 col-12 my-3">
+                        <div class="card shadow h-100 p-3" style="border-bottom: 6px solid #00406d; border-radius: 20px;">
+                            <h5>  Automated Savings</h5>
+                            <p> Automated Savings makes growing your money effortless. Set your savings goals, and our platform automatically transfers small, manageable amounts based on your income and spending habits. Whether you're saving for an emergency fund, a big purchase, or long-term wealth, our intelligent system ensures consistent progress—without disrupting your lifestyle. Watch your savings grow without lifting a finger. </p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5> Lending & Credit Platforms</h5>
-                            <p> Our lending platforms support a wide range of models including peer-to-peer lending, micro-lending, and embedded BNPL (Buy Now, Pay Later). We integrate features like loan origination, automated credit scoring, risk assessment, repayment schedules, and digital KYC to streamline lending operations.</p>
+                    <div class="col-xl-4 col-md-6 col-12 my-3">
+                        <div class="card shadow h-100 p-3" style="border-bottom: 6px solid #00406d; border-radius: 20px;">
+                            <h5> Instant Money Transfers</h5>
+                            <p> Instant Money Transfers let you send and receive funds in seconds—anytime, anywhere. Whether you're splitting bills, paying friends, or transferring between accounts, our platform ensures lightning-fast, secure transactions with no hidden fees. Enjoy real-time notifications and peace of mind, knowing your money is moving safely and instantly when you need it most.</p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5> Payment Gateway Solutions</h5>
-                            <p> Whether you want to build your own payment gateway or integrate third-party options, we develop secure and scalable systems that handle card payments, digital wallets, and alternative payment methods. Features include recurring billing, currency conversion, merchant dashboards, and fraud detection tools.</p>
+                    <div class="col-xl-4 col-md-6 col-12 my-3">
+                        <div class="card shadow h-100 p-3" style="border-bottom: 6px solid #00406d; border-radius: 20px;">
+                            <h5> Cryptocurrency Support</h5>
+                            <p> Our platform offers seamless Cryptocurrency Support, allowing you to buy, sell, and manage popular digital assets securely. Track your crypto portfolio in real time, make instant transfers, and access market insights—all within one easy-to-use interface. Whether you're a beginner or an experienced trader, enjoy full control over your crypto investments alongside your traditional finances.</p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5> Investment & Wealth Tech</h5>
-                            <p> We offer customizable solutions for digital investment platforms, robo-advisors, and wealth management tools. These include portfolio management, asset allocation, real-time data feeds, risk profiling, and interactive dashboards for both retail investors and financial advisors.</p>
+                    <div class="col-xl-4 col-md-6 col-12 my-3">
+                        <div class="card shadow h-100 p-3" style="border-bottom: 6px solid #00406d; border-radius: 20px;">
+                            <h5> Custom Alerts & Notifications</h5>
+                            <p> Stay informed with Custom Alerts & Notifications tailored to your financial habits. Receive instant updates on transactions, bill due dates, budget limits, and savings milestones. Our smart alerts help you avoid fees, prevent overspending, and keep your financial goals on track—so you never miss an important update or opportunity to optimize your money management.</p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5> Insurance Technology (InsurTech)</h5>
-                            <p> We modernize insurance experiences with tech-driven platforms that enable quote comparisons, policy purchases, claims processing, and customer self-service. Our systems support usage-based insurance (UBI), embedded insurance models, and real-time policy updates.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5> Crypto & Blockchain Development</h5>
-                            <p> From crypto wallets and exchanges to tokenized asset platforms and smart contracts, we offer blockchain-powered fintech solutions for secure, decentralized finance. Our team can help you integrate with major blockchains or build private networks for enterprise-grade applications.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-12 my-3">
-                        <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                            <h5> RegTech & Compliance Tools </h5>
-                            <p> Stay compliant with global regulations using our intelligent RegTech solutions. We build automated KYC/AML verification systems, transaction monitoring tools, regulatory reporting dashboards, and fraud detection modules, all designed to reduce manual work and improve compliance accuracy. </p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
          </section>

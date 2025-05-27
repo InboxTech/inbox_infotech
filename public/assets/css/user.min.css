@@ -612,7 +612,7 @@ left: -3%;
 .project-mng .card h5{
      transition: all 0.5s linear;
 }
-.project-mng .card:hover{
+.project:hover{
   background-color: #00406d;
   color: white;
 }
