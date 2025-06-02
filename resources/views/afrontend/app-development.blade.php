@@ -66,8 +66,7 @@
                                     </div>
                                     <div class="overflow-hidden">
                                         <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
-                                            Connecting top talent with the right opportunities – tailored recruitment and
-                                            staffing solutions for your business success.
+                                            Empowering innovation with expert app development – bespoke solutions to drive your digital success.
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">

@@ -131,7 +131,7 @@
 
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Ai Security </h5>
+                                       <h5> AI Security </h5>
                                        <p> Protect your data, systems, and users with advanced AI-driven security solutions. Our AI Security services leverage machine learning and real-time analytics to detect threats, prevent cyberattacks, and strengthen digital defenses. From anomaly detection to automated response systems, we design intelligent safeguards tailored to your organization’s risk profile. </p>
                                     </div>
                                 </div>
