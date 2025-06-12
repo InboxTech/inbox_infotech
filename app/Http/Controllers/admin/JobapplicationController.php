@@ -13,17 +13,17 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\PDF;
 class JobapplicationController extends Controller
 {
-    
+
     public function jobapplist(Request $request){
-        
-        
+
+
         $arr['data'] = DB::table('jobapplications')
             ->Join('carrers', 'jobapplications.job_post_id', '=', 'carrers.id')
             ->select('carrers.position','jobapplications.*')
             ->whereNull('jobapplications.deleted_at')
             ->orderBy('jobapplications.job_application_id', 'desc')
             ->paginate(10);
-      
+
        return view('admin.jobappllist',$arr);
    }
    public function jobapplistsearch(Request $request){
@@ -77,8 +77,8 @@ class JobapplicationController extends Controller
             ->whereNull('jobapplications.deleted_at')
             ->paginate(10);
        }
-       
-        
+
+
        //return $arr;die;
        return view('admin.jobappllist',$arr);
    }
@@ -120,7 +120,7 @@ class JobapplicationController extends Controller
        return view('admin.managejobapplication',$arr);
    }
    public function submitform(Request $req){
-       
+
            $message = "Record Updated successfully!";
            $results = Jobapplication::where('job_application_id','=', $req->id)
            ->update([
@@ -133,7 +133,7 @@ class JobapplicationController extends Controller
 
       return redirect('/admin/career/jobapplication/list')->with('success',$message);
       }
-      
+
       public function delete($id)
       {
        $arr = Jobapplication::where('job_application_id',$id);
@@ -147,7 +147,7 @@ class JobapplicationController extends Controller
       }
       public function export(Request $request){
       return Excel::download(new ExportJobapplication, 'job_application_list.xlsx');
-       
+
       }
       public function print($id)
       {
@@ -170,30 +170,30 @@ class JobapplicationController extends Controller
            'position' => $arr[0]->position,
            'first_name' => $arr[0]->first_name,
            'last_name' => $arr[0]->last_name,
-        //    'citizenship' => $arr[0]->citizenship,
-        //    'date_of_birth' => $arr[0]->date_of_birth,
+            //    'citizenship' => $arr[0]->citizenship,
+            //    'date_of_birth' => $arr[0]->date_of_birth,
            'address' => $arr[0]->address,
-        //    'zip_code' => $arr[0]->zip_code,
+            //    'zip_code' => $arr[0]->zip_code,
            'city' => $arr[0]->city,
            'state' => $arr[0]->state,
            'phone_no' => $arr[0]->phone_no,
            'email_id' => $arr[0]->email_id,
            'ready_to_reallocates' => $arr[0]->ready_to_reallocates,
            'resume' => $arr[0]->resume,
-        //    'photo' => $arr[0]->photo,
+            //    'photo' => $arr[0]->photo,
            'status' => $arr[0]->status,
            'created_at' => $arr[0]->created_at,
            'updated_at' => $arr[0]->updated_at,
            'updatedby' => $arr[0]->updatedby,
            'abz'=> $data1,
            'xyz'=> $data2,
-           //'logo' => asset('logo')
-            
+            //'logo' => asset('logo')
+
         ];
         $file_name = 'Application_'. $arr[0]->first_name.'_'.$arr[0]->last_name.'.pdf';
-       //  return "test";  
+        //  return "test";
         $pdf = PDF::loadView('admin.printjobapp', $data);
-     
+
         return $pdf->download($file_name);
       }
 }

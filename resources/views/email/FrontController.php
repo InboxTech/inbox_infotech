@@ -36,8 +36,8 @@ class FrontController extends Controller
     }
     public function products()
     {
-        $arr['product']=DB::table('products')->where('status',1)->WhereNull('deleted_at')->get();    
-        //dd($arr);    
+        $arr['product']=DB::table('products')->where('status',1)->WhereNull('deleted_at')->get();
+        //dd($arr);
         return view('afrontend.products',$arr);
     }
     public function product(Request $req, $name)
@@ -48,7 +48,7 @@ class FrontController extends Controller
         }
         else
         {
-        $id =$brr[0]->id;    
+        $id =$brr[0]->id;
         $arr['product']=DB::table('products')->where('id',$id)->where('status',1)->WhereNull('deleted_at')->get();
         $arr['slider']=DB::table('products_images')->where('product_id',$id)->get();
        return view('afrontend.productdetails',$arr);
@@ -75,7 +75,7 @@ class FrontController extends Controller
         return view('afrontend.servicedetail',$arr);
         }
         //dd();
-        
+
     }
     public function careers()
     {
@@ -95,7 +95,7 @@ class FrontController extends Controller
         //return $name.$id;
         /* $arr = DB::table('carrers')->where('id',$id)->get();
         $arr['position'] = $arr[0]->position;
-        $arr['id'] = $arr[0]->id;   */     
+        $arr['id'] = $arr[0]->id;   */
         $arr['productAttrArr'][0]['aeid']='';
         $arr['productAttrArr'][0]['job_application_id']='';
         $arr['productAttrArr'][0]['company_name']='';
@@ -108,7 +108,7 @@ class FrontController extends Controller
        //dd($arr);
        $arr = DB::table('carrers')->where('id',$id)->get();
         $arr['position'] = $arr[0]->position;
-        $arr['id'] = $arr[0]->id; 
+        $arr['id'] = $arr[0]->id;
         return view('afrontend.jobapplcation',$arr);
     }
     public function jobappsubmitform(Request $req){
@@ -132,20 +132,20 @@ class FrontController extends Controller
         'email_id'=>'required',
         'ready_to_reallocates'=>'required',
     ]);
-       
-        $name_of_the_examination=$req->post('name_of_the_examination'); 
-        $name_of_the_boardoruniversity=$req->post('name_of_the_boardoruniversity'); 
-        $name_of_the_institution=$req->post('name_of_the_institution'); 
-        $year_of_passing=$req->post('year_of_passing'); 
-        $company_name=$req->post('company_name'); 
-        $position=$req->post('position'); 
-        $details=$req->post('details'); 
+
+        $name_of_the_examination=$req->post('name_of_the_examination');
+        $name_of_the_boardoruniversity=$req->post('name_of_the_boardoruniversity');
+        $name_of_the_institution=$req->post('name_of_the_institution');
+        $year_of_passing=$req->post('year_of_passing');
+        $company_name=$req->post('company_name');
+        $position=$req->post('position');
+        $details=$req->post('details');
         $start_date= $req->post('start_date');
         $end_date=$req->post('end_date');
         /* $start_date= date ('Y-m-d H:i:s', $req->post('start_date'));
         $end_date= date ('Y-m-d H:i:s', $req->post('start_date')); */
-        $reason_for_job_change=$req->post('reason_for_job_change'); 
-        $cgpa=$req->post('cgpa'); 
+        $reason_for_job_change=$req->post('reason_for_job_change');
+        $cgpa=$req->post('cgpa');
         $arr = new Jobapplication();
         $message = "Thanks for apply, We have received your application!";
         $arr->status = 1;
@@ -160,7 +160,7 @@ class FrontController extends Controller
             $image=$req->file('resume');
             $ext=$image->extension();
             $image_name=time().'.'.$ext;
-            $image->storeAs('/public/media',$image_name);
+            $image->storeAs('/public/media/recruitment',$image_name);
             $arr->resume=$image_name;
         }
         $skuArr= $req->jobid;
@@ -188,8 +188,8 @@ class FrontController extends Controller
             $productAttrArr['year_of_passing']=$year_of_passing[$key];
             $productAttrArr['cgpa']=$cgpa[$key];
 			//dd($productAttrArr);
-            DB::table('applicant_qualifications')->insert($productAttrArr);            
-        }  
+            DB::table('applicant_qualifications')->insert($productAttrArr);
+        }
         foreach($company_name as $key=>$val){
             $productAttrArr1=[];
             $productAttrArr1['job_application_id']=$pid;
@@ -200,9 +200,9 @@ class FrontController extends Controller
             $productAttrArr1['end_date']=$end_date[$key];
 			$productAttrArr1['reason_for_job_change']=$reason_for_job_change[$key];
 
-            DB::table('applicant_exps')->insert($productAttrArr1);            
-        }  
-		
+            DB::table('applicant_exps')->insert($productAttrArr1);
+        }
+
    return back()->with('success',$message);
    }
     public function contactus()
@@ -223,7 +223,7 @@ class FrontController extends Controller
         $data->status = 0;
         $data->save();
 
-        
+
         $fullname =  $request->name;
         $emails = "support@inboxtechs.com";
         $supportno = $request->email;
@@ -231,10 +231,10 @@ class FrontController extends Controller
         $subject = "Request Call Back / Inquiry";
 
       Mail::send('email.contactus', $data, function($message) use ($emails,$subject)
-    {    
-    $message->to($emails)->subject($subject);    
+    {
+    $message->to($emails)->subject($subject);
     });
-   
+
       return redirect('/contactus')->with('success',"Thank You, We have received your response");
     }
     public function industries()
@@ -259,6 +259,6 @@ class FrontController extends Controller
         return view('afrontend.industriesdetail',$arr);
         }
         //dd();
-        
+
     }
 }

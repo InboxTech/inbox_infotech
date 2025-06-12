@@ -30,7 +30,7 @@
         </div>
       </div><!-- end of .container-->
     </section>
- 
+
  <main class="main" id="top">
       <div class="preloader" id="preloader">
         <div class="loader">
@@ -42,7 +42,7 @@
             <div></div>
           </div>
         </div>
-      </div>   
+      </div>
 	  <section class="bg-100 job-details">
         <div class="container">
 		<div class="col-lg-12">

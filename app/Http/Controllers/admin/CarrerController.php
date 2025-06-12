@@ -15,7 +15,7 @@ use Storage;
 class CarrerController extends Controller
 {
     public function joblist(Request $request){
-        
+
         $arr['data'] = Carrer::paginate(10);
        //return $arr;
        return view('admin.joblist',$arr);
@@ -33,8 +33,8 @@ class CarrerController extends Controller
        }else{
            $arr['data'] = Carrer::paginate(10);
        }
-       
-        
+
+
        //return $arr;die;
        return view('admin.joblist',$arr);
    }
@@ -43,7 +43,7 @@ class CarrerController extends Controller
        if($id !='')
        {
            $arr = Carrer::findorFail($id);
-          //dd($arr);           
+          //dd($arr);
            $arr['id'] =$arr->id;
            $arr['position'] =$arr->position;
            $arr['salary'] = $arr->salary;
@@ -88,7 +88,7 @@ class CarrerController extends Controller
     //     $image_validation="mimes:jpeg,jpg,png,webp";
     // }else{
     //     $image_validation="required|mimes:jpeg,jpg,png,webp";
-    // }   
+    // }
     //    $validatedData = $req->validate([
     //        'image'=>$image_validation,
     //        'position'=> 'required',
@@ -108,7 +108,7 @@ class CarrerController extends Controller
            $arr['status'] = '1';
           }
         //   if($req->hasfile('image')){
-        //     if($req->post('id')>0){                
+        //     if($req->post('id')>0){
         //         $arrImage=DB::table('carrers')->where(['id'=>$req->post('id')])->get();
         //         if(Storage::exists('/public/media/'.$arrImage[0]->image)){
         //             Storage::delete('/public/media/'.$arrImage[0]->image);
@@ -119,7 +119,7 @@ class CarrerController extends Controller
         //     $image_name=time().'.'.$ext;
         //     $image->storeAs('/public/media',$image_name);
         //     $arr['image']=$image_name;
-        // }       
+        // }
        $arr['position'] = $req->position;
        $arr['salary'] = $req->salary;
        $arr['no_openings'] = $req->no_openings;
@@ -132,7 +132,7 @@ class CarrerController extends Controller
        $arr->save();
       return redirect('/admin/career/jobposting/list')->with('success',$message);
       }
-      
+
       public function delete($id)
       {
        $arr = Carrer::find($id);
@@ -149,6 +149,6 @@ class CarrerController extends Controller
       return Excel::download(new ExportJobs, 'jobpostinglist.xlsx');
 
        //return redirect()->back();
-       
+
       }
 }

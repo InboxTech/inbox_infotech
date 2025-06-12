@@ -23,7 +23,7 @@ class BlogController extends Controller
         if($id !='')
         {
             $arr = Blog::findorFail($id);
-           //dd($arr);           
+           //dd($arr);
             $arr['id'] =$arr->id;
             $arr['title'] =$arr->title;
             $arr['short_desc'] = $arr->short_desc;
@@ -45,7 +45,7 @@ class BlogController extends Controller
             $arr['updated_at'] =$arr->updated_at;
             $arr['status'] =$arr->status;
             $arr['productAttrArr']=DB::table('blog_images')->where(['service_id'=>$id])->get();
-            
+
         }else{
             $arr['id'] = '';
             $arr['title'] = '';
@@ -86,7 +86,7 @@ class BlogController extends Controller
             $image_validation="mimes:jpeg,jpg,png,webp";
         }else{
             $image_validation="required|mimes:jpeg,jpg,png,webp";
-        }   
+        }
         $request->validate([
             'title'=>'required',
             'short_desc'=>'required',
@@ -94,12 +94,12 @@ class BlogController extends Controller
             'slug'=>'required|unique:industries,slug,'.$request->post('id'),
             'imaage'=>$image_validation,
             'attr_image.*' =>'mimes:jpg,jpeg,png,webp',
-            
+
         ]);
 
-        $paidArr=$request->post('paid'); 
-        $skuArr=$request->post('name'); 
-        //$paidArr=$request->post('paid'); 
+        $paidArr=$request->post('paid');
+        $skuArr=$request->post('name');
+        //$paidArr=$request->post('paid');
         if($request->post('id')>0){
             $model=Blog::find($request->post('id'));
             $message = "Record Updated successfully!";
@@ -114,16 +114,16 @@ class BlogController extends Controller
             $model['status'] = '1';
         }
         if($request->hasfile('imaage')){
-            if($request->post('id')>0){                
+            if($request->post('id')>0){
                 $arrImage=DB::table('blogs')->where(['id'=>$request->post('id')])->get();
-                if(Storage::exists('/public/media/'.$arrImage[0]->imaage)){
-                    Storage::delete('/public/media/'.$arrImage[0]->imaage);
+                if(Storage::exists('/public/media/blogs'.$arrImage[0]->imaage)){
+                    Storage::delete('/public/media/blogs'.$arrImage[0]->imaage);
                 }
             }
             $image=$request->file('imaage');
             $ext=$image->extension();
             $image_name=time().'.'.$ext;
-            $image->storeAs('/public/media',$image_name);
+            $image->storeAs('/public/media/blogs',$image_name);
             $model->imaage=$image_name;
         }
 
@@ -140,18 +140,19 @@ class BlogController extends Controller
         $model->slug=$request->post('slug');
         $model->tax4=$request->post('tax4');
         $model->tax5=$request->post('tax5');
+        dd($model);
         $model->save();
 
         $pid=$model->id;
         foreach($skuArr as $key=>$val){
             $productAttrArr=[];
             $productAttrArr['service_id']=$pid;
-            $productAttrArr['name']=$skuArr[$key];           
+            $productAttrArr['name']=$skuArr[$key];
             if($request->hasFile("attr_image.$key")){
-                if($paidArr[$key]!=''){ 
+                if($paidArr[$key]!=''){
                     $arrImage=DB::table('blog_images')->where(['id'=>$paidArr[$key]])->get();
-                    if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
-                        Storage::delete('/public/media/'.$arrImage[0]->attr_image);
+                    if(Storage::exists('/public/media/blogs/'.$arrImage[0]->attr_image)){
+                        Storage::delete('/public/media/blogs/'.$arrImage[0]->attr_image);
                     }
                 }
 
@@ -159,19 +160,19 @@ class BlogController extends Controller
                 $attr_image=$request->file("attr_image.$key");
                 $ext=$attr_image->extension();
                 $image_name=$rand.'.'.$ext;
-                $request->file("attr_image.$key")->storeAs('/public/media',$image_name);
+                $request->file("attr_image.$key")->storeAs('/public/media/blogs',$image_name);
                 $productAttrArr['attr_image']=$image_name;
             }
-			
+
             if($paidArr[$key]!=''){
                 DB::table('blog_images')->where(['id'=>$paidArr[$key]])->update($productAttrArr);
             }else{
                 DB::table('blog_images')->insert($productAttrArr);
             }
-            
-        }  
+
+        }
         return redirect('/admin/blog/list')->with('success',$message);
-		
+
     }
         public function destroy(Request $request,$id)
     {
@@ -182,9 +183,9 @@ class BlogController extends Controller
         }else{
             $message = "Record Not found";
         }
-        return redirect('/admin/blog/list')->with('success',$message);        
+        return redirect('/admin/blog/list')->with('success',$message);
     }
-    
+
     public function search(Request $request)
     {
         $find = $request->search;
@@ -195,16 +196,16 @@ class BlogController extends Controller
             $query=$query->orwhere('createdby','like',"%$find%")->WhereNull('deleted_at');
             $query=$query->paginate(10);
             $arr['data']=$query;
-            
-            
+
+
         //return $result;die;
         return view('admin.bloglist',$arr);
     }
     public function product_attr_delete(Request $request,$paid,$pid)
-    {      
+    {
         $arrImage=DB::table('blog_images')->where(['id'=>$paid])->get();
-        if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
-            Storage::delete('/public/media/'.$arrImage[0]->attr_image);
+        if(Storage::exists('/public/media/blogs'.$arrImage[0]->attr_image)){
+            Storage::delete('/public/media/blogs'.$arrImage[0]->attr_image);
         }
         DB::table('blog_images')->where(['id'=>$paid])->delete();
         return redirect('/admin/blog/update/'.$pid);

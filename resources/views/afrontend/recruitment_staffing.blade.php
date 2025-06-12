@@ -48,7 +48,7 @@
       data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
       <div class="swiper-wrapper">
       <div class="swiper-slide" data-zanim-timeline="{}">
-        <div class="bg-holder" style="background-image:url({{asset('storage/media/1214549853.jpg')}});"></div>
+        <div class="bg-holder" style="background-image:url({{asset('storage/media/banner/1214549853.jpg')}});"></div>
         <!--/.bg-holder-->
         <div class="container">
         <div class="row min-vh-100 py-8 align-items-center justify-content-center" data-inertia='{"weight":1.5}'>

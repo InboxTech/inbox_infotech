@@ -114,10 +114,10 @@
       <div class="container mt-5 mb-5">
     <div class="row">
     @foreach($blog as $prod)
-      <div class=" col-lg-3 col-md-4 col-6 my-3" style="padding:bottom:10px;">	  
+      <div class=" col-lg-3 col-md-4 col-6 my-3" style="padding:bottom:10px;">
         <div class="card shadow" style="height: 100%;">
           <div class="card-header p-0">
-            <img class="card-img-top" src="{{ asset('storage/media/')}}/{{$prod->imaage}}" alt="Card image cap">
+            <img class="card-img-top" src="{{ asset('storage/media/blogs/')}}/{{$prod->imaage}}" alt="Card image cap">
           </div>
           <div class="card-body">
             <h5 class="card-title">{{$prod->title}}</h5>
@@ -126,7 +126,7 @@
           <div class="card-footer">
             <a href="{{url('blog')}}/{{$prod->slug}}" s>Read More</a>
           </div>
-          
+
         </div>
       </div>
 	@endforeach
@@ -135,7 +135,7 @@
     </div><!-- end of .container-->
   </section><!-- <section> close ============================-->
 
-  
+
   </div>
 
 

@@ -57,7 +57,7 @@
               <div class="overflow-hidden">
                 <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Free Working Environment</h5>
               </div>
-              
+
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
@@ -111,7 +111,7 @@
         <div class="row g-4">
           @foreach($careers as $data)
           <?php $new = str_replace([' ', '/'], '_', $data->position);?>
-          
+
             <div class="col-md-6 col-lg-4">
               <div class="card shadow" style="height: 100%">
                 {{-- <img class="card-img-top" src="{{ asset('storage/media/')}}/{{$data->image}}" alt="Inbox Infotech" /> --}}

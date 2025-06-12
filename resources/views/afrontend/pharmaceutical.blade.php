@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Pharmaceutical.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/banner/Pharmaceutical.jpg') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">

@@ -30,7 +30,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
                         <div class="bg-holder"
-                            style="background-image:url({{ asset('storage/media/Travel_Hospitality.png') }});">
+                            style="background-image:url({{ asset('storage/media/banner/Travel_Hospitality.png') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">

@@ -15,7 +15,7 @@
           <div class="swiper-wrapper">
 			@foreach($slider as $list)
             <div class="swiper-slide" data-zanim-timeline="{}">
-              <div class="bg-holder" style="background-image:url({{asset('storage/media/'.$list->attr_image)}});">
+              <div class="bg-holder" style="background-image:url({{asset('storage/media/blogs/'.$list->attr_image)}});">
 			  </div>
               <!--/.bg-holder-->
               <div class="container">
@@ -29,7 +29,7 @@
                       <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'>{{$servicedetails->tax2}}
 					  </p>
                     </div>
-                    
+
                   </div>
 				  </div>
                 </div>
@@ -44,7 +44,7 @@
         </div>
       </section>
 
- 
+
  <main class="main" id="top">
       <div class="preloader" id="preloader">
         <div class="loader">
@@ -56,35 +56,35 @@
             <div></div>
           </div>
         </div>
-      </div>   
+      </div>
 	  <br>
-	 
+
  <section>
         <div class="container" style="background-color:#fff;border-radius: 10px;">
           <div class="text-center mb-6">
             <h3 class="fs-2 fs-md-3 text-color">{{$servicedetails->title}}</h3>
 		  </div>
-		  <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p> 
+		  <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p>
 		  <div style="display:none">
 		  @if($servicedetails->tax2 != '')
-		  <p class="lead">{{$servicedetails->tax2}}</p> 
+		  <p class="lead">{{$servicedetails->tax2}}</p>
 		  @endif
 		   @if($servicedetails->slug != '')
-		  <p class="dropcap lead">{{$servicedetails->slug}}</p> 
+		  <p class="dropcap lead">{{$servicedetails->slug}}</p>
 	      @endif
 		  @if($servicedetails->tax4 != '')
-		  <p class="dropcap lead">{{$servicedetails->tax4}}</p> 
+		  <p class="dropcap lead">{{$servicedetails->tax4}}</p>
 		  @endif
 		   @if($servicedetails->tax5 != '')
-		  <p class="dropcap lead">{{$servicedetails->tax5}}</p> 
+		  <p class="dropcap lead">{{$servicedetails->tax5}}</p>
 		 @endif
 		 </div>
 		 <br>
 	 <br>
         </div><!-- end of .container-->
-		
+
 </section><!-- <section> close ============================-->
-    
+
 </main>
 @endforeach
 @endsection

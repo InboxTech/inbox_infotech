@@ -256,22 +256,24 @@ class FrontController extends Controller
             $image = $req->file('resume');
             $ext = $image->extension();
             $image_name = time() . '.' . $ext;
-            $image->storeAs('/public/media', $image_name);
+            $image->storeAs('/public/media/recruitment', $image_name);
             $arr->resume = $image_name;
         }
 
+        // save in database
         $arr->job_post_id = $req->jobid;
         $arr->first_name = $req->first_name;
         $arr->last_name = $req->last_name;
-
+        $arr->citizenship = null;
+        $arr->date_of_birth = null;
         $arr->address = $req->address;
-
+        $arr->zip_code= null;
         $arr->city = $req->city;
         $arr->state = $req->state;
+        $arr->phone_no = $req->phone_no;
         $arr->ready_to_reallocates = $req->ready_to_reallocates;
         $arr->email_id = $req->email_id;
-        $arr->phone_no = $req->phone_no;
-        // $arr->save();
+        $arr->save();
 
         $fn = $req->first_name;
         $ln = $req->last_name;
