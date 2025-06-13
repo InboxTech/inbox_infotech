@@ -79,8 +79,8 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy" />
                                     {{-- </div> --}}
                                 </div>
                             @endforeach
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div>
-                                <img src="{{ asset('assets/inbox/HRMS.png') }}" class="img-fluid" />
+                                <img src="{{ asset('assets/inbox/HRMS.png') }}" class="w-100 h-100" alt="hrms" loading="lazy"/>
                             </div>
                         </div>
                     </div>
@@ -129,8 +129,8 @@
                      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/recruitment.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/recruitment.svg') }}" alt="recruitment"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Recruitment</h5>
@@ -140,8 +140,8 @@
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/HRMS_Payroll.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/HRMS_Payroll.svg') }}" alt="hrms-payroll"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}'  loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>HRMS & Payroll</h5>
@@ -151,8 +151,8 @@
                      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/Loan_ Advance.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/Loan_ Advance.svg') }}" alt="loan advance"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Loan & Advance </h5>
@@ -162,8 +162,8 @@
                 <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/Employee_Self-Service(ESS).svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/Employee_Self-Service(ESS).svg') }}" alt="ess"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Employee Self-Service (ESS)</h5>
@@ -173,8 +173,8 @@
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/Performance_Management.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/Performance_Management.svg') }}" alt="performance management"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Performance Management </h5>
@@ -185,7 +185,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Expanse_Management.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="expanse" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Expanse Management</h5>
@@ -195,8 +195,8 @@
                      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/Asset_Management.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/Asset_Management.svg') }}" alt="asset"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Asset Management</h5>
@@ -206,8 +206,8 @@
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/Project_Management.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/Project_Management.svg') }}" alt="project"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Project Management</h5>
@@ -217,8 +217,8 @@
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/Helpdesk.svg') }}" alt="icon"
-                                    class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/Helpdesk.svg') }}" alt="helpdesk"
+                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Helpdesk</h5>
@@ -242,7 +242,7 @@
                         </div>
                         <div class="col-lg-6 my-3">
 
-                    <img src="{{ asset('assets/inbox/HRMS_product.png') }}" class="img-fluid"/>
+                    <img src="{{ asset('assets/inbox/HRMS_product.png') }}" class="w-100 h-100" alt="hrms product" loading="lazy"/>
 
                         </div>
                     </div>
@@ -578,28 +578,7 @@
                      </div>
                     </div>
                 </div>
-               {{-- <div class="my-5">
-                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-lg-4 my-3">
-
-                    </div>
-                    <div class="col-lg-4 my-3">
-
-                    </div>
-                    <div class="col-lg-4 my-3">
-
-                    </div>
-                    <div class="col-lg-4 my-3">
-
-                    </div>
-                    <div class="col-lg-4 my-3">
-
-                    </div>
-                    <div class="col-lg-4 my-3">
-
-                    </div>
-                </div>
-               </div> --}}
+               
             </section>
         <!------------------------  Key Features of EXPENSE MANAGEMENT end ----------------------->
 </div>
@@ -727,6 +706,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -866,7 +854,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="product consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -878,7 +866,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -890,7 +878,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -902,7 +890,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface
@@ -915,7 +903,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -927,7 +915,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

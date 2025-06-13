@@ -146,19 +146,24 @@
             <li class="mb-3">
               <div class="d-flex align-items-center">
                 <a class="text-decoration-none d-flex align-items-center"
-                  href="https://www.linkedin.com/in/inbox-infotech/">
+                  href="https://www.linkedin.com/in/inbox-infotech/"
+                  aria-label="LinkedIn - Inbox Infotech">
                   <i class="fab fa-linkedin-in text-white mx-2" style="font-size: 25px;"></i>
                 </a>
-                <a class="text-decoration-none d-flex align-items-center" href="https://twitter.com/Inbox_Infotech">
+
+                <a class="text-decoration-none d-flex align-items-center"
+                  href="https://twitter.com/Inbox_Infotech"
+                  aria-label="Twitter - Inbox Infotech">
                   <i class="fab fa-twitter text-white mx-2" style="font-size: 25px;"></i>
                 </a>
+
                 <a class="text-decoration-none d-flex align-items-center"
-                  href="https://www.facebook.com/InboxInfotech/">
+                  href="https://www.facebook.com/InboxInfotech/"
+                  aria-label="Facebook - Inbox Infotech">
                   <i class="fab fa-facebook-f text-white mx-2" style="font-size: 25px;"></i>
                 </a>
-
               </div>
-            </li>
+            </li> 
           </ul>
         </div>
         <!-- <div class="row"> -->

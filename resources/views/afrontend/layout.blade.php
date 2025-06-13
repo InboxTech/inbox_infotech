@@ -125,8 +125,12 @@
             function gtag() {
                 dataLayer.push(arguments);
             }
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied'
+            });
             gtag('js', new Date());
-            gtag('config', 'G-6QZQHT5PRT');
+            gtag('config', 'G-2BZVQVR6BW');
         </script>
 
         <!-- Google Tag Manager -->
@@ -217,6 +221,10 @@
             function gtag() {
                 dataLayer.push(arguments);
             }
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied'
+            });
             gtag('js', new Date());
             gtag('config', 'G-2BZVQVR6BW');
         </script>
