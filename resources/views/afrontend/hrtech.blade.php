@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/HRMS.jpg') }});">
+                        <div class="bg-holder">
+                            <img src="{{ asset('storage/media/HRMS.jpg') }}" alt="hrms" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,8 +39,7 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color  banner-title fade-in-up">
                                             HRMS & Payroll Management System With Mobile App</p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -47,15 +47,13 @@
                                             Streamline Your HR Operations and Overcome Workforce Management Challenges with
                                             Our Advanced HRMS Solution. </p>
                                     </div>
-                                    <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'>
-                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">Read more
-                                                <span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
-                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us
-                                                <span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
-                                        </div>
+                                    <div class="button-group fade-in">
+                                        <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                            Read more <span class="fas fa-chevron-right ms-2"></span>
+                                        </a>
+                                        <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                            Contact us <span class="fas fa-chevron-right ms-2"></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -63,10 +61,7 @@
                     </div>
                     {{-- @foreach ($slider as $list) @endforeach --}}
                 </div>
-                <div class="swiper-nav">
-                    <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
-                    <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+               
             </div>
         </section>
 
@@ -123,7 +118,7 @@
 
             <section class="" style="padding-top:50px; padding-bottom:50px;">
                 <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Key Modules </h6>
+                    <h2 class=" text-color" style=""> Key Modules </h2>
                 </div>
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                      <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
@@ -253,7 +248,7 @@
  <!------------------------  Key Features of Recruitment Module start ----------------------->
             <section class="my-5">
                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> Key Features of Recruitment Module</h3>
+                <h2> Key Features of Recruitment Module</h2>
                </div>
                <div class="my-5">
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
@@ -319,7 +314,7 @@
         <!------------------------  Key Features of HRMS & Payroll Module start ----------------------->
             <section class="hrms my-5">
                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> Key Features of HRMS & Payroll Module</h3>
+                <h2> Key Features of HRMS & Payroll Module</h2>
                </div>
                <div class="my-5">
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
@@ -388,7 +383,7 @@
             <section class="my-5">
                 <div class="container">
                     <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                     <h3 class="text-white"> Key Features of Loan & Advance Management Module</h3>
+                     <h2 class="text-white"> Key Features of Loan & Advance Management Module</h2>
                     </div>
                     <div class="my-5">
                      <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
@@ -428,7 +423,7 @@
 <!------------------------  Key Features of ESS (Employee Self Service) Module start ----------------------->
             <section class="my-5">
                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> Key Features of ESS (Employee Self Service) Module</h3>
+                <h2> Key Features of ESS (Employee Self Service) Module</h2>
                </div>
                <div class="my-5">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
@@ -468,7 +463,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
-                        <h3> Key Features of Performance Management Module</h3>
+                        <h2> Key Features of Performance Management Module</h2>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -506,7 +501,7 @@
                 <div class="container">
 
                     <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                     <h3> Key Features of Expense Management</h3>
+                     <h2> Key Features of Expense Management</h2>
                     </div>
                     <div class="my-5">
                      <div class="row justify-content-between">
@@ -587,7 +582,7 @@
         <!------------------------  Key Features of Asset Management Module start ----------------------->
             <section class="my-5">
                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> Key Features of Asset Management Module</h3>
+                <h2> Key Features of Asset Management Module</h2>
                </div>
                <div class="my-5">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
@@ -626,7 +621,7 @@
 <!------------------------  Key Features of Project Management  Module start ----------------------->
             <section class="project-mng my-5">
                <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> Key Features of Project Management  Module</h3>
+                <h2> Key Features of Project Management  Module</h2>
                </div>
                <div class="my-5">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
@@ -826,7 +821,7 @@
             <!------------------------------  things you know start ------------------------->
             <section class="my-5">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />

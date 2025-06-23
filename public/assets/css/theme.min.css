@@ -19422,7 +19422,8 @@ hr.muted {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background-repeat: no-repeat;
-    z-index: 0;
+    z-index: -1;
+    inset: 0;
 
 }
 
@@ -19883,7 +19884,12 @@ hr.muted {
     display: none;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    position: absolute;
+    top: 100%;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
 }
 
 @media(min-width: 992px) {

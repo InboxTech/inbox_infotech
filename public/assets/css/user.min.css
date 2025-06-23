@@ -6,10 +6,52 @@ body {
   color: black;
   background-color: #fff;
 }
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-display: swap;
+  src: url('...yourfont.woff2') format('woff2');
+}
 .text-color{
   background: linear-gradient(92.62deg, #006ab6, #00406d);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+.banner-title {
+  font-size: 4.2087269129rem !important;
+  font-weight: 700;
+  letter-spacing: -0.25rem;
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+  animation-delay: 0.2s;
+}
+.button-group {
+  min-height: 3rem; /* Reserve space for buttons to avoid shift */
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lcp-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /************************* industries recognition *******************/
 .industry-rec .swiper {
@@ -535,7 +577,7 @@ left: -3%;
     font-size: 30px;
   }
   .core-features-card .core-img{
-      width: 80px;
+      /* width: 80px; */
       transition: all 0.5s linear;
   }
   .core-features-card:hover .core-features-round{

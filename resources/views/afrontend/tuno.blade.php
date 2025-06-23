@@ -58,7 +58,7 @@
                                     alt="Tuno - Voice Intelligence"
                                     width="1280"
                                     height="auto"
-                                    class="w-100 object-fit-cover"
+                                    class="w-100 object-fit-cover lcp-image"
                                     loading="eager"
                                     decoding="async"
                                     fetchpriority="high">
@@ -69,8 +69,7 @@
                             <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
                                 <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">
+                                        <p class="fs-4 fs-md-5 lh-1 banner-title fade-in-up">
                                             Tuno</p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -78,12 +77,14 @@
                                             data-zanim-xs='{"delay":0.1}'>Voice. Intelligence. Delivered.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a>
-                                            <a class="btn btn-warning mt-3" href="{{ url('#tuno-contnect') }}">Contact
-                                                us<span class="fas fa-chevron-right ms-2"></span></a>
-                                        </div>
+                                        <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
