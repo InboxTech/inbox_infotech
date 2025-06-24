@@ -58,7 +58,7 @@
         <td>
             <span class="block-email"><?php echo $msgTrimmed = mb_substr($list->name,0,40);?></span>
         </td>
-        <td class="desc"><img width="50px" src="{{asset('storage/media/'.$list->image)}}"/></td>
+        <td class="desc"><img width="50px" src="{{asset('storage/media/clients/'.$list->image)}}"/></td>
         <td>
             @if($list->status == '1')
             Active
@@ -93,7 +93,7 @@
 
 </div>
 </div>
-</div>                       
+</div>
 @endsection
 <script>
   function myFunction() {

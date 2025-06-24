@@ -232,7 +232,7 @@ Route::get('/services',[FrontController::class,'services']);
 Route::get('/services/software-development',[FrontController::class,'softwareDevelopment']);
 Route::get('/services/app-development',[FrontController::class,'appDevelopment']);
 Route::get('/services/ai-ml-development',[FrontController::class,'aimlDevelopment']);
-Route::get('/services/recruitment-staffing',[FrontController::class,'recruitmentStaffing']);
+Route::get('/services/recruitment_staffing',[FrontController::class,'recruitmentStaffing']);
 Route::get('/services/iot',[FrontController::class,'iot']);
 Route::get('/services/cloud',[FrontController::class,'cloud']);
 Route::get('/services/infrastructure-management',[FrontController::class,'infrastructureManagement']);

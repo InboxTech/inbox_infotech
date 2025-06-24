@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/banner/retail&e-commerce.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/retail&e-commerce.jpg') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -76,7 +76,7 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
                                         alt="partnerco" data-zanim-xs="{}" />
                                     {{--
         </div> --}}
@@ -99,7 +99,7 @@
                     <div class="my-5">
                         <div class="row" data-aos="fade-up" data-aos-duration="1000">
                             <div class="col-lg-6">
-                                <img src="{{ asset('assets/inbox/educational_resource.png') }}" class="img-fluid" style="border-radius: 30px;"/>
+                                <img src="{{ asset('storage/media/products/educational_resource.png') }}" class="img-fluid" style="border-radius: 30px;"/>
                             </div>
                             <div class="col-lg-6">
                                 <h3> Revolutionizing Access to Educational Resources </h3>
@@ -123,7 +123,7 @@
                             </p>
                         </div>
                         <div class="col-lg-6">
-                            <img src="{{ asset('assets/inbox/study_with_parents.png') }}" class="img-fluid" style="border-radius: 30px;"/>
+                            <img src="{{ asset('storage/media/products/study_with_parents.png') }}" class="img-fluid" style="border-radius: 30px;"/>
                         </div>
 
                     </div>

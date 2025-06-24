@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/banner/HRMS.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/HRMS.jpg') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -79,7 +79,7 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
                                         alt="partnerco" data-zanim-xs="{}" />
                                     {{-- </div> --}}
                                 </div>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div>
-                                <img src="{{ asset('assets/inbox/HRMS.png') }}" class="img-fluid" />
+                                <img src="{{ asset('storage/media/products/HRMS.png') }}" class="img-fluid" />
                             </div>
                         </div>
                     </div>

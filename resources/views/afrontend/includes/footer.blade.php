@@ -17,7 +17,7 @@
           </ul>
           </div>
         @endif
-  
+
             <script>
               var msg = '{{Session::get('success')}}';
               var exist = '{{Session::has('success')}}';
@@ -122,7 +122,7 @@
                     <h6 class="fs-0 text-white mb-0 d-inline-block" style="font-size: 1.333rem;letter-spacing: -0.05rem;">
                       Facebook</h6>
                   </a></li>
-  
+
               </ul>
           </div>
         </div> -->

@@ -48,7 +48,7 @@
       data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
       <div class="swiper-wrapper">
       <div class="swiper-slide" data-zanim-timeline="{}">
-        <div class="bg-holder" style="background-image:url({{asset('storage/media/banner/1214549853.jpg')}});"></div>
+        <div class="bg-holder" style="background-image:url({{asset('storage/media/services/banner/1214549853.jpg')}});"></div>
         <!--/.bg-holder-->
         <div class="container">
         <div class="row min-vh-100 py-8 align-items-center justify-content-center" data-inertia='{"weight":1.5}'>
@@ -95,51 +95,51 @@
         <div class="swiper-wrapper">
 
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1665116922.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665116922.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1665117520.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665117520.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1665117298.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665117298.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1673940283.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1673940283.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1745238697.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1745238697.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1745235052.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1745235052.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1745238602.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1745238602.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1673943640.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1673943640.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1673943414.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1673943414.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/1665117275.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665117275.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/7.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/7.png')}}" class="img-fluid">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/8.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/8.png')}}" class="img-fluid">
 
         </div>
         </div>
@@ -388,7 +388,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/oracle.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/oracle.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Oracle Consultant </h5>
         <p class=""> Expert Oracle consultants to streamline your enterprise database and applications. </p>
@@ -397,7 +397,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/SAP_Consultancy.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/SAP_Consultancy.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire SAP Consultant </h5>
         <p class=""> Skilled SAP consultants for end-to-end implementation and optimization. </p>
@@ -406,7 +406,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Hadoop.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Hadoop.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Hadoop Consultant </h5>
         <p class=""> Big data specialists to manage and analyze large-scale data with Hadoop. </p>
@@ -415,7 +415,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Salesforce-Developers.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Salesforce-Developers.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Salesforce Developers </h5>
         <p class=""> Certified Salesforce developers to customize and automate your CRM. </p>
@@ -424,7 +424,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/ServiceNow-Developers.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/ServiceNow_Developers.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire ServiceNow Developers </h5>
         <p class=""> Build seamless workflows with our experienced ServiceNow developers. </p>
@@ -433,7 +433,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/AI_ML_Development.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/AI_ML_Development.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire AI/ML Developers </h5>
         <p class=""> Advanced AI/ML developers to turn data into intelligent business solutions. </p>
@@ -442,7 +442,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Frontend_Development.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Frontend_Development.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Frontend Developers </h5>
         <p class=""> Creative frontend developers for responsive and user-friendly interfaces. </p>
@@ -451,7 +451,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Backend_Development.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Backend_Development.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Backend Developers </h5>
         <p class=""> Reliable backend developers for scalable and secure server-side solutions. </p>
@@ -460,7 +460,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/mobile_app_developer.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/mobile_app_developer.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire MobileApp Developers </h5>
         <p class=""> Innovative mobile app developers for iOS and Android platforms. </p>
@@ -469,7 +469,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Database_Administration.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Database_Administration.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Database Experts </h5>
         <p class=""> Proficient DBAs to manage, secure, and optimize your databases. </p>
@@ -478,7 +478,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Datacenter_Solutions.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Datacenter_Solutions.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Datacenter Experts </h5>
         <p class=""> Comprehensive datacenter solutions for high availability and performance. </p>
@@ -487,7 +487,7 @@
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/Cyber_Security_Services.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Cyber_Security_Services.png')}}" class="img-fluid">
         </div>
         <h5 class="text-color"> Hire Cyber Security Experts </h5>
         <p class=""> Certified experts to protect your digital assets and ensure compliance. </p>

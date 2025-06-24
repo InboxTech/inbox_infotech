@@ -30,7 +30,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
                         <div class="bg-holder"
-                            style="background-image:url({{ asset('storage/media/banner/Travel_Hospitality.png') }});">
+                            style="background-image:url({{ asset('storage/media/products/banner/Travel_Hospitality.png') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -78,7 +78,7 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
                                         alt="partnerco" data-zanim-xs="{}" />
                                     {{--
         </div> --}}

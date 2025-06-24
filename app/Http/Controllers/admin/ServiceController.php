@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 class ServiceController extends Controller
 {
-   
+
     public function index()
     {
         $arr['data'] =  Service::paginate(10);
@@ -23,7 +23,7 @@ class ServiceController extends Controller
         if($id !='')
         {
             $arr = Service::findorFail($id);
-           //dd($arr);           
+           //dd($arr);
             $arr['id'] =$arr->id;
             $arr['title'] =$arr->title;
             $arr['short_desc'] = $arr->short_desc;
@@ -84,7 +84,7 @@ class ServiceController extends Controller
             $image_validation="mimes:jpeg,jpg,png,webp";
         }else{
             $image_validation="required|mimes:jpeg,jpg,png,webp";
-        }   
+        }
         $request->validate([
             'title'=>'required',
             'short_desc'=>'required',
@@ -92,12 +92,12 @@ class ServiceController extends Controller
             'slug'=>'required|unique:services,slug,'.$request->post('id'),
             'imaage'=>$image_validation,
             'attr_image.*' =>'mimes:jpg,jpeg,png,webp',
-            
+
         ]);
 
-        $paidArr=$request->post('paid'); 
-        $skuArr=$request->post('name'); 
-        //$paidArr=$request->post('paid'); 
+        $paidArr=$request->post('paid');
+        $skuArr=$request->post('name');
+        //$paidArr=$request->post('paid');
         if($request->post('id')>0){
             $model=Service::find($request->post('id'));
             $message = "Record Updated successfully!";
@@ -112,16 +112,16 @@ class ServiceController extends Controller
             $model['status'] = '1';
         }
         if($request->hasfile('imaage')){
-            if($request->post('id')>0){                
+            if($request->post('id')>0){
                 $arrImage=DB::table('services')->where(['id'=>$request->post('id')])->get();
-                if(Storage::exists('/public/media/'.$arrImage[0]->imaage)){
-                    Storage::delete('/public/media/'.$arrImage[0]->imaage);
+                if(Storage::exists('/public/media/services/'.$arrImage[0]->imaage)){
+                    Storage::delete('/public/media/services/'.$arrImage[0]->imaage);
                 }
             }
             $image=$request->file('imaage');
             $ext=$image->extension();
             $image_name=time().'.'.$ext;
-            $image->storeAs('/public/media',$image_name);
+            $image->storeAs('/public/media/services',$image_name);
             $model->imaage=$image_name;
         }
 
@@ -144,12 +144,12 @@ class ServiceController extends Controller
         foreach($skuArr as $key=>$val){
             $productAttrArr=[];
             $productAttrArr['service_id']=$pid;
-            $productAttrArr['name']=$skuArr[$key];           
+            $productAttrArr['name']=$skuArr[$key];
             if($request->hasFile("attr_image.$key")){
-                if($paidArr[$key]!=''){ 
+                if($paidArr[$key]!=''){
                     $arrImage=DB::table('service_images')->where(['id'=>$paidArr[$key]])->get();
-                    if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
-                        Storage::delete('/public/media/'.$arrImage[0]->attr_image);
+                    if(Storage::exists('/public/media/services/'.$arrImage[0]->attr_image)){
+                        Storage::delete('/public/media/services/'.$arrImage[0]->attr_image);
                     }
                 }
 
@@ -157,7 +157,7 @@ class ServiceController extends Controller
                 $attr_image=$request->file("attr_image.$key");
                 $ext=$attr_image->extension();
                 $image_name=$rand.'.'.$ext;
-                $request->file("attr_image.$key")->storeAs('/public/media',$image_name);
+                $request->file("attr_image.$key")->storeAs('/public/media/services',$image_name);
                 $productAttrArr['attr_image']=$image_name;
             }
             if($paidArr[$key]!=''){
@@ -165,18 +165,18 @@ class ServiceController extends Controller
             }else{
                 DB::table('service_images')->insert($productAttrArr);
             }
-            
-        }
-//         $path = $image->storeAs('public/media', $image_name); // Returns: "public/media/168234234.webp"
 
-// // Confirm it exists
-// if (Storage::exists($path)) {
-//     dd("✅ Image stored at: " . storage_path('app/' . $path));
-// } else {
-//     dd("❌ Image was NOT stored.");
-// } 
+        }
+            //$path = $image->storeAs('public/media', $image_name); // Returns: "public/media/168234234.webp"
+
+            // // Confirm it exists
+            // if (Storage::exists($path)) {
+            //     dd("✅ Image stored at: " . storage_path('app/' . $path));
+            // } else {
+            //     dd("❌ Image was NOT stored.");
+            // }
         return redirect('/admin/service/list')->with('success',$message);
-		
+
     }
         public function destroy(Request $request,$id)
     {
@@ -187,13 +187,13 @@ class ServiceController extends Controller
         }else{
             $message = "Record Not found";
         }
-        return redirect('/admin/service/list')->with('success',$message);        
+        return redirect('/admin/service/list')->with('success',$message);
     }
     public function service_attr_delete(Request $request,$paid,$pid)
     {
         $arrImage=DB::table('service_images')->where(['id'=>$paid])->get();
-        if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
-            Storage::delete('/public/media/'.$arrImage[0]->attr_image);
+        if(Storage::exists('/public/media/services/'.$arrImage[0]->attr_image)){
+            Storage::delete('/public/media/services/'.$arrImage[0]->attr_image);
         }
         DB::table('service_images')->where(['id'=>$paid])->delete();
         return redirect('/admin/service/update/'.$pid);
@@ -208,8 +208,7 @@ class ServiceController extends Controller
             $query=$query->orwhere('createdby','like',"%$find%")->WhereNull('deleted_at');
             $query=$query->paginate(10);
             $arr['data']=$query;
-            
-            
+
         //return $result;die;
         return view('admin.servicelist',$arr);
     }

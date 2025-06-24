@@ -173,7 +173,7 @@
                                             </div>
                                             <div class="col-12 col-md-9" id="product_attr_box">
                                                 @php
-                                                    $loop_count_num=1;
+                                                    $loop_count_num = 1;
                                                 @endphp
                                                 @foreach($productAttrArr as $key=>$val)
                                                     @php
@@ -194,27 +194,30 @@
                                                                             </div>
                                                                             <div class="col-6">
                                                                                 @if($pAArr['attr_image']!='')
-                                                                                <img width="100%" src="{{asset('storage/media/blogs/'.$pAArr['attr_image'])}}"/>
+                                                                                    <img width="100%" src="{{asset('storage/media/blogs/'.$pAArr['attr_image'])}}"/>
                                                                                 @endif
                                                                             </div>
 
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-4">
-                                                                        <label for="sku" class="control-label mb-1"> Image Name</label>
+                                                                        <label for="sku" class="control-label mb-1"> Image Name </label>
                                                                         <input id="name" name="name[]" type="text" class="form-control" aria-required="true" aria-invalid="false" value="{{$pAArr['name']}}" required>
                                                                     </div>
                                                                     <div class="col-md-2 py-3">
-
                                                                         @if($loop_count_num==2)
                                                                             <button type="button" class="btn btn-success" onclick="add_more()" style="background-color:#0069D9">
-                                                                            <i class="fa fa-plus"></i>&nbsp; Add</button>
+                                                                                <i class="fa fa-plus"></i>&nbsp; Add
+                                                                            </button>
                                                                         @else
-                                                                        <a href="{{url('admin/blog/blog_attr_delete/')}}/{{$pAArr['id']}}/{{$id}}"><button type="button" class="btn btn-danger" style="background-color:#C82333">
-                                                                            <i class="fa fa-minus"></i>&nbsp; Remove</button></a>
+                                                                            <a href="{{url('admin/blog/blog_attr_delete/')}}/{{$pAArr['id']}}/{{$id}}">
+                                                                                <button type="button" class="btn btn-danger" style="background-color:#C82333">
+                                                                                    <i class="fa fa-minus"></i>&nbsp; Remove
+                                                                                </button>
+                                                                            </a>
                                                                         @endif
-                                                                        <label for="attr_image" class="control-label mb-1">&nbsp;&nbsp;&nbsp;</label>
 
+                                                                        <label for="attr_image" class="control-label mb-1">&nbsp;&nbsp;&nbsp;</label>
                                                                     </div>
                                                                 </div>
                                                             </div>

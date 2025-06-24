@@ -47,7 +47,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/banner/HealthTech.jpg') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/HealthTech.jpg') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -117,7 +117,7 @@
             <section class="" style="padding-top:50px;">
                 <div class="row">
                     <div class="col-xl-6 col-12">
-                        <img src="{{asset('assets/img/healthTech-about.png')}}" alt="" class="img-fluid" data-zanim-xs="{}">
+                        <img src="{{asset('storage/media/products/healthTech-about.png')}}" alt="" class="img-fluid" data-zanim-xs="{}">
                     </div>
                     <div class="col-xl-6 ps-5 col-12">
                         <h2 class="text-color">About </h2>

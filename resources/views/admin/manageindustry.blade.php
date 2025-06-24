@@ -18,7 +18,7 @@
 ADD
 @else
 Edit
-@endif	
+@endif
 Service</h3>
 <div class="col-lg-12">
 <div class="card">
@@ -77,7 +77,7 @@ Service</h3>
 				<textarea class="form-control" id="editor" name="long_desc">{{$long_desc}}</textarea>
 			</div>
 			</div>
-			
+
 			<div class="row form-group">
 				<div class="col col-md-3">
 					<label for="file-input" class=" form-control-label">Service Image</label>
@@ -87,7 +87,7 @@ Service</h3>
 				</div>
 				<div class="col-12 col-md-3">
 				@if($imaage!='')
-                <a href="{{asset('storage/media/'.$imaage)}}" target="_blank"><img width="100px" src="{{asset('storage/media/'.$imaage)}}"/></a>
+                <a href="{{asset('storage/media/industries/'.$imaage)}}" target="_blank"><img width="100px" src="{{asset('storage/media/industries/'.$imaage)}}"/></a>
                 @endif
 				</div>
 			</div>
@@ -98,7 +98,7 @@ Service</h3>
 				<div class="col-12 col-md-6">
 					<input type="text" id="image_alt" name="image_alt" class="form-control" value="{{$image_alt}}">
 				</div>
-				
+
 			</div>
 			<div class="row form-group">
 				<div class="col col-md-3">
@@ -116,7 +116,7 @@ Service</h3>
 					<input type="text" id="tax2" name="tax2" class="form-control" value="{{$tax2}}">
 				</div>
 			</div>
-			
+
 			<div class="row form-group">
 				<div class="col col-md-3">
 					<label for="email-input" class=" form-control-label">Text 4</label>
@@ -158,7 +158,7 @@ Service</h3>
 					<input type="text" id="con_tag" name="con_tag" class="form-control" value="{{$con_tag}}">
 				</div>
 			</div>
-			
+
 			<div class="row form-group">
 				<div class="col col-md-3">
 					<label for="email-input" class=" form-control-label">Noindex Tag</label>
@@ -169,11 +169,11 @@ Service</h3>
 			</div>
 			<h2 class="mb10 ml15">Service Images</h2><br>
             <div class="col-lg-12" id="product_attr_box">
-               @php 
+               @php
                $loop_count_num=1;
                @endphp
                @foreach($productAttrArr as $key=>$val)
-               @php 
+               @php
                $loop_count_prev=$loop_count_num;
                $pAArr=(array)$val;
                @endphp
@@ -182,13 +182,13 @@ Service</h3>
                   <div class="card-body">
                      <div class="form-group">
                         <div class="row">
-                           
+
                           <div class="col-md-4">
                               <label for="attr_image" class="control-label mb-1"> Image</label>
                               <input id="attr_image" name="attr_image[]" type="file" class="form-control" aria-required="true" aria-invalid="false" >
 
                               @if($pAArr['attr_image']!='')
-                                 <img width="100px" src="{{asset('storage/media/'.$pAArr['attr_image'])}}"/>
+                                 <img width="100px" src="{{asset('storage/media/industries/banner/'.$pAArr['attr_image'])}}"/>
                               @endif
                            </div>
 						   <div class="col-md-4">
@@ -196,16 +196,16 @@ Service</h3>
                               <input id="name" name="name[]" type="text" class="form-control" aria-required="true" aria-invalid="false" value="{{$pAArr['name']}}" required>
                            </div>
                            <div class="col-md-4">
-                              <label for="attr_image" class="control-label mb-1"> 
+                              <label for="attr_image" class="control-label mb-1">
                               &nbsp;&nbsp;&nbsp;</label>
-                              
+
                               @if($loop_count_num==2)
                                 <button type="button" class="btn btn-success btn-lg" onclick="add_more()" style="background-color:#0069D9">
                                 <i class="fa fa-plus"></i>&nbsp; Add</button>
                               @else
                               <a href="{{url('admin/service/service_attr_delete/')}}/{{$pAArr['id']}}/{{$id}}"><button type="button" class="btn btn-danger btn-lg" style="background-color:#C82333">
                                 <i class="fa fa-minus"></i>&nbsp; Remove</button></a>
-                              @endif  
+                              @endif
 
                            </div>
                         </div>
@@ -214,9 +214,9 @@ Service</h3>
                </div>
                @endforeach
             </div>
-         
-			
-			
+
+
+
 @if($id != '')
 <div class="row form-group" style="padding-left:10px;">
 <div class="col col-md-3">
@@ -272,18 +272,18 @@ Service</h3>
 
 </div>
 </div>
-</div>  
-</div>                     
+</div>
+</div>
 <script>
- var loop_count=1; 
+ var loop_count=1;
    function add_more(){
        loop_count++;
        var html='<input id="paid" type="hidden" name="paid[]" ><div class="card" id="product_attr_'+loop_count+'"><div class="card-body"><div class="form-group"><div class="row">';
 
 		html+='<div class="col-md-4"><label for="attr_image" class="control-label mb-1"> Image</label><input id="attr_image" name="attr_image[]" type="file" class="form-control" aria-required="true" aria-invalid="false" ></div>';
 		 html+='<div class="col-md-4"><label for="sku" class="control-label mb-1"> Image Name</label><input id="name" name="name[]" type="text" class="form-control" aria-required="true" aria-invalid="false" required></div>';
-	   
-       html+='<div class="col-md-4"><label for="attr_image" class="control-label mb-1"> &nbsp;&nbsp;&nbsp;</label><button type="button" class="btn btn-danger btn-lg" style="background-color:#C82333" onclick=remove_more("'+loop_count+'")><i class="fa fa-minus"></i>&nbsp; Remove</button></div>'; 
+
+       html+='<div class="col-md-4"><label for="attr_image" class="control-label mb-1"> &nbsp;&nbsp;&nbsp;</label><button type="button" class="btn btn-danger btn-lg" style="background-color:#C82333" onclick=remove_more("'+loop_count+'")><i class="fa fa-minus"></i>&nbsp; Remove</button></div>';
        html+='</div></div></div></div>';
 
        jQuery('#product_attr_box').append(html)
@@ -291,7 +291,7 @@ Service</h3>
    function remove_more(loop_count){
         jQuery('#product_attr_'+loop_count).remove();
    }
-   
+
 ClassicEditor
 .create( document.querySelector( '#editor' ) )
 .then( editor => {

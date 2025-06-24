@@ -48,7 +48,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/banner/876868410.webp') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/876868410.webp') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -192,7 +192,7 @@
                             <div class="row g-0 position-relative mb-4 mb-lg-0">
                                 <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative" style="min-height:400px;">
                                     <div class="bg-holder"
-                                        style="background-image:url({{ asset('storage/media/132288596.webp') }}/);"></div>
+                                        style="background-image:url({{ asset('storage/media/products/132288596.webp') }}/);"></div>
                                     <!--/.bg-holder-->
                                 </div>
                                 <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white ">
@@ -225,7 +225,7 @@
                                 <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative order-lg-2"
                                     style="min-height:400px;">
                                     <div class="bg-holder"
-                                        style="background-image:url({{ asset('storage/media/138989707.webp') }}/);"></div>
+                                        style="background-image:url({{ asset('storage/media/products/138989707.webp') }}/);"></div>
                                     <!--/.bg-holder-->
                                 </div>
                                 <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white">
@@ -256,7 +256,7 @@
                             <div class="row g-0 position-relative mb-4 mb-lg-0">
                                 <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative" style="min-height:400px;">
                                     <div class="bg-holder"
-                                        style="background-image:url({{ asset('storage/media/157078749.jpg') }}/);"></div>
+                                        style="background-image:url({{ asset('storage/media/products/157078749.jpg') }}/);"></div>
                                     <!--/.bg-holder-->
                                 </div>
                                 <div class="col-lg-6 px-lg-5 py-lg-6 p-4 my-lg-0 bg-white">
@@ -289,7 +289,7 @@
                                 <div class="col-lg-6 py-3 py-lg-0 mb-0 position-relative order-lg-2"
                                     style="min-height:400px;">
                                     <div class="bg-holder rounded-ts-lg rounded-te-lg rounded-lg-te-0  rounded-lg-ts-0"
-                                        style="background-image:url({{ asset('storage/media/182861534.jpg') }}/);"></div>
+                                        style="background-image:url({{ asset('storage/media/products/182861534.jpg') }}/);"></div>
                                     <!--/.bg-holder-->
                                 </div>
                                 <div
@@ -321,11 +321,11 @@
                     </div>
                 </div>
                 {{-- @foreach ($service_data as $serv_data)
-        @if ($serv_data->id % 2 == 0)
-        @elseif($serv_data->id % 2 == 1)
+                    @if ($serv_data->id % 2 == 0)
+                    @elseif($serv_data->id % 2 == 1)
 
-        @endif
-        @endforeach --}}
+                    @endif
+                    @endforeach --}}
                 <div class="row justify-content-center mt-7">
                     <div class="col-sm-6 col-lg-4 px-4 px-sm-3 mb-4" data-zanim-timeline="{}"
                         data-zanim-trigger="scroll">
@@ -401,7 +401,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 pe-lg-3"><img class="rounded-3 img-fluid"
-                            src="{{ asset('assets/inbox/123456.jpg') }}" alt="about" /></div>
+                            src="{{ asset('storage/media/products/123456.jpg') }}" alt="about" /></div>
                     <div class="col-lg-6 px-lg-5 mt-6 mt-lg-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="overflow-hidden">
                             <div class="px-4 px-sm-0" data-zanim-xs='{"delay":0}'>

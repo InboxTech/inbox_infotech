@@ -23,7 +23,7 @@ class IndustrieController extends Controller
         if($id !='')
         {
             $arr = Industrie::findorFail($id);
-           //dd($arr);           
+           //dd($arr);
             $arr['id'] =$arr->id;
             $arr['title'] =$arr->title;
             $arr['short_desc'] = $arr->short_desc;
@@ -45,7 +45,7 @@ class IndustrieController extends Controller
             $arr['updated_at'] =$arr->updated_at;
             $arr['status'] =$arr->status;
             $arr['productAttrArr']=DB::table('industrie_images')->where(['service_id'=>$id])->get();
-            
+
         }else{
             $arr['id'] = '';
             $arr['title'] = '';
@@ -86,7 +86,7 @@ class IndustrieController extends Controller
             $image_validation="mimes:jpeg,jpg,png,webp";
         }else{
             $image_validation="required|mimes:jpeg,jpg,png,webp";
-        }   
+        }
         $request->validate([
             'title'=>'required',
             'short_desc'=>'required',
@@ -94,12 +94,12 @@ class IndustrieController extends Controller
             'slug'=>'required|unique:industries,slug,'.$request->post('id'),
             'imaage'=>$image_validation,
             'attr_image.*' =>'mimes:jpg,jpeg,png,webp',
-            
+
         ]);
 
-        $paidArr=$request->post('paid'); 
-        $skuArr=$request->post('name'); 
-        //$paidArr=$request->post('paid'); 
+        $paidArr=$request->post('paid');
+        $skuArr=$request->post('name');
+        //$paidArr=$request->post('paid');
         if($request->post('id')>0){
             $model=Industrie::find($request->post('id'));
             $message = "Record Updated successfully!";
@@ -114,7 +114,7 @@ class IndustrieController extends Controller
             $model['status'] = '1';
         }
         if($request->hasfile('imaage')){
-            if($request->post('id')>0){                
+            if($request->post('id')>0){
                 $arrImage=DB::table('industries')->where(['id'=>$request->post('id')])->get();
                 if(Storage::exists('/public/media/'.$arrImage[0]->imaage)){
                     Storage::delete('/public/media/'.$arrImage[0]->imaage);
@@ -146,9 +146,9 @@ class IndustrieController extends Controller
         foreach($skuArr as $key=>$val){
             $productAttrArr=[];
             $productAttrArr['service_id']=$pid;
-            $productAttrArr['name']=$skuArr[$key];           
+            $productAttrArr['name']=$skuArr[$key];
             if($request->hasFile("attr_image.$key")){
-                if($paidArr[$key]!=''){ 
+                if($paidArr[$key]!=''){
                     $arrImage=DB::table('industrie_images')->where(['id'=>$paidArr[$key]])->get();
                     if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
                         Storage::delete('/public/media/'.$arrImage[0]->attr_image);
@@ -162,16 +162,16 @@ class IndustrieController extends Controller
                 $request->file("attr_image.$key")->storeAs('/public/media',$image_name);
                 $productAttrArr['attr_image']=$image_name;
             }
-			
+
             if($paidArr[$key]!=''){
                 DB::table('industrie_images')->where(['id'=>$paidArr[$key]])->update($productAttrArr);
             }else{
                 DB::table('industrie_images')->insert($productAttrArr);
             }
-            
-        }  
+
+        }
         return redirect('/admin/industry/list')->with('success',$message);
-		
+
     }
         public function destroy(Request $request,$id)
     {
@@ -182,9 +182,9 @@ class IndustrieController extends Controller
         }else{
             $message = "Record Not found";
         }
-        return redirect('/admin/industry/list')->with('success',$message);        
+        return redirect('/admin/industry/list')->with('success',$message);
     }
-    
+
     public function search(Request $request)
     {
         $find = $request->search;
@@ -195,16 +195,16 @@ class IndustrieController extends Controller
             $query=$query->orwhere('createdby','like',"%$find%")->WhereNull('deleted_at');
             $query=$query->paginate(10);
             $arr['data']=$query;
-            
-            
+
+
         //return $result;die;
         return view('admin.industrielist',$arr);
     }
     public function product_attr_delete(Request $request,$paid,$pid)
     {
         $arrImage=DB::table('industrie_images')->where(['id'=>$paid])->get();
-        if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
-            Storage::delete('/public/media/'.$arrImage[0]->attr_image);
+        if(Storage::exists('/public/media/industries/banner/'.$arrImage[0]->attr_image)){
+            Storage::delete('/public/media/industries/banner/'.$arrImage[0]->attr_image);
         }
         DB::table('industrie_images')->where(['id'=>$paid])->delete();
         return redirect('/admin/industry/update/'.$pid);

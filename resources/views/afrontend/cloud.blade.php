@@ -29,7 +29,7 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/banner/Cloud_Services.png') }});">
+                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/services/banner/Cloud_Services.png') }});">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -76,7 +76,7 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
                                         alt="partnerco" data-zanim-xs="{}" />
                                     {{--
         </div> --}}
@@ -456,7 +456,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/AWS.png') }}" class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/AWS.png') }}" class="img-fluid">
                         </div>
                         <p class="fw-medium"> AWS </p>
                     </div>
@@ -464,7 +464,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/google-cloud.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/google-cloud.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> Google Cloud </p>
@@ -473,7 +473,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/azure-1.png') }}" class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/azure-1.png') }}" class="img-fluid">
                         </div>
                         <p class="fw-medium"> Azure </p>
                     </div>
@@ -481,7 +481,7 @@
                  <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/cloudflare.png') }}" class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/cloudflare.png') }}" class="img-fluid">
                         </div>
                         <p class="fw-medium"> Cloudflare </p>
                     </div>
@@ -489,7 +489,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/Docker.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Docker.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> Docker </p>
@@ -498,7 +498,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/Kubernetes.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Kubernetes.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> Kubernetes </p>
@@ -507,7 +507,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/Jenkins.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Jenkins.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> Jenkins </p>
@@ -516,7 +516,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/Terraform.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Terraform.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> Terraform </p>
@@ -525,7 +525,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/oracle.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/oracle.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> Oracle </p>
@@ -534,7 +534,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/CloudFormation.png') }}"
+                            <img src="{{ asset('assets/inbox/tech_arsenal/CloudFormation.png') }}"
                                 class="img-fluid">
                         </div>
                         <p class="fw-medium"> CloudFormation </p>

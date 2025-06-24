@@ -15,7 +15,7 @@
           <div class="swiper-wrapper">
 			@foreach($slider as $list)
             <div class="swiper-slide" data-zanim-timeline="{}">
-              <div class="bg-holder" style="background-image:url({{asset('storage/media/'.$list->attr_image)}});">
+              <div class="bg-holder" style="background-image:url({{asset('storage/media/industries/banner/'.$list->attr_image)}});">
 			  </div>
               <!--/.bg-holder-->
               <div class="container">
@@ -46,7 +46,7 @@
         </div>
       </section>
 
- 
+
  <main class="main" id="top">
       <div class="preloader" id="preloader">
         <div class="loader">
@@ -58,9 +58,9 @@
             <div></div>
           </div>
         </div>
-      </div>   
+      </div>
 	  <br>
-	 
+
  <section class="bg-100">
         <div class="container" style="background-color:#fff;border-radius: 10px;">
           <div class="text-center mb-6">
@@ -68,38 +68,38 @@
 			<p class="px-lg-4 mt-3">Our service offerings are aligned with the changing world of our customers. Our portfolio of services ranges from designing strategy to delivering impact.</p>
             <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
           <div class="bg-white mt-6 py-5 rounded-3">
-		  
+
 		  <div class="row">
               <div class="col-lg-6">
 			  <p style="text-align:left">{!! $servicedetails->short_desc !!}</p>
-			  
+
 			  </div>
-				 <div class="col-lg-6"><img src="{{ asset('storage/media/')}}/{{$servicedetails->imaage}}" class="img-fluid" alt="{{$servicedetails->image_alt}}"/>
+				 <div class="col-lg-6"><img src="{{ asset('storage/media/industries')}}/{{$servicedetails->imaage}}" class="img-fluid" alt="{{$servicedetails->image_alt}}"/>
 			  </div>
             </div>
 			</div>
 		  </div>
-		  <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p> 
+		  <p class="dropcap lead">{!!$servicedetails->long_desc!!}</p>
 		  <div style="display:none">
 		  @if($servicedetails->tax2 != '')
-		  <p class="lead">{{$servicedetails->tax2}}</p> 
+		  <p class="lead">{{$servicedetails->tax2}}</p>
 		  @endif
 		   @if($servicedetails->slug != '')
-		  <p class="dropcap lead">{{$servicedetails->slug}}</p> 
+		  <p class="dropcap lead">{{$servicedetails->slug}}</p>
 	      @endif
 		  @if($servicedetails->tax4 != '')
-		  <p class="dropcap lead">{{$servicedetails->tax4}}</p> 
+		  <p class="dropcap lead">{{$servicedetails->tax4}}</p>
 		  @endif
 		   @if($servicedetails->tax5 != '')
-		  <p class="dropcap lead">{{$servicedetails->tax5}}</p> 
+		  <p class="dropcap lead">{{$servicedetails->tax5}}</p>
 		 @endif
 		 </div>
 		 <br>
 	 <br>
         </div><!-- end of .container-->
-		
+
 </section><!-- <section> close ============================-->
-    
+
 </main>
 @endforeach
 @endsection

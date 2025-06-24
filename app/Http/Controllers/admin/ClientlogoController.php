@@ -24,7 +24,7 @@ class ClientlogoController extends Controller
         {
             $arr = Clientlogo::findorFail($id);
            // $arr = DB::table('Clientlogos')->where('id',$id)->get();
-           // dd($arr);           
+           // dd($arr);
             $arr['id'] =$arr->id;
             $arr['name'] =$arr->name;
             $arr['image'] = $arr->image;
@@ -52,16 +52,16 @@ class ClientlogoController extends Controller
             $image_validation="mimes:jpeg,jpg,png,webp";
         }else{
             $image_validation="required|mimes:jpeg,jpg,png,webp";
-        }   
+        }
         $request->validate([
             'name'=>'required',
             'photo'=>$image_validation
-            
+
         ]);
 
-        /* $paidArr=$request->post('paid'); 
+        /* $paidArr=$request->post('paid');
         $skuArr=$request->post('name');  */
-        //$paidArr=$request->post('paid'); 
+        //$paidArr=$request->post('paid');
         if($request->post('id')>0){
             $model=Clientlogo::find($request->post('id'));
             $message = "Record Updated successfully!";
@@ -74,23 +74,23 @@ class ClientlogoController extends Controller
             $model['status'] = '1';
         }
         if($request->hasfile('photo')){
-            if($request->post('id')>0){                
+            if($request->post('id')>0){
                 $arrImage=DB::table('clientlogos')->where(['id'=>$request->post('id')])->get();
-                if(Storage::exists('/public/media/'.$arrImage[0]->image)){
-                    Storage::delete('/public/media/'.$arrImage[0]->image);
+                if(Storage::exists('/public/media/clients/'.$arrImage[0]->image)){
+                    Storage::delete('/public/media/clients/'.$arrImage[0]->image);
                 }
             }
             $image=$request->file('photo');
             $ext=$image->extension();
             $image_name=time().'.'.$ext;
-            $image->storeAs('/public/media',$image_name);
+            $image->storeAs('/public/media/clients',$image_name);
             $model->image=$image_name;
         }
         $model->name=$request->post('name');
         $model->save();
 
         return redirect('/admin/clientlogo/list')->with('success',$message);
-		
+
     }
         public function destroy(Request $request,$id)
     {
@@ -101,9 +101,9 @@ class ClientlogoController extends Controller
         }else{
             $message = "Record Not found";
         }
-        return redirect('/admin/clientlogo/list')->with('success',$message);        
+        return redirect('/admin/clientlogo/list')->with('success',$message);
     }
-   
+
     public function search(Request $request)
     {
         $find = $request->search;
@@ -111,8 +111,8 @@ class ClientlogoController extends Controller
             $query=$query->where('name','like',"%$find%")->WhereNull('deleted_at');
             $query=$query->paginate(10);
             $arr['data']=$query;
-            
-            
+
+
         //return $result;die;
         return view('admin.clientlogolist',$arr);
     }
