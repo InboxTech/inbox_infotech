@@ -48,15 +48,28 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/876868410.webp') }});">
-                        </div>
+                        <div class="bg-holder position-absolute top-0 start-0 w-100 h-100 z-n1 overflow-hidden">
+                                <img src="{{ asset('storage/media/products/banner/876868410.webp') }}"
+                                    srcset="{{asset('storage/media/products/banner/876868410-480.webp 480w')}},
+                                        {{asset('storage/media/products/banner/876868410-768.webp 768w')}},
+                                        {{asset('storage/media/products/banner/876868410-1280.webp 1280w')}},
+                                        {{asset('storage/media/products/banner/876868410.webp 1920w')}}"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 80vw"
+                                    alt="Tuno - Voice Intelligence"
+                                    width="1280"
+                                    height="auto"
+                                    class="w-100 object-fit-cover lcp-image"
+                                    loading="eager"
+                                    decoding="async"
+                                    fetchpriority="high">
+                            </div>
+
                         <!--/.bg-holder-->
                         <div class="container">
                             <div class="row min-vh-100 py-8 align-items-center" data-inertia='{"weight":1.5}'>
                                 <div class="col-sm-8 col-lg-7 px-5 px-sm-3">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;color:#fff">
+                                        <p class="fs-4 fs-md-5 lh-1 banner-title fade-in-up">
                                             Tuno</p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -64,12 +77,14 @@
                                             data-zanim-xs='{"delay":0.1}'>Voice. Intelligence. Delivered.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a>
-                                            <a class="btn btn-warning mt-3" href="{{ url('#tuno-contnect') }}">Contact
-                                                us<span class="fas fa-chevron-right ms-2"></span></a>
-                                        </div>
+                                        <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -112,8 +127,8 @@
                     {{-- <h6 class="fs-2 fs-md-3" style="font-size: 2.368593037rem;letter-spacing: -0.05rem;">What We Offer</h6> --}}
                     <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="ring-icon mx-auto" data-zanim-xs='{"delay":0}'><span class="fas fa-rocket"></span></div>
-                        <h3 class="mt-4 text-color" data-zanim-xs='{"delay":0.1}'
-                            style="font-size: 1.333rem;letter-spacing: -0.05rem;">AI-powered voicebot</h3>
+                        <p class="mt-4 text-color" data-zanim-xs='{"delay":0.1}'
+                            style="font-size: 1.333rem;letter-spacing: -0.05rem;">AI-powered voicebot</p>
                         <p class="mb-0 mt-3 px-3" data-zanim-xs='{"delay":0.2}'>automating outbound calls.</p>
                     </div>
                     <div class="col-sm-6 col-lg-3 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
@@ -484,6 +499,15 @@
                                         <div class="col-md-6 col-12">
                                             <div class="d-flex">
                                                 <!-- Country Code Dropdown -->
+                                                 <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                                 <select class="form-select" name="country_code" style="max-width: 110px;"
                                                     required>
                                                     <option value="+91" selected>+91 (IN)</option>

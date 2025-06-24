@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/services/banner/IOT.png') }});">
+                        <div class="bg-holder">
+                           <img src="{{ asset('storage/media/services/banner/IOT.png') }}" alt="IOT" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,21 +39,18 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
-                                            IOT
-                                            Development </p>
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
+                                            IOT Development </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
                                             We provide end-to-end IoT solutions, integrating devices, cloud, and apps to enable smarter, industry-specific decisions.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -61,10 +59,10 @@
                     {{-- @foreach ($slider as $list)
       @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -77,10 +75,9 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
-                                    {{--
-        </div> --}}
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
+                                    {{-- </div> --}}
                                 </div>
                             @endforeach
                         </div>
@@ -97,7 +94,7 @@
             <!--------------------------  iot app development to unlock  start ---------------->
                 <section>
                     <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                        <h3 > IoT Application Development Services To Unlock Data-Driven Growth</h3>
+                        <h2> IoT Application Development Services To Unlock Data-Driven Growth</h2>
                     </div>
                     <div class="my-5">
                         <div class="row " data-aos="fade-up" data-aos-duration="1000">
@@ -129,7 +126,7 @@
 
         <section class="iot-services">
            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-               <h3 > Our IoT Development Services </h3>
+               <h2> Our IoT Development Services </h2>
                <p> At Inbox, we specialize in delivering innovative Internet of Things (IoT) solutions that drive digital transformation. Our team of experts builds connected ecosystems that enable smarter decision-making, enhanced automation, and real-time insights. From designing custom IoT devices to developing scalable cloud platforms, we provide end-to-end solutions tailored to your business needs. Whether you're looking to optimize operations, enhance customer experiences, or improve data-driven strategies, we have the expertise to bring your IoT vision to life. </p>
            </div>
 
@@ -246,7 +243,7 @@
 
           <section class="iot-process">
             <div class="text-center">
-                <h3> Our IoT Development Process </h3>
+                <h2> Our IoT Development Process </h2>
                 <p> We follow a structured, end-to-end process to deliver reliable and scalable IoT solutions</p>
             </div>
             <div class="my-5 swiper-process">
@@ -254,57 +251,57 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 1 </h4>
-                            <h5> Consultation & Requirement Analysis </h5>
+                            <h3> 1 </h3>
+                            <h4> Consultation & Requirement Analysis </h4>
                             <p> We collaborate with stakeholders to understand business goals, define IoT use cases, and gather technical requirements to ensure the solution aligns with operational needs and strategic objectives.</p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 2 </h4>
-                            <h5> Solution Architecture Design</h5>
+                            <h3> 2 </h3>
+                            <h4> Solution Architecture Design</h4>
                             <p> We design a scalable, secure, and efficient IoT architecture, selecting the right hardware, connectivity, cloud platform, and software components to ensure seamless integration and future-ready performance. </p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 3 </h4>
-                           <h5>  Hardware & Sensor Integration </h5>
+                            <h3> 3 </h3>
+                           <h4>  Hardware & Sensor Integration </h4>
                            <p> We select and integrate the appropriate IoT devices, sensors, and communication modules, ensuring accurate data capture, reliable connectivity, and compatibility with the overall system architecture. </p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 4 </h4>
-                            <h5> Software & App Development</h5>
+                            <h3> 4 </h3>
+                            <h4> Software & App Development</h4>
                             <p> We develop custom software, mobile, and web applications to manage IoT devices, visualize data, and enable user interaction, ensuring a seamless and intuitive user experience across platforms. </p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 5 </h4>
-                            <h5> Cloud & Data Integration</h5>
+                            <h3> 5 </h3>
+                            <h4> Cloud & Data Integration</h4>
                             <p> We integrate IoT systems with secure cloud platforms to enable real-time data storage, processing, and analytics, ensuring scalability, accessibility, and seamless communication between devices and applications. </p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 6 </h4>
-                             <h5> Testing & QA</h5>
+                            <h3> 6 </h3>
+                             <h4> Testing & QA</h4>
                              <p> We conduct thorough testing of devices, software, and connectivity to ensure performance, reliability, and security, identifying and resolving issues before deployment for a seamless user experience. </p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 7 </h4>
-                            <h5> Deployment & Implementation</h5>
+                            <h3> 7 </h3>
+                            <h4> Deployment & Implementation</h4>
                             <p> We carry out the full-scale rollout of the IoT solution, configuring devices, integrating systems, and ensuring smooth operation in real-world environments with minimal disruption to business processes.</p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="card p-3 h-100 shadow">
-                            <h4> 8 </h4>
-                            <h5> Monitoring & Maintenance </h5>
+                            <h3> 8 </h3>
+                            <h4> Monitoring & Maintenance </h4>
                             <p> We provide continuous monitoring, performance optimization, and timely updates to ensure your IoT system runs reliably, stays secure, and adapts to evolving business and technology needs. </p>
                         </div>
                       </div>
@@ -350,6 +347,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                               <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -410,7 +416,7 @@
     <section class="my-5 tech-arsenal">
         <div class="container">
           <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-          <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Tech Arsenal</h6>
+          <h2 >Our Tech Arsenal</h2>
           <hr class="short"
             data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
             data-zanim-trigger="scroll" />
@@ -468,7 +474,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/net.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/net.png')}}" class="w-100 h-100" alt="dotnet" loading="lazy">
                   </div>
                   <p class="fw-medium"> .Net </p>
                 </div>
@@ -476,7 +482,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/php.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/php.png')}}" class="w-100 h-100" alt="php" loading="lazy">
                   </div>
                   <p class="fw-medium"> PHP </p>
                 </div>
@@ -484,7 +490,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Laravel.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Laravel.png')}}" class="w-100 h-100" alt="laravel" loading="lazy">
                   </div>
                   <p class="fw-medium"> Laravel </p>
                 </div>
@@ -492,7 +498,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/node.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/node.js.png')}}" class="w-100 h-100" alt="node.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> Node.js</p>
                 </div>
@@ -500,7 +506,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/python.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/python.png')}}" class="w-100 h-100" alt="python" loading="lazy">
                   </div>
                   <p class="fw-medium"> Python </p>
                 </div>
@@ -508,7 +514,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/java.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/java.png')}}" class="w-100 h-100" alt="java" loading="lazy">
                   </div>
                   <p class="fw-medium"> Java </p>
                 </div>
@@ -516,7 +522,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/rubyOnRail.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/rubyOnRail.png')}}" class="w-100 h-100" alt="rubyOnRail" loading="lazy">
                   </div>
                   <p class="fw-medium"> Ruby On Rails </p>
                 </div>
@@ -524,7 +530,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/django.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/django.png')}}" class="w-100 h-100" alt="django" loading="lazy">
                   </div>
                   <p class="fw-medium"> Django </p>
                 </div>
@@ -532,7 +538,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/express.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/express.js.png')}}" class="w-100 h-100" alt="express.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> Express.js </p>
                 </div>
@@ -540,7 +546,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/flask.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/flask.png')}}" class="w-100 h-100" alt="flask" loading="lazy">
                   </div>
                   <p class="fw-medium"> Flask </p>
                 </div>
@@ -548,7 +554,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/springboot.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/springboot.png')}}" class="w-100 h-100" alt="springboot" loading="lazy">
                   </div>
                   <p class="fw-medium"> Spring boot </p>
                 </div>
@@ -556,7 +562,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/unity3D.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/unity3D.png')}}" class="w-100 h-100" alt="unity" loading="lazy">
                   </div>
                   <p class="fw-medium"> Unity </p>
                 </div>
@@ -568,7 +574,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/angular.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/angular.js.png')}}" class="w-100 h-100" alt="angular.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> Angular.js </p>
                 </div>
@@ -576,7 +582,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/react.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/react.js.png')}}" class="w-100 h-100" alt="react.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> React.js </p>
                 </div>
@@ -584,7 +590,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/bootstrap.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/bootstrap.png')}}" class="w-100 h-100" alt="bootstrap" loading="lazy">
                   </div>
                   <p class="fw-medium"> Bootstrap </p>
                 </div>
@@ -592,7 +598,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/jqery.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/jqery.png')}}" class="w-100 h-100" alt="jqery" loading="lazy">
                   </div>
                   <p class="fw-medium"> jQuery </p>
                 </div>
@@ -600,7 +606,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/vue.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/vue.js.png')}}" class="w-100 h-100" alt="vue.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> Vue.js </p>
                 </div>
@@ -608,7 +614,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/ember.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/ember.js.png')}}" class="w-100 h-100" alt="ember.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> Ember.js </p>
                 </div>
@@ -616,7 +622,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/bbackbone.js.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/bbackbone.js.png')}}" class="w-100 h-100" alt="bbackbone.js" loading="lazy">
                   </div>
                   <p class="fw-medium"> Backbone.js </p>
                 </div>
@@ -624,7 +630,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/flutter.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/flutter.png')}}" class="w-100 h-100" alt="flutter" loading="lazy">
                   </div>
                   <p class="fw-medium"> Flutter </p>
                 </div>
@@ -632,7 +638,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/unity3D.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/unity3D.png')}}" class="w-100 h-100" alt="unity3D" loading="lazy">
                   </div>
                   <p class="fw-medium"> Unity 3D </p>
                 </div>
@@ -640,7 +646,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/shopify.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/shopify.png')}}" class="w-100 h-100" alt="shopify" loading="lazy">
                   </div>
                   <p class="fw-medium"> Shopify </p>
                 </div>
@@ -648,7 +654,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/wordpress.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/wordpress.png')}}" class="w-100 h-100" alt="wordpress" loading="lazy">
                   </div>
                   <p class="fw-medium"> WordPress </p>
                 </div>
@@ -656,7 +662,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/magento.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/magento.png')}}" class="w-100 h-100" alt="magento" loading="lazy">
                   </div>
                   <p class="fw-medium"> Magento </p>
                 </div>
@@ -669,7 +675,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/GIT-HUB.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/GIT-HUB.png')}}" class="w-100 h-100" alt="github" loading="lazy">
                   </div>
                   <p class="fw-medium"> Github Copilot </p>
                 </div>
@@ -677,7 +683,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/TABNINE-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/TABNINE-1.png')}}" class="w-100 h-100" alt="tabnine" loading="lazy">
                   </div>
                   <p class="fw-medium"> Tabnine </p>
                 </div>
@@ -685,7 +691,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/CHATGPT.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/CHATGPT.png')}}" class="w-100 h-100" alt="chatgpt" loading="lazy">
                   </div>
                   <p class="fw-medium"> ChatGPT </p>
                 </div>
@@ -693,7 +699,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/tensorflow-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/tensorflow-1.png')}}" class="w-100 h-100" alt="tensorflow" loading="lazy">
                   </div>
                   <p class="fw-medium"> Tansorflow </p>
                 </div>
@@ -701,7 +707,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/openaicodex.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/openaicodex.png')}}" class="w-100 h-100" alt="openaicodex" loading="lazy">
                   </div>
                   <p class="fw-medium"> OpenAI Codex </p>
                 </div>
@@ -709,7 +715,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/otter.ai_.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/otter.ai_.png')}}" class="w-100 h-100" alt="otter.ai" loading="lazy">
                   </div>
                   <p class="fw-medium"> Otter.ai </p>
                 </div>
@@ -717,7 +723,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/codewhisperer.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/codewhisperer.png')}}" class="w-100 h-100" alt="codewhisperer" loading="lazy">
                   </div>
                   <p class="fw-medium"> CodeWhisperer</p>
                 </div>
@@ -725,7 +731,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/hugging-face.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/hugging-face.png')}}" class="w-100 h-100" alt="hugging face" loading="lazy">
                   </div>
                   <p class="fw-medium"> Hugging Face </p>
                 </div>
@@ -733,7 +739,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/blackbox ai.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/blackbox ai.png')}}" class="w-100 h-100" alt="blackbox ai" loading="lazy">
                   </div>
                   <p class="fw-medium"> Blackbox AI </p>
                 </div>
@@ -741,7 +747,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/cursor ai.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/cursor ai.png')}}" class="w-100 h-100" alt="cursor ai" loading="lazy">
                   </div>
                   <p class="fw-medium"> Cursor AI </p>
                 </div>
@@ -753,7 +759,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/mysql.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/mysql.png')}}" class="w-100 h-100" alt="mysql" loading="lazy">
                   </div>
                   <p class="fw-medium"> MySQL </p>
                 </div>
@@ -761,7 +767,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/mongodb.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/mongodb.png')}}" class="w-100 h-100" alt="mongodb" loading="lazy">
                   </div>
                   <p class="fw-medium"> MongoDB </p>
                 </div>
@@ -769,7 +775,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/postgresql.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/postgresql.png')}}" class="w-100 h-100" alt="postgresql" loading="lazy">
                   </div>
                   <p class="fw-medium"> PostgreySQL </p>
                 </div>
@@ -777,7 +783,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/snowflake.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/snowflake.png')}}" class="w-100 h-100" alt="snowflake" loading="lazy">
                   </div>
                   <p class="fw-medium"> Snowflake </p>
                 </div>
@@ -785,7 +791,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/redshift.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/redshift.png')}}" class="w-100 h-100" alt="redshift" loading="lazy">
                   </div>
                   <p class="fw-medium"> Redshift </p>
                 </div>
@@ -793,7 +799,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/azure-sql-synapse.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/azure-sql-synapse.png')}}" class="w-100 h-100" alt="azure sql synapse" loading="lazy">
                   </div>
                   <p class="fw-medium"> Azure SQL Synapse </p>
                 </div>
@@ -801,7 +807,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/splunk.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/splunk.png')}}" class="w-100 h-100" alt="splunk" loading="lazy">
                   </div>
                   <p class="fw-medium"> Splunk </p>
                 </div>
@@ -809,7 +815,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/talend.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/talend.png')}}" class="w-100 h-100" alt="talend" loading="lazy">
                   </div>
                   <p class="fw-medium"> Talend </p>
                 </div>
@@ -817,7 +823,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/fivetran.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/fivetran.png')}}" class="w-100 h-100" alt="fivetran" loading="lazy">
                   </div>
                   <p class="fw-medium"> Fivetran </p>
                 </div>
@@ -825,7 +831,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/oracle.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/oracle.png')}}" class="w-100 h-100" alt="oracle" loading="lazy">
                   </div>
                   <p class="fw-medium"> Oracle </p>
                 </div>
@@ -833,7 +839,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/mariaDB.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/mariaDB.png')}}" class="w-100 h-100" alt="mariaDB" loading="lazy">
                   </div>
                   <p class="fw-medium"> MariaDB </p>
                 </div>
@@ -841,7 +847,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/sql_server.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/sql_server.png')}}" class="w-100 h-100" alt="sql server" loading="lazy">
                   </div>
                   <p class="fw-medium"> SQL Server </p>
                 </div>
@@ -854,7 +860,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/linux.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/linux.png')}}" class="w-100 h-100" alt="linux" loading="lazy">
                   </div>
                   <p class="fw-medium"> Linux </p>
                 </div>
@@ -862,7 +868,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/ubantoo.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/ubantoo.png')}}" class="w-100 h-100" alt="ubantoo" loading="lazy">
                   </div>
                   <p class="fw-medium"> Ubantoo </p>
                 </div>
@@ -870,7 +876,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/windows.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/windows.png')}}" class="w-100 h-100" alt="windows" loading="lazy">
                   </div>
                   <p class="fw-medium"> Windows </p>
                 </div>
@@ -878,7 +884,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/AWS.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/AWS.png')}}" class="w-100 h-100" alt="aws" loading="lazy">
                   </div>
                   <p class="fw-medium"> AWS </p>
                 </div>
@@ -886,7 +892,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/google-cloud.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/google-cloud.png')}}" class="w-100 h-100" alt="google cloud" loading="lazy">
                   </div>
                   <p class="fw-medium"> Google Cloud </p>
                 </div>
@@ -894,7 +900,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/azure-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/azure-1.png')}}" class="w-100 h-100" alt="azure" loading="lazy">
                   </div>
                   <p class="fw-medium"> Azure </p>
                 </div>
@@ -902,7 +908,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/apache-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/apache-1.png')}}" class="w-100 h-100" alt="apache" loading="lazy">
                   </div>
                   <p class="fw-medium"> Apache </p>
                 </div>
@@ -910,7 +916,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/nginx.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/nginx.png')}}" class="w-100 h-100" alt="nginx" loading="lazy">
                   </div>
                   <p class="fw-medium"> Nginx </p>
                 </div>
@@ -918,7 +924,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/cloudflare.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/cloudflare.png')}}" class="w-100 h-100" alt="cloudflare" loading="lazy">
                   </div>
                   <p class="fw-medium"> Cloudflare </p>
                 </div>
@@ -926,7 +932,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/fastly.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/fastly.png')}}" class="w-100 h-100" alt="fastly" loading="lazy">
                   </div>
                   <p class="fw-medium"> Fastly </p>
                 </div>
@@ -934,7 +940,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/digital ocean.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/digital ocean.png')}}" class="w-100 h-100" alt="digital ocean" loading="lazy">
                   </div>
                   <p class="fw-medium"> Digital Ocean </p>
                 </div>
@@ -942,7 +948,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/euris.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/euris.png')}}" class="w-100 h-100" alt="euris" loading="lazy">
                   </div>
                   <p class="fw-medium"> Euris </p>
                 </div>
@@ -955,7 +961,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Kubernetes.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Kubernetes.png')}}" class="w-100 h-100" alt="Kubernetes" loading="lazy">
                   </div>
                   <p class="fw-medium"> Kubernetes </p>
                 </div>
@@ -963,7 +969,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/ECS.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/ECS.png')}}" class="w-100 h-100" alt="ECS" loading="lazy">
                   </div>
                   <p class="fw-medium"> ECS </p>
                 </div>
@@ -971,7 +977,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/EC2.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/EC2.png')}}" class="w-100 h-100" alt="EC2" loading="lazy">
                   </div>
                   <p class="fw-medium"> EC2 </p>
                 </div>
@@ -979,7 +985,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Lambda.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Lambda.png')}}" class="w-100 h-100" alt="Lambda" loading="lazy">
                   </div>
                   <p class="fw-medium"> Lambda </p>
                 </div>
@@ -987,7 +993,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/CloudFormation.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/CloudFormation.png')}}" class="w-100 h-100" alt="CloudFormation" loading="lazy">
                   </div>
                   <p class="fw-medium"> CloudFormation </p>
                 </div>
@@ -995,7 +1001,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Terraform.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Terraform.png')}}" class="w-100 h-100" alt="Terraform" loading="lazy">
                   </div>
                   <p class="fw-medium"> Terraform </p>
                 </div>
@@ -1003,7 +1009,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Jenkins.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Jenkins.png')}}" class="w-100 h-100" alt="Jenkins" loading="lazy">
                   </div>
                   <p class="fw-medium"> Jenkins </p>
                 </div>
@@ -1011,7 +1017,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Bitbucket.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Bitbucket.png')}}" class="w-100 h-100" alt="Bitbucket" loading="lazy">
                   </div>
                   <p class="fw-medium"> Bitbucket </p>
                 </div>
@@ -1019,7 +1025,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/github.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/github.png')}}" class="w-100 h-100" alt="github" loading="lazy">
                   </div>
                   <p class="fw-medium"> GitHub </p>
                 </div>
@@ -1027,7 +1033,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Go.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Go.png')}}" class="w-100 h-100" alt="Go" loading="lazy">
                   </div>
                   <p class="fw-medium"> Go </p>
                 </div>
@@ -1035,7 +1041,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/SaltStack.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/SaltStack.png')}}" class="w-100 h-100" alt="SaltStack" loading="lazy">
                   </div>
                   <p class="fw-medium"> SaltStack </p>
                 </div>
@@ -1043,7 +1049,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/Docker.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/Docker.png')}}" class="w-100 h-100" alt="Docker" loading="lazy">
                   </div>
                   <p class="fw-medium"> Docker </p>
                 </div>
@@ -1055,7 +1061,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/new-relic.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/new-relic.png')}}" class="w-100 h-100" alt="new relic" loading="lazy">
                   </div>
                   <p class="fw-medium"> New Relic </p>
                 </div>
@@ -1063,7 +1069,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/appdynamic-logo-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/appdynamic-logo-1.png')}}" class="w-100 h-100" alt="appdynamic" loading="lazy">
                   </div>
                   <p class="fw-medium"> AppDynamics </p>
                 </div>
@@ -1071,7 +1077,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/dynatrace-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/dynatrace-1.png')}}" class="w-100 h-100" alt="dynatrace" loading="lazy">
                   </div>
                   <p class="fw-medium"> Dynatrace </p>
                 </div>
@@ -1079,7 +1085,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/datadog.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/datadog.png')}}" class="w-100 h-100" alt="datadog" loading="lazy">
                   </div>
                   <p class="fw-medium"> Datadog </p>
                 </div>
@@ -1091,7 +1097,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/segement.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/segement.png')}}" class="w-100 h-100" alt="segment" loading="lazy">
                   </div>
                   <p class="fw-medium"> Segment </p>
                 </div>
@@ -1099,7 +1105,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/google-apigee.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/google-apigee.png')}}" class="w-100 h-100" alt="google apigee" loading="lazy">
                   </div>
                   <p class="fw-medium"> Google Apigee </p>
                 </div>
@@ -1107,7 +1113,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/mulesoft.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/mulesoft.png')}}" class="w-100 h-100" alt="mulesoft" loading="lazy">
                   </div>
                   <p class="fw-medium"> Mulesoft </p>
                 </div>
@@ -1115,7 +1121,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/tealium.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/tealium.png')}}" class="w-100 h-100" alt="tealium" loading="lazy">
                   </div>
                   <p class="fw-medium"> Tealium </p>
                 </div>
@@ -1123,7 +1129,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/zapier.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/zapier.png')}}" class="w-100 h-100" alt="zapier" loading="lazy">
                   </div>
                   <p class="fw-medium"> Zapier </p>
                 </div>
@@ -1131,7 +1137,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/sonarqube.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/sonarqube.png')}}" class="w-100 h-100" alt="sonarqube" loading="lazy">
                   </div>
                   <p class="fw-medium"> SonarQube </p>
                 </div>
@@ -1139,7 +1145,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/twilio.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/twilio.png')}}" class="w-100 h-100" alt="twilio" loading="lazy">
                   </div>
                   <p class="fw-medium"> Twilio </p>
                 </div>
@@ -1147,7 +1153,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/sendgrid.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/sendgrid.png')}}" class="w-100 h-100" alt="sendgrid" loading="lazy">
                   </div>
                   <p class="fw-medium"> Sendgrid </p>
                 </div>
@@ -1155,7 +1161,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/stripe.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/stripe.png')}}" class="w-100 h-100" alt="stripe" loading="lazy">
                   </div>
                   <p class="fw-medium"> Stripe </p>
                 </div>
@@ -1163,7 +1169,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/paypal.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/paypal.png')}}" class="w-100 h-100" alt="paypal" loading="lazy">
                   </div>
                   <p class="fw-medium"> Paypal </p>
                 </div>
@@ -1175,7 +1181,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/BUSINESS-INTELIGENCE-POWERBI.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/BUSINESS-INTELIGENCE-POWERBI.png')}}" class="w-100 h-100" alt="power bi" loading="lazy">
                   </div>
                   <p class="fw-medium"> Power BI </p>
                 </div>
@@ -1183,7 +1189,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/sap-business-objects.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/sap-business-objects.png')}}" class="w-100 h-100" alt="sap business objects" loading="lazy">
                   </div>
                   <p class="fw-medium"> SAP </p>
                 </div>
@@ -1191,7 +1197,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/tableau-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/tableau-1.png')}}" class="w-100 h-100" alt="tableau" loading="lazy">
                   </div>
                   <p class="fw-medium"> Tableau </p>
                 </div>
@@ -1199,7 +1205,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/looker-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/looker-1.png')}}" class="w-100 h-100" alt="looker" loading="lazy">
                   </div>
                   <p class="fw-medium"> Looker </p>
                 </div>
@@ -1207,7 +1213,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/qlik-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/qlik-1.png')}}" class="w-100 h-100" alt="qlik" loading="lazy">
                   </div>
                   <p class="fw-medium"> Qlik </p>
                 </div>
@@ -1215,7 +1221,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/heap-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/heap-1.png')}}" class="w-100 h-100" alt="heap" loading="lazy">
                   </div>
                   <p class="fw-medium"> Heap </p>
                 </div>
@@ -1223,7 +1229,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/google-analytics.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/google-analytics.png')}}" class="w-100 h-100" alt="google analytics" loading="lazy">
                   </div>
                   <p class="fw-medium"> Google Analytics </p>
                 </div>
@@ -1231,7 +1237,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/amplitude-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/amplitude-1.png')}}" class="w-100 h-100" alt="amplitude" loading="lazy">
                   </div>
                   <p class="fw-medium"> Amplitude </p>
                 </div>
@@ -1239,7 +1245,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/mixpanel-1.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/mixpanel-1.png')}}" class="w-100 h-100" alt="mixpanel" loading="lazy">
                   </div>
                   <p class="fw-medium"> Mixpanel </p>
                 </div>
@@ -1247,7 +1253,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                 <div class="tech-logo p-2 text-center" style="height: 100%;">
                   <div style="width: 40%;margin: 3% auto;">
-                  <img src="{{asset('assets/inbox/tech_arsenal/countly.png')}}" class="img-fluid">
+                  <img src="{{asset('assets/inbox/tech_arsenal/countly.png')}}" class="w-100 h-100" alt="countly" loading="lazy">
                   </div>
                   <p class="fw-medium"> Countly </p>
                 </div>
@@ -1271,7 +1277,7 @@
           <section class="my-5">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -1299,7 +1305,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -1311,7 +1317,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -1323,7 +1329,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -1335,7 +1341,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -1347,7 +1353,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -1359,7 +1365,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

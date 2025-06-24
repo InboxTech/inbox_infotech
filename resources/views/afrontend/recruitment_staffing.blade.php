@@ -48,27 +48,28 @@
       data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
       <div class="swiper-wrapper">
       <div class="swiper-slide" data-zanim-timeline="{}">
-        <div class="bg-holder" style="background-image:url({{asset('storage/media/services/banner/1214549853.jpg')}});"></div>
+        <div class="bg-holder">
+          <img src="{{ asset('storage/media/services/banner/1214549853.jpg') }}" alt="recruitment & staffing" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
+        </div>
         <!--/.bg-holder-->
         <div class="container">
         <div class="row min-vh-100 py-8 align-items-center justify-content-center" data-inertia='{"weight":1.5}'>
           <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
           style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
           <div class="overflow-hidden">
-            <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">Recruitment
-            and Staffing</p>
+            <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
+            Recruitment and Staffing
+          </p>
           </div>
           <div class="overflow-hidden">
-            <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>Connecting top
-            talent with the right opportunities – tailored recruitment and staffing solutions for your business
-            success.</p>
+            <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
+              Connecting top talent with the right opportunities – tailored recruitment and staffing solutions for your business success.</p>
           </div>
           <div class="overflow-hidden">
-            <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-              href="{{url('/about-us')}}">Read more<span class="fas fa-chevron-right ms-2"></span></a><a
-              class="btn btn-warning mt-3" href="{{url('/contact-us')}}">Contact us<span
-              class="fas fa-chevron-right ms-2"></span></a></div>
+           <div class="button-group fade-in-up">
+             <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+             <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
+        </div>
           </div>
           </div>
         </div>
@@ -77,10 +78,10 @@
       {{-- @foreach($slider as $list)
       @endforeach --}}
       </div>
-      <div class="swiper-nav">
+      <!-- <div class="swiper-nav">
       <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
       <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-      </div>
+      </div> -->
     </div>
     </section>
 
@@ -95,51 +96,51 @@
         <div class="swiper-wrapper">
 
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1665116922.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665116922.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1665117520.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665117520.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1665117298.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665117298.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1673940283.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1673940283.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1745238697.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1745238697.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1745235052.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1745235052.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1745238602.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1745238602.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1673943640.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1673943640.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1673943414.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1673943414.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/1665117275.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/1665117275.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/7.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/7.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         <div class="swiper-slide">
-          <img src="{{asset('storage/media/clients/8.png')}}" class="img-fluid">
+          <img src="{{asset('storage/media/clients/8.png')}}" class="w-100 h-100" alt="client logo" loading="lazy">
 
         </div>
         </div>
@@ -158,11 +159,8 @@
     <section class="bg-white">
       <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
       <div class="col-lg-6 col-md-12">
-        <h3 class="" style=" font-weight: 500;">Whether it's for permanent positions, contractual
-        roles, or project-based hiring, Inbox ensures the right
-        fit by aligning candidate skills with organizational
-        goals and culture.
-        </h3>
+        <h2 style=" font-weight: 500;">Whether it's for permanent positions, contractual roles, or project-based hiring, Inbox ensures the right fit by aligning candidate skills with organizational goals and culture.
+        </h2>
 
       </div>
       <div class="col-lg-6 ">
@@ -190,21 +188,18 @@
 
     <section>
       <div>
-      <h3 class="text-color text-center" data-aos="fade-up" data-aos-duration="1000"> Our Hiring Services </h3>
+      <h2 class="text-center" data-aos="fade-up" data-aos-duration="1000"> Our Hiring Services </h2>
       <div class="my-5">
         <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Permanent_Recruitment.svg')}}" class="img-fluid">
+            <img src="{{asset('assets/img/icons/svg_icons/Permanent_Recruitment.svg')}}" class="w-100 h-100" alt="permanant recruitment" loading="lazy">
           </div>
           <div class="card-body p-2">
-            <h5 class="text-color"> Permanent Recruitment </h5>
-            <p class="lh-md">End-to-end recruitment
-            support for long-term technical
-            roles, ensuring candidates are
-            both technically competent
-            and culturally aligned.
+            <h3 class="fs-2"> Permanent Recruitment </h3>
+            <p class="lh-md">
+				End-to-end recruitment support for long-term technical roles, ensuring candidates are both technically competent and culturally aligned.
             </p>
           </div>
           </div>
@@ -212,29 +207,24 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Contract_Staffing.svg')}}">
+            <img src="{{asset('assets/img/icons/svg_icons/Contract_Staffing.svg')}}" class="w-100 h-100" alt="contract staffing" loading="lazy">
           </div>
           <div class="card-body p-2">
-            <h5 class="text-color"> Contract Staffing </h5>
-            <p class="lh-md"> Flexible IT staffing solutions
-            that allow companies to
-            quickly scale up or down
-            based on project needs and
-            market dynamics. </p>
+            <h3 class="fs-2"> Contract Staffing </h3>
+            <p class="lh-md">
+				 Flexible IT staffing solutions that allow companies to quickly scale up or down based on project needs and market dynamics. </p>
           </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Executive_Search.svg')}}">
+            <img src="{{asset('assets/img/icons/svg_icons/Executive_Search.svg')}}" class="w-100 h-100" alt="executive search" loading="lazy">
           </div>
           <div class="card-body p-2">
-            <h5 class="text-color"> Executive Search </h5>
-            <p class="lh-md"> Specialized hiring for mid-level
-            to senior IT roles requiring
-            domain expertise and
-            leadership experience.
+            <h3 class="fs-2"> Executive Search </h3>
+            <p class="lh-md">
+				Specialized hiring for mid-level to senior IT roles requiring domain expertise and leadership experience.
             </p>
           </div>
           </div>
@@ -242,26 +232,23 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Remote_Offshore_Staffing.svg')}}">
+            <img src="{{asset('assets/img/icons/svg_icons/Remote_Offshore_Staffing.svg')}}" class="w-100 h-100" alt="remote offshore staffing" loading="lazy">
           </div>
           <div class="card-body p-2">
-            <h5 class="text-color"> Remote/Offshore Staffing </h5>
-            <p class="lh-md"> Access to highly talented
-            offshore IT professionals. </p>
+            <h3 class="fs-2"> Remote/Offshore Staffing </h3>
+            <p class="lh-md"> Access to highly talented offshore IT professionals. </p>
           </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Volume_Hiring.svg')}}">
+            <img src="{{asset('assets/img/icons/svg_icons/Volume_Hiring.svg')}}" class="w-100 h-100" alt="volume hiring" loading="lazy">
           </div>
           <div class="card-body p-2">
-            <h5 class="text-color"> Volume Hiring </h5>
-            <p class="lh-md"> High-speed recruitment
-            solutions for rapidly growing
-            tech teams, BPOs, and ITES
-            companies.
+            <h3 class="fs-2"> Volume Hiring </h3>
+            <p class="lh-md">
+				High-speed recruitment solutions for rapidly growing tech teams, BPOs, and ITES companies.
             </p>
           </div>
           </div>
@@ -272,236 +259,179 @@
     </section>
 
     <!------------------------- our hiring service end --------------------------------->
+	  </div>
 
 
-
-
-    <section>
-       <div class="container-fluid">
-      <div data-aos="fade-up" data-aos-duration="1000">
-      <h3 class="my-3 text-center" >Why inbox is Your Workforce</h3>
-      </div>
-      <div class="card bg-primary  p-5" data-aos="fade-up" data-aos-duration="1000">
-      <div class="text-center p-3 bg-primary">
-        <h3 class="mb-3 text-white">Our Certified Team</h3>
-        <p class="text-white">Transparency is the hallmark of our process for hiring skilled Indian developers. With
-        over a decade of experience in the market, we can ensure the quality of work and results for your project.
-        Our dedicated developers are top performers, and by onboarding them, you can complete your project on time
-        and within budget.</p>
-      </div>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-lg-3 col-md-6">
-        <div class=" my-5 progress-no">
-          <h5> 150+ <br> Clients Globally</h5>
-          {{-- <p class="text-black"> Ranging from MSMES to
-          Fortune 500s across several
-          countries
-          </p> --}}
+<!-------------------------- why inbox is workforce start ------------------------------>
+  <section>
+        <!--/.bg-holder-->
+        <h2 class="my-3 text-center"> Why inbox is Your Workforce </h2>
+        <div class="bg-primary p-5">
+            <div class="container mx-auto">
+                <div class="text-center p-3">
+                    <h3 class="mb-3 text-white">Our Certified Team</h3>
+                    <p class="text-white">Transparency is the hallmark of our process for hiring skilled Indian developers. With
+                    over a decade of experience in the market, we can ensure the quality of work and results for your project.
+                    Our dedicated developers are top performers, and by onboarding them, you can complete your project on time
+                    and within budget.</p>
+                </div>
+                <div class="row justify-content-center align-items-center ">
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="my-5 progress-no">
+                            <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}'
+                                data-countup='{"endValue":150}'>150</h4>
+                            <h5 class="fs-0" data-zanim-xs='{"delay":0.2}'>Clients Globally</h5>
+                        </div>
+                        <div class="my-5 progress-no">
+                            <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}'
+                                data-countup='{"endValue":35}'>35</h4>
+                            <h5 class="fs-0" data-zanim-xs='{"delay":0.2}'>Highly Experienced Recruiters</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-block d-none text-center">
+                        <img src="{{ asset('assets/inbox/Teams.png') }}" class="w-100 h-100" alt="inbox team" loading="lazy">
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-lg-end py-5">
+                        <div class="mb-5 progress-no ">
+                            <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs countup-plus" data-zanim-xs='{"delay":0.1}'
+                                data-countup='{"endValue":3000}'>3000</h4>
+                            <h5 class="fs-0" data-zanim-xs='{"delay":0.2}'>Placements across global</h5>
+                        </div>
+                        <div class=" progress-no">
+                            <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs " data-zanim-xs='{"delay":0.1}'
+                                data-countup='{"endValue":3}'>3</h4>
+                            <h5 class="fs-0" data-zanim-xs='{"delay":0.2}'>Locations Vadodara, Delhi, UAE</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class=" my-5 progress-no">
-          <h5> 35+ <br>  Highly Experienced Recruiters </h5>
-          {{-- <p class="text-black"> We have a large team of
-          recruiters working on various
-          verticals to deliver quality
-          services </p> --}}
-        </div>
-        </div>
-        <div class="col-lg-6 d-lg-block d-none text-center">
-        {{-- <div class=""> --}}
-          <img src="{{asset('assets/inbox/Teams.png')}}" class="img-fluid">
-        {{-- </div> --}}
-        </div>
-        <div class="col-lg-3 col-md-6">
-        <div class=" my-5 progress-no">
-          <h5>3000+ <br> Placements across global
-          </h5>
-          {{-- <p class="text-black"> Ranging from entry level
-          workers to top management.
-          We are also experts in head
-          hunting. </p> --}}
-        </div>
-        <div class=" my-5 progress-no">
-          <h5> 3 <br> Locations Vadodara, Delhi, UAE </h5>
-          {{-- <p class="text-black"> Vadodara, Delhi, UAE --}}
-          </p>
-        </div>
-        </div>
-
-      <!-- <div class="col-lg-3 row">
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-lightbulb fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Creative Support </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-magic fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Creating Experiences </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-cubes fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Product Consulting </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-chart-line fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Business Boosting </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-chess fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Strategic Approach </p>
-        </div>
-        </div>
-        <div class="col-lg-4 mb-3">
-        <div class="shadow  text-center" style="height: 100%;">
-          <div style="width: 50%;margin: 5% auto;">
-          <i class="fas fa-truck fs-6 p-3 text-color"></i>
-          </div>
-          <p class="fw-bold"> Logistic Consulting </p>
-        </div>
-        </div>
-      </div> -->
-      </div>
-      </div>
-       </div>
     </section>
+<!-------------------------- why inbox is workforce end ------------------------------>
 
+<div class="container">
+<!------------------------------------- Hire Your Own Expert Remote Team start  -------------------------------------->
     <section>
       <div class="row mt-4 mt-md-5 " data-aos="fade-up" data-aos-duration="1000">
-      <h3 class="my-5 mt-md-5 text-center"> Hire Your Own Expert Remote Team Today </h3>
+      <h2 class="my-5 mt-md-5 text-center"> Hire Your Own Expert Remote Team Today </h2>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/oracle.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/oracle.png')}}" class="w-100 h-100" alt="oracle consultant" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Oracle Consultant </h5>
+        <h3 class="fs-2"> Hire Oracle Consultant </h3>
         <p class=""> Expert Oracle consultants to streamline your enterprise database and applications. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/SAP_Consultancy.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/SAP_Consultancy.png')}}" class="w-100 h-100" alt="SAP consultant" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire SAP Consultant </h5>
+        <h3 class="fs-2"> Hire SAP Consultant </h3>
         <p class=""> Skilled SAP consultants for end-to-end implementation and optimization. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Hadoop.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Hadoop.png')}}" class="w-100 h-100" alt="Hadoop consultant" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Hadoop Consultant </h5>
+        <h3 class="fs-2"> Hire Hadoop Consultant </h3>
         <p class=""> Big data specialists to manage and analyze large-scale data with Hadoop. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Salesforce-Developers.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Salesforce-Developers.png')}}" class="w-100 h-100" alt="Salesforce developers" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Salesforce Developers </h5>
+        <h3 class="fs-2"> Hire Salesforce Developers </h3>
         <p class=""> Certified Salesforce developers to customize and automate your CRM. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/ServiceNow_Developers.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/ServiceNow_Developers.png')}}" class="w-100 h-100" alt="ServiceNow developers" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire ServiceNow Developers </h5>
+        <h3 class="fs-2"> Hire ServiceNow Developers </h3>
         <p class=""> Build seamless workflows with our experienced ServiceNow developers. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/AI_ML_Development.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/AI_ML_Development.png')}}" class="w-100 h-100" alt="AI and ML development" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire AI/ML Developers </h5>
+        <h3 class="fs-2"> Hire AI/ML Developers </h3>
         <p class=""> Advanced AI/ML developers to turn data into intelligent business solutions. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Frontend_Development.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Frontend_Development.png')}}" class="w-100 h-100" alt="Frontend development" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Frontend Developers </h5>
+        <h3 class="fs-2"> Hire Frontend Developers </h3>
         <p class=""> Creative frontend developers for responsive and user-friendly interfaces. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Backend_Development.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Backend_Development.png')}}" class="w-100 h-100" alt="Backend development" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Backend Developers </h5>
+        <h3 class="fs-2"> Hire Backend Developers </h3>
         <p class=""> Reliable backend developers for scalable and secure server-side solutions. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/mobile_app_developer.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/mobile_app_developer.png')}}" class="w-100 h-100" alt="Mobile app developer" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire MobileApp Developers </h5>
+        <h3 class="fs-2"> Hire MobileApp Developers </h3>
         <p class=""> Innovative mobile app developers for iOS and Android platforms. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Database_Administration.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Database_Administration.png')}}" class="w-100 h-100" alt="Database administration" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Database Experts </h5>
+        <h3 class="fs-2"> Hire Database Experts </h3>
         <p class=""> Proficient DBAs to manage, secure, and optimize your databases. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Datacenter_Solutions.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Datacenter_Solutions.png')}}" class="w-100 h-100" alt="Datacenter solutions" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Datacenter Experts </h5>
+        <h3 class="fs-2"> Hire Datacenter Experts </h3>
         <p class=""> Comprehensive datacenter solutions for high availability and performance. </p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
         <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/inbox/remote_team/Cyber_Security_Services.png')}}" class="img-fluid">
+          <img src="{{asset('assets/inbox/remote_team/Cyber_Security_Services.png')}}" class="w-100 h-100" alt="Cyber security services" loading="lazy">
         </div>
-        <h5 class="text-color"> Hire Cyber Security Experts </h5>
+        <h3 class="fs-2"> Hire Cyber Security Experts </h3>
         <p class=""> Certified experts to protect your digital assets and ensure compliance. </p>
         </div>
       </div>
       </div>
     </section>
+<!------------------------------------- Hire Your Own Expert Remote Team end  -------------------------------------->
 
 
     <!---------------------------------- Performance Highlights start  -------------------------------------->
 
     <section>
       <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-      <h3 class="text-center">Our Performance Highlights </h3>
+      <h2 class="text-center">Our Performance Highlights </h2>
       <p> Database of 100,000+ Pre-vetted IT Professionals</p>
       </div>
 
@@ -510,58 +440,38 @@
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
           <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/img/icons/svg_icons/Average_Time_to_Hire.svg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/icons/svg_icons/Average_Time_to_Hire.svg')}}" class="w-100 h-100" alt="Average time to hire" loading="lazy">
           </div>
-          <h5 class="text-color"> Average Time-toHire </h5>
-          <p class=""> Our average time to hire 5–10
-          business days, However
-          sometimes it varies by role
-          complexity and client
-          responsiveness.
+          <h3 class="fs-2"> Average Time-toHire </h3>
+          <p class=""> Our average time to hire 5–10 business days, However sometimes it varies by role complexity and client responsiveness. </p>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+        <div class="card shadow p-3" style="height: 100%;">
+          <div style="width: 30%; margin: 4% 0;">
+          <img src="{{asset('assets/img/icons/svg_icons/Interview_to_Offer_Ratio.svg')}}" class="w-100 h-100" alt="Interview to offer ratio" loading="lazy">
+          </div>
+          <h3 class="fs-2">Interview-to-Offer Ratio </h3>
+          <p class=""> On average, 1 out of every 3 candidates we submit and who reaches the interview stage receives an offer. </p>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 my-3">
+        <div class="card shadow p-3" style="height: 100%;">
+          <div style="width: 30%; margin: 4% 0;">
+          <img src="{{asset('assets/img/icons/svg_icons/Client_Retention_Rate.svg')}}" class="w-100 h-100" alt="Client retention rate" loading="lazy">
+          </div>
+          <h3 class="fs-2"> Client Retention Rate</h3>
+          <p class=""> Our high client retention rate is a reflection of the trust, satisfaction, and results we deliver. 90% of our clients return to work with us again.
           </p>
         </div>
         </div>
         <div class="col-lg-3 col-md-6 my-3">
         <div class="card shadow p-3" style="height: 100%;">
           <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/img/icons/svg_icons/Interview_to_Offer_Ratio.svg')}}" class="img-fluid">
+          <img src="{{asset('assets/img/icons/svg_icons/NPS_Score _ Client_Satisfaction.svg')}}" class="w-100 h-100" alt="NPS score" loading="lazy">
           </div>
-          <h5 class="text-color">Interview-to-Offer
-          Ratio </h5>
-          <p class=""> On average, 1 out of every 3
-          candidates we submit and who
-          reaches the interview stage receives
-          an offer.
-          </p>
-        </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-3">
-        <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/img/icons/svg_icons/Client_Retention_Rate.svg')}}" class="img-fluid">
-          </div>
-          <h5 class="text-color"> Client Retention
-          Rate</h5>
-          <p class=""> Our high client retention rate is
-          a reflection of the trust,
-          satisfaction, and results we
-          deliver. 90% of our clients
-          return to work with us again.
-          </p>
-        </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-3">
-        <div class="card shadow p-3" style="height: 100%;">
-          <div style="width: 30%; margin: 4% 0;">
-          <img src="{{asset('assets/img/icons/svg_icons/NPS_Score _ Client_Satisfaction.svg')}}" class="img-fluid">
-          </div>
-          <h5 class="text-color"> NPS Score / Client
-          Satisfaction</h5>
-          <p class=""> Inbox Infotech proudly
-          maintains a Net Promoter
-          Score (NPS) of +70, placing us
-          in the "Excellent" category by
-          global standards.
+          <h3 class="fs-2"> NPS Score / Client Satisfaction</h3>
+          <p class=""> Inbox Infotech proudly maintains a Net Promoter Score (NPS) of +70, placing us in the "Excellent" category by global standards.
           </p>
         </div>
         </div>
@@ -569,16 +479,16 @@
       </div>
     </section>
     <!---------------------------------- Performance Highlights end  -------------------------------------->
+
+
     <!-- ============================================-->
     <!-- <section> testimonial begin ============================-->
     <section style="padding-top:40px;padding-bottom: 10px;">
       <div class="container">
       <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
         <p>WHAT CLIENT SAYS ABOUT US</p>
-        <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem">Our Testimonials</h6>
-        <hr class="short"
-        data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-        data-zanim-trigger="scroll" />
+        <h2> Our Testimonials </h2>
+        <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
       </div>
       </div><!-- end of .container-->
     <!-- <section> close ============================-->
@@ -593,17 +503,12 @@
           <div class="row align-items-center mb-3">
 
             <div class="col-12">
-            <h6 class="fs-0 mb-1 mt-4 text-color">Sameer Salunkhe</h6>
+            <h3 class="fs-0 mb-1 mt-4 text-color">Sameer Salunkhe</h3>
             <p class="mb-0 text-500">Director PwC</p>
             </div>
           </div>
           <div class="flex-grow-1">
-            <p class="lead">Inbox Infotech's support during our
-            expansion phase was crucial. They delivered
-            pre-vetted tech talent in record time, which
-            helped us maintain project momentum
-            without delays..
-            </p>
+            <p class="lead">Inbox Infotech's support during our expansion phase was crucial. They delivered pre-vetted tech talent in record time, which helped us maintain project momentum without delays.. </p>
           </div>
           </div>
         </div>
@@ -612,17 +517,12 @@
           <div class="row align-items-center mb-3">
 
             <div class="col-12">
-            <h6 class="fs-0 mb-1 mt-4 text-color">Rohan Arora</h6>
+            <h3 class="fs-0 mb-1 mt-4 text-color">Rohan Arora</h3>
             <p class="mb-0 text-500"> HR Director, HCL Tech</p>
             </div>
           </div>
           <div class="flex-grow-1">
-            <p class="lead">Inbox Infotech brought in exceptional
-            candidates that were not only technically
-            skilled but also culturally aligned with our
-            company. Their team was responsive,
-            professional, and incredibly easy to work with.
-            </p>
+            <p class="lead">Inbox Infotech brought in exceptional candidates that were not only technically skilled but also culturally aligned with our company. Their team was responsive, professional, and incredibly easy to work with. </p>
           </div>
           </div>
         </div>
@@ -631,19 +531,12 @@
           <div class="row align-items-center mb-3">
 
             <div class="col-12">
-            <h6 class="fs-0 mb-1 mt-4 text-color">Varsha Sharma </h6>
-            <p class="mb-0 text-500"> Recruitment Head Alembic
-            </p>
+            <h3 class="fs-0 mb-1 mt-4 text-color">Varsha Sharma </h3>
+            <p class="mb-0 text-500"> Recruitment Head Alembic </p>
             </div>
           </div>
           <div class="flex-grow-1">
-            <p class="lead">"We partnered with Inbox for a high-volume
-            recruitment drive, and they delivered beyond
-            expectations. Not only did they meet the
-            deadline, but the quality of candidates was
-            outstanding. Most of them are still with us
-            today.
-            </p>
+            <p class="lead">"We partnered with Inbox for a high-volume recruitment drive, and they delivered beyond expectations. Not only did they meet the deadline, but the quality of candidates was outstanding. Most of them are still with us today. </p>
           </div>
           </div>
         </div>
@@ -652,19 +545,13 @@
           <div class="row align-items-center mb-3">
 
             <div class="col-12">
-            <h6 class="fs-0 mb-1 mt-4 text-color">Sanjay Patel
-            </h6>
+            <h3 class="fs-0 mb-1 mt-4 text-color">Sanjay Patel </h3>
             <p class="mb-0 text-500"> Associate Director Recruitment, Shell
             </p>
             </div>
           </div>
           <div class="flex-grow-1">
-            <p class="lead">The Inbox team has consistently provided
-            high-quality talent, often ahead of schedule.
-            Their professionalism, follow-ups, and
-            candidate engagement are everything you'd
-            want in a recruitment partner.
-            </p>
+            <p class="lead">The Inbox team has consistently provided high-quality talent, often ahead of schedule. Their professionalism, follow-ups, and candidate engagement are everything you'd want in a recruitment partner. </p>
           </div>
           </div>
         </div>

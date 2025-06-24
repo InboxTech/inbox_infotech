@@ -117,7 +117,7 @@
       <div class=" col-lg-3 col-md-4 col-6 my-3" style="padding:bottom:10px;">
         <div class="card shadow" style="height: 100%;">
           <div class="card-header p-0">
-            <img class="card-img-top" src="{{ asset('storage/media/blogs/')}}/{{$prod->imaage}}" alt="Card image cap">
+            <img class="card-img-top" src="{{ asset('storage/media/blogs/')}}/{{$prod->imaage}}" style="height: 200px;" alt="Card image cap">
           </div>
           <div class="card-body">
             <h5 class="card-title">{{$prod->title}}</h5>

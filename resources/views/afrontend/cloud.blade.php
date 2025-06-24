@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/services/banner/Cloud_Services.png') }});">
+                        <div class="bg-holder">
+                             <img src="{{ asset('storage/media/services/banner/Cloud_Services.png') }}" alt="Cloud services" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,32 +39,30 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                             Cloud Service </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
                                             Cloud services offer on-demand computing resources like storage, servers, databases, and applications over the internet, enabling scalability, flexibility, and cost-efficiency. </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {{-- @foreach ($slider as $list)
-      @endforeach --}}
+                        @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -76,8 +75,8 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
                                     {{--
         </div> --}}
                                 </div>
@@ -101,7 +100,7 @@
                         <div class="row " data-aos="fade-up" data-aos-duration="1000">
                             <div class="col-lg-6">
 
-                                <h3 > Simplifying the Cloud: Managed Services for Seamless Operations</h3>
+                                <h2> Simplifying the Cloud: Managed Services for Seamless Operations</h2>
                             </div>
                             <div class="col-lg-6">
                                 <p> Our Managed Cloud Services are designed to eliminate the complexity of managing cloud infrastructure, allowing your business to focus on innovation and growth. We offer comprehensive support across all major cloud platforms—AWS, Azure, Google Cloud, and hybrid environments—tailored to your unique needs. From architecture design and migration to continuous monitoring, security management, and cost optimization, our team ensures your cloud environment runs efficiently and securely. With 24/7 technical support, proactive incident resolution, and expert guidance, we help reduce operational risks and enhance performance. Whether you’re just starting your cloud journey or scaling an enterprise environment, we provide the tools, expertise, and reliability to make cloud management effortless and effective.
@@ -116,7 +115,7 @@
         <!---------------  cloud deployment model start --------------------->
         <section class="cloud">
             <div class="text-center">
-                <h3> Cloud Deployment Model </h3>
+                <h2> Cloud Deployment Model </h2>
                 <p>Cloud deployment models include Public Cloud, Private Cloud, Hybrid Cloud and Community Cloud, offering varying levels of control, flexibility, and security to meet different business needs.</p>
             </div>
 
@@ -127,10 +126,10 @@
                       <div class="swiper-slide"> --}}
                         <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/public_cloud.png')}}" class="w-100 h-100">
+                                <img src="{{asset('assets/inbox/public_cloud.png')}}" class="w-100 h-100" alt="Public Cloud" loading="lazy">
                             </div>
                             <div class="col-lg-8">
-                                <h5> Public Cloud </h5>
+                                <h3 class="fs-2"> Public Cloud </h3>
                                 <p> Public Cloud is a cloud deployment model where services and resources are provided by third-party providers over the internet. These resources are shared across multiple organizations (multi-tenant) and include infrastructure, storage, and applications. Public clouds offer scalability, cost-effectiveness, and flexibility, as businesses only pay for the resources they use. Major providers include AWS, Microsoft Azure, and Google Cloud. While public clouds provide strong security measures, they offer less control compared to private clouds. Ideal for businesses seeking low upfront costs and easy scalability. </p>
                             </div>
                         </div>
@@ -138,21 +137,21 @@
                       {{-- <div class="swiper-slide"> --}}
                        <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
                             <div class="col-lg-8">
-                                <h5> Private Cloud </h5>
+                                <h3 class="fs-2"> Private Cloud </h3>
                                 <p> Private Cloud is a cloud deployment model where cloud resources are used exclusively by a single organization, either on-premises or hosted by a third-party provider. It offers enhanced security, control, and customization compared to public clouds. Private clouds are ideal for businesses with strict compliance or security requirements, but they tend to have higher upfront costs. </p>
                             </div>
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/private_cloud.png')}}" class="w-100 h-100">
+                                <img src="{{asset('assets/inbox/private_cloud.png')}}" class="w-100 h-100" alt="Private Cloud" loading="lazy">
                             </div>
                         </div>
                       {{-- </div> --}}
                       {{-- <div class="swiper-slide"> --}}
                         <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/hybrid_cloud.png')}}" class="w-100 h-100">
+                                <img src="{{asset('assets/inbox/hybrid_cloud.png')}}" class="w-100 h-100" alt="Hybrid Cloud" loading="lazy">
                             </div>
                             <div class="col-lg-8">
-                                <h5> Hybrid Cloud </h5>
+                                <h3 class="fs-2"> Hybrid Cloud </h3>
                                 <p> Hybrid Cloud is a cloud deployment model that combines both private and public cloud infrastructures, allowing data and applications to be shared between them. This approach provides greater flexibility, enabling businesses to leverage the scalability of public clouds while maintaining control and security with private clouds for sensitive workloads. Hybrid cloud is ideal for organizations that need a mix of both environments for different tasks. </p>
                             </div>
                         </div>
@@ -160,11 +159,11 @@
                       {{-- <div class="swiper-slide"> --}}
                         <div class="row my-3 align-items-center" style="border-bottom: 1px solid #00406d;padding-bottom: 20px;">
                             <div class="col-lg-8">
-                                <h5> Community Cloud </h5>
+                                <h3 class="fs-2"> Community Cloud </h3>
                                 <p> Community Cloud is a cloud deployment model shared by multiple organizations with common concerns, such as security, compliance, or industry-specific requirements. It can be hosted by a third-party provider or managed internally. Community clouds allow for cost-sharing and collaboration while maintaining control over sensitive data, making them ideal for businesses in the same industry or regulatory environment. </p>
                             </div>
                             <div class="col-lg-4">
-                                <img src="{{asset('assets/inbox/Multi_Cloud.png')}}" class="w-100 h-100">
+                                <img src="{{asset('assets/inbox/Multi_Cloud.png')}}" class="w-100 h-100" alt="Community Cloud" loading="lazy">
                             </div>
                         </div>
                       {{-- </div> --}}
@@ -182,7 +181,7 @@
 
         <section class="cloud-services">
            <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-               <h3 > Our Cloud Managed Services </h3>
+               <h2> Our Cloud Managed Services </h2>
                <p> Our Cloud Managed Services provide end-to-end management, monitoring, security, and optimization of your cloud infrastructure, ensuring scalability, performance, compliance, and 24/7 expert support for seamless operations. </p>
            </div>
 
@@ -390,6 +389,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                               <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -449,14 +457,14 @@
 
           <section class="iot-process">
             <div class="text-center">
-                <h3> Our Cloud Partners  </h3>
+                <h2> Our Cloud Partners  </h2>
             </div>
            <div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/AWS.png') }}" class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/AWS.png') }}" class="w-100 h-100" alt="AWS" loading="lazy">
                         </div>
                         <p class="fw-medium"> AWS </p>
                     </div>
@@ -464,8 +472,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/google-cloud.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/google-cloud.png') }}" class="w-100 h-100" alt="Google Cloud" loading="lazy">
                         </div>
                         <p class="fw-medium"> Google Cloud </p>
                     </div>
@@ -473,7 +480,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/azure-1.png') }}" class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/azure-1.png') }}" class="w-100 h-100" alt="Azure" loading="lazy">
                         </div>
                         <p class="fw-medium"> Azure </p>
                     </div>
@@ -481,7 +488,7 @@
                  <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/cloudflare.png') }}" class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/cloudflare.png') }}" class="w-100 h-100" alt="Cloudflare" loading="lazy">
                         </div>
                         <p class="fw-medium"> Cloudflare </p>
                     </div>
@@ -489,8 +496,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/Docker.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Docker.png') }}" class="w-100 h-100" alt="Docker" loading="lazy">
                         </div>
                         <p class="fw-medium"> Docker </p>
                     </div>
@@ -498,8 +504,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/Kubernetes.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Kubernetes.png') }}" class="w-100 h-100" alt="Kubernetes" loading="lazy">
                         </div>
                         <p class="fw-medium"> Kubernetes </p>
                     </div>
@@ -507,8 +512,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/Jenkins.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Jenkins.png') }}" class="w-100 h-100" alt="Jenkins" loading="lazy">
                         </div>
                         <p class="fw-medium"> Jenkins </p>
                     </div>
@@ -516,8 +520,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/Terraform.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/Terraform.png') }}" class="w-100 h-100" alt="Terraform" loading="lazy">
                         </div>
                         <p class="fw-medium"> Terraform </p>
                     </div>
@@ -525,8 +528,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/oracle.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/oracle.png') }}" class="w-100 h-100" alt="Oracle" loading="lazy">
                         </div>
                         <p class="fw-medium"> Oracle </p>
                     </div>
@@ -534,8 +536,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 my-2">
                     <div class="tech-logo p-2 text-center" style="height: 100%;">
                         <div style="width: 40%;margin: 3% auto;">
-                            <img src="{{ asset('assets/inbox/tech_arsenal/CloudFormation.png') }}"
-                                class="img-fluid">
+                            <img src="{{ asset('assets/inbox/tech_arsenal/CloudFormation.png') }}" alt="CloudFormation" loading="lazy"class="w-100 h-100">
                         </div>
                         <p class="fw-medium"> CloudFormation </p>
                     </div>
@@ -548,7 +549,7 @@
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -576,7 +577,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -588,7 +589,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -600,7 +601,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -612,7 +613,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -624,7 +625,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -636,7 +637,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

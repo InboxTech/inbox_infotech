@@ -116,14 +116,14 @@ class IndustrieController extends Controller
         if($request->hasfile('imaage')){
             if($request->post('id')>0){
                 $arrImage=DB::table('industries')->where(['id'=>$request->post('id')])->get();
-                if(Storage::exists('/public/media/'.$arrImage[0]->imaage)){
-                    Storage::delete('/public/media/'.$arrImage[0]->imaage);
+                if(Storage::exists('/public/media/industries/banner'.$arrImage[0]->imaage)){
+                    Storage::delete('/public/media/industries/banner'.$arrImage[0]->imaage);
                 }
             }
             $image=$request->file('imaage');
             $ext=$image->extension();
             $image_name=time().'.'.$ext;
-            $image->storeAs('/public/media',$image_name);
+            $image->storeAs('/public/media/industries/banner',$image_name);
             $model->imaage=$image_name;
         }
 
@@ -150,8 +150,8 @@ class IndustrieController extends Controller
             if($request->hasFile("attr_image.$key")){
                 if($paidArr[$key]!=''){
                     $arrImage=DB::table('industrie_images')->where(['id'=>$paidArr[$key]])->get();
-                    if(Storage::exists('/public/media/'.$arrImage[0]->attr_image)){
-                        Storage::delete('/public/media/'.$arrImage[0]->attr_image);
+                    if(Storage::exists('/public/media/industries/'.$arrImage[0]->attr_image)){
+                        Storage::delete('/public/media/industries/'.$arrImage[0]->attr_image);
                     }
                 }
 
@@ -159,7 +159,7 @@ class IndustrieController extends Controller
                 $attr_image=$request->file("attr_image.$key");
                 $ext=$attr_image->extension();
                 $image_name=$rand.'.'.$ext;
-                $request->file("attr_image.$key")->storeAs('/public/media',$image_name);
+                $request->file("attr_image.$key")->storeAs('/public/media/industries',$image_name);
                 $productAttrArr['attr_image']=$image_name;
             }
 

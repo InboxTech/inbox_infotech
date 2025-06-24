@@ -47,7 +47,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/industries/banner/Healthcare.jpg') }});">
+                        <div class="bg-holder">
+                             <img src="{{ asset('storage/media/industries/banner/Healthcare.jpg') }}" alt="Healthcare" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -56,23 +57,18 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                             Healthcare</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
                                             Healthcare IT Services: Leading IT Support for the Healthcare Industry.
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'>
-                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
-                                                Read more<span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
-                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
-                                                Contact us<span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -81,10 +77,10 @@
                     </div>
                     {{-- @foreach ($slider as $list)     @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
       </section>
 
@@ -95,35 +91,35 @@
                 <div class="row my-5 custom-border">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h3 class="text-color">AI Innovation & engagement</h3>
+                            <h2 class="text-color">AI Innovation & engagement</h2>
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-xl-7">
                         <div class="row">
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Predictive Diagnostics</h5>
+                                <h3 class="fs-2 my-2">Predictive Diagnostics</h3>
                                 <p class="text-black mb-0">Early detection of diseases using AI models (e.g., sepsis prediction, radiology image analysis).</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Smart Scheduling</h5>
+                                <h3 class="fs-2 my-2">Smart Scheduling</h3>
                                 <p class="text-black mb-0">AI Chatbot handles 24/7 patient queries, appointment scheduling, and availability checks.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Virtual Transcript</h5>
+                                <h3 class="fs-2 my-2">Virtual Transcript</h3>
                                 <p class="text-black mb-0">Real-time transcription of audio and video consultations for accurate EHR documentation.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Virtual Health Assistants</h5>
+                                <h3 class="fs-2 my-2">Virtual Health Assistants</h3>
                                 <p class="text-black mb-0">24/7 patient support through AI Voice Bot which enables phonebased appointment booking and
                                     handles patient queries for elderly or less tech-savvy patients.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Real-time alerts</h5>
+                                <h3 class="fs-2 my-2">Real-time alerts</h3>
                                 <p class="text-black mb-0">Personalized medicine reminders based on prescribed dosage and time using AI
                                     models to patients, Notifies staff of anomalies in vitals or lab results.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Personalized Treatment Plans</h5>
+                                <h3 class="fs-2 my-2">Personalized Treatment Plans</h3>
                                 <p class="text-black mb-0">AI analyzes patient history to recommend customized care.</p>
                             </div>
                         </div>
@@ -135,33 +131,33 @@
                 <div class="row my-5 custom-border">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h3 class="text-color">Seamless Patient Experience</h3>
+                            <h2 class="text-color">Seamless Patient Experience</h2>
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-xl-7">
                         <div class="row">
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Online Scheduling</h5>
+                                <h3 class="fs-2 my-2">Online Scheduling</h3>
                                 <p class="text-black mb-0">Online scheduling and virtual check-ins to reduce wait times</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Telemedicine</h5>
+                                <h3 class="fs-2 my-2">Telemedicine</h3>
                                 <p class="text-black mb-0">Remote consultation options via secure video/audio calls.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Instant Visibility</h5>
+                                <h3 class="fs-2 my-2">Instant Visibility</h3>
                                 <p class="text-black mb-0">Real-time calendar view for doctor availability and bed status.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Patient Chat</h5>
+                                <h3 class="fs-2 my-2">Patient Chat</h3>
                                 <p class="text-black mb-0">In-app chat for ongoing patient-doctor communication.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Smart Reminders</h5>
+                                <h3 class="fs-2 my-2">Smart Reminders</h3>
                                 <p class="text-black mb-0">Tailored reminders for appointments, medications, or screenings via SMS/email, AI Voice Assistance.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Patient Feedback</h5>
+                                <h3 class="fs-2 my-2">Patient Feedback</h3>
                                 <p class="text-black mb-0">Post-visit surveys and real-time feedback tools.</p>
                             </div>
                         </div>
@@ -173,33 +169,33 @@
                 <div class="row my-5 custom-border">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
-                            <h3 class="text-color">Actionable Insights & Dashboard</h3>
+                            <h2 class="text-color">Actionable Insights & Dashboard</h2>
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-xl-7">
                         <div class="row">
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Live Oversight</h5>
+                                <h3 class="fs-2 my-2">Live Oversight</h3>
                                 <p class="text-black mb-0">Real-time dashboards for hospital admins, doctors, and department heads</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Predictive Intelligence</h5>
+                                <h3 class="fs-2 my-2">Predictive Intelligence</h3>
                                 <p class="text-black mb-0">Predictive analytics for patient trends, resource utilization, and care optimization.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Access Management</h5>
+                                <h3 class="fs-2 my-2">Access Management</h3>
                                 <p class="text-black mb-0">Role-based access ensures personalized insights across roles for super admin, admin, Doctors, Receptionist, Radiologist, Pharmacist etc.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Patient Flagging</h5>
+                                <h3 class="fs-2 my-2">Patient Flagging</h3>
                                 <p class="text-black mb-0">Identifying patients at risk for readmission, enabling early interventions.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Custom Dashboards</h5>
+                                <h3 class="fs-2 my-2">Custom Dashboards</h3>
                                 <p class="text-black mb-0">Different dashboards for clinicians, administrators, finance teams, etc.</p>
                             </div>
                             <div class="col-6 card mb-4">
-                                <h5 class="text-color my-2">Layered Analytics</h5>
+                                <h3 class="fs-2 my-2">Layered Analytics</h3>
                                 <p class="text-black mb-0">multi-layered data access that caters to both strategic decisionmakers and frontline system users.</p>
                             </div>
                         </div>
@@ -221,7 +217,7 @@
                       <div class="col">
                         <div class="card shadow-sm h-100">
                           <div class="card-body">
-                            <h5 class="card-title">ICD-10 & ICD-11 Ready</h5>
+                            <h3 class="fs-2 card-title">ICD-10 & ICD-11 Ready</h3>
                             <p class="card-text text-muted">Seamlessly supports both ICD-10 and the upcoming ICD-11 coding systems.</p>
                           </div>
                         </div>
@@ -229,7 +225,7 @@
                       <div class="col">
                         <div class="card shadow-sm h-100">
                           <div class="card-body">
-                            <h5 class="card-title">HIPAA & GDPR Compliant</h5>
+                            <h3 class="fs-2 card-title">HIPAA & GDPR Compliant</h3>
                             <p class="card-text text-muted">Your patient data is protected with full adherence to HIPAA and GDPR regulations.</p>
                           </div>
                         </div>
@@ -237,7 +233,7 @@
                       <div class="col">
                         <div class="card shadow-sm h-100">
                           <div class="card-body">
-                            <h5 class="card-title">HL7 / FHIR Interoperability</h5>
+                            <h3 class="fs-2 card-title">HL7 / FHIR Interoperability</h3>
                             <p class="card-text text-muted">Adheres to HL7 and FHIR standards for smooth electronic health record (EHR) exchange.</p>
                           </div>
                         </div>
@@ -245,7 +241,7 @@
                       <div class="col">
                         <div class="card shadow-sm h-100">
                           <div class="card-body">
-                            <h5 class="card-title">End-to-End Data Encryption</h5>
+                            <h3 class="fs-2 card-title">End-to-End Data Encryption</h3>
                             <p class="card-text text-muted">Ensuring the security of your data both at rest and during transit (TLS/SSL).</p>
                           </div>
                         </div>
@@ -253,7 +249,7 @@
                       <div class="col">
                         <div class="card shadow-sm h-100">
                           <div class="card-body">
-                            <h5 class="card-title">Multi-Language & Multi-Currency</h5>
+                            <h3 class="fs-2 card-title">Multi-Language & Multi-Currency</h3>
                             <p class="card-text text-muted">Designed to support healthcare providers operating in diverse, international environments.</p>
                           </div>
                         </div>
@@ -261,7 +257,7 @@
                       <div class="col">
                         <div class="card shadow-sm h-100">
                           <div class="card-body">
-                            <h5 class="card-title">Built for Global Healthcare</h5>
+                            <h3 class="fs-2 card-title">Built for Global Healthcare</h3>
                             <p class="card-text text-muted">Specifically tailored for healthcare providers with multi-region operations.</p>
                           </div>
                         </div>
@@ -304,6 +300,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -364,27 +369,44 @@
                 </div>
                 <div class="scalable-cloud" data-aos="fade-up" data-aos-duration="1500">
                     <div class="row my-3">
-                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Multi-Location Support</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-3 col-12 d-flex justify-content-between">
+                            <h3 class="fs-2">Multi-Location Support</h3>
+                             <div class="vr d-lg-block d-none"></div>
+                            </div>
                         <div class="col-lg-9 col-12">Enables seamless operations across various locations with flexible access options, empowering centralized management and efficient collaboration for dispersed teams.</div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Scalable Architecture</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-3 col-12 d-flex justify-content-between">
+                            <h3 class="fs-2">Scalable Architecture</h3>
+                            <div class="vr d-lg-block d-none"></div>
+                        </div>
                         <div class="col-lg-9 col-12">Designed to accommodate growth, this robust architecture effortlessly scales from individual clinics to expansive hospital networks, ensuring consistent performance and adaptability.</div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Cloud Deployment</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-3 col-12 d-flex justify-content-between">
+                            <h3 class="fs-2">Cloud Deployment</h3>
+                             <div class="vr d-lg-block d-none"></div>
+                            </div>
                         <div class="col-lg-9 col-12">Eliminates the necessity for on-site infrastructure, resulting in accelerated deployment timelines and a reduced total cost of ownership for healthcare providers.</div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Third-Party Integration</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-3 col-12 d-flex justify-content-between">
+                            <h3 class="fs-2">Third-Party Integration</h3>
+                            <div class="vr d-lg-block d-none"></div></div>
                         <div class="col-lg-9 col-12">Facilitates smooth connections with external systems like labs, insurance providers, TPAs, and government portals, streamlining workflows and enhancing data exchange capabilities.</div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">Tenant Segregation</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-3 col-12 d-flex justify-content-between">
+                            <h3 class="fs-2">Tenant Segregation</h3>
+                             <div class="vr d-lg-block d-none"></div>
+                            </div>
                         <div class="col-lg-9 col-12">Provides each tenant with a dedicated and secure database while offering administrators centralized oversight and control for corporate-level management and reporting.</div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-lg-3 col-12 d-flex justify-content-between"><h5 class="text-color">24/7 Reliability</h5> <div class="vr d-lg-block d-none"></div></div>
+                        <div class="col-lg-3 col-12 d-flex justify-content-between">
+                            <h3 class="fs-2">24/7 Reliability</h3>
+                            <div class="vr d-lg-block d-none"></div>
+                        </div>
                         <div class="col-lg-9 col-12">Features a high-availability architecture that guarantees continuous business operations around the clock, minimizing downtime and ensuring uninterrupted critical services.</div>
                     </div>
                 </div>
@@ -393,10 +415,10 @@
         <!------------------------- Cloud-First Architecture end --------------------------------->
 
         <!------------------------------  things you know start ------------------------->
-        <section class="my-5">
+       <section class="my-5">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -424,7 +446,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -436,7 +458,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -448,7 +470,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -460,7 +482,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -472,7 +494,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -484,7 +506,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

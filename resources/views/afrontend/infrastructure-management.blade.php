@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/services/banner/Infrastructure_management.jpg') }});">
+                        <div class="bg-holder">
+                             <img src="{{ asset('storage/media/services/banner/Infrastructure_management.jpg') }}" alt="Infrastructure management" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,32 +39,30 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up" >
                                             Infrastructure Management </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" >
                                             Infrastructure management involves optimizing and monitoring IT resources like servers, networks, and storage to ensure performance, reduce downtime, and support business continuity.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {{-- @foreach ($slider as $list)
-      @endforeach --}}
+                        @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -76,10 +75,9 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
-                                    {{--
-        </div> --}}
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
+                                    {{-- </div> --}}
                                 </div>
                             @endforeach
                         </div>
@@ -101,7 +99,7 @@
                         <div class="row " data-aos="fade-up" data-aos-duration="1000">
                             <div class="col-lg-6">
 
-                                <h3 > Optimizing IT Infrastructure</h3>
+                                <h2> Optimizing IT Infrastructure</h2>
                                 <p> At Inbox, we understand that a well-managed IT infrastructure is the backbone of any successful business. Our Infrastructure Management Services provide businesses with the tools and expertise they need to ensure their IT systems are running at peak performance. By taking a proactive approach to monitoring, optimizing, and securing your infrastructure, we help businesses reduce downtime, improve operational efficiency, and ensure long-term scalability.</p>
                                 <p> Our team of certified experts works tirelessly to manage and maintain your entire IT environment, from servers and networks to data storage and security systems. We leverage the latest technologies and best practices to ensure your infrastructure not only meets current demands but is also prepared for future growth.
                                 </p>
@@ -109,19 +107,19 @@
                             </div>
                             <div class="col-lg-6">
                                <div class="my-3">
-                                <h5> Our Commitment to Excellence</h5>
+                                <h3 class="fs-2"> Our Commitment to Excellence</h3>
                                 <p> A sleek icon or animation representing quality and reliability. </p>
                                </div>
                                <div class="my-3">
-                                <h5> What Drives Us</h5>
+                                <h3 class="fs-2"> What Drives Us</h3>
                                 <p> A dynamic illustration or graphic showing the passion behind your work or a highlight of key team achievements.</p>
                                </div>
                                <div class="my-3">
-                                <h5> The Heart of Our Business</h5>
+                                <h3 class="fs-2"> The Heart of Our Business</h3>
                                 <p> Creative icons or images representing values like trust, innovation, and collaboration. </p>
                                </div>
                                <div class="my-3">
-                                <h5> Building a Future Together</h5>
+                                <h3 class="fs-2"> Building a Future Together</h3>
                                 <p> A forward-looking visual or conceptual design showing growth and partnership, possibly with a futuristic touch.</p>
                                </div>
 
@@ -137,7 +135,7 @@
         <section class="infra-manag-ai">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
 
-               <h3> Smarter Infrastructure with AI </h3>
+               <h2> Smarter Infrastructure with AI </h2>
                <p> AI is transforming the way infrastructure is managed. At Inbox, we leverage Artificial Intelligence to monitor, predict, and optimize your systems—automatically and intelligently.
                 From reducing downtime to enhancing security, AI enables your infrastructure to self-learn, self-heal, and scale in real-time based on your business needs. </p>
             </div>
@@ -146,31 +144,31 @@
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-lg-4 my-3">
                         <div class="h-100 card shadow p-3">
-                            <h5> Predictive Maintenance </h5>
+                            <h3 class="fs-2"> Predictive Maintenance </h3>
                             <p> We use AI to analyze system behavior and performance trends, allowing us to detect early signs of potential failures. This helps reduce downtime, avoid costly repairs, and keep your infrastructure running smoothly.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 my-3">
                         <div class="h-100 card shadow p-3">
-                            <h5> Intelligent Resource Optimization</h5>
+                            <h3 class="fs-2"> Intelligent Resource Optimization</h3>
                             <p> AI algorithms analyze workloads, usage patterns, and performance data in real-time. This enables automatic scaling of resources—so you get the performance you need without overpaying for unused capacity.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 my-3">
                         <div class="h-100 card shadow p-3">
-                            <h5>  Smart Security Monitoring </h5>
+                            <h3 class="fs-2">  Smart Security Monitoring </h3>
                             <p> AI continuously scans for threats and anomalies across your infrastructure. It helps detect suspicious behavior faster than traditional systems, enabling proactive threat mitigation and better data protection. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 my-3">
                         <div class="h-100 card shadow p-3">
-                            <h5> Automation of Repetitive Tasks</h5>
+                            <h3 class="fs-2"> Automation of Repetitive Tasks</h3>
                             <p> From server provisioning to log analysis, AI automates routine tasks—freeing up your IT team to focus on strategic projects instead of day-to-day firefighting.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 my-3">
                         <div class="h-100 card shadow p-3">
-                            <h5>  Data-Driven Decision Making</h5>
+                            <h3 class="fs-2">  Data-Driven Decision Making</h3>
                             <p> AI-powered dashboards offer real-time insights into system performance, user activity, and potential bottlenecks, helping you make smarter decisions faster. </p>
                         </div>
                     </div>
@@ -215,6 +213,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -270,89 +277,87 @@
 
          <!---------------  infrastructure services start --------------------->
          <section class="">
-
-
             <div class="my-5">
 
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div>
-                            <h3> Infrastructure Management Services </h3>
+                            <h2> Infrastructure Management Services </h2>
                             <p class="fw-light">Our Infrastructure Management Services are designed to ensure that your IT environment runs smoothly, securely, and efficiently. We provide comprehensive support for all core infrastructure components, allowing your business to focus on growth while we handle the backend operations
                             </p>
 
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-xl-7">
-                        <h4> <strong>  Key services include: </strong> </h4>
+                        <h3 class="fs-2"> <strong>  Key services include: </strong> </h3>
                         <div class="">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                  <h4 class="accordion-header">
                                     <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                         Network Management:
                                     </h5>
-                                  </h2>
+                                  </h4>
                                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Network management involves the continuous monitoring, optimization, and security of an organization's network infrastructure to ensure high availability, efficient performance, and minimal downtime, while proactively identifying and resolving connectivity issues before they affect operations.</div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                  <h4 class="accordion-header">
                                     <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                         Server Management:
                                     </h5>
-                                  </h2>
+                                  </h4>
                                   <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Server management includes regular maintenance, software patching, performance optimization, and troubleshooting of both physical and virtual servers to ensure reliability, security, and optimal operation of critical business applications and services across the IT environment.</div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                  <h4 class="accordion-header">
                                     <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                         Storage Management:
                                     </h5>
-                                  </h2>
+                                  </h4>
                                   <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body"> Storage management focuses on providing reliable and scalable data storage solutions, including regular backups, disaster recovery planning, and capacity optimization to ensure data availability, integrity, and business continuity across all storage environments.</div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header">
+                                    <h4 class="accordion-header">
                                       <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
                                         Security Operations:
                                       </h5>
-                                    </h2>
+                                    </h4>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                       <div class="accordion-body">Security operations involve proactive threat detection, real-time monitoring, firewall management, and access control enforcement. These services ensure your infrastructure is protected against cyber threats while maintaining compliance with industry regulations and minimizing security vulnerabilities.</div>
                                     </div>
                                   </div>
                                   <div class="accordion-item">
-                                    <h2 class="accordion-header">
+                                    <h4 class="accordion-header">
                                       <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
                                         Cloud Infrastructure Support:
                                       </h5>
-                                    </h2>
+                                    </h4>
                                     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                       <div class="accordion-body">Cloud infrastructure support focuses on the seamless integration and management of public, private, or hybrid cloud environments. It enables scalable, flexible solutions that optimize performance, reduce costs, and ensure secure, efficient cloud operations for your business.</div>
                                     </div>
                                   </div>
                                   <div class="accordion-item">
-                                    <h2 class="accordion-header">
+                                    <h4 class="accordion-header">
                                       <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
                                         24/7 Monitoring & Support:
                                       </h5>
-                                    </h2>
+                                    </h4>
                                     <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                       <div class="accordion-body">Our 24/7 monitoring and support services provide continuous system oversight, ensuring any issues are detected and resolved before they affect your operations. This proactive approach minimizes downtime and keeps your infrastructure running smoothly at all times.</div>
                                     </div>
                                   </div>
                                   <div class="accordion-item">
-                                    <h2 class="accordion-header">
+                                    <h4 class="accordion-header">
                                       <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseThree">
                                         IT Asset Management:
                                       </h5>
-                                    </h2>
+                                    </h4>
                                     <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                       <div class="accordion-body"> IT asset management involves the tracking, monitoring, and management of both hardware and software assets. This ensures optimal utilization, streamlined procurement, and effective lifecycle management, helping to reduce costs and enhance operational efficiency.</div>
                                     </div>
@@ -370,7 +375,7 @@
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -398,7 +403,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -410,7 +415,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -422,7 +427,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -434,7 +439,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -446,7 +451,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -458,7 +463,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

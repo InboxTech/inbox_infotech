@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/pharmar&d_banner.jpg') }});">
+                        <div class="bg-holder">
+                            <img src="{{ asset('storage/media/products/banner/pharmar&d_banner.jpg') }}" alt="pharma r&d" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy">
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,8 +39,7 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                             QuantRX(R&D) </p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -47,11 +47,14 @@
                                           A powerful solution that streamlines pharmaceutical research and development with centralized data, regulatory compliance, and real-time project tracking.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                        <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,10 +63,10 @@
                     {{-- @foreach ($slider as $list)
       @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -76,8 +79,8 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
                                     {{--
         </div> --}}
                                 </div>
@@ -97,7 +100,7 @@
                 <div>
                     <div class="row" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-6">
-                            <h3> MOLECULE TO MARKET — AI THAT ACCELERATES DRUG DISCOVERY</h3>
+                            <h2> MOLECULE TO MARKET — AI THAT ACCELERATES DRUG DISCOVERY</h2>
                         </div>
                         <div class="col-lg-6">
                             <p> QuantRx is an AI-powered platform that transforms the pharmaceutical R&D lifecycle — from drug discovery to post-market surveillance. It
@@ -118,7 +121,7 @@
                 <div class="row my-3" style="border-bottom: 1px solid #00406d;padding: 20px;">
                     <div class="col-lg-3 col-12">
                         <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h5 class="text-color">Drug Discovery</h5>
+                            <h3 class="text-color">Drug Discovery</h3>
                         </div>
                     </div>
                     <div class="col-lg-9 col-12">
@@ -165,7 +168,7 @@
                     <div class="row my-3" style="border-bottom: 1px solid #00406d;padding: 20px;">
                         <div class="col-lg-3 col-12">
                             <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h5 class="text-color">Preclinical Development</h5>
+                            <h3 class="text-color">Preclinical Development</h3>
 
                             </div>
                         </div>
@@ -213,7 +216,7 @@
                     <div class="row my-3" style="border-bottom: 1px solid #00406d;padding: 20px;">
                         <div class="col-lg-3 col-12">
                             <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h5 class="text-color">Clinical Development</h5>
+                            <h3 class="text-color">Clinical Development</h3>
 
                             </div>
                         </div>
@@ -261,7 +264,7 @@
                     <div class="row my-3" style="border-bottom: 1px solid #00406d;padding: 20px;">
                         <div class="col-lg-3 col-12">
                             <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h5 class="text-color">Formulation & Manufacturing</h5>
+                            <h3 class="text-color">Formulation & Manufacturing</h3>
 
                             </div>
                         </div>
@@ -303,7 +306,7 @@
                     <div class="row my-3" style="border-bottom: 1px solid #00406d;padding: 20px;">
                         <div class="col-lg-3 col-12">
                             <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h5 class="text-color">Post-Approval & Pharmacovigilance</h5>
+                            <h3 class="text-color">Post-Approval & Pharmacovigilance</h3>
 
                             </div>
                         </div>
@@ -339,7 +342,7 @@
                     <div class="row my-3" style="border-bottom: 1px solid #00406d;padding: 20px;">
                         <div class="col-lg-3 col-12">
                             <div class="sticky-top" style="top: 100px; z-index: 0;">
-                            <h5 class="text-color">Data Infrastructure & Governance</h5>
+                            <h3 class="text-color">Data Infrastructure & Governance</h3>
 
                             </div>
                         </div>
@@ -408,6 +411,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -466,7 +478,7 @@
 
              <!-----------------------------   industries covered start   ---------------------------->
 
-            <section class="" style="padding-top:50px; padding-bottom:50px;">
+            <!-- <section class="" style="padding-top:50px; padding-bottom:50px;">
                 <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
                     <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries we covered </h6>
                 </div>
@@ -475,7 +487,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/biotechnology.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="biotechnology" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
@@ -486,7 +498,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/vaccine.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="vaccine" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
@@ -497,7 +509,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/dietary.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="dietary" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
@@ -508,7 +520,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/veterinary.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="veterinary" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
@@ -519,7 +531,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="api" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>API</h5>
@@ -530,7 +542,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/nutraceuticals.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="nutraceuticals" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
@@ -539,7 +551,7 @@
                     </div>
 
                 </div>
-            </section>
+            </section> -->
             <!-----------------------------   industries covered end   ---------------------------->
 
 
@@ -665,7 +677,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -677,7 +689,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -689,7 +701,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -701,7 +713,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -713,7 +725,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -725,7 +737,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

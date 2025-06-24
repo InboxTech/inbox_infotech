@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/products/banner/retail&e-commerce.jpg') }});">
+                        <div class="bg-holder">
+                            <img src="{{ asset('storage/media/products/banner/retail&e-commerce.jpg') }}" alt="retail ecommerce" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,8 +39,7 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                         E-commerce </p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -47,11 +47,14 @@
                                           Inbox is an IT solutions company offering e-commerce platforms with secure, scalable features, specializing in website development, payment integration, and custom software to support global, 24/7 online business operations. </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                        <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
+                                                Read more <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
+                                                Contact us <span class="fas fa-chevron-right ms-2"></span>
+                                            </a>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,10 +63,10 @@
                     {{-- @foreach ($slider as $list)
       @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -76,8 +79,8 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/clients/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
                                     {{--
         </div> --}}
                                 </div>
@@ -99,10 +102,10 @@
                     <div class="my-5">
                         <div class="row" data-aos="fade-up" data-aos-duration="1000">
                             <div class="col-lg-6">
-                                <img src="{{ asset('storage/media/products/educational_resource.png') }}" class="img-fluid" style="border-radius: 30px;"/>
+                                <img src="{{ asset('storage/media/products/educational_resource.png') }}" class="w-100 h-100" style="border-radius: 30px;" alt="educational resources" loading="lazy"/>
                             </div>
                             <div class="col-lg-6">
-                                <h3> Revolutionizing Access to Educational Resources </h3>
+                                <h2> Revolutionizing Access to Educational Resources </h2>
                                 <p> To make quality education more accessible and stress-free for students and parents alike. We are committed to simplifying the often confusing and time-consuming process of purchasing school textbooks and academic resources for students from grades 1 through 12.</p>
                                 <p> We understand that educational success starts with access to the right materials—on time and at a price that families can afford. That’s why our platform is designed to provide a comprehensive, user-friendly, and affordable solution that brings together textbooks, reference guides, and learning tools from all major educational boards and publishers in one convenient place.</p>
                                 <p> By combining affordability, convenience, and reliability, we aim to remove barriers to learning and ensure that every child has the tools they need to succeed in school. Whether it’s finding the latest curriculum-aligned books, getting fast doorstep delivery, or accessing exclusive discounts, we strive to make the journey of education smoother and more accessible for all.</p>
@@ -118,12 +121,12 @@
                 <div class="my-5">
                     <div class="row" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-6">
-                            <h3> The Need for an Educational E-commerce Platform </h3>
+                            <h2> The Need for an Educational E-commerce Platform </h2>
                             <p> Students and parents face challenges in finding all necessary books in one place.Our platform is designed to provide convenience, variety, and affordability for students across multiple regions by delivering books right to their doorsteps.To reduce the stress of finding books & study materials.
                             </p>
                         </div>
                         <div class="col-lg-6">
-                            <img src="{{ asset('storage/media/products/study_with_parents.png') }}" class="img-fluid" style="border-radius: 30px;"/>
+                            <img src="{{ asset('storage/media/products/study_with_parents.png') }}" class="w-100 h-100" style="border-radius: 30px;" alt="study-with-parent" loading="lazy"/>
                         </div>
 
                     </div>
@@ -136,24 +139,24 @@
                     <div>
                         <div class="row" data-aos="fade-up" data-aos-duration="1000">
                             <div class="col-lg-6">
-                                <h3> Your One-Stop Online Shop for Educational Resources </h3>
+                                <h2> Your One-Stop Online Shop for Educational Resources </h2>
                             </div>
                             <div class="col-lg-6">
                                 <div>
                                     <div class="card h-100 my-2">
-                                        <h5> Target Audience</h5>
+                                        <h3 class="fs-2"> Target Audience</h3>
                                         <p>Students, parents, and educators.</p>
                                     </div>
                                     <div class="card h-100 my-2">
-                                        <h5> Product Range</h5>
+                                        <h3 class="fs-2"> Product Range</h3>
                                         <p> Briefly elaborate on what you want to discuss. </p>
                                     </div>
                                     <div class="card h-100 my-2">
-                                        <h5> Platform</h5>
+                                        <h3 class="fs-2"> Platform</h3>
                                         <p> A user-friendly e-commerce site</p>
                                     </div>
                                     <div class="card h-100 my-2">
-                                        <h5> Goal </h5>
+                                        <h3 class="fs-2"> Goal </h3>
                                         <p> To create a smooth shopping experience</p>
                                     </div>
                                 </div>
@@ -168,13 +171,13 @@
 
             <section>
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                    <h3> Key Features of Our E-commerce Platform </h3>
+                    <h2> Key Features of Our E-commerce Platform </h2>
                 </div>
                 <div class="my-5">
                     <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5 class="mb-3">  Comprehensive Catalog</h5>
+                                <h3 class="mb-3 fs-2">  Comprehensive Catalog</h3>
                                 <ul>
                                     <li><strong> Curriculum-Aligned: </strong> Covers CBSE, ICSE, state boards, and international curriculums (like IGCSE, IB).</li>
                                     <li><strong> Grades 1–12:</strong> Textbooks, workbooks, lab manuals, and reference guides for all subjects.</li>
@@ -184,7 +187,7 @@
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5 class="mb-3">  Easy Search & Navigation</h5>
+                                <h3 class="mb-3 fs-2">  Easy Search & Navigation</h3>
                                 <ul>
                                     <li><strong> Grade-wise & Board-wise Filters: </strong> Quickly find relevant materials.</li>
                                     <li><strong> Smart Suggestions:</strong> Based on subject, exam goals, and past purchases.</li>
@@ -193,7 +196,7 @@
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5 class="mb-3">  Fast & Reliable Delivery</h5>
+                                <h3 class="mb-3 fs-2">  Fast & Reliable Delivery</h3>
                                 <ul>
                                     <li><strong> Same-Day or Next-Day Delivery: </strong> In major cities.</li>
                                     <li><strong> Pan-India Shipping:</strong> Reliable delivery to even remote areas. </li>
@@ -203,7 +206,7 @@
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5 class="mb-3">  Affordable Pricing</h5>
+                                <h3 class="mb-3 fs-2">  Affordable Pricing</h3>
                                 <ul>
                                     <li><strong> Competitive Rates:  </strong> Lower prices compared to traditional stores. </li>
                                     <li><strong> Bundles & Discounts:</strong> Offers on combos and early purchases.</li>
@@ -213,7 +216,7 @@
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card shadow h-100 p-3">
-                                <h5 class="mb-3">  Quality Assurance </h5>
+                                <h3 class="mb-3 fs-2">  Quality Assurance </h3>
                                 <ul>
                                     <li>100% genuine books sourced directly from publishers. </li>
                                     <li>Regular updates to ensure latest editions only.</li>
@@ -232,7 +235,7 @@
                     <div class="row" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-12 col-md-12 col-xl-5">
                             <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
-                                <h3 class=""> Modules of the E-commerce Store</h3>
+                                <h2 class=""> Modules of the E-commerce Store</h2>
                                 <p class="fw-light">Key modules for an e-commerce store focused on selling school books and study materials. These modules form the backbone of your platform and ensure smooth functionality for users, admins, and logistics.
                                 </p>
 
@@ -242,7 +245,7 @@
                             <div class="row">
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Product Management Module </h5>
+                                       <h3 class="fs-2"> Product Management Module </h3>
                                        <ul>
                                         <li>Add, update, and delete products (books, bundles, stationery).</li>
                                         <li>Categorize by grade, board, subject, and publisher.</li>
@@ -253,7 +256,7 @@
                                 </div>
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Catalog & Search Module  </h5>
+                                       <h3 class="fs-2"> Catalog & Search Module  </h3>
                                       <ul>
                                         <li>Dynamic product catalog for browsing by category, grade, or subject.</li>
                                         <li>Advanced search with filters (boards, standards, price, etc.).</li>
@@ -264,7 +267,7 @@
                                 </div>
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> User Account Module </h5>
+                                       <h3 class="fs-2"> User Account Module </h3>
                                        <ul>
                                         <li>Student/Parent registration & login.</li>
                                         <li>Profile management (addresses, contact info, preferences).</li>
@@ -276,7 +279,7 @@
 
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Shopkeeper Acoount Module </h5>
+                                       <h3 class="fs-2"> Shopkeeper Acoount Module </h3>
                                        <ul>
                                         <li>Shopkeeper registration & login.</li>
                                         <li>Profile management (addresses, contact info, preferences).</li>
@@ -287,7 +290,7 @@
                                 </div>
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Shopping Cart & Checkout Module </h5>
+                                       <h3 class="fs-2"> Shopping Cart & Checkout Module </h3>
                                        <ul>
                                         <li>Add to cart, remove, update quantity. </li>
                                         <li>Apply coupons and promotional discounts.</li>
@@ -297,7 +300,7 @@
                                 </div>
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Payment Module </h5>
+                                       <h3 class="fs-2"> Payment Module </h3>
                                        <ul>
                                         <li>Integration with multiple payment gateways (UPI, credit/debit cards, net banking, wallets).</li>
                                         <li>Payment confirmation and status tracking.</li>
@@ -308,7 +311,7 @@
 
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Order Management & Logistics Module</h5>
+                                       <h3 class="fs-2"> Order Management & Logistics Module</h3>
                                        <ul>
                                         <li>Real-time order tracking.</li>
                                         <li>Order status updates (Processing, Shipped, Delivered, Cancelled).</li>
@@ -318,7 +321,7 @@
                                 </div>
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Notification & Communication Module </h5>
+                                       <h3 class="fs-2"> Notification & Communication Module </h3>
                                        <ul>
                                         <li>Order confirmations and updates  email and push notifications.</li>
                                         <li>Customer service chat or chatbot.</li>
@@ -328,7 +331,7 @@
 
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5> Customer Support Module </h5>
+                                       <h3 class="fs-2"> Customer Support Module </h3>
                                        <ul>
                                         <li>Contact form or live chat for inquiries. </li>
                                         <li>FAQ section.</li>
@@ -339,7 +342,7 @@
                                 </div>
                                 <div class="col-lg-6 my-3">
                                     <div class="card h-100">
-                                       <h5>  Admin Dashboard Module </h5>
+                                       <h3 class="fs-2">  Admin Dashboard Module </h3>
                                        <ul>
                                         <li>User and order management.</li>
                                         <li>Product and inventory management.</li>
@@ -360,13 +363,13 @@
        <!-----------------------------------   how platform is used start ------------------------------->
           <section>
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3> How the Platform is Used</h3>
+                <h2> How the Platform is Used</h2>
             </div>
             <div class="my-5">
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-lg-6 my-3">
                         <div class="card shadow h-100 p-3">
-                            <h5> For Sellers</h5>
+                            <h3 class="fs-2"> For Sellers</h3>
                             <ul>
                                 <li>Register and upload books easily.</li>
                                 <li>Manage inventory and view orders in real-time.</li>
@@ -376,7 +379,7 @@
                     </div>
                     <div class="col-lg-6 my-3">
                          <div class="card shadow h-100 p-3">
-                            <h5> For Educational Institutions</h5>
+                            <h3 class="fs-2"> For Educational Institutions</h3>
                             <ul>
                                 <li>Institutions can place bulk textbook orders.</li>
                                 <li>Access customized reports for better budgeting.</li>
@@ -386,7 +389,7 @@
                     </div>
                     <div class="col-lg-6 my-3">
                          <div class="card shadow h-100 p-3">
-                            <h5> For Buyers </h5>
+                            <h3 class="fs-2"> For Buyers </h3>
                             <ul>
                                 <li>Browse through categories of books.</li>
                                 <li>Use filters for specific subjects, & boards.</li>
@@ -397,7 +400,7 @@
                     </div>
                     <div class="col-lg-6 my-3">
                          <div class="card shadow h-100 p-3">
-                            <h5> For Parents</h5>
+                            <h3 class="fs-2"> For Parents</h3>
                             <ul>
                                 <li>Parents can browse and buy books easily.</li>
                                 <li>Get updates on new releases and discounts.</li>
@@ -414,13 +417,13 @@
 
        <section>
         <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3>Key Benefits</h3>
+                <h2>Key Benefits</h2>
             </div>
             <div class="my-5">
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-lg-4 my-3">
                         <div class="card shadow h-100 p-3">
-                            <h5>For Administrators</h5>
+                            <h3 class="fs-2">For Administrators</h3>
                             <ul>
                                 <li>Manage platform activities.</li>
                                 <li>Assist users with issues.</li>
@@ -432,7 +435,7 @@
                     </div>
                     <div class="col-lg-4 my-3">
                         <div class="card shadow h-100 p-3">
-                            <h5>For Sellers</h5>
+                            <h3 class="fs-2">For Sellers</h3>
                             <ul>
                                 <li>Access a broad student base nationwide.</li>
                                 <li>User-friendly inventory and order management.</li>
@@ -443,7 +446,7 @@
                     </div>
                     <div class="col-lg-4 my-3">
                         <div class="card shadow h-100 p-3">
-                            <h5>For Buyers</h5>
+                            <h3 class="fs-2">For Buyers</h3>
                             <ul>
                                 <li>Shop from home.</li>
                                 <li>Competitive prices with discounts.</li>
@@ -463,7 +466,7 @@
 
         {{-- <section class="software-dev-service">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="text-color">Avail Retail Software Development Services That Drive Value and Innovation</h3>
+                <h2 class="">Avail Retail Software Development Services That Drive Value and Innovation</h2>
                 <p class="fw-light">Our retail software development services are designed to help businesses enhance their operations, boost customer satisfaction, and improve efficiency through cutting-edge technology solutions.
                 </p>
             </div>
@@ -474,7 +477,7 @@
                 <div class="col-lg-4 col-md-6 col-12 my-3">
                 <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Custom E-commerce Solutions:</h5>
+                                <h3 class="fs-2 text-color my-2">Custom E-commerce Solutions:</h3>
                             </div>
                             <ul>
                                 <li> Design and development of scalable, user-friendly e-commerce platforms.</li>
@@ -485,7 +488,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Point of Sale (POS) Systems:</h5>
+                                <h3 class="fs-2 text-color my-2">Point of Sale (POS) Systems:</h3>
                             </div>
                             <ul>
                                 <li> Development of secure, real-time POS systems that integrate with sales and inventory.</li>
@@ -496,7 +499,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Inventory Management Software:</h5>
+                                <h3 class="fs-2 text-color my-2">Inventory Management Software:</h3>
                             </div>
                             <ul>
                                 <li> Real-time stock tracking and automated reordering.</li>
@@ -507,7 +510,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Customer Relationship Management (CRM) Systems:</h5>
+                                <h3 class="fs-2 text-color my-2">Customer Relationship Management (CRM) Systems:</h3>
                             </div>
                             <ul>
                                 <li>Tailored CRM solutions for managing customer data, improving marketing strategies, and building customer loyalty. </li>
@@ -517,7 +520,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Order Management Systems (OMS):</h5>
+                                <h3 class="fs-2 text-color my-2">Order Management Systems (OMS):</h3>
                             </div>
                             <ul>
                                 <li> Multi-channel order processing with real-time tracking and seamless integration across sales platforms.</li>
@@ -528,7 +531,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Mobile App Development for Retail:</h5>
+                                <h3 class="fs-2 text-color my-2">Mobile App Development for Retail:</h3>
                             </div>
                             <ul>
                                 <li>Custom mobile apps to offer consumers a seamless shopping experience.</li>
@@ -539,7 +542,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Payment Gateway Integration:</h5>
+                                <h3 class="fs-2 text-color my-2">Payment Gateway Integration:</h3>
                             </div>
                             <ul>
                                 <li> Secure and efficient payment gateway integration for smooth transactions.</li>
@@ -551,7 +554,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Supply Chain Management Software:</h5>
+                                <h3 class="fs-2 text-color my-2">Supply Chain Management Software:</h3>
                             </div>
                             <ul>
                                 <li>Tools to optimize logistics, vendor management, and delivery scheduling.</li>
@@ -562,7 +565,7 @@
                         <div class="col-lg-4 col-md-6 col-12 my-3">
                         <div class="card p-3 h-100">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Retail Analytics & Reporting Tools:</h5>
+                                <h3 class="fs-2 text-color my-2">Retail Analytics & Reporting Tools:</h3>
                             </div>
                            <ul>
                             <li> Comprehensive analytics to track sales, customer behavior, and inventory performance.</li>
@@ -585,12 +588,12 @@
     <div class="my-5">
         <div class="row" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-lg-6 my-3">
-                <h3> Our E-commerce Development </h3>
+                <h2> Our E-commerce Development </h2>
                 <p> Our ecommerce development is a user-friendly online platform that simplifies the purchase of school books and stationery. Users can easily browse and book items by school, grade, author name, store name, or publication, ensuring quick access to the exact materials they need. With verified content, ready-to-order class kits, secure payments, and reliable delivery, eClassmate makes school shopping fast, accurate, and stress-free.</p>
             </div>
             <div class="col-lg-6 my-3">
                 <div style="background-color: hsl(0, 48%, 74%);padding: 20px;">
-                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="img-fluid"/>
+                    <img src="{{ asset('assets/inbox/eclassmate.png') }}" class="w-100 h-100" alt="eclassmate" loading="lazy"/>
                 </div>
             </div>
         </div>
@@ -623,7 +626,7 @@
                     </div>
                     <div class="col-lg-8 ps-lg-5 mt-6 mt-lg-0 ">
                         <div class="bg-white rounded-3 p-4 call-back-form">
-                            <h5 class="text-color mb-4">I would like to discuss:</h5>
+                            <h3 class="fs-2 text-color mb-4">I would like to discuss:</h3>
                             <form action="{{ url('contactus/form/submit') }}" method="post">
                                 {{ csrf_field() }}
                                 <div class="row">
@@ -634,6 +637,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                             <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -711,9 +723,9 @@
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header">
-                                <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                    Personalized Recommendations
-                                </h5>
+                                </h3>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">AI algorithms analyze browsing behavior, purchase history, and user preferences to suggest the most relevant products, increasing conversion rates and customer satisfaction.</div>
@@ -721,9 +733,9 @@
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
-                                <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     Smart Search and Filtering
-                                </h5>
+                                </h3>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">Advanced AI search functions allow users to find products by keywords, author names, store names, publications, and more—making the shopping experience faster and more intuitive.</div>
@@ -731,9 +743,9 @@
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header">
-                                <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                    Chatbots and Virtual Assistants
-                                </h5>
+                                </h3>
                               </h2>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body"> AI-powered chatbots provide instant customer support, answer FAQs, guide users through product selection, and even assist in checkout—improving service availability and user engagement.
@@ -742,9 +754,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                  <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                     Dynamic Pricing and Promotions
-                                  </h5>
+                                  </h3>
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">AI tools track market trends, competitor pricing, and user demand to automatically adjust pricing and suggest personalized discounts or deals in real-time.</div>
@@ -752,9 +764,9 @@
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                  <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                                    Inventory Forecasting
-                                  </h5>
+                                  </h3>
                                 </h2>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">Machine learning models predict product demand, helping retailers manage stock levels, reduce overstock or shortages, and improve supply chain efficiency.</div>
@@ -762,9 +774,9 @@
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                  <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                                    Visual Search & Image Recognition
-                                  </h5>
+                                  </h3>
                                 </h2>
                                 <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">Customers can search using images, enabling a smoother discovery process for similar or exact match products—ideal for fashion, books, and stationery.</div>
@@ -772,9 +784,9 @@
                               </div>
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                  <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                  <h3 class="fs-2 accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
                                    Fraud Detection and Secure Payments
-                                  </h5>
+                                  </h3>
                                 </h2>
                                 <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body"> AI detects unusual buying patterns and helps prevent fraudulent transactions, ensuring secure eCommerce environments.</div>
@@ -792,7 +804,7 @@
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -820,7 +832,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="product consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -832,7 +844,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -844,7 +856,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -856,7 +868,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -868,7 +880,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -880,7 +892,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>
