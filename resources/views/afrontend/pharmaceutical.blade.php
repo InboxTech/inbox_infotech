@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Pharmaceutical.jpg') }});">
+                        <div class="bg-holder">
+                             <img src="{{asset('storage/media/Pharmaceutical.jpg')}}" alt="Pharmaceutical" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,20 +39,18 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                             Pharmaceutical</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
                                         We support pharmaceutical innovation with robust, compliant, and scalable solutions tailored to every stage of the product lifecycle — from R&D to commercialization.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,10 +59,10 @@
                     {{-- @foreach ($slider as $list)
       @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -76,8 +75,7 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/' . $clogolist->image) }}" alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
                                     {{--
         </div> --}}
                                 </div>
@@ -97,55 +95,55 @@
             <!------------------------------ capabilities and services start ------------------------->
              <section class="">
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                    <h3 class=""> Capabilities & Services</h3>
+                    <h2 class=""> Capabilities & Services</h2>
                     <p> We provide end-to-end solutions across the pharmaceutical value chain. Our capabilities are designed to support pharmaceutical companies in developing, manufacturing, and distributing safe, effective, and compliant products.</p>
                 </div>
                  <div>
                     <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Drug Development & Formulation</h5>
+                                 <h3 class="fs-2"> Drug Development & Formulation</h3>
                                <p> We provide comprehensive drug development and formulation services, optimizing dosage forms for safety, efficacy, and stability. Our expertise covers pre-formulation, solubility enhancement, stability studies, and clinical trial prototypes across various delivery systems.</p>
 
                             </div>
                         </div>
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5> API Manufacturing (Active Pharmaceutical Ingredients) </h5>
+                                <h3 class="fs-2"> API Manufacturing (Active Pharmaceutical Ingredients) </h3>
                                 <p>We offer end-to-end API manufacturing, from custom synthesis to commercial scale, with expertise in HPAPI handling, route optimization, and impurity profiling. Our cGMP-compliant facilities ensure regulatory-ready production with full DMF support. </p>
                             </div>
                         </div>
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5>Contract Manufacturing (CMO/CDMO)</h5>
+                                <h3 class="fs-2">Contract Manufacturing (CMO/CDMO)</h3>
                                 <p> We provide end-to-end CMO/CDMO services, from R&D to commercial launch. Our capabilities include tech transfer, scalable production, dedicated cleanrooms, and audit-ready facilities—ensuring speed, quality, and cost-effective manufacturing for pharmaceutical partners.</p>
 
                             </div>
                         </div>
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5>  Quality Control & Regulatory Compliance</h5>
+                                 <h3 class="fs-2">  Quality Control & Regulatory Compliance</h3>
                                 <p> Our quality systems ensure every product meets global regulatory standards. We offer analytical method validation, microbiological testing, and full batch documentation, maintaining strict compliance with FDA, EMA, WHO, and other international regulatory bodies.</p>
 
                             </div>
                         </div>
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5>  Clinical Trial Support</h5>
+                                 <h3 class="fs-2">  Clinical Trial Support</h3>
                                 <p> We provide end-to-end clinical trial support, including CTM manufacturing, labeling, blinding, and kit design. Our global distribution network ensures timely delivery, while our expertise ensures compliance and efficiency throughout all phases of clinical development.</p>
 
                             </div>
                         </div>
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5>  Packaging & Labeling Solutions</h5>
+                                 <h3 class="fs-2">  Packaging & Labeling Solutions</h3>
                                 <p>We deliver secure, compliant packaging and labeling solutions, including primary and secondary packaging, serialization, tamper-evident designs, and multilingual labeling. Our services support global distribution and include custom kitting for clinical trials and commercial supply chains.</p>
 
                             </div>
                         </div>
                         <div class="col-lg-3 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5>  Cold Chain Logistics</h5>
+                                 <h3 class="fs-2">  Cold Chain Logistics</h3>
                                 <p> We provide reliable cold chain logistics, ensuring temperature-sensitive products are stored and transported under strict conditions. Our services include temperature-controlled warehousing, real-time monitoring, GDP-compliant transportation, custom packaging, and global emergency logistics solutions.</p>
 
                             </div>
@@ -160,17 +158,17 @@
 
             <section class="" style="padding-top:50px; padding-bottom:50px;">
                 <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Industries we covered </h6>
+                    <h2> Industries we covered </h2>
                 </div>
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/biotechnology.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="biotechnology" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
+                                <h5 class="my-2" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
                             </div>
                         </div>
                     </div>
@@ -178,10 +176,10 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/vaccine.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="vaccine" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
+                                <h5 class="my-2" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
                             </div>
                         </div>
                     </div>
@@ -189,10 +187,10 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/dietary.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="dietary" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
+                                <h5 class="my-2" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
                             </div>
                         </div>
                     </div>
@@ -200,21 +198,20 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/veterinary.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="veterinary" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
+                                <h5 class="my-2" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}" alt="api" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>API</h5>
+                                <h5 class="my-2" data-zanim-xs='{"delay":0.1}'>API</h5>
                             </div>
                         </div>
                     </div>
@@ -222,10 +219,10 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/nutraceuticals.svg') }}"
-                                    alt="icon" class="core-img" data-zanim-xs='{"delay":0}' />
+                                    alt="nutraceuticals" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
-                                <h5 class="" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
+                                <h5 class="my-2" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
                             </div>
                         </div>
                     </div>
@@ -268,6 +265,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                             <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -332,7 +338,7 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> AI-Powered Features</h3>
+                        <h2> AI-Powered Features</h2>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
                         <p class="mt-4"> Our AI-powered features enhance pharmaceutical operations through real-time analytics, predictive planning, intelligent alerts, chatbots, and automated quality checks—driving efficiency, accuracy, and compliance across the value chain.</p>
 
@@ -343,61 +349,61 @@
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
-                              <h2 class="accordion-header">
+                              <h3 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                    Predictive demand planning
                                 </h5>
-                              </h2>
+                              </h3>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">Predictive demand planning uses data analytics to forecast pharmaceutical product needs, ensuring optimal inventory and supply continuity.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
-                              <h2 class="accordion-header">
+                              <h3 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                  Anomaly detection in quality data
                                 </h5>
-                              </h2>
+                              </h3>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body"> AI-powered anomaly detection analyzes quality data in real time to identify deviations, reducing risks and ensuring regulatory compliance.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
-                              <h2 class="accordion-header">
+                              <h3 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                   Smart reordering and inventory optimization
                                 </h5>
-                              </h2>
+                              </h3>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body"> AI-driven smart reordering and inventory optimization ensures accurate stock levels, minimizes waste, and improves pharmaceutical supply chain efficiency.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                   AI Chatbot for internal queries
                                   </h5>
-                                </h2>
+                                </h3>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">An AI chatbot for internal queries streamlines employee support by providing instant answers on SOPs, compliance, HR, and operations.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                                  Intelligent alerts and compliance reminders
                                   </h5>
-                                </h2>
+                                </h3>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">AI-powered intelligent alerts and compliance reminders help ensure timely actions, reduce human error, and support regulatory adherence in pharmaceutical operations.</div>
                                 </div>
                               </div>
                                 <div class="accordion-item">
-                                <h2 class="accordion-header">
+                                <h3 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                                 Real-time KPI dashboards
                                   </h5>
-                                </h2>
+                                </h3>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">AI-enabled real-time KPI dashboards provide instant visibility into pharmaceutical operations, tracking performance metrics to support data-driven decision-making and compliance.</div>
                                 </div>
@@ -414,9 +420,10 @@
         <!------------------------------------ manufacturing with ai end ------------------------------------------->
 
          <!------------------------------  things you know start ------------------------->
-         <section class="my-5">
+          <section class="my-5">
+            <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -444,7 +451,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -456,7 +463,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -468,7 +475,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -480,7 +487,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -492,7 +499,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -504,7 +511,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>
@@ -518,7 +525,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+
+            </div><!-- end of .container-->
+        </section>
             <!-- <section> things you know close ============================-->
 
 

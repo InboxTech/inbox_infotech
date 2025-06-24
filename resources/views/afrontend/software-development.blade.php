@@ -117,7 +117,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/Custom_Web_App_Development.png') }}" class="w-100 h-100" alt="custom web app development" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Custom Web App Development </h5>
+                                        <h3 class="fs-2"> Custom Web App Development </h3>
                                     </div>
                                 </div>
 
@@ -138,7 +138,7 @@
                                             class="w-100 h-100" alt="enterprise web application" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5>Enterprise Web Application </h5>
+                                        <h3 class="fs-2">Enterprise Web Application </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -153,7 +153,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/UI_UX_Moder.png') }}" class="w-100 h-100" alt="UI/UX Modernization" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> UI/UX Modernization </h5>
+                                        <h3 class="fs-2"> UI/UX Modernization </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -172,7 +172,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/Fullstack_Development_Services.png') }}" class="w-100 h-100" alt="Fullstack Development Services" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Fullstack Development Services </h5>
+                                        <h3 class="fs-2"> Fullstack Development Services </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -191,8 +191,8 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/Single_Page_Applications.png') }}" class="w-100 h-100" alt="Single Page Applications" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Single Page Applications
-                                            ( SPA)</h5>
+                                        <h3 class="fs-2"> Single Page Applications
+                                            ( SPA)</h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -211,7 +211,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/progressive_web_app_development.png') }}" class="w-100 h-100" alt="Progressive Web App Development" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Progressive Web App Development(PWA) </h5>
+                                        <h3 class="fs-2"> Progressive Web App Development(PWA) </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -230,7 +230,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/content_management_system.png') }}" class="w-100 h-100" alt="Content Management System" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Content Management System(CMS) </h5>
+                                        <h3 class="fs-2"> Content Management System(CMS) </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -248,7 +248,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/Integration_Upgradation_Migration.png') }}" class="w-100 h-100" alt="Integration, Upgradation & Migration" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Integration, Upgradation & Migration </h5>
+                                        <h3 class="fs-2"> Integration, Upgradation & Migration </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -267,7 +267,7 @@
                                         <img src="{{ asset('assets/img/icons/svg_icons/website_maintenance_support.png') }}" class="w-100 h-100" alt="Website Support & Maintenance" loading="lazy">
                                     </div>
                                     <div class="col-9">
-                                        <h5> Website Support & Maintenance </h5>
+                                        <h3 class="fs-2"> Website Support & Maintenance </h3>
                                     </div>
                                 </div>
                                 <div class="my-2">
@@ -1384,18 +1384,10 @@
         <section class="my-5 agile-approach">
             <div class="container">
                 <div class="text-center mb-6" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Software Development
-                        Methodology </h6>
-                    <p> Our company specializes in software development services designed to meet the unique needs of modern
-                        businesses. From custom applications to enterprise solutions, we deliver reliable, scalable, and
-                        secure
-                        software tailored to support growth and innovation. Using proven methodologies and the latest
-                        technologies,
-                        our development team ensures efficient project execution, timely delivery, and long-term support.
+                    <h2> Software Development Methodology </h2>
+                    <p> Our company specializes in software development services designed to meet the unique needs of modern businesses. From custom applications to enterprise solutions, we deliver reliable, scalable, and secure software tailored to support growth and innovation. Using proven methodologies and the latest technologies, our development team ensures efficient project execution, timely delivery, and long-term support.
                     </p>
-                    <hr class="short"
-                        data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
-                        data-zanim-trigger="scroll" />
+                    <hr class="short" data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}' data-zanim-trigger="scroll" />
                 </div>
 
                 <div>
@@ -1406,7 +1398,7 @@
                                     <img src="{{ asset('assets/img/icons/svg_icons/Agile.svg') }}" class="w-100 h-100" alt="Agile" loading="lazy">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h5 class="text-color"> Agile <br> Development </h5>
+                                    <h3 class="text-color fs-2"> Agile <br> Development </h3>
                                     <p> We utilize Agile development to deliver flexible, customer-driven solutions through
                                         iterative cycles, ensuring continuous feedback, faster delivery, and the ability to
                                         adapt to changing needs. </p>
@@ -1420,7 +1412,7 @@
                                     <img src="{{ asset('assets/img/icons/svg_icons/waterfall_developemnt.png') }}" class="w-100 h-100" alt="Waterfall" loading="lazy">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h5 class="text-color"> Waterfall <br> Development</h5>
+                                    <h3 class="text-color fs-2"> Waterfall <br> Development</h3>
                                     <p> We follow the Waterfall development model for projects with clear requirements,
                                         ensuring structured, step-by-step execution from planning to deployment with
                                         predictable outcomes.
@@ -1434,7 +1426,7 @@
                                     <img src="{{ asset('assets/img/icons/svg_icons/Rapid_developement.png') }}" class="w-100 h-100" alt="Rapid" loading="lazy">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h5 class="text-color"> Rapid <br> Development </h5>
+                                    <h3 class="text-color fs-2"> Rapid <br> Development </h3>
                                     <p> We use Rapid Application Development to quickly build and refine software through
                                         prototyping and user feedback, ensuring faster delivery and improved client
                                         satisfaction.</p>
@@ -1447,7 +1439,7 @@
                                     <img src="{{ asset('assets/img/icons/svg_icons/DevOps.svg') }}" class="w-100 h-100" alt="DevOps" loading="lazy">
                                 </div>
                                 <div class="card-body p-3">
-                                    <h5 class="text-color"> DevOps <br> Development </h5>
+                                    <h3 class="text-color fs-2"> DevOps <br> Development </h3>
                                     <p> We implement DevOps practices to streamline development and operations, ensuring
                                         faster delivery, continuous integration, and improved collaboration for reliable,
                                         high-quality software solutions.
@@ -1466,7 +1458,7 @@
   <section class="my-5">
     <div class="container">
         <div class="text-center">
-            <h3 class="fs-2 fs-md-3">Things You Get</h3>
+            <h2>Things You Get</h2>
             <hr class="short"
                 data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                 data-zanim-trigger="scroll" />
@@ -1494,7 +1486,7 @@
                                 <div class="h-100 shadow p-3">
                                     <div class="w-50 p-3 mx-auto">
                                         <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                            alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                            alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                     </div>
                                     <div class="text-center">
                                         <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -1506,7 +1498,7 @@
                                 <div class="h-100 shadow p-3">
                                     <div class="w-50 p-3 mx-auto">
                                         <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                            alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                            alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                     </div>
                                     <div class="text-center">
                                         <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -1518,7 +1510,7 @@
                                 <div class="h-100 shadow p-3">
                                     <div class="w-50 p-3 mx-auto">
                                         <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                            alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
+                                            alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                     </div>
                                     <div class="text-center">
                                         <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -1530,7 +1522,7 @@
                                 <div class="h-100 shadow p-3">
                                     <div class="w-50 p-3 mx-auto">
                                         <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                            alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                            alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                     </div>
                                     <div class="text-center">
                                         <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -1542,7 +1534,7 @@
                                 <div class="h-100 shadow p-3">
                                     <div class="w-50 p-3 mx-auto">
                                         <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                            alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                            alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                     </div>
                                     <div class="text-center">
                                         <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -1554,7 +1546,7 @@
                                 <div class="h-100 shadow p-3">
                                     <div class="w-50 p-3 mx-auto">
                                         <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                            alt="icon" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                            alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                     </div>
                                     <div class="text-center">
                                         <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

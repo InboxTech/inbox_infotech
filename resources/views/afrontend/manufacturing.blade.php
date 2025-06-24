@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Manufacturing.jpg') }});">
+                        <div class="bg-holder">
+                             <img src="{{asset('storage/media/Manufacturing.jpg')}}" alt="Manufacturing" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,22 +39,17 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                             Transforming Manufacturing with Smart IT Solutions</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
                                         Optimize operations, reduce downtime, and embrace Industry 4.0 with our customized tech services for manufacturers.</p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'>
-                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
-                                                Read more<span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
-                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
-                                                Contact us<span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -63,10 +59,10 @@
                     {{-- @foreach ($slider as $list)
       @endforeach --}}
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -79,8 +75,8 @@
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
                                     {{-- <div style="width: 100%;"> --}}
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class="w-100 h-100" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy" />
                                     {{--
         </div> --}}
                                 </div>
@@ -101,7 +97,7 @@
             <!---------------------------  empowering manufacturing start ------------------------->
                <section>
                 <div class="text-center">
-                    <h3> Empowering Manufacturing Through Innovative IT Solutions</h3>
+                    <h2> Empowering Manufacturing Through Innovative IT Solutions</h2>
                     <p> Boost efficiency, streamline operations, and lead in Industry 4.0 with our tailored tech solutions. </p>
                 </div>
                 <div  class="my-5">
@@ -112,7 +108,7 @@
                               </div>
                         </div>
                         <div class="col-lg-6">
-                            <h5> Key Solutions for the Manufacturing Sector:</h5>
+                            <h3> Key Solutions for the Manufacturing Sector:</h3>
                             <div class="my-4">
                                 <h5> Smart Factory & IoT Integration</h5>
                                 <p> Connect machines, sensors, and systems to enable real-time data analysis, predictive maintenance, and process automation..</p>
@@ -146,44 +142,44 @@
             <!------------------------------ digital solution of oil & gas start ------------------------->
              <section class="">
                 <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
-                    <h3 class=""> Driving Digital Transformation Across the Manufacturing Value Chain </h3>
+                    <h2 class=""> Driving Digital Transformation Across the Manufacturing Value Chain </h2>
                     <p> We help manufacturers go digital with scalable, secure, and intelligent solutions that improve every part of the production cycle — from shop floor to supply chain.</p>
                 </div>
                  <div>
                     <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Manufacturing Execution Systems (MES)</h5>
+                                 <h3 class="fs-2"> Manufacturing Execution Systems (MES)</h3>
                                <p> We develop and implement MES solutions that enable real-time visibility and control across your production floor. Our systems help manufacturers streamline operations, reduce downtime, and improve product quality by integrating with ERP and IoT platforms for seamless data flow and smarter decision-making.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5> Cloud-Based ERP Systems </h5>
+                                <h3 class="fs-2"> Cloud-Based ERP Systems </h3>
                                 <p> We deliver scalable ERP solutions that centralize your core business functions—finance, HR, inventory, procurement, and more—on a secure cloud platform. Our ERP systems improve collaboration, enhance visibility across departments, and support faster, data-driven decisions to keep your manufacturing operations agile and efficient. </p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                <h5>Industrial IoT (IIoT)</h5>
+                                <h3 class="fs-2">Industrial IoT (IIoT)</h3>
                                 <p> We help manufacturers implement IIoT solutions that connect machines, sensors, and systems across the factory floor. Our platforms enable real-time data exchange, predictive maintenance, and remote monitoring—empowering smarter operations, reduced downtime, and seamless integration with MES, ERP, and analytics tools.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> AI & Machine Learning Platforms</h5>
+                                 <h3 class="fs-2"> AI & Machine Learning Platforms</h3>
                                 <p> Our AI and machine learning solutions enable manufacturers to unlock valuable insights from data. By leveraging pattern recognition, predictive analytics, and automation, we help optimize production schedules, improve quality control, and drive data-driven decision-making to enhance operational efficiency and reduce costs.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5>  Mobile & Web Apps for Field Operations</h5>
+                                 <h3 class="fs-2">  Mobile & Web Apps for Field Operations</h3>
                                 <p> Our custom mobile and web applications give field operators real-time access to work orders, production data, and maintenance schedules. This seamless connectivity improves communication, boosts productivity, and ensures quick, informed decision-making on the go, driving efficiency and reducing operational delays.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 my-3">
                             <div class="card h-100" style="border: 1px solid #00406d;padding: 20px;">
-                                 <h5> Cybersecurity & Compliance Solutions</h5>
+                                 <h3 class="fs-2"> Cybersecurity & Compliance Solutions</h3>
                                 <p> We provide robust cybersecurity solutions to protect your manufacturing operations from digital threats. Our services ensure the security of sensitive data, safeguard your digital ecosystem, and help maintain compliance with industry regulations—mitigating risks and keeping your systems secure and resilient against evolving cyber threats. </p>
                             </div>
                         </div>
@@ -227,6 +223,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -291,62 +296,62 @@
             <div class="row" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-12 col-md-12 col-xl-5">
                     <div>
-                        <h3> Revolutionize Your Manufacturing with AI </h3>
+                        <h2> Revolutionize Your Manufacturing with AI </h2>
                         {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
                         <p class="mt-4"> Harness the power of Artificial Intelligence to drive smarter decisions, automate complex processes, and unlock new levels of efficiency in your manufacturing operations.</p>
 
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-xl-7">
-                    <h4> <strong> Key AI Applications in Manufacturing: </strong> </h4>
+                    <h3> <strong> Key AI Applications in Manufacturing: </strong> </h3>
                     <div class="">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
-                              <h2 class="accordion-header">
+                              <h4 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                    Predictive Maintenance
                                 </h5>
-                              </h2>
+                              </h4>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">Use AI to monitor equipment health and predict failures before they happen—reducing downtime and repair costs.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
-                              <h2 class="accordion-header">
+                              <h4 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                   Smart Inventory Management
                                 </h5>
-                              </h2>
+                              </h4>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body"> AI algorithms optimize stock levels and automate reordering based on demand patterns.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
-                              <h2 class="accordion-header">
+                              <h4 class="accordion-header">
                                 <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                    Process Automation
                                 </h5>
-                              </h2>
+                              </h4>
                               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body"> Automate repetitive tasks on the shop floor using AI-powered robotics and control systems.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header">
+                                <h4 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                   Quality Control with Computer Vision
                                   </h5>
-                                </h2>
+                                </h4>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">Use AI to detect defects and improve product quality with image recognition and real-time analysis.</div>
                                 </div>
                               </div>
                               <div class="accordion-item">
-                                <h2 class="accordion-header">
+                                <h4 class="accordion-header">
                                   <h5 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                                   Demand Forecasting
                                   </h5>
-                                </h2>
+                                </h4>
                                 <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                   <div class="accordion-body">Analyze historical data and market trends to better predict customer demand and production needs.</div>
                                 </div>
@@ -365,8 +370,9 @@
 
          <!------------------------------  things you know start ------------------------->
          <section class="my-5">
+            <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -394,7 +400,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -406,7 +412,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -418,7 +424,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -430,7 +436,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -442,7 +448,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -454,7 +460,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>
@@ -468,7 +474,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+
+            </div><!-- end of .container-->
+        </section>
             <!-- <section> things you know close ============================-->
 
 

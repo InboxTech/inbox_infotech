@@ -47,7 +47,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Data_Center_Solution.png') }});">
+                        <div class="bg-holder">
+                            <img src="{{asset('storage/media/Data_Center_Solution.png') }}" alt="Data center solution" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -56,10 +57,8 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color">
-                                            <span style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color  banner-title fade-in-up">
                                                 DATA CENTER SOLUTIONS
-                                            </span>
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
@@ -68,13 +67,9 @@
                                         </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'>
-                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}">
-                                                Read more <span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
-                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">
-                                                Contact us <span class="fas fa-chevron-right ms-2"></span>
-                                            </a>
+                                        <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -82,10 +77,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-nav">
+                <!-- <div class="swiper-nav">
                     <div class="swiper-button-prev"><span class="fas fa-chevron-left"></span></div>
                     <div class="swiper-button-next"><span class="fas fa-chevron-right"></span></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -101,7 +96,7 @@
                                 @foreach ($clientlogos as $clogolist)
                                     <div class="swiper-slide">
                                         {{-- <div style="width: 100%;"> --}}
-                                        <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}" alt="partnerco" data-zanim-xs="{}" />
+                                        <img class="w-100 h-100" src="{{ asset('storage/media/' . $clogolist->image) }}" alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
                                         {{--</div> --}}
                                     </div>
                                 @endforeach
@@ -118,7 +113,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-12">
                         <div class="mb-5" data-aos="fade-up" data-aos-duration="1000">
-                            <h3 class="fs-2 fs-md-3 text-color mb-4">Our Data Center Solutions</h3>
+                            <h2 >Our Data Center Solutions</h2>
                             <p class="lead text-muted mb-3">
                                 At Inbox Infotech, we specialize in providing end-to-end data center solutions that enable businesses to
                                 scale, optimize, and secure their IT infrastructure. Whether you are looking for colocation services,
@@ -134,25 +129,25 @@
                     </div>
                     <div class="col-xl-6 col-12 mb-5 ps-lg-5" data-aos="fade-up" data-aos-duration="1000">
                         <div class="">
-                            <h5 class="text-color">Cloud Hosting & Hybrid Solutions</h5>
+                            <h3 class="fs-2">Cloud Hosting & Hybrid Solutions</h3>
                             <p class="mb-3">
                                 Custom cloud environments for businesses seeking flexibility and scalability. Scalable solutions that can grow with your business.
                             </p>
                         </div>
                         <div class="">
-                            <h5 class="text-color"> Managed Services</h5>
+                            <h3 class="fs-2"> Managed Services</h3>
                             <p class="mb-3">
                                 Custom cloud environments for businesses seeking flexibility and scalability. Scalable solutions that can grow with your business.
                             </p>
                         </div>
                         <div class="">
-                            <h5 class="text-color"> Security & Compliance </h5>
+                            <h3 class="fs-2"> Security & Compliance </h3>
                             <p class="mb-3">
                                 Implementation of multi-layer security protocols, including firewalls, encryption, and access controls. Adherence to key compliance standards (ISO 27001, GDPR, HIPAA, etc.).
                             </p>
                         </div>
                         <div class="">
-                            <h5 class="text-color"> Network Infrastructure </h5>
+                            <h3 class="fs-2"> Network Infrastructure </h3>
                             <p class="mb-3">
                                  High-performance network solutions with low latency and high availability.Scalable and customizable networking options to support your growing business.
                             </p>
@@ -166,13 +161,13 @@
 
             <section class="" style="padding-top:50px; padding-bottom:50px;">
                 <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-                    <h6 class="fs-2 fs-md-3 text-color" style="font-size: 2.368593037rem"> Solutions for Critical AI Barriers </h6>
+                    <h2> Solutions for Critical AI Barriers </h2>
                 </div>
                 <div class="row" data-aos="fade-up" data-aos-duration="1000">
                     <div class="col-lg-6 col-12 mb-4">
                         <div class="card border">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Where to Strategically Integrate AI</h5>
+                                <h3 class="card-title mb-3 fs-2">Where to Strategically Integrate AI</h3>
                                 <p class="card-text">
                                     Smart data investment is the cornerstone of tackling your most pressing business challenges. Inbox Infotech provides the strategic guidance to pinpoint optimal AI and ML integration points, effectively mitigating implementation risks through robust data architectures and seamless migration strategies.
                                 </p>
@@ -185,7 +180,7 @@
                     <div class="col-lg-6 col-12 mb-4">
                         <div class="card border">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">How to Capitalize on AI's Potential</h5>
+                                <h3 class="card-title mb-3 fs-2">How to Capitalize on AI's Potential</h3>
                                 <p class="card-text">
                                     Unlock significant efficiency gains by automating repetitive tasks and accelerating predictive analysis to uncover valuable data correlations. Inbox Infotech's expertise ensures a positive return on your data, AI, and ML investments by seamlessly operationalizing intelligent models across your organization.
                                 </p>
@@ -198,7 +193,7 @@
                     <div class="col-lg-6 col-12 mb-4">
                         <div class="card border">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Preparing Your Data for AI Success</h5>
+                                <h3 class="card-title mb-3 fs-2">Preparing Your Data for AI Success</h3>
                                 <p class="card-text">
                                     Build a foundation of accountability and trust in your AI and ML initiatives by implementing reliable strategies for structuring diverse data sources. Proactively identify data anomalies with AI-powered vulnerability tracking.
                                 </p>
@@ -211,7 +206,7 @@
                     <div class="col-lg-6 col-12 mb-4">
                         <div class="card border">
                             <div class="card-body">
-                                <h5 class="card-title mb-3">Identifying High-Impact AI Use Cases</h5>
+                                <h3 class="card-title mb-3 fs-2">Identifying High-Impact AI Use Cases</h3>
                                 <p class="card-text">
                                     Inbox Infotech empowers you to effectively classify your platform architecture and optimize AI model development. We also help define the scope of AI integration and pinpoint areas where AI-driven capabilities can deliver the greatest impact.
                                 </p>
@@ -230,38 +225,38 @@
                 <div class="row">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
-                            <h3 class="text-color">Scaling Your AI and ML Initiatives for Long-Term Value</h3>
+                            <h2>Scaling Your AI and ML Initiatives for Long-Term Value</h2>
                             <p class="fw-light">Beyond initial implementation, achieving sustained value from AI and ML requires a strategic approach to scaling. Radixweb partners with you to develop a robust roadmap for expanding your AI capabilities across different business functions.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-xl-7">
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Building Scalable Infrastructure</h5>
+                                <h3 class="fs-2 my-2">Building Scalable Infrastructure</h3>
                             </div>
                             <p class="text-black mb-0">Designing and implementing data and technology architectures that can accommodate growing data volumes and increasingly complex AI models.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Establishing Center of Excellence (CoE)</h5>
+                                <h3 class="fs-2 my-2">Establishing Center of Excellence (CoE)</h3>
                             </div>
                             <p class="text-black mb-0">Facilitating the creation of internal teams with the expertise and governance structures necessary to drive AI adoption and innovation throughout the organization.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Continuous Model Monitoring and Improvement</h5>
+                                <h3 class="fs-2 my-2">Continuous Model Monitoring and Improvement</h3>
                             </div>
                             <p class="text-black mb-0">Implementing systems to track the performance of deployed AI models, identify drift, and implement necessary retraining and updates to ensure ongoing accuracy and effectiveness.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Fostering a Data-Driven Culture</h5>
+                                <h3 class="fs-2 my-2">Fostering a Data-Driven Culture</h3>
                             </div>
                             <p class="text-black mb-0">Empowering your teams with the skills and understanding to leverage AI insights in their daily decision-making processes.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Ensuring Ethical and Responsible AI Deployment</h5>
+                                <h3 class="fs-2 my-2">Ensuring Ethical and Responsible AI Deployment</h3>
                             </div>
                             <p class="text-black mb-0">Establishing frameworks and guidelines to address potential biases, ensure fairness, and maintain transparency in your AI applications.</p>
                         </div>
@@ -270,38 +265,38 @@
                 <div class="row">
                     <div class="col-12 col-md-12 col-xl-5">
                         <div class="sticky-top" style="top: 100px; bottom: 100px; z-index: 0;">
-                            <h3 class="text-color">Navigating the Evolving AI and ML Landscape</h3>
+                            <h2 class="fs-2">Navigating the Evolving AI and ML Landscape</h2>
                             <p class="fw-light">The field of Artificial Intelligence and Machine Learning is constantly evolving, with new technologies and methodologies emerging rapidly. Radixweb stays at the forefront of these advancements.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-12 col-xl-7">
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Evaluate and Adopt Emerging Technologies</h5>
+                                <h3 class="fs-2 my-2">Evaluate and Adopt Emerging Technologies</h3>
                             </div>
                             <p class="text-black mb-0">Identifying and assessing the potential of new AI and ML tools, frameworks, and platforms to enhance your business outcomes.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Staying Ahead of Industry Best Practices</h5>
+                                <h3 class="fs-2 my-2">Staying Ahead of Industry Best Practices</h3>
                             </div>
                             <p class="text-black mb-0">Ensuring your AI initiatives align with the latest standards and guidelines for development, deployment, and governance.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Addressing Regulatory Compliance</h5>
+                                <h3 class="fs-2 my-2">Addressing Regulatory Compliance</h3>
                             </div>
                             <p class="text-black mb-0">Navigating the evolving landscape of data privacy and AI regulations to ensure your solutions remain compliant.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Facilitating Innovation and Experimentation</h5>
+                                <h3 class="fs-2 my-2">Facilitating Innovation and Experimentation</h3>
                             </div>
                             <p class="text-black mb-0">Creating environments and processes that encourage the exploration of new AI applications and the development of innovative solutions to emerging business challenges.</p>
                         </div>
                         <div class="card mb-4">
                             <div class="d-flex mb-2">
-                                <h5 class="text-color my-2">Bridging the Gap Between Research and Application</h5>
+                                <h3 class="fs-2 my-2">Bridging the Gap Between Research and Application</h3>
                             </div>
                             <p class="text-black mb-0">Translating cutting-edge AI research into practical and impactful business solutions.</p>
                         </div>
@@ -343,6 +338,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -398,7 +402,7 @@
         <section class="my-5">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -426,7 +430,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -438,7 +442,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -450,7 +454,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -462,7 +466,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
@@ -474,7 +478,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -486,7 +490,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>

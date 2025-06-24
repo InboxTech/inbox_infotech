@@ -512,10 +512,7 @@
                                 <h4 class="text-white" data-zanim-xs='{"delay":0}'>Request a call back</h4>
                             </div>
                             <div class="overflow-hidden">
-                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak
-                                    to
-                                    one of our advisers over the phone? Just submit your details and we’ll be in touch
-                                    shortly. You can also email us if you would prefer.</p>
+                                <p class="px-lg-1 text-100 mb-0" data-zanim-xs='{"delay":0.1}'>Would you like to speak to one of our advisers over the phone? Just submit your details and we’ll be in touch shortly. You can also email us if you would prefer.</p>
                             </div>
                         </div>
                     </div>
@@ -634,7 +631,7 @@
         <section class="my-5">
             <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 >Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />

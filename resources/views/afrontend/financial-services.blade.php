@@ -29,7 +29,8 @@
                 data-swiper='{"loop":true,"allowTouchMove":false,"autoplay":{"delay":5000},"effect":"fade","speed":800}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-zanim-timeline="{}">
-                        <div class="bg-holder" style="background-image:url({{ asset('storage/media/Financial_Services.jpg') }});">
+                        <div class="bg-holder">
+                             <img src="{{asset('storage/media/Financial_Services.jpg')}}" alt="Financial Service" class="lcp-image" fetchpriority="high"  width="1920" height="1080" loading="lazy"/>
                         </div>
                         <!--/.bg-holder-->
                         <div class="container">
@@ -38,21 +39,19 @@
                                 <div class="col-sm-8 col-lg-8 px-5 px-sm-3"
                                     style="background-color: #ffffff88; padding:30px; border-radius: 10px;">
                                     <div class="overflow-hidden">
-                                        <p class="fs-4 fs-md-5 lh-1 text-color" data-zanim-xs='{"delay":0}'
-                                            style="font-size:4.2087269129rem !important; letter-spacing: -0.25rem;font-weight: 700;">
+                                        <p class="fs-4 fs-md-5 lh-1 text-color banner-title fade-in-up">
                                             Financial Services </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color" data-zanim-xs='{"delay":0.1}'>
+                                        <p class=" pt-4 mb-5 fs-1 fs-md-2 lh-xs text-color">
                                             Understanding the technology needs of Banks, Credit Unions, and Wealth
                                             Management Firms. </p>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3"
-                                                href="{{ url('/about-us') }}">Read more<span
-                                                    class="fas fa-chevron-right ms-2"></span></a><a
-                                                class="btn btn-warning mt-3" href="{{ url('/contact-us') }}">Contact us<span
-                                                    class="fas fa-chevron-right ms-2"></span></a></div>
+                                         <div class="button-group fade-in-up">
+                                            <a class="btn btn-primary me-3 mt-3" href="{{ url('/about-us') }}"> Read more <span class="fas fa-chevron-right ms-2"></span> </a>
+                                            <a class="btn btn-warning mt-3" href="{{ url('/contact-us') }}"> Contact us <span class="fas fa-chevron-right ms-2"></span> </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +74,8 @@
                         <div class="swiper-wrapper">
                             @foreach ($clientlogos as $clogolist)
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="{{ asset('storage/media/' . $clogolist->image) }}"
-                                        alt="partnerco" data-zanim-xs="{}" />
+                                    <img class=" w-100 h-100" src="{{ asset('storage/media/' . $clogolist->image) }}"
+                                        alt="partnerco" data-zanim-xs="{}" loading="lazy"/>
                                 </div>
                             @endforeach
                         </div>
@@ -96,7 +95,7 @@
                 <div class="my-3">
                     <div class="row" data-aos="fade-up" data-aos-duration="1000">
                         <div class="text-center mb-4">
-                            <h3> Empower Your Financial Future with FinTech Software </h3>
+                            <h2> Empower Your Financial Future with FinTech Software </h2>
                         </div>
                         <div class="">
                             <p>
@@ -131,7 +130,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="sticky-top" style="top: 100px; z-index: 1;">
-                            <h3> Unlock Your Financial Potential with Our Advanced FinTech Solutions </h3>
+                            <h2> Unlock Your Financial Potential with Our Advanced FinTech Solutions </h2>
                             <p>
                                 Empower your Banking, Financial Services, and Insurance (BFSI) company to revolutionize its
                                 capabilities through our bespoke FinTech software development services. We craft tailored,
@@ -145,7 +144,7 @@
                         <div class="row">
                             <div class="col-12 my-3">
                                 <div class="card p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                                    <h5> Intelligent Digital Banking </h5>
+                                    <h3 class="fs-2"> Intelligent Digital Banking </h3>
                                     <p>
                                         We excel at creating secure and intuitive applications that streamline core banking
                                         operations and significantly enhance the customer journey.
@@ -154,7 +153,7 @@
                             </div>
                             <div class="col-12 my-3">
                                 <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                                    <h5> Innovative Insurtech Solutions </h5>
+                                    <h3 class="fs-2"> Innovative Insurtech Solutions </h3>
                                     <p>
                                         We develop disruptive Insurtech solutions designed to automate key processes, ensure
                                         rigorous compliance, and dramatically improve customer satisfaction within the
@@ -164,7 +163,7 @@
                             </div>
                             <div class="col-12 my-3">
                                 <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                                    <h5> Secure Digital Wallets </h5>
+                                    <h3 class="fs-2"> Secure Digital Wallets </h3>
                                     <p>
                                         We can help you build robust digital wallets that provide users with fast and
                                         convenient payment options, fortified with advanced security features.
@@ -173,7 +172,7 @@
                             </div>
                             <div class="col-12 my-3">
                                 <div class="card h-100 p-3" style="border: 1px solid #00406d; border-radius: 20px;">
-                                    <h5> Reliable Peer-to-Peer Lending Platforms</h5>
+                                    <h3 class="fs-2"> Reliable Peer-to-Peer Lending Platforms</h3>
                                     <p>
                                         Our expertise extends to designing and engineering dependable FinTech lending
                                         platforms that automate underwriting processes, effectively manage risks, and
@@ -226,6 +225,15 @@
                                     <div class="col-md-6 col-12">
                                         <div class="d-flex">
                                             <!-- Country Code Dropdown -->
+                                              <label for="country_code" style="position: absolute;
+                                                    width: 1px;
+                                                    height: 1px;
+                                                    padding: 0;
+                                                    margin: -1px;
+                                                    overflow: hidden;
+                                                    clip: rect(0, 0, 0, 0);
+                                                    white-space: nowrap;
+                                                    border: 0;">Country Code</label>
                                             <select class="form-select" name="country_code" style="max-width: 110px;"
                                                 required>
                                                 <option value="+91" selected>+91 (IN)</option>
@@ -292,7 +300,7 @@
                     <div class="row" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-12 col-md-12 col-xl-5">
                             <div>
-                                <h3> Artificial Intelligence in Fintech</h3>
+                                <h2> Artificial Intelligence in Fintech</h2>
                                 {{-- <p> Transforming Financial Services with Intelligence & Automation</p> --}}
                                 <p> AI is transforming financial services by providing intelligent solutions that enhance
                                     decision-making, automate complex processes, and improve overall operational efficiency.
@@ -307,17 +315,17 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-12 col-xl-7">
-                            <h4> <strong> Key services include: </strong> </h4>
+                            <h3> <strong> Key services include: </strong> </h3>
                             <div class="">
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                                 aria-expanded="false" aria-controls="flush-collapseOne">
                                                 AI-Powered Credit Scoring & Loan Underwriting
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">We use advanced AI and machine learning to evaluate
@@ -330,13 +338,13 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                                 aria-expanded="false" aria-controls="flush-collapseTwo">
                                                 Fraud Detection & Anti-Money Laundering (AML)
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">Our AI-powered fraud detection and AML solutions
@@ -349,13 +357,13 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                                 aria-expanded="false" aria-controls="flush-collapseThree">
                                                 Conversational AI: Chatbots & Virtual Assistants
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseThree" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body"> Enhance customer engagement with AI-powered
@@ -368,13 +376,13 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                                 aria-expanded="false" aria-controls="flush-collapseFour">
                                                 Personalized Financial Management (PFM)
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseFour" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">Our AI-powered PFM solutions help users manage
@@ -387,13 +395,13 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                                 aria-expanded="false" aria-controls="flush-collapseFive">
                                                 Robo-Advisors & Algorithmic Trading
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseFive" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">Our AI-driven robo-advisors and algorithmic trading
@@ -405,13 +413,13 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                                                 aria-expanded="false" aria-controls="flush-collapseSix">
                                                 AI-Driven KYC & Document Verification
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseSix" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body">Streamline customer onboarding with our AI-powered
@@ -423,13 +431,13 @@
                                         </div>
                                     </div>
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                                 aria-expanded="false" aria-controls="flush-collapseSeven">
                                                 Predictive Analytics & Customer Insights
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseSeven" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body"> Our AI-powered predictive analytics solution helps
@@ -443,13 +451,13 @@
                                     </div>
 
                                     <div class="accordion-item">
-                                        <h2 class="accordion-header">
+                                        <h4 class="accordion-header">
                                             <h5 class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                                                 aria-expanded="false" aria-controls="flush-collapseEight">
                                                 Voice AI & Voice-Enabled Banking
                                             </h5>
-                                        </h2>
+                                        </h4>
                                         <div id="flush-collapseEight" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample">
                                             <div class="accordion-body"> Revolutionize the customer experience with
@@ -471,9 +479,10 @@
 
             <!------------------------------------ fintech with ai end ------------------------------------------->
             <!------------------------------  things you know start ------------------------->
-            <section class="my-5">
+           <section class="my-5">
+            <div class="container">
                 <div class="text-center">
-                    <h3 class="fs-2 fs-md-3">Things You Get</h3>
+                    <h2 class="fs-2 fs-md-3">Things You Get</h2>
                     <hr class="short"
                         data-zanim-xs='{"from":{"opacity":0,"width":0},"to":{"opacity":1,"width":"4.20873rem"},"duration":0.8}'
                         data-zanim-trigger="scroll" />
@@ -501,7 +510,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/Product_Consulting.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="Product_Consulting" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
@@ -513,7 +522,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/customized-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="customized-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Customized Solution</h5>
@@ -525,7 +534,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/scalable-solution.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="scalable-solution" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Scalable Solution</h5>
@@ -537,11 +546,10 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/user-friendly.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="user-friendly" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
                                             </div>
                                             <div class="text-center">
-                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface
-                                                </h5>
+                                                <h5 class="" data-zanim-xs='{"delay":0.1}'>User-friendly Interface</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -550,7 +558,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/data-security.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="data-security" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Data Security</h5>
@@ -562,7 +570,7 @@
                                         <div class="h-100 shadow p-3">
                                             <div class="w-50 p-3 mx-auto">
                                                 <img src="{{ asset('assets/img/icons/svg_icons/dedicated-support.svg') }}"
-                                                    alt="icon" class="img-fluid" data-zanim-xs='{"delay":0}' />
+                                                    alt="dedicated-support" class="w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
                                             </div>
                                             <div class="text-center">
                                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Dedicated Support</h5>
@@ -576,7 +584,9 @@
                         </div>
                     </div>
                 </div>
-            </section>
+
+            </div><!-- end of .container-->
+        </section>
             <!-- <section> things you know close ============================-->
 
 
