@@ -577,7 +577,7 @@ left: -3%;
     font-size: 30px;
   }
   .core-features-card .core-img{
-      /* width: 80px; */
+      width: 80px;
       transition: all 0.5s linear;
   }
   .core-features-card:hover .core-features-round{

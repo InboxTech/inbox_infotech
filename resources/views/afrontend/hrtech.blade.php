@@ -125,7 +125,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/recruitment.svg') }}" alt="recruitment"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Recruitment</h5>
@@ -136,7 +136,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/HRMS_Payroll.svg') }}" alt="hrms-payroll"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}'  loading="lazy"/>
+                                    class="core-img" data-zanim-xs='{"delay":0}'  loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>HRMS & Payroll</h5>
@@ -147,7 +147,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Loan_ Advance.svg') }}" alt="loan advance"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Loan & Advance </h5>
@@ -158,7 +158,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Employee_Self-Service(ESS).svg') }}" alt="ess"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Employee Self-Service (ESS)</h5>
@@ -169,7 +169,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Performance_Management.svg') }}" alt="performance management"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Performance Management </h5>
@@ -180,7 +180,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Expanse_Management.svg') }}"
-                                    alt="expanse" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="expanse" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Expanse Management</h5>
@@ -191,7 +191,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Asset_Management.svg') }}" alt="asset"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Asset Management</h5>
@@ -202,7 +202,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Project_Management.svg') }}" alt="project"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Project Management</h5>
@@ -213,7 +213,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/Helpdesk.svg') }}" alt="helpdesk"
-                                    class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
+                                    class="core-img" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Helpdesk</h5>
