@@ -73,7 +73,7 @@ Service</h3>
 				<div class="col col-md-3">
 					<label for="textarea-input" id="long_details" name="long_details" class=" form-control-label">Full Description *</label>
 				</div>
-				<div class="">
+				<div class="col-12 col-md-9">
 				<textarea class="form-control" id="editor" name="long_desc">{{$long_desc}}</textarea>
 			</div>
 			</div>
@@ -87,7 +87,7 @@ Service</h3>
 				</div>
 				<div class="col-12 col-md-3">
 				@if($imaage!='')
-                <a href="{{asset('storage/media/industries/'.$imaage)}}" target="_blank"><img width="100px" src="{{asset('storage/media/industries/'.$imaage)}}"/></a>
+                <a href="{{asset('storage/media/industries/'.$imaage)}}" target="_blank"><img width="100%" src="{{asset('storage/media/industries/'.$imaage)}}"/></a>
                 @endif
 				</div>
 			</div>

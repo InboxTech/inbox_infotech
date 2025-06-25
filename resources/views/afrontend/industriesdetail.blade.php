@@ -15,7 +15,7 @@
           <div class="swiper-wrapper">
 			@foreach($slider as $list)
             <div class="swiper-slide" data-zanim-timeline="{}">
-              <div class="bg-holder" style="background-image:url({{asset('storage/media/industries/banner/'.$list->attr_image)}});">
+              <div class="bg-holder" style="background-image:url({{asset('storage/media/industries/'.$list->attr_image)}});">
 			  </div>
               <!--/.bg-holder-->
               <div class="container">
