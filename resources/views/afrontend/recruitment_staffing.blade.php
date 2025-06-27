@@ -194,7 +194,7 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Permanent_Recruitment.svg')}}" class="w-100 h-100" alt="permanant recruitment" loading="lazy">
+            <img src="{{asset('assets/img/icons/svg_icons/Permanent_Recruitment.svg')}}" class="" alt="permanant recruitment" loading="lazy">
           </div>
           <div class="card-body p-2">
             <h3 class="fs-2"> Permanent Recruitment </h3>
@@ -207,7 +207,7 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Contract_Staffing.svg')}}" class="w-100 h-100" alt="contract staffing" loading="lazy">
+            <img src="{{asset('assets/img/icons/svg_icons/Contract_Staffing.svg')}}" class="" alt="contract staffing" loading="lazy">
           </div>
           <div class="card-body p-2">
             <h3 class="fs-2"> Contract Staffing </h3>
@@ -219,7 +219,7 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Executive_Search.svg')}}" class="w-100 h-100" alt="executive search" loading="lazy">
+            <img src="{{asset('assets/img/icons/svg_icons/Executive_Search.svg')}}" class="" alt="executive search" loading="lazy">
           </div>
           <div class="card-body p-2">
             <h3 class="fs-2"> Executive Search </h3>
@@ -232,7 +232,7 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Remote_Offshore_Staffing.svg')}}" class="w-100 h-100" alt="remote offshore staffing" loading="lazy">
+            <img src="{{asset('assets/img/icons/svg_icons/Remote_Offshore_Staffing.svg')}}" class="" alt="remote offshore staffing" loading="lazy">
           </div>
           <div class="card-body p-2">
             <h3 class="fs-2"> Remote/Offshore Staffing </h3>
@@ -243,7 +243,7 @@
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card shadow p-3" style="height: 100%;">
           <div class="svg-icons">
-            <img src="{{asset('assets/img/icons/svg_icons/Volume_Hiring.svg')}}" class="w-100 h-100" alt="volume hiring" loading="lazy">
+            <img src="{{asset('assets/img/icons/svg_icons/Volume_Hiring.svg')}}" class="" alt="volume hiring" loading="lazy">
           </div>
           <div class="card-body p-2">
             <h3 class="fs-2"> Volume Hiring </h3>
@@ -300,7 +300,7 @@
                         <div class=" progress-no">
                             <h4 class="fs-3 fs-lg-3 mb-0 fw-bold lh-xs " data-zanim-xs='{"delay":0.1}'
                                 data-countup='{"endValue":3}'>3</h4>
-                            <h5 class="fs-0" data-zanim-xs='{"delay":0.2}'>Locations Vadodara, Delhi, UAE</h5>
+                            <h5 class="fs-0" data-zanim-xs='{"delay":0.2}'>Locations <br> Vadodara, Delhi, UAE</h5>
                         </div>
                     </div>
                 </div>

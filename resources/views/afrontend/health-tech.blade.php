@@ -100,7 +100,7 @@
                                 @foreach ($clientlogos as $clogolist)
                                     <div class="swiper-slide">
                                         {{-- <div style="width: 100%;"> --}}
-                                        <img class="w-100 h-100" src="{{ asset('storage/media/' . $clogolist->image) }}" alt="partnerco" data-zanim-xs="{}" loading="lazy" />
+                                        <img class="w-100 h-100" src="{{ asset('storage/media/clients/' . $clogolist->image) }}" alt="partnerco" data-zanim-xs="{}" loading="lazy" />
                                         {{--</div> --}}
                                     </div>
                                 @endforeach
@@ -138,7 +138,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/ipd.svg') }}"
-                                    alt="ipd" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="ipd" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>IPD (In-Patient Department)</h5>
@@ -149,7 +149,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/laboratory.svg') }}"
-                                    alt="laboratory" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="laboratory" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Laboratory Management</h5>
@@ -160,7 +160,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/hrms.svg') }}"
-                                    alt="hrms" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="hrms" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>HRMS (Human Resource Management System)</h5>
@@ -171,7 +171,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/opd.svg') }}"
-                                    alt="opd" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="opd" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>OPD (Out-Patient Department)</h5>
@@ -182,7 +182,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/pharmacy.svg') }}"
-                                    alt="pharmacy" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="pharmacy" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Pharmacy Management</h5>
@@ -193,7 +193,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/prm.svg') }}"
-                                    alt="prm" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="prm" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>PRM (Patient Relationship Management)</h5>
@@ -204,7 +204,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/inventory.svg') }}"
-                                    alt="inventory" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="inventory" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Inventory Management</h5>
@@ -215,7 +215,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/radiology.svg') }}"
-                                    alt="radiology" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="radiology" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Radiology Management</h5>
@@ -226,7 +226,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/insurance.svg') }}"
-                                    alt="insurance" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="insurance" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="" data-zanim-xs='{"delay":0.1}'>Insurance Management</h5>

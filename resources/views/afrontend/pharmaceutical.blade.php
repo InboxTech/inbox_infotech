@@ -165,7 +165,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/biotechnology.svg') }}"
-                                    alt="biotechnology" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy" />
+                                    alt="biotechnology" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy" />
                             </div>
                             <div class="text-center">
                                 <h5 class="my-2" data-zanim-xs='{"delay":0.1}'> Biotechnology </h5>
@@ -176,7 +176,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/vaccine.svg') }}"
-                                    alt="vaccine" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="vaccine" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="my-2" data-zanim-xs='{"delay":0.1}'> Vaccines </h5>
@@ -187,7 +187,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/dietary.svg') }}"
-                                    alt="dietary" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="dietary" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="my-2" data-zanim-xs='{"delay":0.1}'> Dietary </h5>
@@ -198,7 +198,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/veterinary.svg') }}"
-                                    alt="veterinary" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="veterinary" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="my-2" data-zanim-xs='{"delay":0.1}'>Veterinary</h5>
@@ -208,7 +208,7 @@
                     <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                         <div class="core-features-card">
                             <div class="core-features-round">
-                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}" alt="api" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                <img src="{{ asset('assets/img/icons/svg_icons/api.svg') }}" alt="api" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="my-2" data-zanim-xs='{"delay":0.1}'>API</h5>
@@ -219,7 +219,7 @@
                         <div class="core-features-card">
                             <div class="core-features-round">
                                 <img src="{{ asset('assets/img/icons/svg_icons/nutraceuticals.svg') }}"
-                                    alt="nutraceuticals" class="core-img w-100 h-100" data-zanim-xs='{"delay":0}' loading="lazy"/>
+                                    alt="nutraceuticals" class="core-img" data-zanim-xs='{"delay":0}' loading="lazy"/>
                             </div>
                             <div class="text-center">
                                 <h5 class="my-2" data-zanim-xs='{"delay":0.1}'>Nutraceuticals</h5>
